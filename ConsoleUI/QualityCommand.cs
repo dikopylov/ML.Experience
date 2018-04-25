@@ -1,14 +1,16 @@
 ﻿using Accord.Statistics.Analysis;
 using System;
+using System.Collections.Generic;
+using System.Globalization;
 
 namespace ConsoleUI
 {
-    class Quality : ICommand
+    public class QualityCommand : ICommand
     {
 
         Application app;
         public string Name { get { return "quality"; } }
-        public string Help { get { return "Выбор классификатора"; } }
+        public string Help { get { return "Выбор метрики качества алгоритма"; } }
         public string[] Synonyms
         {
             get { return new string[] { "qual", "qua" }; }
@@ -25,56 +27,29 @@ namespace ConsoleUI
             }
         }
 
-        public Quality(Application app)
+        public QualityCommand(Application app)
         {
             this.app = app;
         }
 
         public void Execute(params string[] parameters)
         {
-            const string accuracyStr = "accuracy";
-            const string precisionStr = "precision";
-            const string recallStr = "recall";
-            const string fMeasureStr = "fmeasure";
-            ExplainCommand ea = new ExplainCommand(app);
-            ea.Execute();
             if (parameters.Length != 1)
             {
                 Console.WriteLine("Неверно введена команда");
             }
             else
             {
-                app.AccuracyEvaluation = GeneralConfusionMatrix.Estimate(app.Сlassifier, app.DataTestInputs, app.DataTestOutputs);
-                switch (parameters[0])
+                List<ICommand> metricsEvaluation = new List<ICommand>(new ICommand[] { new Accuracy(app), new Precision(app), new Recall(app), new Fmeasure(app) }); 
+                /// Объект для перевода регистра (от example к Example)
+                TextInfo ti = CultureInfo.CurrentCulture.TextInfo;
+                string parameter = ti.ToTitleCase(parameters[0].ToLower());
+                foreach (var metricEvaluation in metricsEvaluation)
                 {
-                    case accuracyStr:
-                        Console.WriteLine("Accuracy for {0}: {1}%", app.Сlassifier, Math.Round(app.AccuracyEvaluation.Accuracy, 3) * 100);
-                        break;
-                    case precisionStr:
-                        Console.WriteLine("Precision for {0}:", app.Сlassifier);
-                        var precisions = app.AccuracyEvaluation.Precision;
-                        foreach (double precision in precisions)
-                        {
-                            Console.WriteLine("{0};", precision);
-                        }
-                        break;
-                    case recallStr:
-                        Console.WriteLine("Precision for {0}:", app.Сlassifier);
-                        var recalls = app.AccuracyEvaluation.Recall;
-                        foreach (double recall in recalls)
-                        {
-                            Console.WriteLine("{0};", recall);
-                        }
-                        break;
-                    case fMeasureStr:
-                        Console.WriteLine("Precision for {0}:", app.Сlassifier);
-                        var prec = app.AccuracyEvaluation.Precision;
-                        var rec = app.AccuracyEvaluation.Recall;
-                        for (int i = 0; i < prec.Length; i++)
-                        {
-                            //Console.WriteLine("{0}", recall);
-                        }
-                        break;
+                    if (parameter.Equals(metricEvaluation.Name))
+                    {
+                        metricEvaluation.Execute();
+                    }
                 }
             }
         }

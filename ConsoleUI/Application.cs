@@ -8,11 +8,6 @@ namespace ConsoleUI
 {
     public class Application
     {
-        NotFoundCommand notFound = new NotFoundCommand();
-        bool keepRunning = true;
-        List<ICommand> commands = new List<ICommand>(); // список команд
-        Dictionary<string, ICommand> commandMap = new Dictionary<string, ICommand>();
-
 
         internal IClassifier<double[], int> Сlassifier { get; set; }
         internal double[][] DataTrainInputs { get; set; }
@@ -21,6 +16,11 @@ namespace ConsoleUI
         internal int[] DataTestOutputs { get; set; }
         internal GeneralConfusionMatrix AccuracyEvaluation { get; set; }
 
+
+        NotFoundCommand notFound = new NotFoundCommand();
+        bool keepRunning = true;
+        List<ICommand> commands = new List<ICommand>(); // список команд
+        Dictionary<string, ICommand> commandMap = new Dictionary<string, ICommand>();
 
         public void Exit()
         {

@@ -12,6 +12,7 @@ namespace ML.Experience
             app.AddCommand(new ExplainCommand(app));
             app.AddCommand(new HelpCommand(app));
             app.AddCommand(new ClassifierCommand(app));
+            app.AddCommand(new QualityCommand(app));
 
             app.Run(Console.In);
         }
