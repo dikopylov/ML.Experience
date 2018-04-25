@@ -5,15 +5,15 @@ using System.Globalization;
 
 namespace ConsoleUI
 {
-    public class QualityCommand : ICommand
+    public class EvaluationCommand : ICommand
     {
 
         Application app;
-        public string Name { get { return "quality"; } }
+        public string Name { get { return "evaluation"; } }
         public string Help { get { return "Выбор метрики качества алгоритма"; } }
         public string[] Synonyms
         {
-            get { return new string[] { "qual", "qua" }; }
+            get { return new string[] { "quality", "eval" }; }
         }
         public string Description
         {
@@ -27,7 +27,7 @@ namespace ConsoleUI
             }
         }
 
-        public QualityCommand(Application app)
+        public EvaluationCommand(Application app)
         {
             this.app = app;
         }

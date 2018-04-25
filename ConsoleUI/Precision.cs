@@ -11,18 +11,9 @@ namespace ConsoleUI
     {
         Application app;
         public string Name { get { return GetType().Name; } }
-        public string Help { get { return "Метрика качества"; } }
-        public string[] Synonyms
-        {
-            get { return new string[] { "prec" }; }
-        }
-        public string Description
-        {
-            get
-            {
-                return "Точность";
-            }
-        }
+        public string Help { get { return "Точность"; } }
+        public string[] Synonyms { get { return new string[] { }; } }
+        public string Description { get { return "Метрика качества"; } }
 
         public Precision(Application app)
         {

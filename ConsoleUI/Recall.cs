@@ -12,18 +12,9 @@ namespace ConsoleUI
         Application app;
         public string Name { get { return GetType().Name; } }
 
-        public string Help { get { return "Метрика качества"; } }
-        public string[] Synonyms
-        {
-            get { return new string[] { "rec" }; }
-        }
-        public string Description
-        {
-            get
-            {
-                return "Полнота";
-            }
-        }
+        public string Help { get { return "Полнота"; } }
+        public string[] Synonyms { get { return new string[] { }; } }
+        public string Description { get { return "Метрика качества"; } }
 
         public Recall(Application app)
         {

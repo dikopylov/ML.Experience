@@ -11,18 +11,9 @@ namespace ConsoleUI
     {
         Application app;
         public string Name { get { return GetType().Name; } }
-        public string Help { get { return "Метрика качества"; } }
-        public string[] Synonyms
-        {
-            get { return new string[] { "f1", "fscore" }; }
-        }
-        public string Description
-        {
-            get
-            {
-                return "Гармоническое среднее между точностью и полнотой";
-            }
-        }
+        public string Help { get { return "Гармоническое среднее между точностью и полнотой"; } }
+        public string[] Synonyms { get { return new string[] { }; } }
+        public string Description { get { return "Метрика качества"; } }
 
         public Fmeasure(Application app)
         {
