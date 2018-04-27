@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Accord.IO;
 using Accord.Math;
+using System.IO;
 
 namespace ConsoleUI
 {
@@ -49,6 +50,8 @@ namespace ConsoleUI
                 }
             }
             path = path.Replace("\"", "");
+
+
             /// train "H:\Documents\Visual Studio 2015\Projects\ML.Experience\CSV\Iris\IrisTrain.csv" true 4
             /// train "H:\Documents\Visual Studio 2015\Projects\ML.Experience\CSV\Mnist\MnistTrainLite.csv" true 0
             if (path != null && k - 1 == 2)
@@ -83,6 +86,8 @@ namespace ConsoleUI
                 catch (FormatException ex)
                 {
                     Console.WriteLine(ex);
+                    /// Если представлен текст
+                    //string[] readText = File.ReadAllLines(path);
                 }
             }
             else
