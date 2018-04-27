@@ -14,6 +14,7 @@ namespace ML.Experience
             app.AddCommand(new ClassifierCommand(app));
             app.AddCommand(new EvaluationCommand(app));
             app.AddCommand(new TrainingCommand(app));
+            app.AddCommand(new TestingCommand(app));
 
             app.Run(Console.In);
         }
