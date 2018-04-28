@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ML.Experience
 {
-    class SupportVectorMachines : IClassifier<SupportVectorMachines>
+    class SupportVectorMachines : IClassifier//<SupportVectorMachines>
     {
         /// <summary>
         /// Ядро
@@ -35,12 +35,12 @@ namespace ML.Experience
             //Kernel = kernel;
         }
 
-        public SupportVectorMachines Learn(double[][] dataTrainInputs, int[] dataTrainOutputs)
+        public void Learn(double[][] dataTrainInputs, int[] dataTrainOutputs)
         {
-            return new SupportVectorMachines(lossFunction)
-            {
-                SVM = Teacher.Learn(dataTrainInputs, dataTrainOutputs)
-            };
+            //return new SupportVectorMachines(lossFunction)
+            //{
+            SVM = Teacher.Learn(dataTrainInputs, dataTrainOutputs);
+            //};
         }
 
         public int[] Predict(double[][] dataTestInputs)

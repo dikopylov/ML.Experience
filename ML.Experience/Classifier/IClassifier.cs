@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ML.Experience
 {
-    interface IClassifier<T>
+    interface IClassifier
     {
         /// <summary>
         /// Обучающий алгоритм
@@ -14,7 +14,7 @@ namespace ML.Experience
         /// <param name="dataTestInputs">вектор входных параметров</param>
         /// <param name="dataTestOutputs">массив целевых переменных</param>
         /// <returns>Обученный алгоритм</returns>
-        T Learn(double[][] dataTrainInputs, int[] dataTrainOutputs);
+        void Learn(double[][] dataTrainInputs, int[] dataTrainOutputs);
 
         /// <summary>
         /// Предсказательный алгоритм
