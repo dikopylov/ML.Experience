@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ML.Experience
+﻿namespace ML.Experience
 {
     class Program
     {
