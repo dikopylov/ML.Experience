@@ -1,5 +1,5 @@
 ﻿
-namespace ML.Experience
+namespace ML.Experience.Classifier
 {
     interface IClassifier
     {

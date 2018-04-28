@@ -1,6 +1,6 @@
 ﻿using Accord.MachineLearning;
 
-namespace ML.Experience
+namespace ML.Experience.Classifier
 {
     class KNearestNeighbors : IClassifier//<KNearestNeighbors>
     {
