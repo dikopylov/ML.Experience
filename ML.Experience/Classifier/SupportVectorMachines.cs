@@ -13,7 +13,14 @@ namespace ML.Experience
         /// </summary>
         //Accord.Statistics.Kernels.IKernel Kernel { get; set; }
 
+        /// <summary>
+        /// Обученная модель
+        /// </summary>
         Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear> SVM { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
         Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning<Accord.Statistics.Kernels.Linear> Teacher { get; set; }
 
         /// <summary>

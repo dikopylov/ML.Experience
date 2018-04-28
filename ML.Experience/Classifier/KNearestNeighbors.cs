@@ -4,7 +4,11 @@ namespace ML.Experience
 {
     class KNearestNeighbors : IClassifier//<KNearestNeighbors>
     {
+        /// <summary>
+        /// Количество соседей
+        /// </summary>
         int K { get; set; }
+
         Accord.MachineLearning.KNearestNeighbors KNN { get; set; }
 
         public KNearestNeighbors(int k)
