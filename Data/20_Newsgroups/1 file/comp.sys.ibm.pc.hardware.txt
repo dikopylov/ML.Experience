@@ -1,0 +1,3637 @@
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!ogicse!emory!swrinde!sdd.hp.com!nigel.msen.com!fmsrl7!glang
+From: glang@slee01.srl.ford.com (Gordon Lang)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Please help identify video hardware
+Message-ID: <1pqep5INN88e@fmsrl7.srl.ford.com>
+Date: 5 Apr 93 23:19:01 GMT
+Article-I.D.: fmsrl7.1pqep5INN88e
+Organization: Ford Motor Company Research Laboratory
+Lines: 11
+NNTP-Posting-Host: slee01.srl.ford.com
+X-Newsreader: Tin 1.1 PL5
+
+I need a device (either an ISA board or a subsystem) which will
+take two RGB video signals and combine them according to a template.
+The template can be as simple as a rectangular window with signal
+one being used for the interior and signal two for the exterior.
+But I beleive fancier harware may also exist which I do not want
+to exclude from my search.  I know this sort of hardware exists
+for NTSC, etc. but I need it for RGB.
+
+Please email and or post any leads....
+
+Gordon Lang (glang@smail.srl.ford.com  -or-  glang@holo6.srl.ford.com)
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!andrew.cmu.edu!cs6t+
+From: "Calvin D. Swartzentruber" <cs6t+@andrew.cmu.edu>
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: ATTN: Ken Smith
+Date: Mon,  5 Apr 1993 18:07:12 -0400
+Organization: Freshman, Electrical and Computer Engineering, Carnegie Mellon, Pittsburgh, PA
+Lines: 9
+Message-ID: <Qfk_qEi00WBOE8hm8Z@andrew.cmu.edu>
+NNTP-Posting-Host: po3.andrew.cmu.edu
+In-Reply-To: <9304051540.AA03922@gumby.Altos.COM>
+
+It is model number #7033D, a 14" interlaced .28dp.  BTW, if you have a
+number to contact the company, that would really be helpful to.  Thanks
+for replying.  I was beginning to believe that I was never going to get
+a reply.  I posted this on the netnews bboard because the first message
+I sent to you was returned, and I didn't know if my second message would
+get to you.
+
+Calvin
+
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!darwin.sura.net!mojo.eng.umd.edu!yjwu
+From: yjwu@eng.umd.edu (Yu-Jen Wu)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: What's the difference between ~30-pin and 72-pin SIMMS?
+Date: 15 Apr 1993 19:02:54 GMT
+Organization: Project GLUE, University of Maryland, College Park
+Lines: 17
+Distribution: world
+Message-ID: <1qkbguINNbej@mojo.eng.umd.edu>
+NNTP-Posting-Host: paxsunc.eng.umd.edu
+
+Hi,
+
+Can anyone tell me the difference between ~30-pin and 72-pin Simms?
+I wish to get detailed information about the origin of these two
+different types of Simms, preferably a magazine review aricle.
+
+By the way, if there is a FAQ for this group which covers the Simms
+information, please also direct me to it.
+
+Any help/information would be very much appreciated.
+
+
+Sincerely,
+
+Yu-Jen Wu
+Dept. of EE, Univ. of Maryland
+yjwu@eng.umd.eu
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!prism!gt5735a
+From: gt5735a@prism.gatech.EDU (Mark Devaney)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Sorry, another Gateway posting
+Message-ID: <93143@hydra.gatech.EDU>
+Date: 15 Apr 93 19:50:07 GMT
+Distribution: usa
+Organization: Georgia Institute of Technology
+Lines: 42
+
+
+I never thought I'd contribute to a Gateway thread, either pro or con, but
+my spleen could use a little venting.  The scenario:
+
+        1 - Ordered a DX2/50 w/ Ultrastor 34F Local Bus HD controller
+        2 - Receive system 10 days after ordering (Happy)
+        3 - Discover Ultrastor 14F ISA HD Controller inside (unhappy)
+        4 - Call Gateway, receive the correct controller in 5 days 
+                (getting happier)
+        5 - New controller doesn't work (unhappy again)
+        6 - Call Gateway again, get another controller in 5 more days
+                        (cooling off, the end is in sight)
+        7 - This controller doesn't work either, motherboard is bad
+                (VERY unhappy)
+
+Gateway's solution:  They will order me a new motherboard (5 more days)
+        and have on-site service install it for me.
+BUT, I have to take a day off of work because the service people
+only work 9-5 M-f.  I say, no way I've already blown about 20 hours
+with this, about 10 of them on hold and I don't have the time or $$
+to take a day off work.  Also, my 30 day return period is almost over and
+I've only been able to use the thin for about 10 minutes.  So, the whole 
+thing is going back.  
+  I was extremely upset when I began this post because the support rep told me
+that I would have to pay shipping not only for the returned system, but also
+the two hard drive controllers they had sent me.  Fortunately, I just spoke
+to customer service and they are going to have UPS come and pick everything
+up gratis. The only downside is that now I have to order another computer.
+
+I would really like to try Gateway again, I'm just very turned off by the
+prospect of having to try and get through to Customer Service or Tech Support
+again...  I think their products are great for the most part, but I'm
+beginning to wonder if the savings are worth the potential aggravation.
+Are other mail order companies as difficult to contact?  I know Gateway is
+booming, and for good reason, but I don't know if I can take it again.
+Oh well, I feel better now...
+
+-- 
+-----_____-----_____-----_____-----_____-----_____-----_____-----_____-----
+| Mark Devaney                     - Hear me now and believe me later     |
+| Georgia Institute of Technology, Atlanta Georgia, 30332                 |
+| Internet: markd@cc.gatech.edu                                           |
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!emory!news-feed-1.peachnet.edu!umn.edu!csus.edu!netcom.com!spiro
+From: spiro@netcom.com (Philip N. Spiro)
+Subject: Re: NEW CD-ROM for Gateways', and misc. info
+Message-ID: <spiroC5JJ3B.47G@netcom.com>
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+X-Newsreader: TIN [version 1.1 PL8]
+References: <1993Apr9.122249.5627@news.weeg.uiowa.edu>
+Distribution: na
+Date: Thu, 15 Apr 1993 19:49:58 GMT
+Lines: 15
+
+Terry Clark (tclark@news.weeg.uiowa.edu) wrote:
+
+:    The upgrade to a Nanao 550i is now $765.
+:        (this monitor will handle 1280x1024 at a vertical refresh
+:         of 72-76Hz).
+
+        Not according to Nanao. The 550i will not do better than 60Hz
+        at 1280x1024. BTW, Gateway told me the same thing.
+
+
+-- 
+Phil
+-------------------------------------------
+Phil Spiro  spiro@netcom.com   415-964-6647
+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!howland.reston.ans.net!bogus.sura.net!darwin.sura.net!haven.umd.edu!uunet!decwrl!netcomsv!netcom.com!brentw
+From: brentw@netcom.com (Brent C. Williams)
+Subject: Re: Colorado Jumbo 250 for Gateway 2000?
+Message-ID: <brentwC5K1uB.BDI@netcom.com>
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+References: <C5CDMs.5Dt@world.std.com>
+Date: Fri, 16 Apr 1993 02:34:59 GMT
+Lines: 59
+
+pd@world.std.com (Peter F Davis) writes:
+
+>I've just installed a new Colorado Jumbo 250 tape backup unit from
+>Gateway, and I have a couple of complaints with it.  I don't know how
+>common or serious these problems may be.  I would appreciate some
+>feedback from others who have used this system.  (BTW, This is on a
+>4DX2-66V tower system.)
+
+        I have a similar configuration: Colorado 250mb on 66 DX/2 tower.
+
+>The problems are:
+
+>    o  Firstly, Gateway shipped me only 120 Mb tapes, even though the
+>       drive is a 250 Mb unit.  When I called to complain, they only
+>       said:  "That's all we carry," and "With compression, you can
+>       fit 250 Mb on one tape."  Maybe so, but then why did I pay
+>       extra for the large capacity tape drive?
+
+        You got suckered in the same way I did.  Silly me, believing
+        that the "250" logo on the front meant actual carrying capacity.
+        The people who do this sort of thing for a living call it 
+        "marketing."  Lawyers who prosecute it call it "fraud."
+        Perhaps we can have a bunch of other duped buyers march on 
+        their corporate headquarters.
+
+>    o  I have about 230 Mb of data on my C: drive.  I choose the
+>       space-optimizing compression scheme and started a full backup.
+>       The software estimated it would take about 22 minutes.  It
+>       took 4 1/2 hours.  Does this sound about right?
+
+        This is a bit long.  My system takes about 45 minutes to do 
+        the same thing.  Usually 4.5 hours, particularly if the tape 
+        is grinding away the whole time means that your block size for 
+        the write is too small.  Is there any way to change the block 
+        size or write buffer size so it's bigger?
+
+>    o  During the backup, about a dozen files came up with "access
+>       denied" errors.  Most of these were in C:\WINDOWS\SYSTEM
+>       (COMM.DRV, KEYBOARD.DRV, SHELL.DLL, etc.), but also
+>       C:\WINDOWS\PROGMAN.EXE and a couple of files in the C:\TAPE
+>       directory.  Anyone else had this happen?
+
+        This is because the files are opened by DOS.  The files in the 
+        TAPE directory are likely the executable file or the configuration
+        file for the tape system.  I would recommend running the backup
+        from DOS so it will make a complete backup of the TAPE directory.
+
+>Thanks for any and all feedback on this system.  I'd also appreciate
+>hearing of good sources for blank tape cartridges, preferably 250 Mb
+>size.
+
+        The 250mb cartridges won't do you any good since the drive
+        won't write 250mb of physical data on the tape.  
+
+>Thanks.
+>-pd
+
+-- 
+-brent williams (brentw@netcom.com) san jose, california
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.ibm.pc.misc:34079 comp.sys.ibm.pc.hardware:60199
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!spool.mu.edu!uwm.edu!msuinfo!netnews.upenn.edu!eniac.seas.upenn.edu!balog
+From: balog@eniac.seas.upenn.edu (Eric J Balog)
+Newsgroups: comp.sys.ibm.pc.misc,comp.sys.ibm.pc.hardware
+Subject: FLOPPY DRIVE PROBLEM--HELP!!!
+Message-ID: <120761@netnews.upenn.edu>
+Date: 16 Apr 93 03:09:22 GMT
+Sender: news@netnews.upenn.edu
+Followup-To: comp.sys.ibm.pc.misc
+Organization: University of Pennsylvania
+Lines: 25
+Nntp-Posting-Host: eniac.seas.upenn.edu
+
+Hi!
+
+I have a problem with my floppy drives. In an effort to make my 3.5" drive 
+(normally b:) my a: drive, I switched the order of connections on the cable 
+from the serial card/floppy/ide controller. I booted up, changed the CMOS
+settings to reflect the a: drive as the 3.5 and the b: drive as the 5.25.
+The drive lights didn't come on, and there was a failure trying to read from
+those drives.
+
+I switched the cables back to their original positions, and then booted-up and
+restored the original CMOS settings. The lights for the floppies came on
+during this process, and they stay on for as long as the computer is on.
+I see that when there is a disk in a:, the drive is spinning, yet there seems
+to be no disk access. MSD.EXE and Norton SI detect both drives, but when I 
+try to get detailed information about a: or b:, Norton SI tells me that there
+is no disk in the drive.
+
+Can anyone offer any suggestions?
+I'm in desperate need of help!!!
+
+Thank you for your time.
+
+Eric Balog
+balog@eniac.seas.upenn.edu
+
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.ibm.pc.hardware:60221 comp.lang.modula2:7075 comp.lang.pascal:19326
+Newsgroups: comp.sys.ibm.pc.hardware,comp.lang.modula2,comp.lang.pascal
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!noc.near.net!uunet!pipex!uknet!warwick!nott-cs!lut.ac.uk!ellhw
+From: L.H.Wood@lut.ac.uk
+Subject: An 8051 simulator - is example code available?
+Message-ID: <1993Apr14.193329.12661@lut.ac.uk>
+Reply-To: L.H.Wood@lut.ac.uk (Lloyd Wood)
+Organization: Loughborough University, UK.
+Date: Wed, 14 Apr 93 19:33:29 GMT
+Lines: 25
+
+Hello world,
+ 
+I'm attempting to write an 8051 simulator on an IBM PC for teaching
+purposes, so that first-year elec-eng students can 'see' the workings
+of the microcontroller as it performs operations - logical ands, for
+example, being shown on a bit-by-bit basis (1 AND 1 = 1) so that the
+students can see that it's not really a mystical process, but totally
+logical, for example. Every instruction should show some 'working',
+and not just alter register/memory/port contents.
+ 
+Does anyone know of any freely-available example simulation code,
+in Pascal or Modula-2, that would show me where I'm going wrong
+in writing my simulator? [I'm using Ayala's -The 8051 Microcontroller-
+as a reference - the simulator supplied with the package is overkill
+for simple teaching purposes, I feel, and there's no source code to help
+you roll your own.]
+ 
+Please email me if you can help, or if you know of somewhere more 
+appropriate I should be posting this  - I rarely scan these groups.
+ 
+Thanks,
+ 
+Lloyd Wood
+L.H.Wood@lut.ac.uk 
+
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!spool.mu.edu!eng.ufl.edu!usenet.ufl.edu!travis.csd.harris.com!hcx1.ssd.csd.harris.com!not-for-mail
+From: marka@hcx1.ssd.csd.harris.com (Mark Ashley)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: IDE vs SCSI
+Date: 16 Apr 1993 07:30:17 -0400
+Organization: Ft. Lauderdale, FL
+Lines: 17
+Message-ID: <1qm5c9$6on@hcx1.ssd.csd.harris.com>
+References: <1993Apr13.135251.16220@julian.uwo.ca> <1qj1afINN6ii@fmsrl7.srl.ford.com>
+NNTP-Posting-Host: hcx1.ssd.csd.harris.com
+
+>: >>I almost got a hernia laughing at this one.
+>: >>If anything, SCSI (on a PC) will be obsolete-> killed off by Vesa Local
+>: >>Bus IDE.  It must be real nice to get shafted by $20-$100 bucks for the
+>: >>extra cost of a SCSI drive, then pay another $200-$300 for a SCSI controller.
+
+First off, with all these huge software packages and files that
+they produce, IDE may no longer be sufficient for me (510 Mb limit).
+Second, (rumor is) Microsoft recognizes the the importance of SCSI
+and will support it soon. I'm just not sure if it's on DOS, Win, or NT.
+At any rate, the deal is with Corel who makes (I hear) a good
+cohesive set of SCSI drivers.
+
+-- 
+-------------------------------------------------------------------------
+Mark Ashley                        |DISCLAIMER: My opinions. Not Harris'
+marka@gcx1.ssd.csd.harris.com      |
+The Lost Los Angelino              |
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!spool.mu.edu!uunet!mnemosyne.cs.du.edu!nyx!tovecchi
+From: tovecchi@nyx.cs.du.edu (tony vecchi)
+Subject: two questions
+Message-ID: <1993Apr16.122022.17514@mnemosyne.cs.du.edu>
+Sender: usenet@mnemosyne.cs.du.edu (netnews admin account)
+Organization: Nyx, Public Access Unix @ U. of Denver Math/CS dept.
+Date: Fri, 16 Apr 93 12:20:22 GMT
+Lines: 14
+
+
+Two questions:
+1: I'm trying to figure out how to access cmos advanced chip setting on a
+EISA motherboard (AIR) that has AMI bios..specifically I would like to set
+the atclk or wait states or bus speed on this board, I can't seem to be
+able to do it..any help in this area would be greatly appreciated.
+
+2: I am looking for a phone number for WANGTEK tape drives, specifically I
+am looking for jumper settings on a 5099EN24 drive..
+
+Thanks in advance.
+Tony
+
+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!darwin.sura.net!newsserver.jvnc.net!stevens-tech.edu!vaxc.stevens-tech.edu!u96_bbayraml
+From: u96_bbayraml@vaxc.stevens-tech.edu
+Subject: FOR SALE!! DECpc325sxLP
+Message-ID: <1993Apr16.131045.1@vaxc.stevens-tech.edu>
+Lines: 26
+Sender: news@dmi.stevens-tech.edu (USENET News System)
+Organization: Stevens Institute Of Technology
+Date: Fri, 16 Apr 1993 18:10:45 GMT
+
+
+
+      FOR SALE !!!
+
+      DECpc 325sxLP
+
+   It's in very good condition, used for one year. It has
+
+      - 25 Mhz Intel 386
+      - 52 MB Hard Disk
+      - Super Color VGA Monitor
+      - 2-button mouse
+      - 1.44 MG floppy disk drive
+
+      Software:
+    ------------
+
+       - Microsoft Dos 5.0
+       - Microsoft Windows 3.1
+       - Microsoft Works for Windows 2.0
+       - Borland Turbo Pascal 6.0
+       - Borland Turbo C++ 3.0 for Dos
+       
+
+       I'm asking $1499 for the system. Send me E-mail if interested.
+      
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.ibm.pc.hardware:60273 comp.sys.ibm.pc.games:49973
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!cs.utexas.edu!uunet!mcsun!news.funet.fi!butler.cc.tut.fi!ee.tut.fi!s106275
+From: s106275@ee.tut.fi (Anssi Saari)
+Newsgroups: comp.sys.ibm.pc.hardware,comp.sys.ibm.pc.games
+Subject: Re: Soundblaster IRQ and Port settings
+Date: 16 Apr 93 17:12:57 GMT
+Organization: Tampere University of Technology, Computing Centre
+Lines: 16
+Distribution: inet
+Message-ID: <s106275.734980377@ee.tut.fi>
+References: <C5J39o.3JL@acsu.buffalo.edu> <1993Apr16.105809.22218@walter.cray.com>
+NNTP-Posting-Host: ee.tut.fi
+
+In <1993Apr16.105809.22218@walter.cray.com> huot@cray.com (Tom Huot) writes:
+
+>I would also like an explanation of this. If anyone can explain
+>why the SB Pro and LPT 1 can share an IRQ, please do so.
+
+I think it's simply because DOS doesn't use the IRQ for anything. OS/2 does,
+so with that you can't share the IRQ.
+
+Anssi
+
+
+-- 
+Anssi Saari s106275@ee.tut.fi                
+Tampere University of Technology 
+Finland, Europe                  
+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!wupost!uunet!mcsun!sun4nl!kubds1.kub.nl!volkert
+From: volkert@kub.nl (Volkert)
+Subject: RE: 80486DX-50 vs 80586DX2-50
+Message-ID: <1993Apr06.121342.25130@kub.nl>
+Date: Tue, 06 Apr 93 12:13:42 GMT
+Organization: Tilburg University, Tilburg, The Netherlands
+Nntp-Posting-Host: itkdsh.kub.nl
+Lines: 19
+
+-------------------------------------------------------------------------
+Anonymous,
+
+I saw a posting about the choice between 80486DX-50 and a 80486DX2-50.
+I was wondering: although a DX-50 is faster because of the path to it's
+external cache, shouldn't the choice be the DX2-50 as that one can be
+made to work properly with a local-bus? I mean, cache speed is one thing,
+but all your speed will be blocked during video I/O, so just get that
+faster... 
+I'm willing to speculate that the DX2-50 with local-bus will be 2-4 times 
+as fast as the DX-50 and probably as expensive (or cheap ;-)!
+
+regards, JV
+                                                                /////
+name:    J-V Meuldijk                                          [ o o ]
+address: gildelaar 4                                            \_=_/
+         4847 hw teteringen                                     _| |_ 
+         holland                  e-mail:  volkert@kub.nl      / \_/ \
+_____________________________________________________________oOOO___OOOo__
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.ibm.pc.hardware:60278 comp.sys.ibm.pc.misc:34101
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cert.org!netnews.upenn.edu!eniac.seas.upenn.edu!balog
+From: balog@eniac.seas.upenn.edu (Eric J Balog)
+Newsgroups: comp.sys.ibm.pc.hardware,comp.sys.ibm.pc.misc
+Subject: SWITCH 3.5" TO A:?
+Message-ID: <120875@netnews.upenn.edu>
+Date: 16 Apr 93 17:21:33 GMT
+Sender: news@netnews.upenn.edu
+Followup-To: comp.sys.ibm.pc.hardware
+Organization: University of Pennsylvania
+Lines: 39
+Nntp-Posting-Host: eniac.seas.upenn.edu
+
+Hi!
+
+I'd like to switch my floppy drives so that my 3.5" b: drive becomes a:, while
+my 5.25" a: becomes b:. I'm having a few problems, though.
+
+I know that the ribbon cable must be switched, as well as the CMOS settings, 
+to reflect this change, and I think that I've done that correctly. However, the
+drives do not operate correctly in this configuration. From the C:> prompt, if 
+I type a:, the 5.25" drive light comes on; if I type b:, both the light for the
+5.25" and 3.5" drives come on.
+
+There are some jumpers on each drive:
+5.25"  Label   Original Pos.   Pos. I changed it to
+        DS0      ON               OFF
+        DS1      OFF              ON
+        DS2      ON               ON
+        DS3      OFF              OFF
+        IO       OFF              OFF
+        MS1      OFF              OFF
+        D-R      ON               ON
+        MS2      ON               ON
+        FG       OFF              OFF
+
+3.5"    DS0      OFF              ON
+        DS1      ON               OFF
+        DS2      OFF              OFF
+        DS3      OFF              OFF
+        MM       ON               ON
+        DC       ON               ON
+        MD       OFF              OFF
+        TTL/C-MO8 ON              ON
+
+
+Any help or suggestions would be greatly appreciated.
+
+Thanks in advance.
+
+Eric Balog
+balog@eniac.seas.upenn.edu
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!pacific.mps.ohio-state.edu!linac!uwm.edu!wupost!howland.reston.ans.net!agate!news.ucdavis.edu!othello.ucdavis.edu!ez005997
+From: ez005997@othello.ucdavis.edu (Oppy)
+Subject: Info. on Genoa 8500 vlb card or other low-end vlb?
+Message-ID: <C5LI20.Fr7@ucdavis.edu>
+Originator: ez005997@othello.ucdavis.edu
+Sender: usenet@ucdavis.edu
+Organization: University of California, Davis
+Distribution: usa
+Date: Fri, 16 Apr 1993 21:22:46 GMT
+Lines: 16
+
+I am looking for an inexpensive vlb card, and have yet to run across any
+real reviews of them. One of the cards the local stores are pushing is
+the Genoa 8500 for $125-140. Apparently it uses a Cirrus Logic acc. chip,
+but I don't know which one (GD5426?). One of the shops I've spoken with 
+claims the card out-performs the Diamond Stealth 24 vl and the Orchid
+Fahrenheit 1280 plus vl cards (S3 86C805 based), but that can't be true
+if it is using the GD5426. I like the price of the Genoa 8500, but if it
+lags in performance behind the S3 cards, I'll pay the extra $50 for one 
+of them.
+
+Any info. on low end vlb cards would be appreciated. If I get replies via
+email, I'll post summary info. if anyone else is interested.
+
+Thanks in advance,
+Brian Oppy  (bjoppy@ucdavis.edu)
+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!usenet.ins.cwru.edu!agate!ames!haven.umd.edu!uunet!newsflash.concordia.ca!sifon!clouso.crim.ca!IRO.UMontreal.CA!ivan
+From: ivan@IRO.UMontreal.CA (Catalin Ivan)
+Subject: IDE/ESDI coexistence
+Message-ID: <ivan.735066895@iros1>
+Summary: How to make IDE and ESDI controllers live together???
+Keywords: HD, controller, IDE, ESDI, disks
+Sender: news@IRO.UMontreal.CA
+Organization: Universite de Montreal
+Date: Sat, 17 Apr 1993 17:14:55 GMT
+Lines: 57
+
+Hello all,
+
+You, the Net, are my last resort, or I'll just change my job :-)
+This might be a FAQ (e.g. mixing controllers) but haven't seen any.
+
+Sys: 486/33, AMI BIOS, and your run-of-the mill multi-I/O card with
+serials/paral/floppies and 
+        - IDE controller "clone" Gw2760-EX
+                there are no jumpers affecting the HD or ctrller :-( 
+        - Quantum ProDrive LPS (3" 105M type 47: 755cyl, 16hds, 17spt).
+
+Pb: I want to bring in this (2nd hand, neat price):
+        - Maxtor XT-B380E (~330M, <15ms, BIOS type 1, ctrller manages
+                the real geom: 1630cyl, 8hds, 52spt)
+        - Western Digital WD1007V-SE1 ESDI ctrller: no floppies.
+                (jumpers set IRQ 14/15, hw port addr 1F0/170,
+                and BIOS addr CC00/C800, and other floppy/format stuff)
+
+Goal: have the WD ESDI as a secondary/controller and have both disks 
+simultaneously working. Being able to boot from the ESDI too would be 
+a nice bonus but is not expected.
+
+Ultimate goal: have room for Linux et al.
+Ex of scheme I have in mind: boot from IDE (HD or floppy) and mount
+the ESDI as root. Not booting from ESDI, or even from HD, is acceptable.
+
+I have tried numerous (all!!) combinations to no avail. They work alone,
+or can coexist witout hang-ups but can't access the ESDI or the IDE, 
+depending on setup/jumpers.
+
+Useful suggestions might be:
+- How do I tell the BIOS setup about two ctrllers (I guess the 2nd HD
+is expected to hang off the same ctrller as the 1st).
+- Do I need some driver to make it work?
+- --- " --- some new BIOS/chip for any of these cards?
+- do I have to buy another controller to make them HDs happy? IDE
+is cheaper; ESDI is hard to find and rather costly. I'm not 
+rich or I wouldnt' try to scavenge around, so soft slns are preferred.
+- adapters of some sort; I can hold a soldering iron, and can change
+a chip or put a jumper!
+
+Also useful:
+- BBS or Hot-line of Western Digital.
+- ftp archives with relevant info.
+- expert stores in Toronto, Ontario area (that would be a miracle! haven't
+seen any really knowledgeable ppl in a while)
+- any hints into inner workings of the system ... 
+- anything else that helped you in similar situations (prayers :-) )
+
+Direct or posted replies are ok.
+        Many thanks,
+                        Cat.
+--
+////// /// // / /  /  /   /   /    /     /      /      /        / 
+Catalin Ivan - email: ivan@Iro.UMontreal.CA - tel:(416) 324.8704
+         Human-Computer   INTERACTION   Humain-Machine 
+Universite de Montreal - Informatique et Recherche Operationelle
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!rpi!uwm.edu!cs.utexas.edu!utnut!torn!newshost.uwo.ca!valve.heart.rri.uwo.ca!wlsmith
+From: wlsmith@valve.heart.rri.uwo.ca (Wayne Smith)
+Subject: Re: IDE vs SCSI
+Organization: The John P. Robarts Research Institute, London, Ontario
+Date: Sat, 17 Apr 1993 20:42:47 GMT
+Message-ID: <1993Apr17.204247.6741@julian.uwo.ca>
+Sender: news@julian.uwo.ca (USENET News System)
+Nntp-Posting-Host: valve.heart.rri.uwo.ca
+Lines: 34
+
+In article <wayne.02uv@amtower.spacecoast.org> wayne@amtower.spacecoast.orgX-NewsSoftware: GRn 1.16f (10.17.92) by Mike Schwartz & Michael B. Smith writes:
+
+>> but I still want to know why it intrinsically better
+>> (than IDE, on an ISA bus) when it comes to multi-tasking OS's when
+>> managing data from a single SCSI hard drive.
+>
+>A SCSI controller that transfers data by DMA allows the cpu to request data
+>from the hard drive and continue working while the controller gets the data
+>and moves it to memory. 
+
+IDE also uses DMA techniques.  I believe floppy controller also uses DMA,
+and most A/D boards also use DMA.  DMA is no big deal, and has nothing to
+do directly with SCSI.
+
+> For example, when rewinding or formatting a tape, the command is
+>issued to the controller and the bus is released to allow access to other
+>devices on the bus.  This greatly increases productivity or, at least, do
+>something else while backing up your hard drive :-).  Which happens to be
+>what I am doing while reading this group.
+
+You can thank your software for that.  If DOS had a few more brains, it
+could format floppies etc. while you were doing something else.  The
+hardware will support it, but DOS (at least) won't.  Again, this has   
+nothing to do with SCSI.
+
+>Its a long story, but I still use IDE on my 486 except for the CDROM which,
+>thanks to SCSI, I can move between both machines.  If, and when, SCSI is
+>better standardized and supported on the ibm-clone machines, I plan to
+>completely get rid of IDE.
+
+And if you stick with DOS you'll wonder why you can't multitask.
+
+Again I ask why can't a UNIX or OS/2 type OS do all the miraculous things
+with an IDE harddrive that it can with a (single) SCSI hard drive.
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!newsgate.watson.ibm.com!yktnews.watson.ibm.com!sernews!tomcat.raleigh.ibm.com!europa
+From: europa@tomcat.raleigh.ibm.com (Welch Bryan)
+Subject: pc-junior usable?
+Sender: news@sernews.raleigh.ibm.com
+Message-ID: <1993Apr17.201300.19312@sernews.raleigh.ibm.com>
+Date: Sat, 17 Apr 1993 20:13:00 GMT
+Nntp-Posting-Host: tomcat.raleigh.ibm.com
+Organization: IBM, Research Triangle Park, North Carolina
+Lines: 13
+
+My fiance has a pc-junior and wants to upgrade to a full 386.  Does anyone
+know if we could use the monitor it came with on a new machine?  I heard
+it's MCGA or EGA, but not sure which.  Also, does it use cards, so we can 
+use the drive controller, floppy, etc?
+
+Thanks for the help!
+-Bryan
+
+-- 
+Bryan Welch                                  Amateur Radio: N0SFG
+Internet: europa@vnet.ibm.com (best), bwelch@scf.nmsu.edu 
+Everything will perish save love and music.--Scots Gaelic proverb
+Disclaimer: It's all opinion.  Everything.  So there.
+Xref: cantaloupe.srv.cs.cmu.edu comp.os.os2.misc:57804 comp.sys.ibm.pc.hardware:60389 alt.cd-rom:9584 comp.periphs.scsi:11998
+Newsgroups: comp.os.os2.misc,comp.sys.ibm.pc.hardware,alt.cd-rom,comp.periphs.scsi
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!uwm.edu!cs.utexas.edu!hermes.chpc.utexas.edu!news.utdallas.edu!goyal
+From: goyal@utdallas.edu (MOHIT K GOYAL)
+Subject: Re: BusLogic 542B questions
+Message-ID: <C5nKJ0.GAp@utdallas.edu>
+Sender: usenet@utdallas.edu
+Nntp-Posting-Host: csclass.utdallas.edu
+Organization: Univ. of Texas at Dallas
+References: <C5B77J.5x3@utdallas.edu> <tigerC5K9oy.Gx@netcom.com> <1qq0liINN58j@darkstar.UCSC.EDU>
+Date: Sun, 18 Apr 1993 00:11:24 GMT
+Lines: 12
+
+>beta. Support for the BusLogic cards is not included with OS/2 2.0 any longer.
+
+Why not?  This is rather disappointing...
+
+>If you wish to install the beta from the CD/ROM, you will need to REM out the
+>Adaptec device drivers, as they have a nasty tendency to crash the BusLogic
+>cards when OS/2 attempts to use them. (Thanks Adaptec!) 
+
+Yep.  That's cause the latest(and presumably all future) Adaptec drivers look
+for the string "Adaptec" or something to that effect in the cards BIOS.
+
+
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!sdd.hp.com!caen!uunet!math.fu-berlin.de!easix!jester!michael
+From: michael@jester.GUN.de (Michael Gerhards)
+Newsgroups: comp.sys.ibm.pc.hardware
+Distribution: world
+Subject: Re: HELP: my pc freezes!
+X-Newsreader: TIN [version 1.1 PL8]
+References: <1qjuag$dug@wswiop11.win.tue.nl>
+Message-ID: <9304172186@jester.GUN.de>
+Organization: private COHERENT system
+Date: Sat, 17 Apr 93 09:15:44 GMT
+Lines: 15
+
+Perry Egelmeers (perry@wswiop11.win.tue.nl) wrote:
+> ladanyi@cs.cornell.edu (La'szlo' Lada'nyi) writes:
+
+> >Problem: Occasionaly the machine freezes. At least that's what I thought, but
+> >recently I discovered that the machine works, just the keyboard freezes and
+> >the clock drops down from turbo (33Mhz) to standard (16Mhz) mode.
+
+> Perhaps you hit the ^S (Control S)?  Try ^Q.
+> I know it doesn't explain the clock rate drop...
+
+We had the same problem in our company. We changed the keyboard-bios and
+after that, everything went fine. Our dealer told us that some boards of
+that series have a defect kbd-bios.
+
+Michael
+--
+*  michael@jester.gun.de  *   Michael Gerhards   *   Preussenstrasse 59  *
+                          *  Germany 4040 Neuss  *  Voice: 49 2131 82238 *
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usc!sdd.hp.com!caen!uunet!math.fu-berlin.de!easix!jester!michael
+From: michael@jester.GUN.de (Michael Gerhards)
+Newsgroups: comp.sys.ibm.pc.hardware
+Distribution: world
+Subject: Re: Western Digital HD info needed
+X-Newsreader: TIN [version 1.1 PL8]
+References: <1993Apr16.055042.2196@mcshub.dcss.mcmaster.ca>
+Message-ID: <9304172194@jester.GUN.de>
+Organization: private COHERENT system
+Date: Sat, 17 Apr 93 09:26:22 GMT
+Lines: 12
+
+Holly       KS (cs3sd3ae@maccs.mcmaster.ca) wrote:
+> My Western Digital also has three sets of pins on the back. I am using it with
+> another hard drive as well and the settings for the jumpers were written right 
+> on the circuit board of the WD drive......MA SL ??
+
+The ??-jumper is used, if the other drive a conner cp3xxx. 
+
+no jumper set: drive is alone
+MA: drive is master
+SL: drive is slave
+
+Michael
+--
+*  michael@jester.gun.de  *   Michael Gerhards   *   Preussenstrasse 59  *
+                          *  Germany 4040 Neuss  *  Voice: 49 2131 82238 *
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!emory!swrinde!elroy.jpl.nasa.gov!sdd.hp.com!nigel.msen.com!fmsrl7!destroyer!cs.ubc.ca!bowen.rick.cs.ubc.ca!not-for-mail
+From: i3y092@rick.cs.ubc.ca (Adam Nicolas Cheal)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Jumper Settings for MicroScience HD
+Date: 17 Apr 1993 22:31:02 -0700
+Organization: Computer Science, University of B.C., Vancouver, B.C., Canada
+Lines: 9
+Distribution: world
+Message-ID: <1qqp2mINNmr1@bowen.rick.cs.ubc.ca>
+NNTP-Posting-Host: bowen.rick.cs.ubc.ca
+
+OK, I'll try one more time with this one. If ANYONE out there has ANY
+information on MicroScience hard drives and how to set the jumpers
+(and where they are?) for master/slave configurations. I will gladly
+accept any info, as I have a 110M'er sitting in my room collecting dust
+just waiting for me to install huge applications. :) Thanks in advance.
+(And yes, I regulary check the IDE Harddisk Spec that is posted here.)
+
+-= Adam Cheal =-   i3y092@rick.cs.ubc.ca
+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!wupost!dsuvax.dsu.edu!columbia.dsu.edu!schwabam
+From: schwabam@columbia.dsu.edu (MICHAEL SCHWABAUER)
+Subject: Tseng Labs Video Card Problem
+Message-ID: <schwabam.19.0@columbia.dsu.edu>
+Lines: 7
+Sender: usenet@dsuvax.dsu.edu (Usenet Proxy Posting Account)
+Organization: Dakota State University
+Date: Sun, 18 Apr 1993 08:45:32 GMT
+Lines: 7
+
+
+I have a Tseng labs video card that gives me problems when I do anything in 
+super VGA mode.  CHECKIT v3.0 reports a Video Page Frame Address Error at 
+Page Frame #7.  What does this mean and how (if I can) could this be fixed?
+The card Says ET4000Ax on it.
+
+Thanks
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!ogicse!emory!europa.eng.gtefsd.com!howland.reston.ans.net!ux1.cso.uiuc.edu!husak
+From: husak@ux1.cso.uiuc.edu (Stephen R. Husak )
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Tape Drive Problems
+Message-ID: <C52szz.489@ux1.cso.uiuc.edu>
+Date: 6 Apr 93 19:04:32 GMT
+Article-I.D.: ux1.C52szz.489
+Organization: University of Illinois at Urbana
+Lines: 17
+
+Please reply via e-mail since this is job related: 
+
+I have a Colorado Jumbo back-up system at one of my places of 
+employment and it has eaten two tapes by winding the tape off the spool.
+
+Is there an easy fix or is the tape drive fried? Does it simply need 
+cleaning?
+
+Any and all comments will be appreciated!
+
+Stephen Husak
+
+-- 
+"What am I trying to do, what am I trying to say, I'm not trying to tell you 
+ anything you didn't know when you woke up today..."
+                                - Depeche Mode "Nothing" MUSIC FOR THE MASSES
+-= Stephen R. Husak - husak@ux1.cso.uiuc.edu - Univerisity of Illinois
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!munnari.oz.au!jabaru.cec.edu.au!csource!gateway
+From: Richard.Muratti@f341.n632.z3.fidonet.org (Richard Muratti)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Parallel port
+Message-ID: <735158447.AA04138@csource.oz.au>
+Date: Thu, 15 Apr 1993 02:32:00
+Sender: gateway@csource.oz.au
+X-FTN-To: All
+Lines: 25
+
+Can anybody please help me with information on the use of the bi-directional
+printer port.
+
+I have successfully used one on a Toshiba laptop by enabling bit 0 of port
+0x37f and controlling bit 7 of port 0x37a for the direction of data flow (ie
+"0" for output, "1" for input).
+
+The same code does not work on my desktop machine. I have heard that i might
+have to use bit 5 of port 0x37a, however this also does not work.
+
+For a parallel port i am using one of those IDE SUPER I/O cards and have been
+running a tape backup unit off it via a parallel to scsi converter so i am
+pretty sure that the printer port is bi-directional.
+
+
+Any information would be greatly appreasiated.
+
+Please post a reply here or Email me on
+
+INTERNET rick@cabsav.vut.edu.au
+
+Thanks
+Richard Muratti.
+
+ * Origin: Custom Programming BBS (3:632/341)
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usenet.ins.cwru.edu!cleveland.Freenet.Edu!bq274
+From: bq274@cleveland.Freenet.Edu (Andy J. Berkvam)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: How to detect mouse at hardware level?
+Date: 18 Apr 1993 17:45:29 GMT
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 25
+Message-ID: <1qs43p$f0m@usenet.INS.CWRU.Edu>
+Reply-To: bq274@cleveland.Freenet.Edu (Andy J. Berkvam)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+'lo all,
+
+  I am writting a program that checks a computer for its configuration.
+It's going to be run everytime a computer boots up to our campus
+network.  (Actually, it already is running, it's just not getting all
+the info I want it to yet...)  Anyway, I want to check for a mouse.  I
+already check for a mouse driver (using the code in Microsoft's Mouse
+book).  But there is no guarantee that the driver is loaded when my
+program runs, or that they ever load the driver.
+
+  Since I am interested in what hardware is attached to the machine, how
+do I detect is a mouse is attached?  I know it can be done because the
+mouse driver can do it.
+
+  Thanks in advance,
+
+Andy
+
+
+-- 
+Andy Berkvam                          |  Few are wholly dead:
+U of Wisconsin - Stevens Point        |  Blow on a dead man's embers
+Cleveland Freenet: bq274              |  And a live flame will start.
+Internet: aberkvam@spu1.uwsp.edu      |                -Robert Graves
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!ux1.cso.uiuc.edu!news.iastate.edu!iscsvax.uni.edu!harter5255
+From: harter5255@iscsvax.uni.edu
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Help on hand scanners wanted
+Message-ID: <1993Apr18.164338.12485@iscsvax.uni.edu>
+Date: 18 Apr 93 16:43:38 -0600
+Organization: University of Northern Iowa
+Lines: 30
+
+Fellow netters,
+
+I'm in the market for a hand scanner.  However, I don't know anyone who has
+one.  I have my eye on two choices.
+
+Dexxa:  This scanner is available at Wal-Mart for $90.  It includes GrayWorks
+software and provides 400 dpi and 32 grayscales (I think).  The OCR software
+Catchword is available through mail-order for about $90 also.
+
+Mustek:  (Gray Artist for Windows)  This scanner offers 256 grayscales
+(according to Cad & Graphics) and 800 dpi.  It is available for $169
+mail-order and comes with Perceive OCR and Picture Publisher LE.
+
+I am also looking at a Genius hand scanner (B105) from Cad & Graphics.  It
+is basically the same as the Mustek scanner except for the resolution (400
+dpi) and price ($149).  
+
+Basically, I would like recommendations on which to buy.  I have heard that
+Logitech makes the best and manufactures Dexxa scanners.  But which one is the
+best buy?  Would 800 dpi really be helpful (output would be no better than HP
+LaserJet III or Canon BJ-200 - 300x300 to 360x360)?  I am leaning toward the
+Mustek because it offers the most features and is in the middle in terms of
+prices.  Which should I buy?
+
+If you have a hand scanner, please let me know whether or not you would
+recommend it.  Also, if you know of another scanner within the price range
+(under $225) that would be a better deal, please E-Mail me.  Any and all help
+would be greatly appreciated.
+
+- Kevin Harter
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!spool.mu.edu!uwm.edu!caen!saimiri.primate.wisc.edu!usenet.coe.montana.edu!news.uoregon.edu!netnews.nwnet.net!news.u.washington.edu!serval!hlu
+From: hlu@eecs.wsu.edu (HJ Lu)
+Subject: Re: Booting from B drive
+Message-ID: <1993Apr18.201245.12544@serval.net.wsu.edu>
+Sender: news@serval.net.wsu.edu (USENET News System)
+Organization: School of EECS, Washington State University
+References: <C5KDJE.Jsq@unix.amherst.edu> <1qmkp9INNb4n@fmsrl7.srl.ford.com> <khan0095.735001731@nova> <1993Apr18.185226.27273@mcshub.dcss.mcmaster.ca>
+Date: Sun, 18 Apr 93 20:12:45 GMT
+Lines: 17
+
+In article <1993Apr18.185226.27273@mcshub.dcss.mcmaster.ca>, yee@nimios.eng.mcmaster.ca (Paul Yee) writes:
+|> In article <khan0095.735001731@nova> khan0095@nova.gmi.edu (Mohammad Razi Khan) writes:
+|> >glang@slee01.srl.ford.com (Gordon Lang) writes:
+|> >
+|> >>David Weisberger (djweisbe@unix.amherst.edu) wrote:
+|> >>: I have a 5 1/4" drive as drive A.  How can I make the system boot from
+|> >>: my 3 1/2" B drive? 
+|> 
+|> [intermediate reply suggesting cable switch deleted]
+|> 
+
+
+I heard boot_b.zip could do exactly what you wanted without touching
+anything. Check it out with archie.
+
+
+H.J.
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!sample.eng.ohio-state.edu!purdue!haven.umd.edu!darwin.sura.net!bogus.sura.net!howland.reston.ans.net!usc!sdd.hp.com!nigel.msen.com!math.fu-berlin.de!fub!geminix.in-berlin.de!rebox.in-berlin.de!sreck
+From: sreck@rebox.in-berlin.de (Stefan Reck)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: Adaptec ACB-2322: what is it?
+Message-ID: <sreck01070930318220705@rebox.in-berlin.de>
+Date: Sun, 18 Apr 93 22:07:05 GMT
+References: <wright.1.0@lims01.lerc.nasa.gov>
+Distribution: world               
+Organization: REBOX's Host, Berlin, Germany
+Lines: 14
+X-Newsreader: NWREADER [version 3.02]
+
+wright@lims01.lerc.nasa.gov (Ted Wright) writes:
+>
+> An Adaptec ACB-2322 rev B disk controller has come into my hands with
+> no documentation. Is this an ESDI controller? MFM? RLL? Something else?
+> The BIOS on it is dated 1987, if that is any help.
+
+I think it is an ESDI controller if you need the doco i can help you.
+
+  Stefan
+
+--
+Stefan Reck  |  INET : sreck@rebox.in-berlin.de
+Berlin       |---------------------------------------------------------------
+Germany      |                     that's all
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!spool.mu.edu!uwm.edu!linac!att!att-out!cbfsb!cbnewsg.cb.att.com!rnichols
+From: rnichols@cbnewsg.cb.att.com (robert.k.nichols)
+Subject: Need info on PS/2 mouse port
+Message-ID: <1993Apr19.013705.11004@cbfsb.cb.att.com>
+Sender: news@cbfsb.cb.att.com
+Organization: AT&T
+Distribution: na
+Date: Mon, 19 Apr 1993 01:37:05 GMT
+Lines: 11
+
+Would someone please email me the pinout for a PS/2 6-pin mini DIN mouse
+port?  I'm trying to make an adapter for a serial mouse, and the dealer who
+knows what adapter works with the mouse I bought doesn't have it in stock.
+I have several different adapters, but none of them make sense based on
+what sketchy information I have about the port (they have connections to
+"reserved" pins).
+
+--
+Bob Nichols
+AT&T Bell Laboratories
+rnichols@ihlpm.ih.att.com
+Xref: cantaloupe.srv.cs.cmu.edu comp.os.msdos.misc:12966 comp.os.msdos.apps:10681 comp.sys.ibm.pc.hardware:60474 comp.sys.ibm.pc.misc:34177
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!ogicse!cs.uoregon.edu!news.uoregon.edu!netnews.nwnet.net!news.u.washington.edu!hardy.u.washington.edu!arthur
+From: arthur@hardy.u.washington.edu (howard roark)
+Newsgroups: comp.os.msdos.misc,comp.os.msdos.apps,comp.sys.ibm.pc.hardware,uw.pc.ibm,comp.sys.ibm.pc.misc
+Subject: PROBLEM WITH PRINTER AND EMM386.EXE!!
+Message-ID: <1qtbh0INN7nh@shelley.u.washington.edu>
+Date: 19 Apr 93 04:58:08 GMT
+Article-I.D.: shelley.1qtbh0INN7nh
+Distribution: world
+Organization: University of Washington, Seattle
+Lines: 8
+NNTP-Posting-Host: hardy.u.washington.edu
+
+I recently decided to try using emm386.exe for a memory manager and when I
+tried to print to my printer in lpt1 from word55 I wouldn't work.  It would
+send the linefeeds for the top margin and then the printer READY light would
+go off and stop working.  I disabled emm386.exe and the problem went away.
+I would like to continue using emm386.exe if possible.  I would greatly    
+appreciate any comments or suggestions!!  please send them to arthur@u.washingt,
+
+arthur@u.washington.edu 
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!bogus.sura.net!darwin.sura.net!convex!news.utdallas.edu!goyal
+From: goyal@utdallas.edu (MOHIT K GOYAL)
+Subject: Re: IDE vs SCSI
+Message-ID: <C5psyB.LD7@utdallas.edu>
+Sender: usenet@utdallas.edu
+Nntp-Posting-Host: csclass.utdallas.edu
+Organization: Univ. of Texas at Dallas
+References: <1993Apr19.034517.12820@julian.uwo.ca>
+Date: Mon, 19 Apr 1993 05:08:35 GMT
+Lines: 30
+
+>How do you do bus-mastering on the ISA bus?
+
+By initiating a DMA xfer.  :)
+
+Seriously, busmastering adapter have their own DMA ability, they don't use
+the motherboards on-board DMA(which is *MUCH* slower).
+
+ISA has no bus arbitration, so if two busmastering cards in 1 ISA system
+try to do DMA xfers on the same DMA channel the system will lock or 
+crash.(I forget)
+
+Their are 8 DMA channels in an ISA system. 0-7. 0-3 are 8-bit & 4-7 are
+16-bit.
+
+The system uses DMA 0, a SoundBlaster uses DMA 1.
+
+I could buy a busmastering XGA-2 video card & a busmastering SCSI HA.
+
+In order for them to work properly, I would have to find out what DMA
+channel the XGA-2 card uses and then simply configure the SCSI HA to
+use a different DMA channel for its DMA xfers.
+
+I don't know if multiple DMA xfers can go on at the same time on ISA.
+I'm not sure if they can on EISA systems either.
+
+I do know that on EISA/MCA systems, you can allow BM cards to use the
+same DMA channel.
+
+Thanks.
+
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usenet.ins.cwru.edu!cleveland.Freenet.Edu!ab245
+From: ab245@cleveland.Freenet.Edu (Sam Latonia)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: Perfect MAG MX15F Monitors?
+Date: 19 Apr 1993 06:02:58 GMT
+Organization: Case Western Reserve University, Cleveland, Ohio (USA)
+Lines: 27
+Message-ID: <1qtfai$n2e@usenet.INS.CWRU.Edu>
+NNTP-Posting-Host: slc10.ins.cwru.edu
+
+
+
+
+
+Article #60579 (60704 is last):
+From: r0h7630@tamuts.tamu.edu (Rithea Hong)
+>Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: Perfect MAG MX15F Monitors?
+Date: Sat Apr 17 07:13:05 1993
+
+A friend of mine got a Mag of the above model and it had some distrotion, so
+he sent it back.  Unfortunately, the replacement also was distorted.  I would
+bet it's a common problem.  The best advice I've heard when buying monnitors
+is to actually look at the specific one you will buy (as opposed to model)
+since monitor manufacturing even from "Big Names" still tends to produce
+alot of monitors with visible defects.
+
+
+                              Rithea Hong
+                       (r0h7630@tamuts.tamu.edu)
+End of File, Press RETURN to quit
+
+Just to name two at the top of my list of crap monitor makers are,
+SONY & MAGNAVOX...Sam
+-- 
+Gosh..I think I just installed a virus..It was called MS DOS6...
+Don't copy that floppy..BURN IT...I just love Windows...CRASH...
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!pipex!sunic!uts!daimi!aau!joedal
+From: joedal@dfi.aau.dk (Lars Joedal)
+Subject: 80386 and 80486: What's the difference?
+Message-ID: <joedal.735221221@dfi.aau.dk>
+Sender: news@aau.dk
+Nntp-Posting-Host: dfi.aau.dk
+Organization: Aarhus University, Denmark
+Date: Mon, 19 Apr 1993 12:07:01 GMT
+Lines: 31
+
+Except from clock frequency, what are the differences between the
+various types of 386 and 486 processors?
+The following is a list with what I know (or perhaps only what I
+think I know!). Can anybody extend & correct?
+
+
+80386:  True 32 bit processor.
+        (cache?)
+
+80386SX:  Emulates 80386 with a 16 bit bus.
+
+80486:  True 32 bit processor.
+        Internal mathematical coprocessor (Correct?)
+        Internal cache (Correct? How big?)
+        (extended instruction set in any way?)
+
+80486SX:  Probably sorta like 80486...
+
+80486DX:  Probably sorta like 80386...
+
+
+Well, it's not much, but I'm sure there is a lot of people out there
+who can add a lot of information. Post or email as you prefer.
+
++------------------------------------------------------------------------+
+| Lars J|dal                | Q: What's the difference between a quantum |
+| email: joedal@dfi.aau.dk  |    mechanic and an auto mechanic?          |
+| Physics student at the    | A: A quantum mechanic can get his car into |
+| University of Aarhus      |    the garage without opening the door.    |
+| Denmark                   |                    -- David Kra            |
++------------------------------------------------------------------------+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!agate!ames!news.Hawaii.Edu!iniki!himb
+From: himb@iniki.soest.hawaii.edu (Liz Camarra)
+Subject: Re: ZEOS VESA Video Changes & Specs
+Message-ID: <C52pnq.HA6@news.Hawaii.Edu>
+Sender: news@news.Hawaii.Edu
+Organization: School of Ocean and Earth Science and Technology
+References: <1993Apr06.154348.17163@zeos.com>
+Date: Tue, 6 Apr 1993 17:52:37 GMT
+Lines: 19
+
+In article <1993Apr06.154348.17163@zeos.com> root@zeos.com (Superuser) writes:
+>
+>                     NCR              Stealth 24 VLB        Viper VLB
+>64Ox480 Colors       16,256           16,256,32K,64K,16.7M 16,256,32K,64K,16.7M *
+[stuff deleted]
+>Video RAM            1M               1M                    1M
+>Max RAM addressable
+>  by Vid Processor   3M               2M                    2M
+                                       ^^
+
+  Just a note, even though the 805 can address 2 megs of dram, the
+Stealth 24 VLB can only handle 1 meg, unless Diamond has a newer
+design (or some special deal with Zeos).
+
++----------------------------------------------------------------+
+Stephen Lau, Elec. Engineering, Univ. of Hawaii
+*Using a friend's account while waiting for my new grad. account*
++              Death to FM synthesis! Go Gus!                    +
+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!mcsun!news.funet.fi!aton.abo.fi!usenet
+From: JMARTTILA@FINABO.ABO.FI (Fast-Eddie Felson)
+Subject: TRIDENT 8800CS DRIVERS FOR WIN 3.1?
+Message-ID: <1993Apr19.125349.515@abo.fi>
+Sender: usenet@abo.fi (Usenet NEWS)
+Organization: Turku School of Economics
+Date: Mon, 19 Apr 1993 12:53:49 GMT
+X-News-Reader: VMS NEWS 1.24
+Lines: 15
+
+Hello
+
+I've got an old Trident 8800CS SVGA card, but lacking suitable drivers
+for windows 3.1. The drivers for the 8900 series seem to be incompatible.
+Does anyone have an idea of where to get these drivers? Address for an
+ftp-site would be nice. 
+
+Thanks in advance
+
+Jouni
+
+_______________________________________________________________________________
+Jouni Marttila - Yo-kyl{ 11 B 25,  20540 Turku,  FINLAND - +358 21 374624____
+jmarttila@abo.fi - jmarttila@finabo - abovax::jmarttila - jjmartti@utu.fi__
+PGP-key available via finger jmarttila@abo.fi ___________________________
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!noc.near.net!uunet!das.wang.com!wang!tosspot!lee
+From: lee@tosspot.sv.com (Lee Reynolds)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: 16 bit MFM HD controller wanted.
+Message-ID: <85g02B2w165w@tosspot.sv.com>
+Date: Mon, 19 Apr 93 12:03:54 EDT
+Organization: Ludus Associates, Incorporated.
+Lines: 8
+
+Hi again!
+
+    Okay, am getting an old AT type together as well.
+Anyone have a 16 bit MFM HDC they'd like to sell? WD is preferred, but
+Adaptec and DTK are fine too......for that matter, almost anything
+so long as it works!
+
+                       Lee  (lee@tosspot.sv.com)
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!noc.near.net!das-news.harvard.edu!ogicse!news.u.washington.edu!carson.u.washington.edu!sinn
+From: sinn@carson.u.washington.edu (Philip Sinn)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Need Info of Maxtor 340SY SCSI jumper ID setting.
+Summary: Jumper ID of Maxtor 340SY harddrive
+Keywords: harddisk, Maxtor
+Message-ID: <1qusbtINNd9c@shelley.u.washington.edu>
+Date: 19 Apr 93 18:51:41 GMT
+Article-I.D.: shelley.1qusbtINNd9c
+Distribution: na
+Organization: University of Washington, Seattle
+Lines: 7
+NNTP-Posting-Host: carson.u.washington.edu
+
+I got a harddisk shipped with an IDE specification but not the
+SCSI spec. Would someone tell me how to set the jumper on
+the harddrive? Thanks.  Please email response.
+
+Philip Sinn
+sinn@carson.u.washington.edu
+University of Washington
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!usc!elroy.jpl.nasa.gov!sdd.hp.com!nigel.msen.com!yale.edu!ira.uka.de!smurf.sub.org!flatlin!synerix!ihno
+From: ihno@generics.ka.sub.org (Ihno Krumreich)
+Subject: CD-ROM drives
+Message-ID: <1993Apr19.084449.24968@generics.ka.sub.org>
+Summary: Hit list of the most sold CD-ROM drives without SCSI-Interface
+Keywords: CD-ROM drives
+Organization: Synerix GmbH, Karlsruhe
+Date: Mon, 19 Apr 1993 08:44:49 GMT
+Lines: 23
+
+Has someone a list of CD-ROM's with no SCSI-Interface and if known
+how much they are present in the market.
+
+Please mail direcktly as I am not reguarly reading the group.
+
+I'll post a summary if wanted.
+
+
+Thanks
+
+Ihno
+
+==============================================================================
+Ihno Krumreich       | Phone (49) 721 955 253 0        U   U N   N  III  X   X
+Synerix Gmbh         | email: ihno@generics.ka.sub.org U   U NN  N   I    X X
+Bach Strasse 24      | FAX   (49) 721 59 02 11         U   U N N N   I     X
+D-W7500 Karlsruhe 21 |                                 U   U N  NN   I    X X
+                                                        UUU  N   N  III  X   X
+-- 
+
+==============================================================================
+Ihno Krumreich       | Phone (49) 721 955 253 0        U   U N   N  III  X   X
+Synerix Gmbh         | email: ihno@generics.ka.sub.org U   U NN  N   I    X X
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!caen!nigel.msen.com!yale.edu!not-for-mail
+From: keegan-edward@cs.yale.edu (Edward Keegan)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: DEC MT 486, Adaptec SCSI, 3COMM conflict
+Date: 19 Apr 1993 17:27:01 -0400
+Organization: Yale University Computer Science Dept., New Haven, CT 06520-2158
+Lines: 14
+Distribution: world
+Message-ID: <1qv5f5INNe6e@THUMPER.CF.CS.YALE.EDU>
+NNTP-Posting-Host: thumper.cf.cs.yale.edu
+
+
+I have a DEC NT 486DX33 that has an Adaptec SCSI controller, hard disk
+and cd-rom drive. When I add a 3COMM Ethernet card (3C503) and reboot
+the system I receive an error message that a boot device cannot be
+found. Pull the 3COMM card and reboot, everything is fine. I've moved
+the controller and 3COMM card to various slots, different positions
+(slot before the controller, slot after the controller) with the
+same result. DEC hasn't responded to the problem yet. Any help would
+be appreciated.
+-- 
+Edward T. Keegan, Facility Director             E-MAIL: keegan@cs.yale.edu
+Yale University, Computer Science Department     PHONE: 1-203-432-1254
+51 Prospect Street, Room 009                       FAX: 1-203-432-0593
+New Haven, CT 06520
+Xref: cantaloupe.srv.cs.cmu.edu comp.os.msdos.misc:13019 comp.sys.ibm.pc.hardware:60652
+Newsgroups: comp.os.msdos.misc,comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!bogus.sura.net!news-feed-1.peachnet.edu!umn.edu!csus.edu!netcom.com!bsardis
+From: bsardis@netcom.com (Barry Sardis)
+Subject: Re: Date is stuck
+Message-ID: <bsardisC5sJ1F.Bpz@netcom.com>
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+References: <1qte10$kn5@usenet.INS.CWRU.Edu> <1993Apr19.063104.3023@credit.erin.utoronto.ca> <jamescC5rrC3.HKp@netcom.com>
+Date: Tue, 20 Apr 1993 16:27:15 GMT
+Lines: 39
+
+jamesc@netcom.com (James Chuang) writes:
+
+
+>When you leave your radio on at night, it may not be doing anything useful.
+>But computers can do something useful even when YOU are not in front of it.
+>Just because MS-DOS and WINDOZE does not know how to schedule tasks does
+>not mean that all computers hould be shut down every night.
+
+>I bet starting up NT every morning means a good coffee break....  
+>jamesc
+
+
+>-- 
+>=========================================
+>If someone asks if you are a God, you say... YES!
+
+In addition to startup time, I leave things running because my PC doubles as 
+a fax machine. 
+
+However, this is off the original subject. I didn't get the replies on BIOS, 
+CMOS, and DOS clock/date logic. All I know is that I've been running this way 
+for many months and it is only recently, the last month, that I have noticed 
+the intermittent clock problem. As I stated, it is not always the date that 
+doesn't roll forward, sometimes I notice that the clock is several minutes 
+behind where it ought to be. 
+
+When unattended, the following are generally running minimized in Win 3.1:
+
+Clock, WinFax Pro 3.0, Print Manager, MS-Word 1.1, File Manager, Program 
+Manager
+
+A random screen saver is generally running too.
+
+
+-- 
+Barry Sardis            | Home:   (408) 448-1589
+1241 Laurie Avenue      | Office: (408) 448-7404
+San Jose, CA 95125      | Fax:    (408) 448-7404
+Email: bsardis@netcom.COM or 70105.1210@compuserve.COM
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.ibm.pc.hardware:60656 comp.os.linux:37518
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!uwm.edu!ogicse!netnews.nwnet.net!serval!luke.eecs.wsu.edu!hlu
+From: hlu@luke.eecs.wsu.edu (HJ Lu)
+Newsgroups: comp.sys.ibm.pc.hardware,comp.os.linux
+Subject: Re: Debugging possible hardware problems
+Message-ID: <1993Apr20.151405.12480@serval.net.wsu.edu>
+Date: 20 Apr 93 15:14:05 GMT
+Article-I.D.: serval.1993Apr20.151405.12480
+References: <1r0rslINNnv2@senator-bedfellow.MIT.EDU>
+Sender: news@serval.net.wsu.edu (USENET News System)
+Organization: Washington State University!
+Lines: 54
+
+In article <1r0rslINNnv2@senator-bedfellow.MIT.EDU> jfc@athena.mit.edu (John F Carr) writes:
+>
+>I'm running Linux on an 80486 EISA system, and I'm having what I think are
+>hardware problems.  It could be software, but I don't see why I'd be the
+>only one having trouble.  I'd like some advice on how best to debug this.
+>
+>The symptom: when I try to build gcc, I get unpredictable and unrepeatable
+>results.  Sometimes a .o file is not in valid a.out format.  Recompiling the
+>file gives me a valid binary.  Sometimes the compiler aborts or dumps core,
+>but works fine when run again with the same input.  Compiling the same
+>source files with the same arguments gives slight differences in a few
+>object files.  (Note that Linux, unlike many other systems, does not put
+>timestamps in object files so compiling twice should give bit-identical
+>results.)
+>
+>I also have occasional filesystem corruption on my SCSI drive, but that
+>could be caused by using development software.  It could also be related to
+>my problems compiling.  The compile problems are not caused by disk
+>problems: I get the same results whether I do my work on an IDE or SCSI
+>disk.
+>
+>I've set the memory speed and cache write speed to the recommended values.
+
+Recommended for what, DOS? That is a junk.
+
+>
+>I suspect the external cache, but I have no real evidence for this.
+>
+>The motherboard is a NICE Super-EISA with 256 KB write-back cache and a DX/2
+>66 Mhz processor.
+>
+>What I'm looking for:
+>
+>       . A system test program to run under DOS or Linux
+
+        Linux + gcc. Fire up gcc to compile libc and kernel at the
+        same time running X11R5.
+
+>
+>       . Suggestions about the cause of the problem
+
+        Bad memory, bad motherboard, bad cache.
+
+>
+>       . Suggestions about how to debug the problem
+>
+
+        change wait state of RAM.
+        turn off turbo.
+        change bus speed
+        swap RAM.
+
+
+H.J.
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!ub!oswego!soswva!mulvey
+From: mulvey@blurt.oswego.edu (Allen Mulvey, SUNY, Oswego, NY)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: Can't set COM4
+Message-ID: <1993Apr20.132107.1460@blurt.oswego.edu>
+Date: 20 Apr 93 18:21:07 GMT
+References: <C5rAJn.67@cbnewsh.cb.att.com>
+Distribution: usa
+Organization: SUNY College at Oswego, Oswego, NY
+Lines: 28
+
+In article <C5rAJn.67@cbnewsh.cb.att.com>, k4bnc@cbnewsh.cb.att.com (john.a.siegel) writes:
+> I have been unable to get COM 4 to work - diagnostic programs such as msd show
+> nothing installed.  I think the software options are OK - is there a known
+> hardware conflict and/or workaround for this problemand CD ROM
+> System is a G2K 486DX2/66 tower with ATI video card
+> Ports are set as follows 
+>   On board COMa = COM1 IRQ4 to external device
+>   Internal modem = COM 3 IRQ5
+>   DFIO port card primary port = COM 2 IRQ3  mouse
+>   On board COM B = COM 4 IRQ 9  <--- DOES NOT WORK
+> I have run this from a boot disk with only command.com to eliminate softwar
+> 
+> Any suggestions before I call technical support?
+> John Siegel
+> k4bnc@cbnewsh.att.com
+> jas@hrollie.hr.att.com
+
+I had this problem some time ago.  Some BIOSes do not automatically install 
+COM3 or COM4 in the port tables. Programs like most modem programs which 
+write directly to the port work fine but anything that uses a BIOS call 
+fails. Find a BBS or FTP site where you can get a copy of PORT FINDER. Put 
+"device=pf.sys" in your config.sys or run pf.com from your autoexec.bat. 
+This little program will locate all existing ports and make sure the BIOS 
+tables are updated. It works great. PF will also let you swap ports and 
+such also if that is of any value to you.
+
+                        Allen Mulvey
+                        mulvey@blurt.oswego.edu
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!darwin.sura.net!sgiblab!nec-gw!netkeeper!vivaldi!aslws01!aslslc120!murthy
+From: murthy@aslslc120.asl.dl.nec.com (Vasudev Murthy)
+Subject: PCs from Gateway - opinions sought
+Message-ID: <1993Apr20.205328.2106@asl.dl.nec.com>
+Sender: news@asl.dl.nec.com
+Nntp-Posting-Host: aslslc120
+Organization: NEC America, Inc. Irving, Texas
+Distribution: usa
+Date: Tue, 20 Apr 1993 20:53:28 GMT
+Lines: 25
+
+
+Sorry if this has been beaten to death on this forum.
+
+I am looking seriously at buying a 486 DX / 33 from Gateway.
+I will probably buy it without a monitor, as I've heard negative
+stuff about Gateway monitors.
+
+I've also heard its tough to get through to technical
+support.
+
+I'm seeking opinions on whether or not its wise to go ahead
+based on criteria such as price, warranty service, general
+ruggedness of the system, reliability of the machine and of
+Gateway too, and so on.
+
+Please advise!!
+
+Thanks in advance!
+
+Vasudev Murthy
+-- 
+Vasudev Murthy             Any opinions expressed are strictly  
+murthy@asl.dl.nec.com      my own  and have nothing to do with
+(214) 518-3602             Advanced Switching Lab, NEC America, Inc.
+1525 Walnut Hill Lane Irving TX 75038
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!saimiri.primate.wisc.edu!zazen!doug.cae.wisc.edu!christyo
+From: christyo@cae.wisc.edu (Buddy Christyono)
+Subject: Summary: DoubleDisk Gold v 6.0
+Organization: U of Wisconsin-Madison College of Engineering
+Date: 20 Apr 93 16:11:04 CDT
+Message-ID: <1993Apr20.161104.28283@doug.cae.wisc.edu>
+Lines: 98
+
+Hi Netters,
+
+As promised, here are the summary of opinions on DoubleDisk Gold v.6.0.
+People seem to be quite happy with the product. There is no much of
+opinion on how good it is compared to the industry leader Stacker 3.0.
+(Superstor Pro is not considered since it is slower than Stacker although
+just as reliable - BYTE Magazine's conclusion ;-) ), so it's hard to make
+any decision to go with Stacker or with DoubleDisk Gold v6.0. 
+However, it seems that at $39.95, it is quite a buy.
+
+Buddy Christyono
+buddy@optics.ece.wisc.edu
+-------------------------------------------------------------------------
+summary of replies
+-------------------------------------------------------------------------
+Hello Buddy,
+
+I do not have DD Gold 6.0 experience.  I just ordered it.  I currently have
+DD 2.3 (the last version).  I am very pleased with its performance.
+
+Here is my suggestion...
+
+1)  If you do not have any compression software currently, I would go with
+        DOS 6.0's compression.  All the discussion on the net indicates that
+        for $50 you get the compression (built into the OS), plus the other
+        utilities that you would pay way more than $50 for.  Besides, you 
+        are now at DOS6.0 (whatever that means...)
+
+2)  If you have DoubleDisk 2.3 already (like I do), the cost is $29.95
+        for the upgrade.  After thinking about it and asking the net, I
+        decided that I could not go wrong with the update cost!
+        I have never suffered from performance of DD.  I have a 12ms HD with
+        large SW packages in both compressed and uncompressed format.  It
+        works great.  Not delays.  I think the "A" is better than "B" 
+        arguements are a lot of bunk... they are all comparable in performance.
+        I am looking forward to being able to "LOADHIGH" the DD sw.  That
+        has been an annoyance.
+
+3)  If you have Stacker, et.al. currently, I would not see it worth the
+        effort to upgrade.
+
+Just my $.02 ...
+
+Regards,
+Mark Bagdy
+----------------------------------------------------------------
+Buddy,
+
+I got the same mailer. About 2 weeks ago I got DDG and installed it. The
+documentation was, in my opinion, easy to follow. I used the automatic
+installation (not the custom) and everything went smoothly.
+
+There were some specific instructions on a readme file for dealing with 386max
+& QEMM. DDG has an uninstall (unlike DOS6.0) if you need it. My system has a
+203Mb hard drive. before installing DDG I had ~5Mb free. After DDG I had
+~197Mb free. Pretty good statistics considering that my 8Mb permanent windows
+swap file stayed on the uncompressed portion (along with other drivers and
+such).
+
+I have had no problems whatsoever. I have noticed no slowdown (other than it
+takes a little longer to boot) either in windows or dos. So far I am a very
+happy camper.
+
+-Bruce
+-- 
+  Bruce F. Steinke                    | "Never know when you're going to
+  bsteinke@dsd.es.com                 |  need a good piece of rope."
+  Software Technical Support Engineer |               Sam Gamgee
+  Evans & Sutherland Computer Corp.   |      <My mail, My Opinions>
+---------------------------------------------------------------------------
+
+        I have been using DoubleDisk Gold for a little more than a month on
+a 486DX 33Mhz, 120MB Seagate drive, running DOS & Windows in 386 enhanced
+mode.
+        I ran some tests and concluded that the speed of a DoubleDisk drive
+with a drive read cache is about equal to the bare drive without a cache.
+        I have no complaints about reliability.  It was very easy to install.
+The only problem I had was with Castle Wolfenstein 3-D.  I assumed the game
+was trying to bypass DOS disk access and moved the game to the non-compressed
+region of the disk.  Since then the game has never given me a problem. 
+There was never any damage to the DoubleDisk drive.
+        Compression performance for the whole disk has held steady 
+around 1.8:1.  This is lower than expected but about 20% (size) of my files 
+are compressed image files and some large zip files.  
+
+If you have any more specific questions let me know.
+Dan
+---------------------------------------------------------------------------
+
+I bought it an have been happy with it.  I use it on both MFM and IDE 40
+MB drives.  I was using DoubleDisk before Gold came out.  That is the
+same product MSDOS 6.0 is shipping with.  No problems with either
+product.
+
+-- 
+Ron Bjornseth                 bjornset@pogo.den.mmc.com
+///////////////////////////////////////////////////////////////
+-------------------- END OF MESSAGES --------------------------------------
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!pitt.edu!pitt!cup.edu!luf4695
+From: luf4695@cup.edu
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: Gateway UART chip?
+Message-ID: <1993Apr6.121033.249@cup.edu>
+Date: 6 Apr 93 17:10:33 GMT
+References: <theall.92.0@gdalsrv.sas.upenn.edu> <spiroC4Bssw.Drq@netcom.com>
+Distribution: usa
+Organization: California University of Pennsylvania, California, PA
+Lines: 27
+
+In article <spiroC4Bssw.Drq@netcom.com>, spiro@netcom.com (Philip N. Spiro) writes:
+> George A. Theall (theall@gdalsrv.sas.upenn.edu) wrote:
+> : In article <dickyjC4B7H8.BMt@netcom.com> dickyj@netcom.com (Dicky Johan) writes:
+> : >It seems that there are using the 16450 UART chip in the
+> : >machine. Is that the same as the 16550 UART chip, which has a 16-bytes
+> : >buffer? 
+> 
+> :   No, it's not. According to the sales critter I spoke with last week, 
+> : though, Gateway does use socketed chips. You should be able to find the 
+> : 16550AFN for about $15 and upgrade the chip yourself. Minor nuisance.
+> 
+> For whatever it's worth, my GW salesman said that their 16450 would do
+> 14.4kbps and was soldered to the board. 
+> 
+> Will someone with a recent GW pls settle this by inspection!
+> -- 
+> Phil
+> -------------------------------------------
+> Phil Spiro  spiro@netcom.com   415-964-6647
+
+MINE has a 16450 sodered right on the card.  Why would you need the 16550
+anyway?  From what I've heard, when you're multitasking, its FIFO buffer keeps
+you from loosing data.  Is this right?
+
+Bryan Luff
+Math & Comp. Sci.
+Cal. U. of PA
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!concert!bdrc!jcl
+From: jcl@bdrc.bd.com (John C. Lusth)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Kentucky Fried CMOS beats Hardees!
+Message-ID: <4143@bdrc.bdrc.bd.com>
+Date: 20 Apr 93 20:44:44 GMT
+Sender: news@bdrc.bdrc.bd.com
+Organization: Becton Dickinson Research Center; RTP, N.C.
+Lines: 37
+Nntp-Posting-Host: otis.bdrc.bd.com
+
+Hey folks.
+
+Is it possible to short out your CMOS chip?  I think mine is fried.
+These are the symptoms...
+
+I have to do the following to get my computer (a Gateway 486DX33)
+to boot...
+
+    Turn the power off
+
+    Disconnect the battery to the CMOS chip
+
+    Turn the power on
+
+    Get into setup upon getting the CMOS configuration error
+
+    Set up the CMOS
+
+    Exit the setup with [F10]  (phoenix bios)
+
+    Ignore the diskette 0 seek error and press [F1]
+
+The computer then boots normally.  Both hard drives are accessible
+but the floppy drives are not.
+
+I can back up over the network and such, but if I need to reboot,
+I have to turn off the computer and repeat the steps above.  If I
+simply <Ctl>-<Alt>-<Del>, the computer hangs after the memory test.
+
+Does this sound like the CMOS chip is fried?  Can I buy another one?
+Where?
+
+Thank you for your kind attention.
+
+john
+-- 
+John C. Lusth, Becton Dickinson Research Center, RTP, NC, USA  jcl@bdrc.bd.com
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cert.org!netnews.upenn.edu!catone
+From: catone@compstat.wharton.upenn.edu (Tony Catone)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: 17" Monitors
+Message-ID: <CATONE.93Apr20171307@compstat.wharton.upenn.edu>
+Date: 20 Apr 93 21:13:07 GMT
+References: <1qvgvl$aad@access.digex.net> <C5sHLJ.ErE@trc.amoco.com>
+Sender: news@netnews.upenn.edu
+Organization: University of Pennsylvania
+Lines: 12
+Nntp-Posting-Host: compstat.wharton.upenn.edu
+In-reply-to: zrdf01@trc.amoco.com's message of 20 Apr 93 15:56:06 GMT
+
+In article <C5sHLJ.ErE@trc.amoco.com> zrdf01@trc.amoco.com (Rusty Foreman) writes:
+
+   Has anyone taken a look at the new ViewSonic 17? They claim
+   1280x1024 at 76Hz.  How does it compare with the T560i in terms of
+   price, and quality of display?
+
+I'm interested in the new ViewSonic 17 as well.  Has anyone seen one
+of these monitors in the flesh?
+
+
+- Tony
+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!bogus.sura.net!news-feed-1.peachnet.edu!umn.edu!csus.edu!netcom.com!westes
+From: westes@netcom.com (Will Estes)
+Subject: Mounting CPU Cooler in vertical case
+Message-ID: <westesC5swA5.7vz@netcom.com>
+Organization: Mail Group
+X-Newsreader: TIN [version 1.1 PL8]
+Date: Tue, 20 Apr 1993 21:13:16 GMT
+Lines: 13
+
+I just installed a DX2-66 CPU in a clone motherboard, and tried mounting a CPU 
+cooler on the chip.  After about 1/2 hour, the weight of the cooler was enough 
+to dislodge the CPU from its mount.  It ended up bending a few pins
+on the CPU, but luckily the power was not on yet.  I ended up
+pressing the CPU deeply into its socket and then putting the CPU
+cooler back on.  So far so good.
+
+Have others had this problem?  How do you ensure that the weight of
+the CPU fan and heatsink do not eventually work the CPU out of its
+socket when mounting the motherboard in a vertical case?
+
+-- 
+Will Estes              Internet: westes@netcom.com
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!pacific.mps.ohio-state.edu!zaphod.mps.ohio-state.edu!usc!sdd.hp.com!hpscit.sc.hp.com!cupnews0.cup.hp.com!news1.boi.hp.com!hp-pcd!hpspkla!wende
+From: wende@spk.hp.com (Mike Wende)
+Subject: Re: Zeos Computers
+Sender: news@spk.hp.com
+Message-ID: <C5t0A7.InI@spk.hp.com>
+Date: Tue, 20 Apr 1993 22:39:42 GMT
+References: <C5MAK6.1w6@fasttech.com>
+Organization: Hewlett-Packard
+X-Newsreader: TIN [version 1.1.4 PL6]
+Lines: 19
+
+I have had a Zeos for a couple months.  While the experience was not
+painless or perfect, it was way better than that endured by most (7
+people I personally know) who have ordered Gateways.  (Of course,
+several of the Gateway buyers were rewarded by getting free stuff as
+Gateway can't seem to keep track of what it has or hasn't sent
+out...B{) 
+
+I got the 1 MB Viper card.  The first one was defective, but Zeos
+replaced it with only minor hassles.  This one works fine.  I haven't
+noticed any problems in any of my applications.  I also ordered it
+because of all the complaints about the ATI a few months ago.  Guess
+you can choose either buggy state-of-the-art stuff, or robust average
+stuff.... 
+
+For my particular configuration (tower, 300 watt supply, pkg#3, no
+monitor, viper, etc.) the Zeos was slightly cheaper than Gateway,
+Austin, etc.  But this can change from month to month.
+
+Mike
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!saimiri.primate.wisc.edu!eng.ufl.edu!usenet.ufl.edu!sinkhole.unf.edu!unf6.cis.unf.edu!lhenso
+From: lhenso@unf6.cis.unf.edu (Larry Henson)
+Subject: IBM link to Imagewriter -- HELP!! 
+Message-ID: <1993Apr20.225954.29861@sinkhole.unf.edu>
+Sender: news@sinkhole.unf.edu (News System)
+Organization: University of North Florida, Jacksonville
+References: <1993Apr17.174827.24434@julian.uwo.ca>
+Date: Tue, 20 Apr 1993 22:59:54 GMT
+Lines: 10
+
+        Hello, I am trying to hook an Apple Imagewriter to my IBM Clone.
+I seem to have a problem configuring my lpt port to accept this.  How can
+you adjust baud, parity, etc. to fit the system?  I tried MODE, but it did
+not work.  If anyone can help, post of e-mail.  Thanx.
+
+-- 
+        "Abort, Retry, FORMAT?!?!?
+        Doctor, give me the chainsaw...
+        Trust me! I'm a scientist!"
+                                Larry Henson
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!uwm.edu!caen!batcomputer!munnari.oz.au!uniwa!skcgoh
+From: skcgoh@tartarus.uwa.edu.au (Shaw Goh)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: How is a Loopback connector made?
+Date: 21 Apr 1993 02:01:59 GMT
+Organization: The University of Western Australia
+Lines: 12
+Message-ID: <1r29un$ii4@uniwa.uwa.edu.au>
+References: <1993Apr19.132628.1@uwovax.uwo.ca>
+NNTP-Posting-Host: tartarus.uwa.edu.au
+X-Newsreader: Tin 1.1 PL5
+
+35002_4401@uwovax.uwo.ca wrote:
+: I need to know the Pins to connect to make a loopback connector for a serial
+: port so I can build one.  The loopback connector is used to test the 
+: serial port.
+: 
+: Thanks for any help.
+: 
+: 
+: Steve
+: 
+Me Too!!!!!!!
+skcgoh@tartarus.uwa.edu.au
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!saimiri.primate.wisc.edu!caen!batcomputer!munnari.oz.au!comp.vuw.ac.nz!canterbury.ac.nz!cantva!cctr132
+From: cctr132@csc.canterbury.ac.nz (Nick FitzGerald, PC Software Consultant, CSC, UoC, NZ)
+Subject: Re: 3.5 floppy only reads what IT wrote
+Message-ID: <1993Apr21.144259.1@csc.canterbury.ac.nz>
+Followup-To: comp.sys.ibm.pc.hardware
+Nntp-Posting-Host: cantva.canterbury.ac.nz
+Reply-To: Nick FitzGerald <n.fitzgerald@csc.canterbury.ac.nz>
+Organization: University of Canterbury, Christchurch, New Zealand
+References: <1434@netxcom.netx.com>
+Date: Wed, 21 Apr 1993 02:42:59 GMT
+Lines: 31
+
+In article <1434@netxcom.netx.com>, pdressne@netxcom.netx.com (Peter
+Dressner) writes:
+
+> I have a Gateway with a 3.5 floppy. The drive only reads files it
+> wrote to the floppy. Floppies that have been formatted and 
+> contain files from other machines are unreadable. Also, 3.5 floppies
+> that were written by this defective floppy drive a long time ago are
+> also unreadable.
+> 
+> This sounds like a head alignment problem.
+
+Too right it does!
+
+> ... How does one go about
+> fixing it? Are there alignment screws that you can adjust?
+
+The --VERY VERY FIRST-- thing you do is make sure that --ALL-- files on
+the floppies that you can currently read in the drive, which aren't
+already on your HD or another floppy (if you have -two- floppy drives)
+get copied to your HD (and/or to a floppy in your other drive).
+
+If you don't do this before fixing the alignment problem you have kissd
+those files goodbye.  (Well, you can -try- to re-misalign the drive back
+to read your floppies, but don't count on be able to do so!)
+
+Generally, head alignment is something I'd only trust to a good repair
+shop (though there are/have been DIY guides).
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ Nick FitzGerald, PC Applications Consultant, CSC, Uni of Canterbury, N.Z.
+ n.fitzgerald@csc.canterbury.ac.nz  TEL:+64(3)364 2337, FAX:+64(3)364 2332
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!rphroy!cfctech!stratsft!dwayne
+From: dwayne@stratsft.uucp (Dwayne Bailey)
+Subject: Need help identifying Serial board
+Message-ID: <1993Apr20.235850.8287@stratsft.uucp>
+Organization: Strategic Software, Redford, Michigan
+Date: Tue, 20 Apr 1993 23:58:50 GMT
+Lines: 26
+
+I need some help with a multi port serial board of unknown origin.  I'm
+hoping someone knows what this board is, or, even better, what the various
+switches and jumbers are used for.
+
+Anyway, here's  description of the card:  It is a 16-bit card, although
+I noticed that none of the contacts in the 16-bit extension are connected
+to anything.  It has 4 NS16550AN chips in sockets, and 4 corresponding
+connecters labeled COM1 - COM4.  There is also an external female connector
+with 37 pins.  There are 8 banks of 8 switches, 2 banks of 4 switches, and
+7 jumpers.  I believe that I have determined, by following traces, that
+SW5 and SW6 (12 switches in all) control the interrupt level for each of
+the COM ports.  SW5[1-4] are for IRQ3, SW5[5-8] are for IRQ4, and SW6[1-4]
+are for IRQ5.  The other switches are beyond my meager ability to follow.
+             
+The only identification printed on the board is "MULTI SERIAL PORT BOARD"
+across the bottom.  There is a box for serial number, but it is blank.
+Immediately below the words "SERIAL NO", but not in the box left for
+the S/N, are the numbers "1990 2 8".
+
+Anyone have any clues?  Your help is greatly appreciated.
+
+-- 
+dwayne@stratsft.UUCP       + "We have ways to make you scream." 
+Dwayne Bailey              + -- Intel advertisement,
+Strategic Software         +  in the June 1989 Doctor Dobbs Journal
+Redford, Michigan          + 
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.ibm.pc.hardware:60735 biz.comp.hardware:664 comp.misc:20401 comp.sys.ibm.pc.misc:34289
+Newsgroups: comp.sys.ibm.pc.hardware,biz.comp.hardware,comp.misc,comp.sys.ibm.pc.misc,
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!bogus.sura.net!news-feed-1.peachnet.edu!umn.edu!csus.edu!netcom.com!tiger
+From: tiger@netcom.com (TIGER ZHAO)
+Subject: Re: 100 simms and 100 sipps 1MB needed
+Message-ID: <tigerC5tG49.DL9@netcom.com>
+Organization: Tiger's Garage
+References: <1qq81cINNdjg@shelley.u.washington.edu>
+Date: Wed, 21 Apr 1993 04:21:45 GMT
+Lines: 23
+
+yuri@atmos.washington.edu writes:
+>       I need  100 simms and 100 sipps 1MB, but price should be around
+ $17-20/piece.
+~~~~~~~~~~~~~
+   I assume you are talking about 1meg X 9 SIMMs, or 1Meg X 9 SIPPs with
+speed of 70ns? I would take 10K pieces per week if you have that price.
+(FOB US port).
+
+   I am not waiting for an offer with that price, I could only dream.
+
+tiger
+
+>I am waiting for an offer.
+
+>       Yuri Yulaev
+>       6553, 38th ave NE
+>       Seattle WA 98115
+>       (206) 524-2806,524-9547 (home)
+>       (206) 685-3793 (work)
+>       (206) 524-7218 (FAX)
+>INTERNET: yuri@atmos.washington.edu
+>UUCP:    uw-beaver!atmos.washington.edu!yuri
+
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!usenet.ins.cwru.edu!cleveland.Freenet.Edu!ab245
+From: ab245@cleveland.Freenet.Edu (Sam Latonia)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: test don't read!
+Date: 21 Apr 1993 06:06:43 GMT
+Organization: Case Western Reserve University, Cleveland, Ohio (USA)
+Lines: 6
+Message-ID: <1r2o9j$iio@usenet.INS.CWRU.Edu>
+NNTP-Posting-Host: slc4.ins.cwru.edu
+
+
+ 
+ 
+-- 
+Gosh..I think I just installed a virus..It was called MS DOS6...
+Don't copy that floppy..BURN IT...I just love Windows...CRASH...
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usc!news.service.uci.edu!gordius!mts!root
+From: rpao@mts.mivj.ca.us (Roger C. Pao)
+Subject: Re: 16Mb ISA limit
+Message-ID: <C5J6zn.681@mts.mivj.ca.us>
+Keywords: monitor, VGA, question
+Sender: root@mts.mivj.ca.us (Roger C. Pao)
+Organization: MicroTech Software
+References: <1qehvl$ph1@travis.csd.harris.com>
+Date: Thu, 15 Apr 1993 15:28:34 GMT
+Lines: 29
+
+marka@SSD.CSD.HARRIS.COM (Mark Ashley) writes:
+
+>In the latest PC Magazine (Pentium isssue), there 
+>is an editorial on the
+>advantages of a PC using EISE/VESA-LB rather
+>than just plain ISA/VESA-LB. Supposedly users
+>will eventually want more than 16Mb of RAM.
+>However since the ISA bus has only 24 bits, 
+>then anything on the bus can access only 16Mb
+>even if I have 32Mb on the motherboard.
+>So far I agree with the arguments.
+
+>Then the writer claims that glitches can
+>occur in systems with over 16Mb because 
+>of that limit. That part I don't understand
+>because the RAM is right on the motherboard.
+>So the cpu should have no problems talking
+>with the RAM. Can anybody explain this ?
+
+The problem is with ISA bus-masters which
+can only address the first 16MBs of system
+memory.  Bus-masters do not use the CPU
+nor the system DMA to do the actual data
+transfer but transfer their data directly
+to the system RAM.
+
+rp93
+-- 
+Roger C. Pao  {gordius,bagdad,pride386}!mts!rpao, rpao@mts.mivj.ca.us
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!swrinde!gatech!asuvax!ncar!noao!amethyst!organpipe.uug.arizona.edu!helium!shenx
+From: shenx@helium.gas.uug.arizona.edu (xiangxin shen  )
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: What is AT BUS CLK Speed?
+Message-ID: <1993Apr21.050544.12203@organpipe.uug.arizona.edu>
+Date: 21 Apr 93 05:05:44 GMT
+References: <13370.73.uupcb@hal9k.ann-arbor.mi.us> <1993Apr14.160915.22866@debbie.cc.nctu.edu.tw>
+Sender: news@organpipe.uug.arizona.edu
+Organization: University of Arizona, Tucson
+Lines: 22
+
+In article <1993Apr14.160915.22866@debbie.cc.nctu.edu.tw> is81056@cc.nctu.edu.tw (Wei-Shi Hwu) writes:
+>Robert Desonia (robert.desonia@hal9k.ann-arbor.mi.us) wrote:
+>
+>: S >There is one param in the bios setup that says AT BUS CLK.  I have
+>: S >it set to the default of 4, but was able to get it to work with 3.
+>: S >The SI at 3 was 142.something.  I didnt want to mess anything up
+>: S >so I set it back to 4.  Also, the PC didnt boot with it set at 2.
+>: S >
+>: S >What exactlt dows this do, and should I leave it at 4?
+>
+>I think it's impossible to let AT-Bus operated too much more than
+>8MHz.  I have a C & T Neat 286-20 mother board, And I set the AT-BUS
+>clock to 10 MHz, but the HD stopped when it boot.  So it's correct
+>that CLK/n means how many wait states.
+>
+>   Sm. 
+
+I think it all depends on your motherboard and the cards you have in your system.  Your HD stopped boot probably because your HD controller can't handle the faster BUS speed.  I have a 486-33DX, I set my bus divider to CLK/2.5, that is close to 13MHz.  I can gain singificant performace increase on my Video card and harddisk transfer rate when I boost the bus speed.  And my system work flawlessly under this setting.  And you know what, when I go to CLK/2(17MHz BUS), my HD refuse to boot.  
+
+Just my 2 cent.
+
+Jim
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!wupost!uunet!mcsun!sun4nl!utciva!infnews!infnews!fijma
+From: fijma@cs.utwente.nl (Duco Fijma)
+Subject: Old keyboards never die
+Message-ID: <1993Apr21.121713@cs.utwente.nl>
+Sender: usenet@cs.utwente.nl
+Nntp-Posting-Host: utis143.cs.utwente.nl
+Organization: University of Twente, Dept. of Computer Science
+Date: Wed, 21 Apr 1993 10:17:13 GMT
+Lines: 29
+
+
+Hello,
+
+I'am almost ashame to ask this question. It really looks like a FAQ, but couldn't
+find the answer. Anyway...
+
+The original IBM-PC/XT 83 or 84 key keyboard is, in my opinion, still the best
+keyboard around. Function keys on the right place (eh.. left place), firm click,
+etc. Is there any chance to connect one of these to a modern 386 AT clone?
+
+I do understand that the new AT keyboard has more functionality. I.e. the
+typematic repeat rate is programmable etc. It seams to me that the pins &
+electrical specs. of the old and the new keyboard are, however, the same. 
+Maybe the communication protocol is different? 
+
+Please answer by e-mail. Also if you can tell me that is absolutely impossible.
+In that case, i will bring the keyboard the museum of obsolete technology.
+
+Thanks,
+
+Duco
+
+--
+
+Duco Fijma               tel. X31-53-893718
+University of Twente     fax. X31-53-893811 
+P.O. Box 217             internet: fijma@cs.utwente.nl
+7500 AE  Enschede        
+The Netherlands          | No ugly pictures in this sig! |
+Xref: cantaloupe.srv.cs.cmu.edu comp.os.misc:3384 comp.os.ms-windows.misc:9747 comp.os.os2.misc:58179 comp.periphs:6511 comp.sys.ibm.pc.hardware:60828
+Newsgroups: comp.os.misc,comp.os.ms-windows.misc,comp.os.os2.misc,comp.periphs,comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!news.byu.edu!cwis.isu.edu!fcom.cc.utah.edu!u.cc.utah.edu!db7577
+From: db7577@u.cc.utah.edu (David Bona)
+Subject: Cumulus Notebook 386SX-25 Help!
+Message-ID: <1993Apr21.214912.9436@fcom.cc.utah.edu>
+Sender: news@fcom.cc.utah.edu
+Organization: University of Utah Computer Center Student Mail Machine
+References: <1r2ggv$scu@agate.berkeley.edu>
+Date: Wed, 21 Apr 93 21:49:12 GMT
+Lines: 14
+
+
+Greetings...
+
+I am in desperate need of a Battery and Power Supply (Internal) for 
+the Cumulus 386SX-25 Notebook.  I do appologize for not having serial #
+for this system.
+
+Any Help would greatly be appreciated...
+
+Many Thanks in advance,
+
+        Dave.Bona@m.cc.utah.edu
+-- 
+- Not your average .sig!  No, this one is very clever. -       
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!ornl!zhang
+From: zhang@gmsds.ms.ornl.gov (Xiaoguang Zhang)
+Subject: Need spec of miniscribe hard drive
+Message-ID: <1993Apr21.174551.6485@ornl.gov>
+Sender: usenet@ornl.gov (News poster)
+Reply-To: zhang@gmsds.ms.ornl.gov (Xiaoguang Zhang)
+Organization: Oak Ridge National Laboratory
+Date: Wed, 21 Apr 1993 17:45:51 GMT
+Lines: 21
+
+I need info regarding a miniscribe 3.5" half-height drive. There is a
+sticker on it with the following,
+    MODEL   HDA    PCBA   UNIQUE   TDA
+    8425F   09AA   03AB   03AA     -
+But the sticker on the biggest chip on the MFM interface has this,
+    MODEL   PCBA   TDA
+     FXX    03AB
+
+What is the spec of the drive (# of cyl, heads, etc)?
+How fast is this drive? Can I use it as a RLL drive? 
+I also have a SCSI interface that seems to match all the connectors
+for this drive. It has this description,
+    MODEL   PCBA   E-P   TDA
+     AXX    01A    29A
+Can I replace the MFM interface by the SCSI interface and use the drive
+as a SCSI drive? What would the drive size be? There is a set of jumpers
+on the SCSI interface with "6SEL" besides it. What is the use of it?
+
+Could someone also send me specs for Seagate ST4096 (5" full-height) drive?
+My e-mail is zhang@whbws.ms.ornl.gov
+Thanks
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!uwm.edu!caen!nigel.msen.com!fmsrl7!glang
+From: glang@slee01.srl.ford.com (Gordon Lang)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: HOW is a Null Modem Cable?
+Date: 21 Apr 1993 17:36:03 GMT
+Organization: Ford Motor Company Research Laboratory
+Lines: 134
+Message-ID: <1r40m7INNblq@fmsrl7.srl.ford.com>
+References: <1993Apr20.174525.5046@vax.cns.muskingum.edu>
+NNTP-Posting-Host: slee01.srl.ford.com
+X-Newsreader: Tin 1.1 PL5
+
+Kevin Kimmell - Computer Science/German Undergrad (ke_kimmell@vax.cns.muskingum.edu) wrote:
+: 
+:       I am interrested in the extrodinarily simple concept of the null modem
+: cable. (Actually I have NO idea, so don't count that last statement.)  What I'm
+: asking is what pins does it use (or what are it's specifications?)  I just want
+: to solder one myself instead of buying one.  I don't even know what port is
+: used.
+: 
+: Help me please (at ke_kimmell@vax.cns.muskingum.edu)
+: 
+: Kevin
+: 
+: p.s.  I'm intending to use the cable for PC-to-PC transfers (via Lap-Link or
+: Telix.  Ideas and info gladly accepted.)
+
+I do not have specific knowledge of Lap-Link or Telix, but my recommendation
+for ANY package is to follow each one's instructions for making the null-
+modem cable.  The reason is that each one may be different since there isn't
+really a standard for PC to PC communications.  The following is a tutorial
+I wrote up that will give you an understanding about RS-232 and null modems,
+but you should still check your software!
+
+I will eplain a couple of details of RS-232.  RS-232 is
+a commumications specification for communicating between a computer and a
+modem.  Actually it can be between any end system and any communications
+hardware.  The terminology used is Data Terminal Equipment (DTE) and DATA
+Communications Equipment (DCE).  RS-232 spells out the voltage levels, the
+connector type, the pinouts, and the signal protocols.  The connector is
+a "DB-25" but IBM has set an alternative "standard" of DB-9.  The primary
+signals are Transmit Data (TD), Recieve Data (RD), and Signal Ground (SG).
+There are other signals that provide control between the DTE and the DCE.
+For example, the DTE announces that it is powered up and ready to participate
+in communications via the Data Terminal Ready (DTR) signal.  DTR is an
+output on the DTE and an input on the DCE.  Similarly, the DCE announces that
+it is ready to participate in communications via the Data Set Ready (DSR)
+signal.  DSR is an input on the DTE and an output on the DCE.  Ok that's
+five signals; there are only four more of interest.  The Request To Send (RTS)
+signal is an output from the DTE (and an input to the DCE) that is used
+to ask the DCE permission to send data.  If the DCE agrees, it sends an ok
+via the Clear To Send (CTS) signal.  (For completeness, the CTS is an input
+to the DTE and an output from the DCE).  The other two signals (of interest)
+are Ring Indicator (RI) and Data Carrier Detect (DCD).  These are both inputs
+to the DTE and outputs from the DCE.  RI is just what you would expect -
+a signal to the DTE saying that someone is attempting to establish a connection
+to the DCE.  This is rather specific to the modem / telephone line setup.
+DCD is a way for the DCE to announce that the "connection" has been established
+i.e. the local DCE is talking to some remote DCE.  There - that's it.  Oh
+there are many other RS-232 signals defined, but they are obsolete.  I have
+explained the nine signals that are on a PC.  The pinouts are as follows:
+
+Name    DB-9     DB-25
+ SG       5        7
+ TD       3        2
+ RD       2        3
+DTR       4       20
+DSR       6        6
+DCD       1        8
+RTS       7        4
+CTS       8        5
+ RI       9       22
+
+Now to address your problem at hand.  When you connect a PC to a PC (a DTE
+to a DTE), there is no DCE pair in the middle and therefore the RS-232
+signal definitions don't work out quite right.  There is no DCE to assert
+the CTS, DSR, DCD, or RI.  So the common thing to do is to not use these
+signals at all - and also forget about the DTR and RTS outputs as well.  If
+this is done you simply make a null modem (a cable) that passes through SG,
+and crosses TD and RD (i.e. pin 2 of one end connects to pin 3 at the other
+end, etc).  The problem with this solution is that a PC that wants to send
+data has no way of knowing if the other PC is ready.  It would have to just
+send the data and hope it got through.  Therefore a better null modem would
+include the DTR/DSR pair crossed.  A particular point a confusion is in the
+software area.  Just because you run the wires does not mean that the soft-
+ware will use them.  If you are using the built-in BIOS to control the
+serial port, then the BIOS dictates what wires you need and how they are to
+be used.  But if you have a comm. package such as Brooklyn Bridge, or Lap-
+Link or Telix, then those packages dictate the cabling requirements.  The
+only thing you can guess reliably is the SG, TD, and RD.  The DTR/DSR is also
+fairly common.  There is one more issue that needs to be addressed here.  And
+that is flow control.  In the RS-232 scenerio, the DCE's are responsible for
+flow control and it is assumed that the DCE couldn't possible over-run the
+DTE.  By this I mean that as long as the DTE has its DTR line asserted, the
+DCE will send data - without requesting permission first.  Note the contrast
+to the other direction of data flow: the DTE must request permission by
+asserting the RTS line and it must wait for the CTS signal before it can
+send.  And now in the DTE to DTE scenerio, the question is do you need flow
+control?  The answser is usually.  But how?  For non-binary communications,
+one common technique is XON - XOFF which is implemented in software - no
+wires are dedicated to flow control; the TD and RD carry the XON and XOFF
+commands.  This type of flow control can be used in addition to hardware
+flow control, but the problem is that you can't send binary data because
+your data might include the XON or XOFF codes and cause erroneous conrol
+signals.  (A work around is to have the software insert and extract "escape"
+codes, but the hardware flow control is prefered).  The problem with hard-
+ware flow control is that there is no standard.  There are lots of ways to
+do it and I bet they have all been tried.  One cornerstone of all the methods
+is to use the RTS/CTS for one direction.  But beyond that anything is fair
+game.  Again, you must look to you comm package for cabling requirements.
+But I bet you'll find that one cable (if wired properly) could work with
+all of the packages as long as they are of the same vintage.  By the way,
+I am familiar with one package that uses RTS/CTS and DTR/DSR for flow control
+the RTS is request to send and the DTR is ready to recieve, the CTS is the
+clear to send and the DSR is the request to recieve.  This does not mean a
+differnt cable - it is just software.  The clincher to all of this cabling
+stuff is that it is common to have the UART directly controlled by the CTS
+signal which means that the CTS must be present even if you are not support-
+ing it in software.  For these cases you will find cables that short the
+RTS to the CTS at the same end (or perhaps the DTR to the CTS).  Other
+possible shorting might be done just because the software expects certain
+signals that you don't have (or don't feel like providing because it would
+mean additional wires).  Specifically I am talking about the DSR.  Shorting
+the DTR to the DSR is not a good idea in general but you may find cables like
+this.  It is a bad idea because it defeats the whole purpose.  One more
+"gotcha" signal is the DCD.  Some software (including the PC BIOS) expects to
+see the DCD before it will work.  This signal sometimes gets shorted with the
+DTR.  But my favorite null modem has the RTS and CTS shorted at each end, but
+the RTS is also connected through to the other end and connected to DCD.  And
+of course the DTR/DSR are crossed as are the TD/RD and of course the SG must
+pass through.  This null modem works with most software.  The flow control,
+if any, can use the RTS/DCD with the DTR/DSR.  If your comm. package does not
+specify the cable required for PC to PC connection, then I suggest you use
+this one.
+
+    TD  ------  RD
+    RD  ------  TD
+    DTR ------ DSR
+    DSR ------ DTR
+    DCD ------ RTS-\
+  /-RTS ------ DCD |
+  \-CTS        CTS-/
+
+
+Gordon Lang
+
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!darwin.sura.net!tulane!theozone!chris.crayton
+From: chris.crayton@ozonehole.com (Chris Crayton) 
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Ibm link to imagewriter -
+Message-ID: <10006.24.uupcb@ozonehole.com>
+Date: 21 Apr 93 17:20:00 GMT
+Distribution: world
+Organization: Ozone Online Operations, Inc. - New Orleans, LA
+Reply-To: chris.crayton@ozonehole.com (Chris Crayton) 
+Lines: 29
+
+*** On 04-20-93  21:25, Larry Henson had the unmitigated gall to say this:
+
+ LH> Hello, I am trying to hook an Apple Imagewriter to my IBM Clone.
+ LH> I seem to have a problem configuring my lpt port to accept this.  How
+ LH> can you adjust baud, parity, etc. to fit the system?  I tried MODE, but
+ LH> it did not work.  If anyone can help, post of e-mail.  Thanx.
+
+LPT ports don't recognize baud, parity, etc. settings.  You might be tring
+to connect a serial printer to a parallel port.  Try this: attach the serial
+port of the printer to a serial port on the PC.  Use the mode command to set
+the COM port settings.  Try
+
+C>MODE COM1,9600,N,8,1
+
+to set the port parameters.  Then use the MODE command to redirect the
+printer port LPT1 like this:
+
+C>MODE LPT1=COM1
+
+This should work.  Good luck!
+
+... Time flies like an arrow.  Fruit flies like a banana.
+--- Blue Wave/QWK v2.10
+                
+----
+The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
+3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
+SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
+Please route all questions or inquiries to:  postmaster@ozonehole.com
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!darwin.sura.net!tulane!theozone!chris.crayton
+From: chris.crayton@ozonehole.com (Chris Crayton) 
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Date is stuck
+Message-ID: <10008.24.uupcb@ozonehole.com>
+Date: 21 Apr 93 17:28:00 GMT
+Distribution: world
+Organization: Ozone Online Operations, Inc. - New Orleans, LA
+Reply-To: chris.crayton@ozonehole.com (Chris Crayton) 
+Lines: 25
+
+*** On 04-21-93  04:30, Michael Shapiro had the unmitigated gall to say this:
+
+ MS> The DOS system date has a twenty-four hour clock and a rollover bit.
+ MS> When the system crosses midnight, the rollover bit is turned on.  
+ MS> Subsequent reads of the time add one.  There's no change possible
+
+ MS> (This information was current up through DOS 3.3.  I've not checked to
+ MS> see whether it applies to later versions.)
+
+Just a small tidbit: with the advent of DOS 3.3 and later versions, MS added
+a small "feature" to the DOS time function.  If a program sets the DOS clock
+via DOS system services, then DOS will set the BIOS clock to the same value.
+This breaks the isolation between the two clocks that used to ensure that
+errors in the DOS clock did not bleed over into the BIOS clock.
+
+Sometimes the Microsoft people just don't think! :)
+
+... Fact:  Mickey Mouse wears a Al Gore wristwatch.
+--- Blue Wave/QWK v2.10
+                                                                                                       
+----
+The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
+3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
+SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
+Please route all questions or inquiries to:  postmaster@ozonehole.com
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!uwm.edu!psuvax1!robinson
+From: robinson@sml.cs.psu.edu (Andrew Robinson)
+Subject: Re: How do I put an HD on an XT?
+In-Reply-To: rxg3321@ultb.isc.rit.edu's message of Wed, 21 Apr 1993 01:16:15 GMT
+Message-ID: <ROBINSON.93Apr21210819@sml.cs.psu.edu>
+Sender: news@cs.psu.edu (Usenet)
+Nntp-Posting-Host: sml.cs.psu.edu
+References: <1993Apr21.011615.6677@ultb.isc.rit.edu>
+Date: Thu, 22 Apr 1993 02:08:19 GMT
+Lines: 6
+
+Many (all?) XT drive controllers have their own BIOS on board to handle low-
+level formatting.  The BIOS also allows you to set up the drive properly
+(# of cylinders/heads/etc).
+--
+     -- Andy
+robinson@cs.psu.edu
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!usc!sdd.hp.com!nigel.msen.com!fmsrl7!glang
+From: glang@slee01.srl.ford.com (Gordon Lang)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: Laplink serial & parallel cables
+Date: 22 Apr 1993 03:46:42 GMT
+Organization: Ford Motor Company Research Laboratory
+Lines: 24
+Distribution: world
+Message-ID: <1r54f9INNcld@fmsrl7.srl.ford.com>
+References: <rcstage1.102.0@urc.tue.nl>
+NNTP-Posting-Host: slee01.srl.ford.com
+X-Newsreader: Tin 1.1 PL5
+
+Serial cables:
+
+There are only three output signals: TD, DTR, and RTS.
+There are five inputs signals: RD, DSR, DCD, CTS, and RI.
+
+There are many differnt null modem requiremts as dictated by the software.
+The IBM BIOS requires asserts DTR and RTS and then waits for both DSR and
+CTS before sending.  When a BIOS recieve call is made, it asserts DTR and
+waits for DSR to become true (times out after a while and returns with an
+error if DSR never becomes true).  It requires CTS to be true for sending
+AND recieving.  Most communications packages bypass this and replace it
+with their own protocol.  The key is that each comm. package could very
+well have different requirements.
+
+My favorite cable works in many cases: short RTS to CTS at each end, but
+also run RTS through to DCD at the opposite end.  TD runs through to RD
+and DTR runs through to DSR from both DTE's and of course SG goes through
+to SG.
+
+I have never had trouble with this null modem even though I have used it
+with a comm. package that was expecting RTS to go to CTS instead of DCD.
+The advantage of this cable is that it also works with the IBM BIOS.
+
+Gordon Lang
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!noc.near.net!nic.umass.edu!deimos.ucs.umass.edu!davidb
+From: davidb@deimos.ucs.umass.edu (DAVID BESONEN)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: H E L P !!!   how can I get my COM3 port working?
+Date: 22 Apr 1993 09:35 -0500
+Organization: University of Massachusetts, Amherst
+Lines: 25
+Distribution: world
+Message-ID: <22APR199309353664@deimos.ucs.umass.edu>
+NNTP-Posting-Host: deimos.ucs.umass.edu
+News-Software: VAX/VMS VNEWS 1.41    
+
+hello,
+
+for 2 months I've unsuccessfully attempted to get either
+a 3rd or 4th serial port working on my system.
+
+various systems diagnostics (e.g., MSD, Norton) tell me
+it's there, but anything I hook up to it can't use it
+
+I have two serial ports on the motherboard
+
+if I set my internal FAX/modem for com4 the utility
+programs report a COM3
+
+I've checked to make sure all the IRQs and addresses are
+correctly (as listed in most manuals) set
+
+am I missing something very basic?
+
+where should I go from here?
+
+any help, even a point in the right direction, would be
+most appreciated.
+
+David Besonen
+"davidb@student.umass.edu"
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!darwin.sura.net!haven.umd.edu!uunet!oracle!unrepliable!bounce
+Newsgroups: comp.sys.ibm.pc.hardware
+From: ebosco@us.oracle.com (Eric Bosco)
+Subject: Ram boards on a 486??
+Message-ID: <1993Apr15.165610.18895@oracle.us.oracle.com>
+Sender: usenet@oracle.us.oracle.com (Oracle News Poster)
+Nntp-Posting-Host: monica.us.oracle.com
+Reply-To: ebosco@us.oracle.com
+Organization: Oracle Corp., Redwood Shores CA
+Date: Thu, 15 Apr 1993 16:56:10 GMT
+X-Disclaimer: This message was written by an unauthenticated user
+              at Oracle Corporation.  The opinions expressed are those
+              of the user and not necessarily those of Oracle.
+Lines: 27
+
+
+Hello,
+
+        I have a 486sx25 ISA machine with Pheonix BIOS.  Currently I have  
+8 megabytes of RAM installed via eight 1 MG SIMMS on the motherboard: ie.  
+both banks are full, and there is no space for more SIMMS.  I am thinking  
+of running OS2 on my machine and Possibly Linux with X windows, and I know  
+that more RAM would be helpful.  However with SIMMS, the only solution I  
+can see is to sell my 8 Megs for about $180, and by 4 4mg SIMMS for about  
+$400 used. Apart from the fact that I can't afford the price right now,  
+the entire process of selling RAM and buying it used probably means that  
+the machine might be down for a number of days which I would rather  
+avoid...
+
+So my question is, do the AT RAM boards that plug into a free slot work  
+well with a 486 ISA machine. I have seen some being sold used for about  
+$90 with 4 Mg with space for another 4Mg's.  If these boards do work, how  
+do they do it?  Is a device driver needed, or will the BIOS pickup the  
+extra RAM as it does with the SIMMS on the mother board? I know that the  
+ISA expansions slots are 16-bits and 486 SIMM memory is 32 bits, so  
+probably all of this is just wishful thinking... However any help is truly  
+appreciated.
+
+-Eric
+
+ebosco@us.oracle.com
+
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!howland.reston.ans.net!ira.uka.de!news.dfn.de!mailgzrz.TU-Berlin.DE!cs.tu-berlin.de!cs.tu-berlin.de!idler
+From: idler@cs.tu-berlin.de (Andreas Kuehnel)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: QIC250 Streamer Software Prolem
+Date: 22 Apr 1993 11:51:48 GMT
+Organization: Technical University of Berlin, Germany
+Lines: 6
+Distribution: world
+Message-ID: <1r60sk$fnk@news.cs.tu-berlin.de>
+NNTP-Posting-Host: bohus.cs.tu-berlin.de
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+I'm using a QIC-compatible 250MB streamer, and I really like it.
+But now a terrible typo in an archive description drives me mad ervery time.
+Is there any software which can rename, or even better, delete such archives?
+Any help really appreciated.
+
+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!news.crd.ge.com!uunet!uunet.ca!canrem!dosgate!dosgate![wayne.bradley@canrem.com]
+From: "wayne bradley" <wayne.bradley@canrem.com>
+Subject: hp lj i fonts
+Message-ID: <1993Apr22.4889.48285@dosgate>
+Reply-To: "wayne bradley" <wayne.bradley@canrem.com>
+Organization: Canada Remote Systems
+Distribution: comp
+Date: 22 Apr 93 07:37:44 EST
+Lines: 27
+
+I have a friend with an original HP LaserJet.  The nameplate does not 
+specify a number, but since the LJ II followed later, one assumes that he 
+has a LJ I.   His problem is a tax program which requires a 17 cpi font to 
+print the forms properly.
+
+This unit came to market in 2 versions.  The plus version supported 
+dowloadable fonts.  You can guess which one my friend has - the plain, not 
+the plus.  The printer does though have a slot and he has a small selction 
+of cartridges including a 16.6 cpi - but none with a 17 cpi font.
+
+Can anyone suggest a source for a cartridge with a 17 (or 18?) cpi font?  
+Alternatively, is an upgrade to the plus version available at reasonable 
+cost?
+
+Any suggestions would be welcome.
+
+Thanks
+
+
+
+
+
+---
+ * WinQwk 2.0b#943 * Seattle Rain Festival - Jan. 1 to Dec. 31
+--
+Canada Remote Systems - Toronto, Ontario
+416-629-7000/629-7044
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!galileo.cc.rochester.edu!uhura.cc.rochester.edu!brnj_ltd
+From: brnj_ltd@uhura.cc.rochester.edu (Bernard C. Jain)
+Subject: Any STB-POWERGRAPH users out there that know about it!?
+Message-ID: <1993Apr22.151545.16495@galileo.cc.rochester.edu>
+Summary: powergraph
+Keywords: sbt poergraph powergraph
+Sender: news@galileo.cc.rochester.edu
+Nntp-Posting-Host: uhura.cc.rochester.edu
+Organization: University of Rochester - Rochester, New York
+Date: Thu, 22 Apr 93 15:15:45 GMT
+Lines: 17
+
+
+
+HELP!  I am trying to view .JPG files with my 386SX, 20MHz machine
+.  I have a STB-POWERGRAPH graphics card with 1024 X 768 by 256 colors,
+with 1Meg RAM on it.
+
+I have tried CVIEW097 (with windows-- EXTREMELY SLOW), and DVPEG24.
+DVPEG24 doesn't work!  Even if I pick a lot of the "modes" that are
+supported by POWERGRAPH (so it says in the manual), it doesn't work
+when I try to view a picture... it only buzzes.
+
+Anyone out there that can help me; give me suggestions?
+
+I would really appreciate it!
+
+Thanks!
+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!swrinde!gatech!concert!samba!usenet
+From: Feng.Qian@launchpad.unc.edu (Feng Qian)
+Subject: LL format utilities in Maxitor BBS? What is the BBS number?
+Message-ID: <1993Apr22.172051.4800@samba.oit.unc.edu>
+Sender: usenet@samba.oit.unc.edu
+Nntp-Posting-Host: lambada.oit.unc.edu
+Organization: University of North Carolina Extended Bulletin Board Service
+Date: Thu, 22 Apr 1993 17:20:51 GMT
+Lines: 13
+
+
+Due to some problems with my IDE drive, I LL formatted the Maxitor7213AT.
+Now it started to give me some errors in some applications. I was told
+Maxitor has a utility called IDE_INT in their BBS, anyone tried it? Can
+some one tell me what that BBS number is? Or better, can I find the file
+in some ftp site? Or perhaps someone can email it to me? Thanks.
+
+Feng
+--
+   The opinions expressed are not necessarily those of the University of
+     North Carolina at Chapel Hill, the Campus Office for Information
+        Technology, or the Experimental Bulletin Board Service.
+           internet:  laUNChpad.unc.edu or 152.2.22.80
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.atari.st:67935 comp.sys.ibm.pc.hardware:60982 rec.music.makers.synth:4994 rec.music.marketplace:4793
+Newsgroups: comp.sys.atari.st,comp.sys.ibm.pc.hardware,ba.wanted,ba.market.computers,rec.music.makers.synth,rec.music.marketplace
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!darwin.sura.net!news-feed-1.peachnet.edu!umn.edu!csus.edu!netcom.com!ladasky
+From: ladasky@netcom.com (John J. Ladasky II)
+Subject: Atari 1040 - Sell or Trade for PC
+Message-ID: <ladaskyC5wGrJ.MvD@netcom.com>
+Organization: NETCOM On-line Communication Services (408 241-9760 guest)
+Date: Thu, 22 Apr 1993 19:28:31 GMT
+Lines: 48
+
+
+        I am considering selling an Atari 1040 and purchasing an IBM compa-
+tible.  I need to know what kind of money or trade I can expect to get for
+the Atari before I bother.  I am about to start graduate school, and that
+means I'm about to be poor!  (There's a price list for used synthesizers on
+rec.music.makers.synth, but no equivalent list for computers...)
+
+This system is tailor-made for a MIDI musician.  Details follow:
+
+  * Atari 1040 ST
+      TOS 1.0
+      1 MB RAM
+      720K floppy drive
+
+  * SupraDrive 20 Mb external SCSI drive, 18 months old
+
+  * 12" Atari monochrome monitor
+
+  * Generic 2400 baud external modem
+
+  * Software: All software is registered and comes with manuals.
+      Passport's Master Tracks Pro, Version 2.5 (sequencing software)
+      Dr. T's Copyist Professional (scoring software)
+      First Word (word processor - *not* the PD version)
+      Megamax's Laser C, Version 2.0 (programming language)
+      VIP Professional (spreadsheet package - low-tech Lotus clone)
+      Partner ST (desk accessory with integrated calendar, cardfile, etc.)
+      Migraph's Easy Draw (an early, pre-Postscript release)
+      NeoDesk (improved desktop for Atari ST)
+      Universal III (improved file selector for Atari ST)
+      Miscellaneous software (including Uniterm communications software)
+
+
+        I will consider all prices above $900.  I am also willing to
+trade the Atari system for a quality (386 or 486) PC, including lap-tops.
+I own some PC hardware, so a complete system may not be necessary.
+
+-- 
+== John J. Ladasky II ("ii") ========================= ladasky@netcom.COM ==
+"Great composers do not borrow -             "Talking about music is like
+ they steal."  - John Ladasky         ~ -     dancing about architecture."
+(quote stolen from Stravinsky, who    o o     - Elvis Costello?  Laurie
+ stole it from a statement made by     >        Anderson?  Frank Zappa?
+ Pablo Picasso about painting, who    \_/    -------------------------------
+ stole it from...)                           "Property is theft." - Groucho
+----------------------------------------------------------------------------
+"A man w/o charity in his heart - what has he to do with music?" - Confucius
+============================================================================
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!gatech!rpi!arnolm2
+From: arnolm2@aix.rpi.edu (Matthew Richard Arnold)
+Subject: DX50 vs DX266
+Message-ID: <33z5zgc@rpi.edu>
+Sender: arnolm2@rpi.edu
+Nntp-Posting-Host: aix.rpi.edu
+Organization: Rensselaer Polytechnic Institute, Troy, NY
+Date: Wed, 21 Apr 1993 23:55:12 GMT
+Lines: 11
+
+
+Would someone be willing to explain to me the 486DX 50MHz is not more
+popular than it is?  I would think it would be just as fast, if not 
+faster than the 486DX 66MHz for certian applications.  Plus, a 50MHz 
+motherboard would seem better if you had any plans on upgrading the
+chip in the future.  I must be missing something, since everyone is 
+buying the DX2 66...  Many adds don't even mention the DX 50.
+
+ Thanks a lot,
+   -Matt
+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!swrinde!cs.utexas.edu!geraldo.cc.utexas.edu!portal.austin.ibm.com!awdprime.austin.ibm.com!guyd
+From: guyd@austin.ibm.com (Guy Dawson)
+Subject: Re: Help adding a SCSI Drive
+Originator: guyd@pal500.austin.ibm.com
+Sender: news@austin.ibm.com (News id)
+Message-ID: <C5wL6w.2wJE@austin.ibm.com>
+Date: Thu, 22 Apr 1993 21:04:07 GMT
+References: <1993Apr19.195301.27872@oracle.us.oracle.com> <1993Apr22.094851.27323@physchem.ox.ac.uk>
+Organization: IBM Austin
+Lines: 52
+
+
+A couple of points :-
+
+In article <1993Apr22.094851.27323@physchem.ox.ac.uk>, mark@physchem.ox.ac.uk (Mark Jackson) writes:
+> 
+> In article <1993Apr19.195301.27872@oracle.us.oracle.com>, ebosco@us.oracle.com (Eric Bosco) writes:
+> > 
+> > 1- Buy a SCSI contoler.  Which one? I know Adaptec is good, but they are  
+> > kind of expensive.  Are there any good boards in the $100 region? I want  
+> > it to be compatible with OS2 and Unix if possible.  Also, I have seen on  
+> > the net that there are SCSI and SCSI2 drives. Is this true? Does the  
+> > adapter need to be the same as the drive? What type of drive is the  
+> > quantum?
+> 
+> 
+> I have tried others, but I think that the Adaptec is best value for money.
+
+I have an Adaptec 1542B and am very happy with it.
+
+> 
+> 
+> > 2- connect the drive to the adapter via a SCSI cable and the power cable.
+> > Do i have to worry about the power supply? I think I have 200 watts and  
+> > all I'm powering are two floppies and the seagate drive.
+> 
+> 
+> I dont think you can mix the two types of drive, unless you have one of the
+> SCSI/IDE cards that is available.  You will have to turn your IDE off.
+
+Not so! I have both IDE and an Adaptec1542B in the same box and can use both
+disks at the same time, eg. IDE to SCSI disk copy.
+
+> 
+> > Well that seems to be all. Is there anythiing I'm forgetting? 
+> > Any help is *really* appreciated, I'm lost...
+> > 
+> > -Eric
+> > 
+> > ebosco@us.oracle.com
+> -- 
+> Mark 
+> ______________________________________________________________________________
+> mark@uk.ac.ox.physchem
+
+Well, one statement and one correction!
+
+Guy
+-- 
+-- -----------------------------------------------------------------------------
+Guy Dawson - Hoskyns Group Plc.
+        guyd@hoskyns.co.uk  Tel Hoskyns UK     -  71 251 2128
+        guyd@austin.ibm.com Tel IBM Austin USA - 512 838 3377
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!darwin.sura.net!haven.umd.edu!uunet!mdisea!mothost!white!rtsg.mot.com!biernat
+From: biernat@rtsg.mot.com (Tim Biernat)
+Subject: Re: Gateway Flash BIOS Upgrade
+Message-ID: <1993Apr22.184010.26620@rtsg.mot.com>
+Sender: news@rtsg.mot.com
+Nntp-Posting-Host: tophat1
+Organization: Motorola, Inc., Cellular Infrastructure Group
+References: <1993Apr20.183959.1@utxvms.cc.utexas.edu>
+Date: Thu, 22 Apr 1993 18:40:10 GMT
+Lines: 11
+
+In article <1993Apr20.183959.1@utxvms.cc.utexas.edu> dcoleman@utxvms.cc.utexas.edu (Daniel M. Coleman) writes:
+>Gateway 2000 has released a new Flash BIOS update for their local bus systems. 
+>Because I'm such a nice person, I uploaded them to wuarchive.wustl.edu.  Look
+>for glb05.exe in the msdos_uploads section.  Enjoy!
+
+i also noticed this was out.  the readme that comes with it
+doesn't tell you squat, except to warn you that bad things may
+happen.  anyone have any idea what these can do for me in terms 
+of, say, performance ?
+
+-- tim
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!ogicse!uwm.edu!zaphod.mps.ohio-state.edu!swrinde!gatech!taco!simun
+From: simun@unity.ncsu.edu (Josip NMI Simunovic)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: IBM 5272 ColorDisplay for 3270PC ?
+Message-ID: <1993Apr22.212557.27590@ncsu.edu>
+Date: 22 Apr 93 21:25:57 GMT
+Article-I.D.: ncsu.1993Apr22.212557.27590
+Sender: news@ncsu.edu (USENET News System)
+Organization: NCSU
+Lines: 10
+X-Newsreader: TIN [version 1.1 PL8]
+
+
+I have one of these monitors. It appears to function OK, but is unhookable
+to anything standard (CGA,EGA,VGA) - it will plug in but gives fuzzy
+diagonal noise. 
+I also have a graphics board that is apparently a 3270 graphic board
+(double card with 2 8-bit bus connectors, and a 9-pin female connector
+with a picture of monitor). I tried plugging these two into a standard AT
+to no avail. How can one connect these to (the monitor seems to
+be of relatively high quality, so I'm curious)? Any special drivers and/or
+setup needed - I can't locate any jumpers on the card.
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!news-feed-1.peachnet.edu!gatech!howland.reston.ans.net!zaphod.mps.ohio-state.edu!caen!batcomputer!lynx@msc.cornell.edu!news
+From: randy@msc.cornell.edu (Randy Ellingson)
+Subject: ISA bus:  SCSI or IDE??!!
+Message-ID: <1993Apr19.145456.20462@msc.cornell.edu>
+Sender: news@msc.cornell.edu
+Reply-To: randy@msc.cornell.edu
+Organization: Cornell University
+Date: Mon, 19 Apr 1993 14:54:56 GMT
+Lines: 38
+
+Wow, you guys are really going wild on this IDE vs. SCSI thing, and I think
+it's great!
+
+However, I think that some people (such as myself) would benefit from answers
+to the simple(?) question:  Which would YOU choose, and why?
+
+Like lots of people, I'd really like to increase my data transfer rate from
+the hard drive.  Right now I have a 15ms 210Mb IDE drive (Seagate 1239A), and
+what I would say is a standard (not special, no cache I believe) IDE controller
+card on my ISA 486-50.
+
+I'm currently thinking about adding another HD, in the 300Mb to 500Mb range.
+And I'm thinking hard (you should hear those gears a-grinding in my head)
+about buying a SCSI drive (SCSI for the future benefit).  I believe I'm getting
+something like 890Kb/sec transfer right now (according to NU).
+
+How would this
+number compare if I bought the state-of-the-art SCSI card for my ISA PC, and
+the state-of-the-art SCSI hard drive (the wailing-est system I could hope for)?
+
+Obviously money factors into this choice as well as any other, but what would
+YOU want to use on your ISA system? And how much would it cost?
+
+Along those lines, what kind of transfer rate could I see with my IDE HD's if I
+were to buy the top-of-the-line IDE caching controller for my 200Mb, 15ms HD?
+And how much would it cost?
+
+I actually have a PAS-16, and could (what a waste I guess it would be...) hook
+up a SCSI HD through it's SCSI port which yields an optimum of 690Kb/sec.
+Actually, I have a borrowed 12ms Fujitsu HD hooked up through it now (and
+own the Trantor HD drivers for the PAS-16 SCSI port).  Is this SCSI port a
+SCSI-2 port?  How could I tell?  Is the Fujitsu 2623A a SCSI-2?  Are all SCSI
+HD's SCSI-2?
+
+Thanks for any comments.
+
+Randy
+  
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!swrinde!cs.utexas.edu!uunet!mcsun!sun4nl!dutrun!dutiws!winfrvk
+From: winfrvk@dutiws.twi.tudelft.nl (R.v.Kampen)
+Subject: Re: Adding hard drive to Original IBM PC
+Message-ID: <C5JDFJ.IJt@dutiws.twi.tudelft.nl>
+Keywords: hard drive, IBM PC
+Organization: Delft University of Technology
+References: <lsj4ruINNl7o@saltillo.cs.utexas.edu> <C5DxBs.5ov@panix.com>
+Date: Thu, 15 Apr 1993 17:47:42 GMT
+Lines: 22
+
+In article <C5DxBs.5ov@panix.com> schuster@panix.com (Michael Schuster) writes:
+>In article <lsj4ruINNl7o@saltillo.cs.utexas.edu> goolsbey@cs.utexas.edu (Keith Goolsbey) writes:
+>>I have an ORIGINAL IBM PC (not an XT or AT) that
+>>has never had a hard drive.  Questions:
+>>
+>>[1] Do I need new BIOS to add a hard drive?
+>>[2] Does anyone sell a complete package to do this?
+>>
+>>Please e-mail me with suggestions.  I only need to
+>>add about a 20Meg or 40Meg hard drive.
+>
+>Sent by mail too.
+>You need the 10/82 BIOS which has support for ROM BIOS extensions, such
+>as the ROM on a hard disk controller.
+>
+>A 20 MB hard card, available for not much over $100, will do the trick
+>if you have the proper BIOS date. Use Norton SI or similar program to
+>find out.
+you also need to set the correct switch settings on your xt
+controller, which can be a pain, since most pc's don't come with
+proper docs for all hardware contained inside it.
+
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!agate!msuinfo!uchinews!att-out!walter!puma7!tony
+From: tony@puma7.backyard.bellcore.com (Tony Kwong)
+Subject: Ultrastor UltraSCSI
+Message-ID: <1993Apr22.223926.3379@walter.bellcore.com>
+Followup-To: tony@bigbird.bigcat.bellcore.com
+Sender: tony@puma7 (Tony Kwong)
+Nntp-Posting-Host: puma7.backyard.bellcore.com
+Organization: Bellcore
+Date: Thu, 22 Apr 93 22:39:26 GMT
+Lines: 6
+
+
+Hi, any body has experience with the Ultrastor UltraSCSI driver package?
+I also need the phone number for Ultrastor (it's not in the book) and
+i cannot find them in the company listing in Computer Shopper.
+Thanks in advance
+  tony kwong (908) 699-4130 
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!news-feed-1.peachnet.edu!gatech!hubcap!ncrcae!ncrhub2!ncrlnk!ncrdnde!ddbeano!ddbeezer!seang
+From: seang@ddbeezer.Dundee.NCR.COM (Sean Gordon)
+Newsgroups: comp.sys.ibm.pc,comp.sys.ibm.pc.hardware
+Subject: Help, I need a Mac SE modem port to PC 25 way serial port cable
+Message-ID: <638@ddbeezer.Dundee.NCR.COM>
+Date: 21 Apr 93 11:34:12 GMT
+Reply-To: seang@ddbeezer.Dundee.NCR.COM (Sean Gordon)
+Distribution: world
+Organization: NCR E&M Dundee
+Lines: 14
+
+I'm trying to connect a Mac SE modem port to a PC 25 way serial port,
+can someone provide me with a wiring diagram for a null modem lead for
+this setup.
+
+Please use Email since my news feed is a bit quirky.
+
+Thanks in advance
+
+Sean Gordon
+--------------------------------------------------------------------------------
+Sean.Gordon@Dundee.NCR.COM|#include <stdio.h>
+NCR (E&M) Ltd.            |long a=10000,b,c=2800,d,e,f[2801],g;main(){for(;b-c;)
+Tel (0382) 592586         |f[b++]=a/5;for(;d=0,g=c*2;c-=14,printf("%.4d",e+d/a),
+Fax (0382) 622243         |e=d%a)for(b=c;d+=f[b]*a,f[b]=d%--g,d/=g--,--b;d*=b);}
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!news-feed-1.peachnet.edu!gatech!howland.reston.ans.net!sol.ctr.columbia.edu!eff!world!mv!jeck!howtek.MV.COM!phunt.howtek.MV.COM!phil
+From: phil@howtek.MV.COM (Phil Hunt)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Motherboard manufacturer & What is this slot for?
+Date: Thu, 22 Apr 93 16:15:14 EST
+Organization: Howtek, Inc.
+Message-ID: <D2150040.vot8i1@phunt.howtek.MV.COM>
+Reply-To: phil@howtek.MV.COM (Phil Hunt)
+X-Mailer: uAccess - Macintosh Release: 1.6v2
+Lines: 42
+
+Hi,
+
+I bought, on the net here, a mini-tower 386dx25 system.  It works fine, but
+I have no docs on the motherboard.
+
+Does anyone know who a manufacturer named WPI is?  That is the only marking
+on the board that is not related to a chip/connector name.  It says
+(c)1991, WPI
+
+Also, this board has a connector at the other end of the motherboard, it looks
+like this:
+
+
+  +---------------------------------+
+  |  Batt                           |
+  |                        387      |  Socket for 387 math coprocessor
+  |                                 |
+  |                     386         |  386 chip is about here
+  |                                 |
+  | ========= ====                J |  = signs are the ISA slots
+  | ========= ====                M |
+  | =========                     P |  Jumpers for turbo/kb etc are where
+  | ========= ====         ------ E |  marked
+  | ========= ====         ------ R |
+  | ========= ====         ------ S |  - signs are 8 banks of SIMM sockets
+  | ========= ====                  |
+  | =========          ==== ======= |  <<<These connectors are the mystery
+  +---------------------------------+     connectors!!!!
+                       ^^^^ ^^^^^^^
+                       What is this connector?
+
+Is this a place to plug an extra memory board in?  I've seen thatr mentioned
+in some motherboard docs.  Some allow an 8-meg card and 8 meg in simms.  Is
+this what it is for?
+
+Phil
+
+--------------------------------------------------------------------
+Phil Hunt                          "Wherever you go, there you are!"
+Howtek, Inc.                               
+
+Internet: phil@howtek.MV.COM   uucp: {decvax|harvard}!mv!howtek!phil
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!agate!dog.ee.lbl.gov!hellgate.utah.edu!cc.usu.edu!slzw0
+From: slzw0@cc.usu.edu
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: ***Wanted : 386DX-33 motherboard
+Message-ID: <1993Apr22.223127.66661@cc.usu.edu>
+Date: 22 Apr 93 22:31:27 MDT
+Organization: Utah State University
+Lines: 10
+
+
+  Are there anyone who wants to sell used 386dx-33 motherboard?
+If you have one please let me know the price and the specification
+
+I am also interested in buying Trident VGA card  (1Meg)
+
+Park
+
+
+
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!agate!ames!tulane!theozone!chris.crayton
+From: chris.crayton@ozonehole.com (Chris Crayton) 
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: How is a null modem c
+Message-ID: <10223.24.uupcb@ozonehole.com>
+Date: 22 Apr 93 19:56:00 GMT
+Distribution: world
+Organization: Ozone Online Operations, Inc. - New Orleans, LA
+Reply-To: chris.crayton@ozonehole.com (Chris Crayton) 
+Lines: 22
+
+--> A humble response to a letter by Gordon Lang written 04-21-93  22:09.
+
+
+ GL> :  I am interrested in the extrodinarily simple concept of the null
+ GL> modem : cable. (Actually I have NO idea, so don't count that last
+ GL> statement.)  What I'm : asking is what pins does it use (or what are
+ GL> it's specifications?)  I just want : to solder one myself instead of
+ GL> buying one.  I don't even know what port is : used.
+
+You may want to save yourself the trouble and go to Radio Shack.  They have
+a null modem adapter which is a 9 pin connector that swaps the necessary
+pins to allow two machines to communicate.  These are a lot easier than
+soldering the connections yourself, and usually a bit more reliable.
+
+... P.E.T.A. People for the Eating of Tasty Animals
+--- Blue Wave/QWK v2.10
+                                                                                                       
+----
+The Ozone Hole BBS * A Private Bulletin Board Service * (504)891-3142
+3 Full Service Nodes * USRobotics 16.8K bps * 10 Gigs * 100,000 Files
+SKYDIVE New Orleans! * RIME Network Mail HUB * 500+ Usenet Newsgroups
+Please route all questions or inquiries to:  postmaster@ozonehole.com
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!cs.utexas.edu!uunet!munnari.oz.au!titan!trlluna!bruce.cs.monash.edu.au!monu6!giaec.cc.monash.edu.au!s1070627
+From: s1070627@giaec.cc.monash.edu.au (BrEtT pAtErSoN)
+Subject: Will my 386 RAM work in a 486?
+Message-ID: <1993Apr23.063043.19602@monu6.cc.monash.edu.au>
+Lines: 21
+Sender: news@monu6.cc.monash.edu.au (Usenet system)
+Organization: Monash University Gippsland Campus, Victoria, AUSTRALIA.
+Date: Fri, 23 Apr 1993 06:30:43 GMT
+
+
+I am wanting to upgrade from a 386SX-25, to a 486DX-33, and are looking at a
+cheap quote from someone offering me a 486DX-33 motherboard, with no ram in
+it.  (I will probably sell my old m-board off somewhere)
+Now, I have 4 meg of RAM in my 386, which consists of
+
+4 x 9 module 1024KB simms, running at 70 nanoseconds.
+    ^^^^^^^^                          ^^^^^^^^^^^^^^
+Would I encounter problems with the pointed out areas, by throwing these from
+one computer to the other?
+
+Any comments gratefully (e-mail preferred) appreciated.
+              _______________________________________________
+             /\                                              \
+            /#\\  BrEtT pAtErSoN: <- nO i Am NoT dYsLeXiC.    \
+           /#\#/----------------------------------------------/
+          /#\#/   email : s1070627@giaec.cc.monash.edu.au    /
+          \\#/   Leongatha, Victoria, Australia.            /
+           \/______________________________________________/
+
+
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.ibm.pc.hardware:61060 comp.sys.ibm.pc.misc:34393
+Newsgroups: comp.sys.ibm.pc.hardware,comp.sys.ibm.pc.misc
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!swrinde!sgiblab!wetware!spunky.RedBrick.COM!psinntp!psinntp!mr!rbuyaky
+From: rbuyaky@mr.com (Reid R. Buyaky)
+Subject: Re: MODEM PROBLEM:  "No Dialtone"
+Message-ID: <1993Apr22.130314.1086@mr.com>
+Organization: Micro Resources
+X-Newsreader: Tin 1.1 PL3
+References: <C5uFn8.Jy2@acsu.buffalo.edu>
+Date: Thu, 22 Apr 1993 13:03:14 GMT
+Lines: 24
+
+dudek@acsu.buffalo.edu (The Cybard) writes:
+: worked fine.)  Please note: none of the software or hardware parameters
+: were changed, only the phone line itself.  Is my new modem faulty?  What
+: can I do? 
+: 
+: -- 
+: David Thomas Dudek /  v098pwxs@ubvms.bitnet     \     __   _ The Cybard
+
+I'm arguing with the phone company about a similar problem.  We
+installed a second phone line in our home (for our kids), and whenever
+one of them is on THEIR line, the modem returns "NO DIAL TONE" on its
+line.
+
+When we pick up the phone and listen, we can hear my kids' voices
+"bleed" through.  Whenever we can hear this, the modem won't dial (even
+though the dial tone is loud and clear through the modem speaker).
+
+I think it's the phone company's problem, but they say they can't
+(won't?) correct the problem...I'm still working on them. ;-}
+-- 
+ Reid R. Buyaky            |  Sysop: Heartland Multiline BBS
+ Micro Resources, Inc.     |         (614) 846-7669
+ Dublin, Ohio              |    
+ UNIX Systems Integrators  |    Net: rbuyaky@mr.com
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!agate!linus!linus.mitre.org!mbunix.mitre.org!jcmorris
+From: jcmorris@mbunix.mitre.org (Morris)
+Subject: Re: Soundblaster IRQ and Port settings
+Message-ID: <1993Apr23.132321.29407@linus.mitre.org>
+Sender: news@linus.mitre.org (News Service)
+Nntp-Posting-Host: mbunix.mitre.org
+Organization: The MITRE Corporation, Bedford, MA
+References: <1993Apr22.171350.15089@spectrum.xerox.com>
+Date: Fri, 23 Apr 1993 13:23:21 GMT
+Lines: 42
+
+[discussing the use of IRQ 7]
+
+In  recent article msprague@superior.mcwbst311b (Mike Sprague) writes:
+
+>I as a number of poeple in this thread have already written
+>(I can't prove it's true, but I believe it), LPT1 does not
+>actually use IRQ7, even though that interrupt is supposed to
+>be dedicated to LPT1.
+
+To put it a little differently:
+
+ - IRQ 7 is the de facto standard interrupt assigned to be used by the
+   printer adapter to announce its completion of some activity.
+
+ - DOS doesn't monitor IRQ 7; it uses other means to determine when it's
+   time to send out another byte to the printer.
+
+ - Most (all?) (hardware) printer adapters have the ability to disable
+   the use of IRQ 7, usually by merely breaking the connection between
+   the ISA pin and the associated driver.  Other adapters control the
+   IRQ line by a tri-state driver, and by programming just leave it
+   in the high-impedence mode.
+
+ - Unfortunately, there are a lot of adapter cards which use bistate
+   drivers (i.e., either assert high or assert low) for the IRQ lines
+   rather than tristate drivers (assert high, assert low, or don't
+   assert anything).  The presence of such a card on an IRQ line precludes
+   the use of that IRQ by any other adapter unless it is physically 
+   disconnected by a jumper.
+
+   (Incidentally, note that there's no requirement that a card hold
+   the IRQ line low when no interrupt is desired.  If that were true
+   you would have to somehow tie down all unconnected IRQ lines, and
+   that certainly isn't a requirement.)
+
+ - Non-DOS operating systems (OS/2, NT (?), various Unices or whatever the
+   proper plural of Unix might be) require the use of IRQ 7 for performance
+   reasons.  
+
+And the SB16, alas, is one of the cards which uses bistate drivers.
+
+Joe Morris / MITRE  (jcmorris@mitre.org)
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!lhdsy1!jjctc
+From: jjctc@lhdsy1.lahabra.chevron.com (James C. Tsiao)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: Diamond Products Boycot?
+Summary: diamond policies
+Keywords: diamond policies
+Message-ID: <11228@lhdsy1.lahabra.chevron.com>
+Date: 23 Apr 93 15:06:42 GMT
+References: <1993Apr23.070117.22214@monu6.cc.monash.edu.au>
+Organization: Chevron, La Habra, CA.
+Lines: 40
+
+In article <1993Apr23.070117.22214@monu6.cc.monash.edu.au> ins413j@mdw056.cc.monash.edu.au (Markfried Fellensiek) writes:
+>
+>...
+>If you're considering buying a system, with a view to using
+>it to run Unix (Linux, bsd, etc...) or some other special software,
+>there is a good chance that it WILL NOT WORK with the Diamond cards.
+
+That is, if the special software is free, like Xfree86.  There are
+vendors that sells Diamond X drivers for commercial Unices.  But
+then, they charge $$$$.
+
+>This is due to Diamond's propriety attitude to it's hardware:
+>it's impossible to get free information from them about their chips 
+>(specifically their dot-clocks) without paying, and signing non-disclosure
+>agreements.
+
+I think they only need a signing (i.e. no paying).  This still
+violates the FSF's policy of publically available code.
+
+>This made it impossible for the Free Software Foundation to provide
+>X-Windows compatibility with these cards, as diamond didn't want to 
+>divulge programming neccessities.
+
+While this is true, there are fixes for those who have already
+bought Diamond cards.  In Linux, for example, there are utilities
+that will put the card in VESA mode before invoking X.  Of course,
+this means no fine tuning of Diamond cards, but at least this
+will allow those who're stuck with them to use Linux+X.
+
+I agree with Mark's suggestion:  If you are buying a video card
+for specialized free software, avoid Diamond.  But if you already
+have one, there may be a fix that can help you.
+
+James.
+
+-- 
+jjctc@chevron.com                    |   The shortest distance between
+jtsiao@netcom.com                    |   two puns is a straight line.
+-----------------------------------------------------------------------------
+Ask me about Linux, the freely distributable Unix clone for the 386/486.
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usenet.ins.cwru.edu!cleveland.Freenet.Edu!ab245
+From: ab245@cleveland.Freenet.Edu (Sam Latonia)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: DX50 vs DX266
+Date: 23 Apr 1993 15:44:05 GMT
+Organization: Case Western Reserve University, Cleveland, Ohio (USA)
+Lines: 28
+Message-ID: <1r92s5$mec@usenet.INS.CWRU.Edu>
+NNTP-Posting-Host: slc10.ins.cwru.edu
+
+
+
+
+
+Article #61214 (61317 is last):
+>Newsgroups: comp.sys.ibm.pc.hardware
+From: arnolm2@aix.rpi.edu (Matthew Richard Arnold)
+Subject: DX50 vs DX266
+Date: Wed Apr 21 19:55:12 1993
+
+
+Would someone be willing to explain to me the 486DX 50MHz is not more
+popular than it is?  I would think it would be just as fast, if not 
+faster than the 486DX 66MHz for certian applications.  Plus, a 50MHz 
+motherboard would seem better if you had any plans on upgrading the
+chip in the future.  I must be missing something, since everyone is 
+buying the DX2 66...  Many adds don't even mention the DX 50.
+
+ Thanks a lot,
+   -Matt
+
+End of File, Press RETURN to quit
+
+Yes its realy simple, no one makes a mother board that runs the
+bus at more than 33MHZ....Sam
+-- 
+Gosh..I think I just installed a virus..It was called MS DOS6...
+Don't copy that floppy..BURN IT...I just love Windows...CRASH...
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!usenet.ins.cwru.edu!wsu-cs!vela.acs.oakland.edu!vela.acs.oakland.edu!not-for-mail
+From: swood@vela.acs.oakland.edu (Scott Wood)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Western Digital HD info needed
+Date: 15 Apr 1993 14:59:00 -0400
+Organization: Oakland University, Rochester, Michigan, U.S.A.
+Lines: 34
+Message-ID: <1qkb9k$788@vela.acs.oakland.edu>
+NNTP-Posting-Host: vela.acs.oakland.edu
+
+I was recently loaned an older Dec 210 286 at work, and I have the option
+of adding an additional Western Digital Hard-drive to the machine.  The
+existing drive is currently a Western Digital as well, and is working fine,
+but I do not have any documentation available for configuring the master/slave
+relationship necessary for a c: d: drive setup.
+
+The first drive is currently formatted to Tandy Dos v3.3 but I am eventually
+going to upgrade both to MS Dos v 5.0
+
+The drives themselves are both model number WD95044-A circa 5-07-1991
+They are 782 cyl 4 head drives.  A note to add is that there is no exact
+configuration for these in my current bios, but it seems to work at a
+setting 17 (977 cyl 5 head, 300 write_pre, 977 landing zone).
+There are three pairs of jumper pins on the back that I presume are
+for setting up the master/slave.  Originally, the drive in the machine
+had none.  Currently, I was suggested to try the far right (looking at the
+back) for master and the middle jumper for the slave.
+
+When booted, the reinitialize seems to puke accessing the d: drive.  It does
+flicker about three times on the second drive, but then gives the error.  
+Hopefully the problem is as simple as the drive not being formatted, but not
+being a person who has ever had to actual format and unformatted drive, I
+would not even know how to do that.
+
+Any and all help on this is great fully appreciated.  If not, a number
+for Western Digital might just do as good!
+
+swood
+
+-- 
+       Hunting over in Michigan?  Don't Despair - NO CLOSED SEASON ON:
+         opossum, porcupine, weasel, red squirrel, skunk, starlings,
+        feral pigeons, English sparrows, ground squirrel & woodchuck
+          Anyway trout season opens the last Saturday this month.
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!usc!cs.utexas.edu!uunet!mcsun!Germany.EU.net!thoth.mchp.sni.de!wiesel.km-mgnt.ap.mchp.sni.de!obl
+From: obl@gabi.ap.mchp.sni.de (Oliver Blankenheim)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Subject: Re: 16550 v. 16550A ???
+Date: 23 Apr 1993 15:32:28 GMT
+Organization: Siemens Nixdorf Informationssysteme AG
+Lines: 16
+Distribution: world
+Message-ID: <1993Apr23.172508@gabi.ap.mchp.sni.de>
+Reply-To: obl@gabi.ap.mchp.sni.de ()
+NNTP-Posting-Host: 139.21.18.129
+
+
+In article <1993Apr22.042310.39296@ns1.cc.lehigh.edu> you write:
+
+> What's the difference between a 16550 UART and a 16550A UART? Thanks!
+
+The difference is that the 16550 got bugs while the 16550A can be used
+whithout problems even in fast serial communications. Other sources
+say that only the 16550AFN from Nat Semi (i.e. not: second sources)
+is really OK.
+
+Best wishes
+
+Oliver
+
+
+
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!news-feed-1.peachnet.edu!emory!wupost!howland.reston.ans.net!zaphod.mps.ohio-state.edu!sdd.hp.com!nigel.msen.com!math.fu-berlin.de!easix!jester!michael
+From: michael@jester.GUN.de (Michael Gerhards)
+Newsgroups: comp.sys.ibm.pc.hardware
+Distribution: world
+Subject: Re: HOW is a Null Modem Cable?
+X-Newsreader: TIN [version 1.1 PL8]
+References: <1993Apr20.174525.5046@vax.cns.muskingum.edu>
+Message-ID: <93042275@jester.GUN.de>
+Organization: private COHERENT system
+Date: Thu, 22 Apr 93 17:28:35 GMT
+Lines: 76
+
+Kevin Kimmell - Computer Science/German Undergrad (ke_kimmell@vax.cns.muskingum.edu) wrote:
+
+>       I am interrested in the extrodinarily simple concept of the null modem
+> cable. (Actually I have NO idea, so don't count that last statement.)  What I'm
+> asking is what pins does it use (or what are it's specifications?)  I just want
+> to solder one myself instead of buying one.  I don't even know what port is
+> used.
+
+DB-25   DB-9
+Pin #   Pin #   Name    EIA     CCITT   DTE-DCE Description
+------------------------------------------------------------------------------
+ 1              FG      AA       101      ----  Frame ground
+ 2      3       TD      BA       103      --->  Transmitted data
+ 3      2       RD      BB       104      <---  Received data
+ 4      7       RTS     CA       105      --->  Request to send
+ 5      8       CTS     CB       106      <---  Clear to send
+ 6      6       DSR     CC       107      <---  Data set ready
+ 7      5       SG      AB       102      ----  Signal ground
+ 8      1       DCD     CF       109      <---  Data carrier detect
+ 9              --      --        -         -   Positive DC test voltage
+10              --      --        -         -   Negative DC test voltage
+11              QM      --        -       <---  Equalizer mode
+12              SDCD    SCF      122      <---  Secondary data carrier detect
+13              SCTS    SCB      121      <---  Secondary clear to send
+14              STD     SBA      118      --->  Secondary transmitted data
+15              TC      DB       114      <---  Transmitter clock
+16              SRD     SBB      119      <---  Secondary receiver clock
+17              RC      DD       115      --->  Receiver clock
+18              DCR     --        -       <---  Divided clock receiver
+19              SRTS    SCA      120      --->  Secondary request to send
+20      4       DTR     CD       108.2    --->  Data terminal ready
+21              SQ      CG       110      <---  Signal quality
+22      9       RI      CE       125      <---  Ring indicator
+23              --      CH       111      --->  Data rate selector
+24              --      CI       112      <---  Data rate selector
+25              TC      DA       113      <---  Transmitted clock
+
+.-.-.- from another posting in c.s.i.p.h .-.-.-
+.-.-.- sorry, don't know the author .-.-.-.-.-.
+Connecting devices
+------------------
+ 
+  Normally, a 7 wire connection is used. Connect:
+        GND1    to    GND2
+        RxD1    to    TxD2
+        TxD1    to    RxD2
+        DTR1    to    DSR2
+        DSR1    to    DTR2
+        RTS1    to    CTS2
+        CTS1    to    RTS2
+  If a modem is connected, add lines for the following:
+        RI, DCD
+  If software wants it, connect DCD1 to CTS1 and DCD2 to CTS2.
+  BEWARE! While PCs use pin 2 for RxD and pin 3 for TxD, modems normally
+have those pins reversed! This allows to easily connect pin1 to pin1, pin2
+to pin 2 etc. If you connect two PCs, cross RxD and TxD.
+ 
+  If hardware handshaking is not needed, a so-called null-modem connection
+can be used. Connect:
+        GND1    to    GND2
+        RxD1    to    TxD2
+        TxD1    to    RxD2
+Additionally, connect (if software needs it):
+        RTS1    to    CTS1 & DCD1
+        RTS2    to    CTS2 & DCD2
+        DTR1    to    DSR1
+        DTR2    to    DSR2
+You won't need long wires for these!
+  The null-modem connection is used to establish an XON/XOFF-transmission
+between two PCs (see software section for details).
+  Remember: the names DTR, DSR, CTS & RTS refer to the lines as seen from
+the PC. This means that for your data set DTR & RTS are incoming signals
+and DSR & CTS are outputs!
+.-.-.-.- end .-.-.- 
+
+Michael
+--
+*  michael@jester.gun.de  *   Michael Gerhards   *   Preussenstrasse 59  *
+                          *  Germany 4040 Neuss  *  Voice: 49 2131 82238 *
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!noc.near.net!uunet!mcsun!fuug!prime!mits!lasse
+From: lasse@mits.mdata.fi (Lasse Reinikainen)
+Subject: Diamond Stealth Pro / 2 MB VRAM
+Organization: Microdata Oy, Helsinki, Finland
+Date: Fri, 23 Apr 1993 19:41:37 GMT
+Message-ID: <1993Apr23.194137.6046@prime.mdata.fi>
+Sender: usenet@prime.mdata.fi (Usenet poster)
+Nntp-Posting-Host: mits.mdata.fi
+Lines: 17
+
+I want to have some info about Diamond Stealth Pro / 2 MB VRAM:
+
+  - what graphics modes does it support
+  - are HI-COLOR modes included to VESA BIOS (for use with DOS programs)
+  - any experiences yet (bugs & advantages)
+  - how fast is it under Windows and DOS
+  - price
+
+Thanks...
+
+    __________________           __
+    \_________________|)____.---'--`---.____
+                  ||    \----.________.----/
+                  ||     / /    `--'                  lasse@mits.mdata.fi
+                __||____/ /_
+               |___         \
+                   `--------'
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!uwm.edu!ogicse!netnews.nwnet.net!news.u.washington.edu!carson.u.washington.edu!sinn
+From: sinn@carson.u.washington.edu (Philip Sinn)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: ET4000/W32 chip graphics accelerator.
+Summary: 10Mpixel/sec Winmark 3.11 at 800x600 256 colours
+Keywords: winmark, accelerator, chip, Hint
+Message-ID: <1r9r5rINNps6@shelley.u.washington.edu>
+Date: 23 Apr 93 22:38:51 GMT
+Article-I.D.: shelley.1r9r5rINNps6
+Distribution: world
+Organization: University of Washington, Seattle
+Lines: 43
+NNTP-Posting-Host: carson.u.washington.edu
+
+I got a ET4000/W32 card which is made by Cardex yesterday
+and ran a winmark test on it. The card is a VL-BUS card which
+can display 16.7 million colours in 640x480 mode with 1MB DRAM.
+
+It comes with ET4000/W32 window drivers and a normal Et4000 drivers.
+The ET4000/W32 drivers handles, 640x480, 800x600, 1024x786 in 256 colours.
+Also, in 640x480 and 800x600, it supports hicolor, 32K and 64K colours.
+
+Here is my winmark result running on a 16MB 486DX33 EISA/VL-BUS system using
+Hint chipsets.
+
+Winmark 3.11 from ZD lab.
+
+Using ET4000/W32 drivers
+640x480 256       10.63 megapixel/sec.
+        32k        7.34 
+        64k        7.30
+800x600 256       10.07
+        32k        6.38
+        64k        6.35
+1kx786  256        8.17
+
+Using ET4000 drivers.
+640x480 16M        1.78
+800x600  16colours 4.01     
+1kx786   16        4.22
+
+From the result, the ET4000/W32 drivers are specialized to use the
+hardware feature of the Et4000/W32 chip whereas the ET4000 drivers are
+just normal driver for ET4000 based graphics card.
+
+The price of this graphics card that I got is $185 from a local dealer.
+It may be less from mail order. It has OS/2 2.0 drivers comes with it
+which supports 256 colors on all resolution.
+
+From these results, it has double the performance of a Et4000AX based card
+in 256 colours mode.
+
+
+Philip Sinn
+sinn@carson.u.washington.edu
+University of Washington
+* It is all my opinions *
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!zaphod.mps.ohio-state.edu!magnus.acs.ohio-state.edu!ejen
+From: ejen@magnus.acs.ohio-state.edu (Edward K Jen)
+Subject: Re: DX50 vs DX266
+Message-ID: <1993Apr23.230102.988@magnus.acs.ohio-state.edu>
+Sender: news@magnus.acs.ohio-state.edu
+Nntp-Posting-Host: photon.magnus.acs.ohio-state.edu
+Organization: The Ohio State University
+References: <33z5zgc@rpi.edu> <C5xw6x.BtB@austin.ibm.com>
+Date: Fri, 23 Apr 1993 23:01:02 GMT
+Lines: 35
+
+In article <C5xw6x.BtB@austin.ibm.com> lance@hartmann.austin.ibm.com (Lance Har
+tmann) writes:
+>In article <33z5zgc@rpi.edu> arnolm2@aix.rpi.edu (Matthew Richard Arnold) writ
+es:
+>>
+>>Would someone be willing to explain to me the 486DX 50MHz is not more
+>>popular than it is?  I would think it would be just as fast, if not
+>>faster than the 486DX 66MHz for certian applications.  Plus, a 50MHz
+>>motherboard would seem better if you had any plans on upgrading the
+>>chip in the future.  I must be missing something, since everyone is
+>>buying the DX2 66...  Many adds don't even mention the DX 50.
+>>
+>
+>One of the things going for the DX2-66 (over the 50) is that it's
+>clock speed complies with the VESA local bus spec.
+>
+>Lance Hartmann (lance%hartmann.austin.ibm.com@ibmpa.awdpa.ibm.com)
+
+A couple other problems with the 486DX/50:
+
+1.)  System manufacturers had MAJOR problems solving the electromagnetic 
+interference problems with 486DX/50 systems.  Getting an FCC-B (home use) 
+certification required additional shielding in the system.
+
+2.)  HEAT...a lot of people seem to be installing heat sinks and/or cooling 
+fans on their 486DX2/66 chips.  I would guess that the 486DX/50 ran 
+temperatures inside the case even hotter.  And heat is the enemy of system 
+reliability.
+
+Ed
+-- 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Any above opinions are the sole property of the below named person:
+Edward K. Jen                                   ejen@magnus.acs.ohio-state.edu
+Academic Computing Services                          The Ohio State University
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!news.ans.net!nynexst.com!asterix!villano
+From: villano@nynexst.com (Michael Villano)
+Subject: 66MHZ Standard PC won't run Windows in Turbo mode
+Message-ID: <1993Apr23.223422.857@nynexst.com>
+Keywords: Standard PC, General Protection Faults, Windows for Workgroups
+Sender: news@nynexst.com (For News purposes)
+Reply-To: villano@nynexst.com
+Organization: NYNEX Science & Technology, Inc
+Date: Fri, 23 Apr 93 22:34:22 GMT
+Lines: 9
+
+I have a Standard Computer 486DX2/66mhz EISA Tower with 16MB RAM, a Quantum 240MB Hard Drive, 1.2 and 1.44 MB floppies and a Colorado 250MB tape drive. I also have a Sound Blaster Pro and a 3COM Ethernet card (3C507) installed. The machine is completely stable in non-Turbo mode. In Turbo mode, Windows for Workgroups crashes or won't come up at all. If Windows does come up, I get General Protection Faults and Divide by Zero System Errors. Is there a problem with memory keeping up with the speed of the CPU o
+
+
+
+n these machines?
+
+I have tried to reach Standard Computers, but their phones have been disconnected.
+Does anyone know what happened to this company?
+YAMOHS- Yet Another Mail Order Horror Story!
+
+I'd prefer e-mailed responses as I don't get to read this newsgroup often.
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!wupost!howland.reston.ans.net!sol.ctr.columbia.edu!eff!news.kei.com!ub!acsu.buffalo.edu!ubvmsd.cc.buffalo.edu!v063kcbp
+From: v063kcbp@ubvmsd.cc.buffalo.edu (MITCH)
+Newsgroups: comp.sys.ibm.pc.hardware
+Subject: Re: Low Emission Monitors:  Who besides NEC?
+Message-ID: <C5yp5C.2Kt@acsu.buffalo.edu>
+Date: 24 Apr 93 00:26:00 GMT
+References: <1r9fo0INN12s@elroy.jpl.nasa.gov>
+Sender: nntp@acsu.buffalo.edu
+Distribution: na
+Organization: University at Buffalo
+Lines: 34
+News-Software: VAX/VMS VNEWS 1.41
+Nntp-Posting-Host: ubvmsd.cc.buffalo.edu
+
+hartzman@kilroy.Jpl.Nasa.Gov (Les Hartzman) writes...
+
+>Does anyone else make low radiation emission monitors besides NEC?
+> 
+>How do they compare to NECs (quality and emission-wise)?
+>-- 
+>Les Hartzman                hartzman@kilroy.jpl.nasa.gov
+>Jet Propulsion Laboratory   M/S 238-528    (818) 354-5964
+>4800 Oak Grove Dr., Pasadena,  CA.  91109
+
+Les,
+
+        I am right now working on an MPR-II certified (Swedish standards for
+low emissions) Hitachi Superscan 15 monitor.  It's 1024x768, up to 72hz at
+that res, and it got a good write-up for image quality in a recent (Feb.?)
+issue of PC Magazine.  As far as I know, very little fully matches a NEC in
+image quality (at least according to the mags -- I can't tell any
+difference between the two!), but I think NEC is low emissions on only one
+of the two types.  There's VLF (Very Low Frequency) and ELF (I think that's
+Extremely Low Frequency).  The MPR-II standards set strict limits on both.
+But many comapnies, NEC included according to one article I read (I get a
+bunch of mags so it's hard for me to remember which!), which claim "low
+emissions" but not specifically "MPR-II Compliant" or "MPR-II Certified"
+only control for one, usually VLF, and ignore the other.
+        So, the NEC probably has higher overall image quality (I consis-
+tently hear it rated as the best or close to the best), but not as low
+emissions as the Hitachi.  I like my image quality, but for all I know you
+may be more discerning.  Good luck!
+
+                                        - Mitch
+                                        v063kcbp@ubvms.cc.buffalo.edu
+
+
+(Oh yeah: I got my Hitachi Superscan 15 from Insight for $499.)
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.ibm.pc.hardware:61168 comp.sys.amiga.hardware:42019 comp.sys.sun.hardware:8975
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!darwin.sura.net!howland.reston.ans.net!agate!ames!nsisrv!lite-brite.gsfc.nasa.gov!lite-brite!shenton
+From: shenton@troll.gsfc.nasa.gov (Chris Shenton)
+Newsgroups: comp.sys.ibm.pc.hardware,comp.sys.amiga.hardware,comp.sys.sun.hardware
+Subject: Re: Monitors - Nanao?
+Date: 22 Apr 93 17:54:27
+Organization: NASA/GSFC/HSTX, Greenbelt, MD
+Lines: 21
+Message-ID: <SHENTON.93Apr22175427@troll.gsfc.nasa.gov>
+References: <C5uw1t.3HI@eskimo.com>
+NNTP-Posting-Host: troll.gsfc.nasa.gov
+Mime-Version: 1.0
+Content-Type: text/plain; charset=US-ASCII
+Content-Transfer-Encoding: 7bit
+In-reply-to: johnn@eskimo.com's message of 21 Apr 93 23:03:27 GMT
+
+In-reply-to: johnn@eskimo.com's message of 21 Apr 93 23:03:27 GMT
+Newsgroups: comp.sys.ibm.pc.hardware,comp.sys.amiga.hardware,comp.sys.sun.hardware
+Subject: Re: Monitors - Nanao?
+References: <C5uw1t.3HI@eskimo.com>
+Distribution: 
+--text follows this line--
+I have a Nanao 17" (F560?)  on my IPX. I prefer it to my Sun 16"
+trinitron at work with all those vertical jitters and the two
+horizontal shadowmask thingies.
+
+I got it from one of the folks advertising in Computer Shopper et al
+for $1050 plus about $40 shipping. 
+
+I bought a cable which goes from the Sun's 13W3 connector to the
+monitors 4xRGBS for about $50 from a Macintosh mailorder shop (Relax
+Technologies).
+
+I'd do it again. Happily.
+
+--
+-- Chris.Shenton@gsfc.nasa.gov                      NASA/GSFC/HSTX 301-286-7905
+Newsgroups: comp.sys.ibm.pc.hardware
+From: mark@madman.demon.co.uk (Mark Willams)
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!agate!doc.ic.ac.uk!uknet!warwick!qmw-dcs!qmw!demon!madman.demon.co.uk!mark
+Subject: HELP WANTED: Faults on IDE drives
+Distribution: world
+Organization: DIS(organised)
+Reply-To: nick@madman.demon.co.uk
+X-Newsreader: Simple NEWS 1.90 (ka9q DIS 1.21)
+Lines: 14
+Date: Thu, 22 Apr 1993 13:11:13 +0000
+Message-ID: <735484273snz@madman.demon.co.uk>
+Sender: usenet@demon.co.uk
+
+I have a 105MB IDE drive and am having a few problems! I get 
+'Data error on drive C' messages when reading some files. The problem is
+also steadily getting worse.
+
+I have run some diagnostic software (PCTools V7.1) and it says that the
+drive is OK - but it does have to retry some sectors and it briefly 
+flashes up an error message (which is too quick to read).
+
+Does anybody know of any cheap or free software which could mark these
+sectors as bad (DOS doesn't) or preferably perform a low level format.
+I have heard that the latter is possible on an IDE. Technical answers
+would be appreciated. It would be nice to be able to use the disk again!!!
+
+I am running MS-DOS 5 on an AT clone.
+Newsgroups: comp.sys.ibm.pc.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!magnus.acs.ohio-state.edu!sample.eng.ohio-state.edu!purdue!haven.umd.edu!darwin.sura.net!howland.reston.ans.net!usc!sdd.hp.com!nigel.msen.com!caen!usenet.cis.ufl.edu!usenet.ufl.edu!mailer.cc.fsu.edu!loligo!zuniga
+From: zuniga@loligo.cc.fsu.edu (Ralph Zuniga (FREAC/CAR))
+Subject: COMDEX (ATLANTA GA) INFO WANTED
+Sender: usenet@mailer.cc.fsu.edu
+Organization: Florida State University Computing Center
+Date: Sat, 24 Apr 1993 03:14:05 GMT
+Message-ID: <C5ywzH.E20@mailer.cc.fsu.edu>
+Lines: 3
+
+I know this is the wrong newsgroup, but I was wondering if anyone 
+knows the date(s) of this year's COMDEX convention in Atlanta,GA.
+Or has it passed already?? E-mail if possible. Thanks.
