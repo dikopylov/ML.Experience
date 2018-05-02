@@ -1,4 +1,4 @@
-Newsgroup: sci.space
+sci.space
 document_id: 59497
 From: et@teal.csn.org (Eric H. Taylor)
 Subject: Re: Gravity waves, was: Predicting gravity wave quantization & Cosmic Noise

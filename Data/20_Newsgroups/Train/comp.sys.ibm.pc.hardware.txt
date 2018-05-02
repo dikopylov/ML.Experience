@@ -1,4 +1,4 @@
-Newsgroup: comp.sys.ibm.pc.hardware
+comp.sys.ibm.pc.hardware
 document_id: 58343
 From: bobmon@cs.indiana.edu (Bob Montante)
 Subject: WANTED: bus card for Logitech Mouse

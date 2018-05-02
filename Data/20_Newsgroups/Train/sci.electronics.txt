@@ -1,4 +1,4 @@
-Newsgroup: sci.electronics
+sci.electronics
 document_id: 52434
 From: et@teal.csn.org (Eric H. Taylor)
 Subject: Re: HELP_WITH_TRACKING_DEVICE

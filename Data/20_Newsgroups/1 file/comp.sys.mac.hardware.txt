@@ -1,0 +1,3800 @@
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!ogicse!emory!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!magnus.acs.ohio-state.edu!hmarvel
+From: hmarvel@magnus.acs.ohio-state.edu (Howard P Marvel)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: your opinion of the LaserWriter Select 310?
+Message-ID: <1993Apr5.231721.1272@magnus.acs.ohio-state.edu>
+Date: 5 Apr 93 23:17:21 GMT
+Article-I.D.: magnus.1993Apr5.231721.1272
+References: <1993Apr5.203449.12043@midway.uchicago.edu>
+Sender: news@magnus.acs.ohio-state.edu
+Organization: The Ohio State University
+Lines: 12
+Nntp-Posting-Host: bottom.magnus.acs.ohio-state.edu
+
+
+My wife has one of these.  I have not had much chance to fiddle with
+it, but in comparison to our Laserwriters with Canon engines, she
+complains that the print is too light for her taste.  The difference
+is quite apparent even when the print setting on the Select 310 is
+adjusted to the darkest possible level.  I don't find it
+objectionable, and indeed rather like it, but be warned that some
+people don't care for it and it is considerably different. 
+
+I recall that years ago there were lots of debates over write-black
+vs. write-white engines when dealing with TeX drivers.  Is something
+like that going on here?
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.misc:42499 comp.sys.mac.hardware:50439
+Newsgroups: comp.sys.mac.misc,comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!emory!swrinde!zaphod.mps.ohio-state.edu!cs.utexas.edu!uunet!decwrl!netcomsv!optimla!lex
+From: lex@optimla.aimla.com (Lex van Sonderen)
+Subject: Re: CD-ROM multisession
+Message-ID: <C51AoB.3s1@optimla.aimla.com>
+Sender: news@optimla.aimla.com
+Nntp-Posting-Host: emerald
+Organization: Philips Interactive Media of America
+References: <31MAR199317590392@nssdca.gsfc.nasa.gov> <1pgifo$efb@msuinfo.cl.msu.edu>
+Date: Mon, 5 Apr 1993 23:31:23 GMT
+Lines: 19
+
+In article <1pgifo$efb@msuinfo.cl.msu.edu> gary@ah3.cal.msu.edu writes:
+>As I said "I know a multisession CD-ROM is necessary if you do more photos..."
+>BUT what if it is just a writable CD-ROM drive and do a second "session"
+>do you need one for that too?
+
+If you write a second time to a CD you need to have multi-session capability to
+read the second session.  Whether it is photos or just data or whatever.
+
+Here is a simplified way of looking at it:
+The first session has the directory structure burned at some tracks.  The
+second session has a newer directory structure, but the first directory still
+exists, because you cannot change, only add.  So if you put that in a 'normal'
+drive and it will only look to the first directory and think it has found all
+data.  Multisession kindof means that the drive will look for the last
+directory written to the disc, older systems look only for 'the' directory, not
+taking multiple directories into account.
+
+Lex van Sonderen
+Philips Interactive Media
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!news.intercon.com!psinntp!bigmac.mskcc.org!zelenetz.ski.mskcc.org!azelenet
+From: Andrew Zelenetz <azelenet@bigmac.mskcc.org>
+Newsgroups: comp.sys.mac.hardware
+Subject: Centris 610 Video Problem-HELP
+Date: 15 Apr 1993 15:10:58 GMT
+Organization: Memorial Sloan-Kettering Cancer Center
+Lines: 25
+Distribution: world
+Message-ID: <1qjtu2$7r9@bigmac.mskcc.org>
+NNTP-Posting-Host: zelenetz.ski.mskcc.org
+X-UserAgent: Nuntius v1.1.1d20
+X-XXMessage-ID: <A7F2F208CF0260CA@zelenetz.ski.mskcc.org>
+X-XXDate: Thu, 15 Apr 93 16:05:44 GMT
+
+We have recently obtained a Centris 610 and it has developed an unusual
+video problem. 
+
+Model:  610 with 8 MB/230 HD, 512K VRAM, no cards
+Monitor:        Apple 16"
+
+When the computer is set for 256 colors and certain operations are done,
+particularly vertical scrolling through a window, horizontal white lines
+appear on the monitor (which generally but not always spare open
+windows).  These lines accummulate as the operation is continued.  If a
+window is moved over the involved area of the screen and then moved away
+the line disappear from that area of the screen.  This problem is not
+observed if the monitor is configured for 16 colors or a 14 inch Apple
+monitor with 256 colors is used. 
+
+I suspect a bad video RAM chip but cannot be certain.  The problem has
+been apparent since day 1 but has gotten worse.
+
+We were wondering if anyone has seen anything like this, and if so, how
+to fix it.  Please also respond to azelenet@bigmac.mskcc.org.  Thank you
+for your help.
+
+Andrew Zelenetz
+Molecular Biology Program
+Memorial Sloan-Kettering Cancer Center
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!uwm.edu!msuinfo!uchinews!iitmax!news
+From: RUTIJOH1@chico.acc.iit.edu (USERS)
+Subject: Re: > Re: > RE: 1024 x 768 video on Q800 --- adaptor pinouts
+In-Reply-To: Gene's message of Wed, 14 Apr 1993 18:06:15 GMT
+Message-ID: <1993Apr15.173813.13810@iitmax.iit.edu>
+Sender: news@iitmax.iit.edu (News)
+Organization: ILLINOIS INSTITUTE OF TECHNOLOGY, CHICAGO
+References: <1993Apr13.133429.11293@iitmax.iit.edu> <C5HJMI.JCB@news2.cis.umn.edu>
+Date: Thu, 15 Apr 93 17:38:13 GMT
+X-News-Reader: VMS NEWS 1.24
+Lines: 17
+
+> This does not make sence...why would the 4FG work but the 3FGx not
+> work...it is the
+> same monitor without accucolor and digital controls...works fine at
+> 1024x768 with
+> SVGA...what's the deal....anyway you can get a SVGA 14" with .28mm and
+> 1024x7 68
+> for $279 at Damark...are you saing that it probably would work while a
+> $600 NEC won't?
+The 3FGx has a maximum horizontal scan rate of 49KHz, so driving it
+at 60.24KHz to get 1024 x 768 on the Mac is WAY BEYOND the tolerance            The 4FG is spec'ed at 57KHz, so going 60.24KHz is only 5-6% above
+the minimally guaranteed figure.
+
+I too doubt if the Damark monitor would sync to a Mac at 1024 x 768.            Like most things, you get what you pay.  That's the deal.
+
+-John Rutirasiri.
+
+P.S. I wouldn't have posted if I wasn't sure.  
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!usc!cs.utexas.edu!uwm.edu!ogicse!cs.uoregon.edu!news.uoregon.edu!systems@ns.uoregon.edu
+From: jeffh@ludwig.cc.uoregon.edu (Jeff Hite )
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: Mac Plus is constantly rebooting!
+Message-ID: <1qk7nu$ra8@pith.uoregon.edu>
+Date: 15 Apr 93 17:58:22 GMT
+Article-I.D.: pith.1qk7nu$ra8
+References: <C5Hsyu.Dxq@hpuerca.atl.hp.com>
+Organization: University of Oregon Network Services
+Lines: 25
+NNTP-Posting-Host: ludwig.cc.uoregon.edu
+
+In article <C5Hsyu.Dxq@hpuerca.atl.hp.com> russ@hpuerca.atl.hp.com (Russ  
+Hodes) writes:
+> Tae Shin (tshin@husc8.harvard.edu) wrote:
+> : 
+> : Basically, the Mac Pluses are constantly rebooting themselves, as if  
+the
+> : reboot button were being pushed.  Sometimes the Mac is able to fully  
+boot
+> : and display the desktop, but it is only a matter of time before it  
+reboots
+> : again.  At times, the frequency is as high as several times a minute. 
+> : 
+>    I wonder if your Mac has those little "RESET / INTERUPT" switches
+>    installed.  They are plastic devices that push on the switches which
+>    are inside the mac.  Or mabey those switches are bad and need
+>    replacing.
+
+This problem is usually a low +5 Vdc from the power supply, there is an  
+adjustment for this on the supply. If the voltage is still unstable or low  
+then the culprit is probably a bad rectifier at CR20.
+
+Jeff Hite
+Computing Center
+U of Oregon
+jeffh@ludwig.cc.uoregon.edu
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!wupost!uunet!world!jbailey
+From: jbailey@world.std.com (jim bailey)
+Subject: Re: Quadra 900/950
+Message-ID: <C5JFC6.EIp@world.std.com>
+Organization: The World Public Access UNIX, Brookline, MA
+References: <b-clark-100493202826@aragorn14.acns.nwu.edu> <C5FE7u.B6I@world.std.com> <C5FHL9.JAu@dartvax.dartmouth.edu>
+Date: Thu, 15 Apr 1993 18:28:52 GMT
+Lines: 26
+
+hades@coos.dartmouth.edu (Brian V. Hughes) writes:
+
+>jbailey@world.std.com (jim bailey) writes:
+
+>>b-clark@nwu.edu (Brian Clark) writes:
+
+>>>Quarda 900 is a popular misspelling of Quadra 900, which has a 25 MHz 040
+>>>processor. The 950 has a 33 MHz 040, and some local buses on the
+>>>motherboard run faster.
+
+>>The video is different also.  The 950 can run a 13" and I believe a 16"
+>>monitor in 16 bit color without a VRAM upgrade.
+
+>    Actually, you could put as much VRAM into a Q900 as you want and you
+>still won't be able to get 16-bit color, on any monitor. It's not part
+>of the on-board video. The Q950, however, can use 16-bit video on
+>monitors up to 19" with 2MB of VRAM.
+
+>-Hades
+
+
+Yes, but if you upgrade the VRAM in a 900 you get 24 bit color.  So
+you really don't care.  My point is that out the box the 950 has
+more video capability for the same size monitors.  The 900 can
+do 24 bit with both 13" and 16", doesn't support 19", and
+does 8 bit on 21" monitors.
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!paladin.american.edu!howland.reston.ans.net!noc.near.net!uunet!world!jbailey
+From: jbailey@world.std.com (jim bailey)
+Subject: Re: Quadra 900/950 differences
+Message-ID: <C5JFGB.EtM@world.std.com>
+Organization: The World Public Access UNIX, Brookline, MA
+References: <Apr10.173326.36632@yuma.ACNS.ColoState.EDU> <1993Apr11.014646.30872@iitmax.iit.edu> <1993Apr12.004746.16643@wuecl.wustl.edu> <C5FED3.Bqr@world.std.com> <1607@jagubox.gsfc.nasa.gov>
+Date: Thu, 15 Apr 1993 18:31:21 GMT
+Lines: 43
+
+jim@jagubox.gsfc.nasa.gov (Jim Jagielski) writes:
+
+>jbailey@world.std.com (jim bailey) writes:
+
+>>rdk2@cec2.wustl.edu (Robert David Klapper) writes:
+
+>>>     I also believe that the 950 fixed a bug in the CPU which screwed up
+>>>some floating point calculations.
+>>>-- 
+>>>Robert D. Klapper
+>>>Washington University in St. Louis
+>>>rdk2@cec2.wustl.edu
+>>>Lubarsky's Law of Cybernetic Entomology:  There's always one more bug.
+
+>>Does someone have any definite information on this.  This is the
+>>first I've heard of it.  How does the CPU get fixed by a hardware
+>>upgrade?  This doesn't make much sense to me.
+
+>Let's see now... The differences between the 950 and 900 are
+>basically:
+
+>       1. Runs at 33MHz, not 25MHz
+>       2. Has 25MHz I/O bus, not 16MHz
+>       3. Upgraded Graphics controller
+>       4. #3 results in Q950 requiring 80ns VRAM, not 100ns
+>       5. ROM fixes:
+>           a. rounding errors in floating point calculations
+>              at 15th digit
+
+So patch the ROMs with the latest OS version.  I don't see
+how this is a problem.
+
+>           b. Ethernet problems with more than 16 buffers
+
+>So, no doubt, the person was refering to 5a, hardly "screwing
+>up" though :)
+
+>-- 
+>    Jim Jagielski               |  "And he's gonna stiff me. So I say,
+>    jim@jagubox.gsfc.nasa.gov   |   'Hey! Lama! How about something,
+>    NASA/GSFC, Code 734.4       |   you know, for the effort!'"
+>    Greenbelt, MD 20771         |
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!darwin.sura.net!haven.umd.edu!decuac!pa.dec.com!e2big.mko.dec.com!nntpd.lkg.dec.com!ryn.mro4.dec.com!ricks.enet.dec.com!akhiani
+From: akhiani@ricks.enet.dec.com (Homayoon Akhiani)
+Subject: Re: Recommendations for removable storage media wanted
+Message-ID: <1993Apr15.183133.25189@ryn.mro4.dec.com>
+Lines: 25
+Sender: news@ryn.mro4.dec.com (USENET News System)
+Nntp-Posting-Host: ricks
+Reply-To: akhiani@ricks.enet.dec.com (Homayoon Akhiani)
+Organization: Digital Equipment Corporation
+X-Newsreader: mxrn 6.18-2
+References: <ls69u5INNo7g@nada.cs.utexas.edu> <1qf5qi$8d4@lll-winken.llnl.gov> <1993Apr14.115511.28278@kth.se>
+Date: Thu, 15 Apr 1993 18:31:33 GMT
+
+
+In article <1993Apr14.115511.28278@kth.se> you write:
+|>>After having used both Syqyest and Bernoulli's, I most enthuiastically
+|>>recommend
+|>>Bernoulli's. Syquests (although more popular) are much slower, prone to
+|>>cartridge
+|>
+|>What does your friends have? Buy it.
+|>
+|>If you have no friends, buy a 128 MB optical and stop
+
+I bought a Bernoulli 90pro drive last year after comparing it with lots of
+ diffrent storage solutions,
+OPTICAL drives are SLOW, very slow compared to 13 to 19ms access of Bernoulli.
+
+Since I needed additinol online storage (rather than just a backup or archiev
+e disk), I choosed Bernoulli drive. I use Adobe Preimere and Quicktime movies
+alot. you ran out of storage real fast.
+
+IMHO, the best buy currently is the Bernoulli 150Multidisk. 150MB per cartridge
+
+Homayoon Akhiani                               "Turning Ideas into ... Reality"
+Digital Equipment Corporation                        "Alpha, The New Beginning"
+77 Reed Rd. Hudson, MA 01701            "All Rights Reserved. Copyright(c)1993"
+Email: akhiani@ricks.enet.dec.com     "The words are mine, and not my employer"
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.hardware:51519 comp.sys.mac.system:30179
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!agate!plasma2.ssl.berkeley.edu!jacob
+From: jacob@plasma2.ssl.berkeley.edu (nga throgaw shaygiy)
+Newsgroups: comp.sys.mac.hardware,comp.sys.mac.system
+Subject: Memory upgrades
+Date: 15 Apr 1993 19:45:32 GMT
+Organization: UCB Space Sciences Lab
+Lines: 29
+Distribution: world
+Message-ID: <1qke0s$61e@agate.berkeley.edu>
+NNTP-Posting-Host: plasma2.ssl.berkeley.edu
+
+
+Excuse me if this is a frequent question, I checked in
+several FAQs but couldn't really find anything.
+
+I have a IIsi with the standard 5 meg memory and I want
+(need) to add additional memory.  But I'm on a budget.
+I really don't need more than 10 meg max, so what is
+the best (performance wise) and most economical way
+to do this?  Someone told me that I should only use
+SIMMs of the same amount of memory, that is 4 1 meg,
+4 2 meg, etc.  What if I just wanted to buy just 1 4 meg
+and use the rest of what I already have?  The manual
+hasn't been very helpful with this.
+
+Thanks.
+
+(Respond via e-mail if it isn't worth the bandwidth.)
+____________________________________________________________________
+"common human laws and interests     "I wouldn't exactly call it a
+ and emotions have no validity        a happy dogma, but it makes me
+ or signifigance in the vast          feel better about not 
+ cosmos-at-large..."                  getting laid..."
+                -HP Lovecraft                 -R. Carter
+____________________________________________________________________
+                                       ______   ______   __     
+                                    | /\  ___\ /\  ___\ /\ \    
+  jacob@sunspot.ssl.berkeley.edu    | \ \___  \\ \___  \\ \ \___
+                                    |  \/\_____\\/\_____\\ \_____\
+                                    |   \/_____/ \/_____/ \/_____/
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!ogicse!emory!sol.ctr.columbia.edu!howland.reston.ans.net!gatech!pitt.edu!kwgst
+From: kwgst+@pitt.edu (Mr. Someone)
+Newsgroups: comp.sys.mac.hardware
+Subject: modem question
+Message-ID: <9061@blue.cis.pitt.edu>
+Date: 15 Apr 93 21:50:50 GMT
+Article-I.D.: blue.9061
+Sender: news+@pitt.edu
+Organization: pre-EE
+Lines: 2
+
+
+                                        art
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!agate!web-4f.berkeley.edu!c60b-3jl
+From: c60b-3jl@web-4f.berkeley.edu (James Wang)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: What is  "ROM accelerated video"?
+Date: 15 Apr 1993 22:35:06 GMT
+Organization: University of California, Berkeley
+Lines: 13
+Message-ID: <1qknuq$9ut@agate.berkeley.edu>
+References: <1993Apr15.182206.12714@reed.edu>
+NNTP-Posting-Host: web-4f.berkeley.edu
+
+In article <1993Apr15.182206.12714@reed.edu> especkma@reed.edu (Erik. A Speckman) writes:
+
+>In the MacUser article on the new centris and quadra machines mentioned
+>that the C650 and the Q800, and not the C610, had ROM accelerated video.
+>
+>What is it?  I don't recall seeing it in Dale Adams post.
+
+of course it was in Dale's post, just not in the words that MacUser 
+used.  ROM accelerated video just means that some quickdraw commands
+has been rewritten (inside the ROM) to take advantage of the 68040
+addressing modes.  commands that do fills should be slightly faster
+since the new instructions fetch 2 bytes at a time versus one.
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!agate!headwall.Stanford.EDU!nntp.Stanford.EDU!kimball-pc-316.stanford.edu!mongoose
+From: Ravi Konchigeri <mongoose@leland.stanford.edu>
+Subject: Re: LCIII problems
+Message-ID: <1993Apr16.021225.19717@leland.Stanford.EDU>
+X-Xxmessage-Id: <A7F36401930100ED@kimball-pc-316.stanford.edu>
+X-Xxdate: Thu, 15 Apr 93 03:12:01 GMT
+Sender: news@leland.Stanford.EDU (Mr News)
+Organization: Stanford University
+X-Useragent: Nuntius v1.1.1d17
+Date: Fri, 16 Apr 93 02:12:25 GMT
+Lines: 18
+
+Finally got my computer fixed and I'd like to sum up.
+
+About hard drive companies: the original 160 meg drive that was bad (bad
+sector or something) was an IBM.  The new one is a Quantum.  Is the LCIII
+supposed to be shipped with IBMs?  Is there a quality difference? 
+Apparently! :)
+
+Second, about hard drive position.  I've put the LCIII on its side and
+the new 160 HD has had no problems at all.  I've even switched back and
+forth between horizontal and vertical and there are no problems.  As far
+as I'm concerned I don't believe HD position is important for drives up
+to 160 meg, in any computer.  Don't know about CD-ROM, though.
+
+
+        "Just like everything else in life, the right lane ends in half a mile."
+
+Ravi Konchigeri.
+mongoose@leland.stanford.edu
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.hardware:50440 comp.sys.mac.misc:42500
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!emory!wupost!news.miami.edu!umiami!f2ehg786
+From: f2ehg786@umiami.ir.miami.edu
+Newsgroups: comp.sys.mac.hardware,comp.sys.mac.misc
+Subject: Disappointed by La Cie
+Message-ID: <1993Apr5.173853.14752@umiami.ir.miami.edu>
+Date: 5 Apr 93 17:38:53 EDT
+Organization: Univ of Miami IR
+Lines: 52
+
+Approximately four months ago, I purchased a Quantum 240LPS HD from La Cie for
+$649. After two months, the drive started having problems. First, there were
+intermittent freezes, then corrupted files and resources, then Silverlining
+5.41 wouldn't even recognize the drive. So I got an RMA from La Cie and
+exchanged the new drive for a reconditioned one.
+
+Well, about a month has passed now and the second drive is having problems.
+Often, when I boot up my IIsi I get the flashing question mark. Sometimes, if I
+then insert the Silverlining (5.42) program I can get it to recognize the drive
+by making it scan over and over for drives. At that point I can restart the
+IIsi and boot from the HD. I've called La Cie again and they've given me
+another RMA. Their tech support people tell me that if Silverlining doesn't see
+the drive there's a definite hardware problem.
+
+Given that this is the second bad drive in four months, I asked La Cie to send
+me a *new* one, but they said "no." Also, within three weeks after I purchased
+my original drive, La Cie dropped the price on it by over $100.
+
+I can accept that a drive (or two) may be bad. And I know that hardware vendors
+make a practice of sending reconditioned replacements when they do repairs. And
+I understand that the nature of the computer industry lends itself to sudden
+price fluctuations. Nevertheless, taken together, the convergence of these
+facts/events have left a bad taste in my mouth. (I should have added above that
+when I asked La Cie to transfer the contents of my current drive to the one
+they will send_I think the data is still in good shape and I'll have to again
+reinstall everything from floppies_they said it would cost me $250 for data
+recovery.)
+
+It seems to me that reconditioned hardware should be sold as reconditioned at a
+discounted price, and that replacements for new hardware gone bad (still
+covered under a 90-day warranty) should be new. 
+
+I feel a little helpless about all this. I don't mean to necessarily flame La
+Cie_their support staff have always been friendly and sometimes even helpful.
+But c'mon. Sometimes a little extra customer service goes a long way. (I sent
+a letter to La Cie's customer service when the first drive was returned and I
+asked them for a credit on the price difference since I had purchased the drive
+three weeks before they slashed the price. I told them I would like to apply
+the credit toward the purchase of another La Cie product. They didn't even 
+have the courtesy to reply one way or the other.)
+
+What's the moral of this story? I'm not sure. But I do know I won't buy any
+other products from La Cie in the future.
+
+Bill Krauthammer
+f2ehg786@umiami.ir.miami.edu
+
+PS Please don't email or post about how good your La Cie product and service
+has been. I'm not suggesting that they are not a good company or anything like
+that. All I'm saying is that I've had a disappointing experience with them and
+I'll be taking my business elsewhere in the future.
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!news-feed-1.peachnet.edu!darwin.sura.net!knuth.mtsu.edu!raider!theporch!jackatak!gene
+From: gene@jackatak.raider.net (Gene Wright)
+Subject: mac portable ram problems; coprocessor not installed?
+Organization: Jack's Amazing CockRoach Capitalist Ventures
+Date: Thu, 15 Apr 1993 23:48:03 GMT
+Message-ID: <syN32B2w165w@jackatak.raider.net>
+Sender: bbs@nowhere.uucp
+Lines: 18
+
+I just recently bought a 4 MB ram card for my original mac portable 
+(backlit) and have since had some bizarre crashes. It happens when I put 
+the machine to sleep and wake the machine up. sometimes it will just 
+freeze the cursor and lock the machine up forcing me to push the reset 
+switch. Other times it will give me the usual bomb box with the error 
+message of "Co processor not installed". 
+
+I know one solution is NOT to put the machine to sleep, but does anyone 
+have any ideas on what could be causing this or better yet what might fix 
+it? The memory card is Psuedostatic ram and goes into the PDS Slot. That 
+probably figures into the problem. the manufacturer is King Memory (Not 
+kingston) from irvine, CA. They say the problem is in my machine. 
+
+Any Ideas? -- Gene Wright.
+
+--
+     gene@jackatak.raider.net (Gene Wright)
+------------jackatak.raider.net   (615) 377-5980 ------------
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!cs.utexas.edu!uunet!pipex!sunic!aun.uninett.no!ugle.unit.no!ugle.unit.no!rogntorb
+From: rogntorb@idt.unit.no (Torbj|rn Rognes)
+Subject: Adding int. hard disk drive to IIcx
+Message-ID: <1993Apr16.104850.6182@ugle.unit.no>
+Keywords: Mac IIcx, internal, hard disk drive, SCSI
+Sender: news@ugle.unit.no (NetNews Administrator)
+Reply-To: rogntorb@idt.unit.no (Torbj|rn Rognes)
+Organization: Div. of CS & Telematics, Norwegian Institute of Technology
+Date: Fri, 16 Apr 93 10:48:50 GMT
+Lines: 32
+
+I haven't seen much info about how to add an extra internal disk to a
+mac. We would like to try it, and I wonder if someone had some good
+advice.
+
+We have a Mac IIcx with the original internal Quantum 40MB hard disk,
+and an unusable floppy drive. We also have a new spare Connor 40MB
+disk which we would like to use. The idea is to replace the broken
+floppy drive with the new hard disk, but there seems to be some
+problems:
+
+The internal SCSI cable and power cable inside the cx has only
+connectors for one single hard disk drive.
+
+If I made a ribbon cable and a power cable with three connectors each
+(1 for motherboard, 1 for each of the 2 disks), would it work?
+
+Is the IIcx able to supply the extra power to the extra disk?
+
+What about terminators? I suppose that i should remove the resistor
+packs from the disk that is closest to the motherboard, but leave them
+installed in the other disk.
+
+The SCSI ID jumpers should also be changed so that the new disk gets
+ID #1. The old one should have ID #0.
+
+It is no problem for us to remove the floppy drive, as we have an
+external floppy that we can use if it won't boot of the hard disk.
+
+Thank you!
+
+----------------------------------------------------------------------
+Torbj|rn Rognes                            Email: rogntorb@idt.unit.no
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.hardware:51613 comp.sys.mac.system:30221 comp.sys.mac.misc:43197 comp.unix.aux:11431
+Newsgroups: comp.sys.mac.hardware,comp.sys.mac.system,comp.sys.mac.misc,comp.unix.aux
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!usenet.ins.cwru.edu!agate!spool.mu.edu!sdd.hp.com!think.com!mintaka.lcs.mit.edu!lcs.mit.edu!nodine
+From: nodine@lcs.mit.edu (Mark H. Nodine)
+Subject: Re: Quadra SCSI Problems???
+Message-ID: <1993Apr16.144750.1568@mintaka.lcs.mit.edu>
+Keywords: Quadra SCSI APS
+Sender: news@mintaka.lcs.mit.edu
+Organization: MIT Laboratory for Computer Science
+References:  <1644@jagubox.gsfc.nasa.gov>
+Date: Fri, 16 Apr 1993 14:47:50 GMT
+Lines: 9
+
+I don't know about the specific problem mentioned in your
+message, but I definitely had SCSI problems between my
+Q700 and my venerable Jasmine Megadrive 10 cartridge
+drives.  My solution was to get Silverlining.  None of
+the loops that involved blind writes worked to the drives;
+in fact the only loop that worked was the "Macintosh
+Software" loop (whatever that means).
+
+        --Mark
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!emory!swrinde!zaphod.mps.ohio-state.edu!darwin.sura.net!haven.umd.edu!uunet!mnemosyne.cs.du.edu!nyx!rsnyder
+From: rsnyder@nyx.cs.du.edu (russ snyder)
+Subject: Re: Performa 450 internal modem?
+Message-ID: <1993Apr16.174054.17050@mnemosyne.cs.du.edu>
+X-Disclaimer: Nyx is a public access Unix system run by the University
+        of Denver for the Denver community.  The University has neither
+        control over nor responsibility for the opinions of users.
+Sender: usenet@mnemosyne.cs.du.edu (netnews admin account)
+Organization: Nyx, Public Access Unix at U. of Denver Math/CS dept.
+References: <lsrk94INNr2s@news.bbn.com>
+Date: Fri, 16 Apr 93 17:40:54 GMT
+Lines: 10
+
+In article <lsrk94INNr2s@news.bbn.com> ado@quince.bbn.com (Buz Owen) writes:
+>I hear that the Performa 450 is really an LCIII with an internal modem.  Can
+>the modem part be obtained and installed in an LCIII?  It would be nice if it
+>were actually a powerbook internal modem, but that might be too much to hope
+>for.
+
+I believe you were misinformed.  I checked out one of the P450's at Sears
+last week.  The modem is external 2400bps data with send-only FAX.
+
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!pacific.mps.ohio-state.edu!linac!uwm.edu!cs.utexas.edu!sdd.hp.com!elroy.jpl.nasa.gov!ames!haven.umd.edu!darwin.sura.net!dtix.dt.navy.mil!relay-wo!relay!paulmac.nswc.navy.mil!user
+From: pmontan@nswc-wo.navy.mil (Paul Montanaro)
+Subject: Re: IIci -> Q700 upgrade?
+Message-ID: <pmontan-160493150243@paulmac.nswc.navy.mil>
+Followup-To: comp.sys.mac.hardware
+Sender: news@relay.nswc.navy.mil
+Organization: NSWC
+References: <C5HA0x.11oq@austin.ibm.com> <1993Apr15.164053.29298@thunder.mcrcim.mcgill.edu>
+Date: Fri, 16 Apr 1993 20:43:29 GMT
+Lines: 44
+
+In article <1993Apr15.164053.29298@thunder.mcrcim.mcgill.edu>,
+dudek@daeron.mcrcim.mcgill.edu (Gregory Dudek) wrote:
+> 
+> In article <C5HA0x.11oq@austin.ibm.com> $LOGIN@austin.ibm.com writes:
+> >
+> >A while ago I posted a note asking for specs on the Quadra 700, and opinions on
+> >the Q700 upgrade of a IIci vs. an accelerator card.  So far no responsed that
+> >I've noticed.  Please let me know what you think of these possible upgrade
+> >paths:  Cost, efficiency, pros/cons, etc.. Thanks!
+> 
+>   Complete Q700 are best obtained from your dealer or some recent
+> copy of MacWorld or MacUser.  My foggy memory suggests that the most relevant
+> comparison factors vis-a-vis a IIci are as follows:
+> 
+>   25 MHz 68040
+>   16 Mhz data path (don't recall this for sure, but it's slower
+>       than Q 950 style machines for sure).
+>   Ethertalk card on-board
+>   Audio in/out
+>   4 MB RAM on motherboard
+>   4 SIMM slots
+>   2 NuBus slots.
+>   More flexible build-in video than the CI.  Uses VRAM.
+> 
+> In comparison, a IIci with an accelerator won't give you
+>   audio or ethernet  or the same video options.
+>   With a 68040 accelerator, CPU performance can be comparable but I
+>   think it ends up costing more.
+> 
+> Greg Dudek
+
+  Actually, an accelerator such as the Daystar 33 MHz 68040 is cheaper than
+upgrading to a Q700 (25 MHz).  The accelerator costs about $1400 whereas
+the upgrade costs $2131 (just quoted from my dealer).  However the Q700
+upgrade gives you very fast built in video that supports monitors up to 21"
+with 8 bit depth and up to 16" at 24 bit depth (with additional VRAM).  It
+also has a SCSI port capable of a much faster throughput than the CI, which
+makes a big difference if you have a fast hard drive.
+
+  If the improved video and SCSI features are important to you, you're
+better off getting the Q700 upgrade, otherwise save some money and get an
+accelerator.
+
+Paul
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!news.acns.nwu.edu!elvex33.acns.nwu.edu!user
+From: b-clark@nwu.edu (Brian Clark)
+Subject: Re: High Resolution ADC for Mac II
+Message-ID: <b-clark-160493183822@elvex33.acns.nwu.edu>
+Followup-To: comp.sys.mac.hardware
+Sender: usenet@news.acns.nwu.edu (Usenet on news.acns)
+Nntp-Posting-Host: elvex33.acns.nwu.edu
+Organization: Northwestern University
+References: <1qhfmg$hoh@lll-winken.llnl.gov> <1qidk1INNhk9@iskut.ucs.ubc.ca>
+Date: Fri, 16 Apr 1993 23:30:32 GMT
+Lines: 24
+
+In article <1qidk1INNhk9@iskut.ucs.ubc.ca>, Rob Douglas
+<douglas@ecc.ubc.ca> wrote:
+> 
+> In article <1qhfmg$hoh@lll-winken.llnl.gov> Charles E. Cunningham,
+> cec@imager writes:
+> >   I would like to buy a 16 bit ADC card for the Mac II with digitization
+> >rate of at least 100 kHz, preferably 200 kHz.  I would prefer one with 
+> >good differential and integral linearity, and DMA would be a plus.  Other
+> >than National Instruments, do you know of any other vendor who sells such
+> >a card?
+> 
+> Instrutech Corp has a nice looking 16 bit A/D and D/A board that can run
+> at the speeds you want. The ITC-16 (?) doesn't have DMA, but it does have
+> a good sized FIFO that can buffer your samples. Instrutech can be reached
+> at (516) 829-5942, or 929-0934 (FAX).
+> 
+
+I don't know about the Instrutech boards (though I plan to check them out),
+but you need to be very careful checking the monotonicity and S/N ratio of
+many of the "16 bit" boards out there. The NI boards are very clearly
+specified in terms of monotonicity, S/N ratio, accuracy, etc; and the
+NB-A2100 and NB-A2150 have all the dyynamic range and freedom from
+distortion that you'd expect from a good, true 16 bit converter. This is
+not true for the Spectral Innovations boards, for example.
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!saimiri.primate.wisc.edu!caen!uunet!think.com!sdd.hp.com!portal!cup.portal.com!James_Jim_Frazier
+From: James_Jim_Frazier@cup.portal.com
+Newsgroups: comp.sys.mac.hardware
+Subject: 5.25" MO sectors/track?
+Message-ID: <79680@cup.portal.com>
+Date: Fri, 16 Apr 93 19:26:06 PDT
+Organization: The Portal System (TM)
+Distribution: world
+Lines: 8
+
+On an ISO/ANSI-standard 5.25" magneto-optical disc, how many sectors
+are there per track (or disc revolution), and how many tracks per
+disc?
+
+Thanks,
+
+Jim Frazier
+73447.3113@compuserve.com
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!cornell!uw-beaver!uhog.mit.edu!news.media.mit.edu!news.media.mit.edu.!push
+From: push@media.mit.edu (Pushpinder Singh)
+Subject: re: Centris 610 Video Problem - I'm having it also!
+Message-ID: <PUSH.93Apr16221745@media-lab.media.mit.edu>
+Sender: news@news.media.mit.edu (USENET News System)
+Organization: M.I.T. Media Laboratory
+Distribution: comp
+Date: Sat, 17 Apr 1993 03:17:45 GMT
+Lines: 27
+
+> When the computer is set for 256 colors and certain operations are done,
+> particularly vertical scrolling through a window, horizontal white lines
+> appear on the monitor (which generally but not always spare open
+> windows).  These lines accummulate as the operation is continued.  If a
+> window is moved over the involved area of the screen and then moved away
+> the line disappear from that area of the screen.  This problem is not
+> observed if the monitor is configured for 16 colors or a 14 inch Apple
+> monitor with 256 colors is used. 
+> 
+> I suspect a bad video RAM chip but cannot be certain.  The problem has
+> been apparent since day 1 but has gotten worse.
+
+I'm having exactly the same problem.  Again, it's fine when I switch to 16
+colors or a smaller monitor.  My configuration is:
+
+Model: Centris 610 with 4 MB/80 HD, 512 VRAM, no cards
+Monitor: MAG MX15F with 16" monitor adaptor (for resolution of 832*624)
+
+I just discovered the problem a little while ago after plugging in my
+new MAG monitor.  It seems to appear either when scrolling through a
+window or when using Alpha or Word and I enter <return>.
+
+My guess is bad VRAMs as well.  I really hope it isn't a design flaw.  Is
+anyone at Apple listening?
+
+Pushpinder Singh
+push@media.mit.edu
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!emory!gatech!udel!news.intercon.com!eddie.mit.edu!uhog.mit.edu!news.media.mit.edu!fredm
+From: fredm@media.mit.edu (Fred G Martin)
+Subject: Re: Put ex. syquest in Centris 610?
+Message-ID: <1993Apr17.134049.2602@news.media.mit.edu>
+Sender: news@news.media.mit.edu (USENET News System)
+Organization: MIT Media Laboratory
+References: <1993Apr16.141820.1@cstp.umkc.edu>
+Date: Sat, 17 Apr 1993 13:40:49 GMT
+Lines: 54
+
+I've just installed a 5.25" tape backup in my C610; lot of the issues
+are the same.  So, to answer your questions...
+
+In article <1993Apr16.141820.1@cstp.umkc.edu> kmoffatt@cstp.umkc.edu writes:
+
+> My PLI 80M syquest drive has a wire from the
+> drive to an id# switch on the outside of the case.  Where do I connect
+> this switch??  Can the computer just "tell" with internal drives?
+
+You probably want to hard-wire the SCSI ID with shorting jumpers.  Put
+it at a convenient number like "1".  You *could* cut a hole in the
+back of the machine to route the ID switch, but why go through the
+hassle?  You probably won't be needing to frequently change the ID of
+your internal drive.
+
+>       I noticed that the drive will lay over part of the motherboard (I
+>didn't look closely, but I seem to recall it laying over the ram that's
+>soldered onto the motherboard?  Would that cause problems?
+
+Yeah, when I first installed the tape drive I was a little concerned
+too.  But it's no problem, the device is designed to fit just fine
+with the overhang.  It shouldn't reach back beyond the ROM/RAM/VRAM
+SIMMs, though.
+
+>       One last question!  Is there anywhere to order a faceplate cover?  
+>the drive's front panel is smaller than the space left in the case (the
+>drive's panel is the same size as the spotsBM clone's cases).  Should I just
+>cut a hole in the plastic panel that is currently holding tmpty place?
+
+You can special-order parts to mount the device from your local Apple
+dealer.  The relevant parts are:
+
+  922-0358  blank bezel faceplate
+  922-0850  CD-ROM carrier [i.e., generic 5.25" device mounting bracket]
+
+Note Apple's unfortunate choice of name for the slide-in bracket to
+mount a 5.25" device.  The service techs I talked to said, "Oh sure,
+we stock those."  Of course they were thinking of the CD caddies to
+hold a CD disk when you stick it in the drive.
+
+As far as I can tell, Apple does not sell a bezel faceplate already
+cut out for a standard 5.25" device.  (Why not?  They advertise
+these machines as being able to accept any standard device in the
+5.25" bay, why not provide the faceplate?)   They do sell a cutout for
+their CD-ROM drive (of course), but that's of no use.
+
+I'm going to hack up the extra bezel I ordered to make a cutout for my
+tape drive, which is a standard 5.25" device.
+
+Good luck with your SyQuest.
+
+        -Fred
+
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!news-feed-1.peachnet.edu!umn.edu!csus.edu!netcom.com!ray
+From: ray@netcom.com (Ray Fischer)
+Subject: Re: 68040 Specs.
+Message-ID: <rayC5Myqo.o8@netcom.com>
+Organization: Netcom. San Jose, California
+References: <1qkr6n$18c@bigboote.WPI.EDU>
+Date: Sat, 17 Apr 1993 16:20:48 GMT
+Lines: 43
+
+patrickd@wpi.WPI.EDU (Lazer) writes ...
+>I'd appreciate it greatly if someone could E-mail me the following:
+>(if you only know one, that's fine)
+>1) Specs for the 68040 (esp. how it compares to the Pentium)
+
+Specs for the 68040 can fill a 500 page book.  Some highlights are...
+32-bit address space w/ 32-bit data width.  18 32-bit integer registers 
+& 8 80-bit floating point registers.  8K copyback capable caches,
+4-way set associative.  Typical 1.2 clocks/integer instruction.  5
+clocks for a floating point multiply.
+
+(interesting aside: the 68040 can multiply two 80-bit floating point
+numbers in less time than it can multiply two 32-bit integers)
+
+>2) Specs for the 68060 with estimated cost, release date, etc...
+
+More of the same but with multiple instruction dispatching.  Figure
+about 0.8 clocks per instruction typical (my guess).  But the Motorola
+guys are pretty bright, it may be less.
+
+>I'm interested in speeds, systems it can run (Windows NT, RISC, or whatever),
+>costs, bus info, register info.  All the technical info.
+
+Call Motorola.  I'm not typing it all in.
+
+>I am hoping that the 68040 can win yet another battle against the intel people.
+
+I'm predicting that both the 680x0 and x86 lines are reaching their
+ends.  New experimental processors have 64-bit data pathways and can
+schedule up to 8 out of 32 instructions each clock cycle.  That sort
+of trick can't really be done with CISC architectures.
+
+I finally saw some details on the 586/Pentium and was not greatly
+impressed.  They've finally done some work on the FPU to get it up to
+speed, but otherwise it's only going to be a 2x speedup.  And to get
+that they're using two integer units, larger caches, and a branch
+target buffer.  Yes, I know they're talking about 100MHz processors.
+Big whoop.  Designing a 100MHz board is difficult and really
+expensive.  Priced 15ns memory chips lately?
+
+-- 
+Ray Fischer                   "Convictions are more dangerous enemies of truth
+ray@netcom.com                 than lies."  -- Friedrich Nietzsche
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!ogicse!network.ucsd.edu!sdd.hp.com!news.cs.indiana.edu!usenet.ucs.indiana.edu!silver.ucs.indiana.edu!kssimon
+From: kssimon@silver.ucs.indiana.edu (kenneth steven simon)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: Powerbook & Duo Batteries
+Summary: I goofed!
+Message-ID: <C51so0.BDq@usenet.ucs.indiana.edu>
+Date: 6 Apr 93 05:59:59 GMT
+Article-I.D.: usenet.C51so0.BDq
+References: <C4v5tA.2J7@dartvax.dartmouth.edu> <C4vr7z.EB0@usenet.ucs.indiana.edu> <ronaldw-050493173709@ringo.sco.com>
+Sender: news@usenet.ucs.indiana.edu (USENET News System)
+Distribution: na
+Organization: Indiana University
+Lines: 31
+Nntp-Posting-Host: silver.ucs.indiana.edu
+
+
+ ronaldw@sco.COM (Ronald A. Wong) writes:
+
+ ]In article <C4vr7z.EB0@usenet.ucs.indiana.edu>,
+ ]kssimon@silver.ucs.indiana.edu (kenneth steven simon) wrote:
+> 
+> The program PowerStrip2.0, which is freeware, has an option called
+> "Quick Discharge."  You can find it on the Mac archives, probably
+> sumex-aim.stanford.edu or mac.archive.umich.edu.
+
+
+   >>Is it a hidden option?  I'm using PowerStrip 2.0 (by Mr. Caputo) right now
+   >>and can't find any quick discharge option.  It definitely is on
+   >>mac.archive.umich.edu 'cause I submitted it! 
+
+ My apologies!  I goofed.  The "quick discharge" option is part of the
+Connectix PowerBook Utilities package (CPU).  I installed it the same
+day as PowerStrip, and didn't pay enough attention.  ;)  Anyway, the
+option does exist for those of you who buy CPU. 
+
+
+---------------
+"Whadda goofball!"
+"Sheddap.  You're not even the real signature file."
+---------------
+
+-- 
+-----------------------------------------------------------------
+Kenneth Simon               Dept of Sociology, Indiana University
+Internet: KSSIMON@INDIANA.EDU              Bitnet: KSSIMON@IUBACS 
+-----------------------------------------------------------------
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!usenet.ins.cwru.edu!agate!headwall.Stanford.EDU!nntp.Stanford.EDU!feilimau
+From: feilimau@leland.Stanford.EDU (Christopher Yale Lin)
+Subject: mac IIsi power limitations
+Message-ID: <1993Apr17.172147.5272@leland.Stanford.EDU>
+Summary: what are they?
+Sender: news@leland.Stanford.EDU (Mr News)
+Organization: DSG, Stanford University, CA 94305, USA
+Distribution: usa
+Date: Sat, 17 Apr 93 17:21:47 GMT
+Lines: 17
+
+Readers,
+
+I own a Mac IIsi and am considering upgrades (cards, hard drive, etc).
+Can you tell me what the power limitations are for 1) the PDS slot
+and 2) the hard drive power feed. Secondly, Can you tell me if there
+is a separate limit for each, or if instead, there is a single limit
+for both combined?
+
+Please drop me a line if you know the answers to these questions.
+Thanks,
+
+felix lin
+feilimau@leland.stanford.edu
+
+
+
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!uwm.edu!cs.utexas.edu!uunet!mnemosyne.cs.du.edu!nyx!jtrascap
+From: jtrascap@nyx.cs.du.edu (Jim Trascapoulos)
+Subject: Re: Can I put a 1.44 floppy in an SE?
+Message-ID: <1993Apr17.184427.28566@mnemosyne.cs.du.edu>
+Sender: usenet@mnemosyne.cs.du.edu (netnews admin account)
+Organization: University of Denver, Dept. of Math & Comp. Sci.
+References: <1qcp7c$413@havoc.solbourne.com>
+Date: Sat, 17 Apr 93 18:44:27 GMT
+Lines: 24
+
+ericr@solbourne.com (Eric Robison) writes:
+
+>I've got a Mac SE, I've got a spare 1.44mb floppy drive. I've seen SE's 
+ith
+>a 1.44 floppy drive. Can I put my floppy drive into my SE and get it to 
+ork?
+>If so, how?
+
+>Thanks!
+
+>Eric
+
+>-- 
+>| Eric Robison                 |Disclaimer: I claim dis.
+>| ericr@Solbourne.com          | 
+>| GET ME OFFA THIS &*^*&%&^# PLANET!!   
+ 
+Sure thing - You'll have to get an FDHD upgrade kit from Apple, which
+includes a HD floppy drive, 2 different chips (the SWIM chip was mentioned
+in another post) and a different floppy drive cable. Get the Apple kit
+through your dealer.
+ 
+** Jim Trascapoulos * jtrascap@nyx.du.edu * "What size ID do YOU wear?" **
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!munnari.oz.au!metro!extro.ucc.su.OZ.AU!brucet
+From: brucet@extro.ucc.su.OZ.AU (Bruce Tulloch)
+Subject: Re: HELP! Duo 230 problems
+Message-ID: <brucet.735119805@extro.ucc.su.OZ.AU>
+Sender: news@ucc.su.OZ.AU
+Nntp-Posting-Host: extro.ucc.su.oz.au
+Organization: Sydney University Computing Service, Sydney, NSW, Australia
+References: <1qb3skINN610@darkstar.UCSC.EDU> <bcherkasC5Lpqu.DKv@netcom.com>
+Date: Sun, 18 Apr 1993 07:56:45 GMT
+Lines: 76
+
+bcherkas@netcom.com (Brian Cherkas) writes:
+>chess@cats.ucsc.edu (Brian Vantuyl Chess) writes:
+>>  I just got a Duo 230, and I'm having some difficulties.
+>>If the machine is plugged in to the wall adapter, put to sleep,
+>>unplugged from the wall, and woken up, it crashes 75% of the time.
+>>(There's nothing but the original system software on the machine.)
+>>The battery has plenty of life - I think this must be a power manager
+>>problem, but I don't know what to do about it.
+>>Also, the speaker occasionally makes a high-pitched hiss.  The noise
+>>is irregular, but seems to favor sleep and restart commands.
+
+>I've had my Duo 230 for a few weeks now and suffer from both
+>of the above problems. I reinstalled my system software twice
+>in an effort to combat the problems - thinking they were
+>system software problems. Initially reinstalling the system
+>seemed to help but not anymore. Occasionally when I try to
+>wake up the Duo I get a solid screen of horizontal lines on
+>the screen - it freezes.
+
+>I also get the high-pitched hiss occasionally - but only at
+>startup.
+
+>I've called the apple hotline (800 SOS-APPL) three times
+>already and finally they agreed something is astray after my
+>Duo's screen would go dim and the hard drive spun down by
+>itselft and put itself to sleep. This problem only occured
+>twice. Apple sent me a box to ship my Duo to be looked at in
+>New York but the problem now is intermittent and I can't
+>afford to be without my Duo at this time.
+
+>Anyone out there with these same problems?
+
+>-- 
+>Brian Cherkas     * *    bcherkas@netcom.com
+>                   I   
+>AOL/BrianC22      \_/    compuserve/71251,3253
+>Netcom - Online Communication Services San Jose, CA
+
+Yes, quite a number of people it seems from discussions I've had (me
+included). I bought my machine a couple of weeks ago as well and
+started to experience these problems.
+
+Apple Australia via my dealer said that this problem has a number of
+potential causes - Faulty applications, faulty third party hardware
+(modems, memory etc), system software, PRAM corruption and power
+manager corruption, and the Duo hardware itself.
+
+None of the above are relevant in my case except the last two maybe
+(no applications were running, the system software was re-installed, I
+have no additional hardware). I have found that clearing PRAM appears
+to help for a while at least (hold down command option P and R on
+startup). Unfortunately the problem returns suggesting that PRAM is
+being corrupted by something (system software bug ? - I don't have any
+non-issue inits in my system). Apparently the Power Manager can be
+reset by "holding the reset and interrupt buttons while powering up" -
+Apple's advice - but since the Duo does not have an interrupt button
+I'm not sure what they mean in this case. This may also help if
+someone can decipher Apple's advice for me.
+
+Beyond this Apple suggest that " you should follow the technical
+procedures to check the hardware of this Duo". Since so many others
+appear to be having the same problem it would seem to me that there
+has been a system software bug introduced somewhere along the line -
+and quite recently too - since it only seems to be recent Duo 230
+purchasers who have this problem.
+
+Any more comments from others in the same boat are welcome,
+particularly Apple Duo engineers :-)
+
+cheers
+
+brucet
+
+-- 
+          bruce tulloch sydney australia - brucet@extro.ucc.su.oz.au
+***complex problems have straight forward, easy to understand wrong answers***
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!caen!msuinfo!psssun!aris
+From: aris@psssun (Aris Gerakis)
+Newsgroups: comp.sys.mac.hardware
+Subject: Pixel disappear on Powerbook 140 screen
+Date: 18 Apr 1993 09:25:44 GMT
+Organization: Michigan State University
+Lines: 10
+Message-ID: <1qr6qo$fj4@msuinfo.cl.msu.edu>
+NNTP-Posting-Host: psssun.pss.msu.edu
+Keywords: Powerbook, 140, pixel, screen
+
+Some pixels on my PB 140 display disappear intermittently.  They are not in
+a particular place but random.  If anybody has suggestions I would appreciate
+e-mailings.  Thanks.
+
+
+--
+aris@psssun.pss.msu.edu          #############              (beware of the 3 s)
+                                 |  /\   /\  |            
+                                [|   o   o   |]
+______________________nnnnn______|_____U_____|______nnnnn______________________
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!gatech!enterpoop.mit.edu!eru.mt.luth.se!kth.se!hemul.nada.kth.se!d88-jwa
+From: d88-jwa@hemul.nada.kth.se (Jon Wtte)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: x86 ~= 680x0 ?? (How do they compare?)
+Message-ID: <1993Apr18.100851.3889@kth.se>
+Date: 18 Apr 93 10:08:51 GMT
+References: <27837.2BD08C3A@zeus.ieee.org> <C5npy2.LI3@news.cso.uiuc.edu>
+Sender: usenet@kth.se (Usenet)
+Organization: Royal Institute of Technology, Stockholm, Sweden
+Lines: 34
+Nntp-Posting-Host: hemul.nada.kth.se
+
+In <C5npy2.LI3@news.cso.uiuc.edu> rvenkate@ux4.cso.uiuc.edu (Ravikuma Venkateswar) writes:
+
+>Not quite. 66MHz Pentium - 65 SPECint92, 57 SPECfp92 .
+>          66MHz MC98601 - 50 SPECint92, 80 SPECfp92 .
+
+But the interesting comparision is how fast clock-cycle chips
+you can get - an Alpha is WAY slow at 66 MHz, but blazes at
+200 MHz.
+
+>>680040
+>>486
+
+>As far as the 486DX2-66 goes - 32 SPECint92, 16 SPECfp92 .
+
+But the 68040 is (or will soon be) available in 40 MHz version,
+making it "comparable" to a 486DX2-80
+
+>Intel chips have traditionally been faster than their Motorola "equivalents"
+>although the significance of chip speed in real world application performance
+>is something that is highly debatable.
+
+I think you have that one turned around; they have faster clock
+cycles but less power behind each cycle. Not to mention that the
+Intel instruction stream is BYTE-oriented (longest Intel instruction
+is 15 bytes; what an odd number :-) which makes it hard to do any
+intelligent memory subsystem.
+
+Cheers,
+
+                                        / h+
+-- 
+ -- Jon W{tte, h+@nada.kth.se, Mac Hacker Deluxe --
+
+   This article printed on 100% recycled electrons.
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usenet.ins.cwru.edu!cleveland.Freenet.Edu!da228
+From: da228@cleveland.Freenet.Edu (Charles G. Williams)
+Newsgroups: comp.sys.mac.hardware
+Subject: Has anyone had problems with IBM drives in their machines?
+Date: 18 Apr 1993 16:52:14 GMT
+Organization: Case Western Reserve University, Cleveland, OH (USA)
+Lines: 24
+Message-ID: <1qs0vu$a0a@usenet.INS.CWRU.Edu>
+Reply-To: da228@cleveland.Freenet.Edu (Charles G. Williams)
+NNTP-Posting-Host: hela.ins.cwru.edu
+
+
+Hi,
+
+The subject line says it all.  My system acts weird at times.  All of a
+sudden the system will be corrupt, boot blocks will get chewed, etc.
+
+This was a really big problem for a while.  I couldn't even format my
+drive properly.  I installed HDT's driver and things got better.  Now
+all I have to do is reinstall the system.  Could an incompatibility 
+exist between it and a Quantum external drive.
+
+I'm looking for a pure hardware solution.  It's not a virus, bad
+software, etc.  Could I have a bad SCSI cable?  Or is the IBM (WDS-80)
+just a screwey drive?
+
+Thanks,
+
+Chuck
+
+-- 
+Chuck Williams ==> CS Intern ==> Pacific Northwest Laboratories
+
+da228@cleveland.freenet.edu
+cg_williams@ccmail.pnl.gov
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.hardware:51770 comp.protocols.appletalk:12854 comp.lang.postscript:18057
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!wupost!waikato.ac.nz!comp.vuw.ac.nz!cc-server4.massey.ac.nz!news
+Newsgroups: comp.sys.mac.hardware,comp.protocols.appletalk,comp.lang.postscript
+Subject: Re: Reseting LW IIg to factory defaults
+Message-ID: <1993Apr18.195942.14743@massey.ac.nz>
+From: Robert Grapes <R.Grapes@massey.ac.nz>
+Date: Sun, 18 Apr 93 19:59:42 GMT
+Sender: news@massey.ac.nz (USENET News System)
+References: <1qpir1$762@slab.mtholyoke.edu>
+Organization: Massey University
+X-Xxdate: Mon, 19 Apr 93 08:03:45 GMT
+X-Useragent: Nuntius v1.1.1d17
+Lines: 21
+
+In article <1qpir1$762@slab.mtholyoke.edu> Jurgen Botz,
+jbotz@mtholyoke.edu writes:
+> I have a Laserwriter IIg that has disappeared completely from the
+> Network, i.e. it's name doesn't show up in any zone.  (You can print
+> to it from it's serial interface, tho!)  I have seen some discussion
+> here about changing the zone a IIg is in... including some PS code
+> that lets you change the zone.  Is there maybe some PS code you can
+> use to have it go back to all its factory default settings?  I have
+> a feeling that's what needed to heal ours.
+
+The following postscript works for LaserWriter IIg's with version 2 roms
+
+%!
+0 serverdict begin exitserver
+<< /FactoryDefaults true >> setsystemparams
+systemdict begin
+realtime 10000 add
+{ dup realtime le { pop exit } if } loop
+quit
+
+Rob.
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usc!sdd.hp.com!portal!cup.portal.com!James_Jim_Frazier
+From: James_Jim_Frazier@cup.portal.com
+Newsgroups: comp.sys.mac.hardware
+Subject: MO driver compatibility?
+Message-ID: <79792@cup.portal.com>
+Date: Sun, 18 Apr 93 17:14:23 PDT
+Organization: The Portal System (TM)
+Distribution: world
+Lines: 10
+
+It's my understanding that, when you format a magneto-optical disc, (1) the
+formatting software installs a driver on the disc, (2) if you insert the
+disc in a different drive, then this driver is loaded into the computer's
+memory and then controls the drive, and (3) if this driver is incompatible
+with the drive, then the disc can not be mounted and/or properly read/written
+Is that correct?
+
+Thanks,
+Jim Frazier
+73447.3113@compuserve.com
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!wyvern!dashley
+From: dashley@wyvern.wyvern.com (Doug Ashley)
+Subject: Re: SE rom
+Message-ID: <C5pMsv.Jtp@wyvern.wyvern.com>
+Organization: wyvern.com
+References: <wgwC5pDL4.43y@netcom.com> <1993Apr18.222045.12969@ac.dal.ca>
+Date: Mon, 19 Apr 1993 02:55:42 GMT
+Lines: 31
+
+seanmcd@ac.dal.ca writes:
+
+>In article <wgwC5pDL4.43y@netcom.com>, wgw@netcom.com (William G. Wright) writes:
+>> 
+>>      Anyway, I was hoping someone knowledgeable
+>> about Mac internals could set me straight: is it simply
+>> impossible for a mac SE to print grayscale, or could
+>> someone armed with enough info and a little pro-
+>> gramming experience cook something up that would
+>> supplement the ROM's capabilities?
+        
+>To use the grayscale features, I believe you need a Mac equipped
+>with colour quickdraw. I was told this somewhere or other, but it's
+>not mentioned in "Apple Facts" (guide for apple sellers), in the
+>press release or in the technical specs.
+
+>Sean 
+
+I think you will find that the Mac SE can PRINT grayscale images, loaded
+with the proper software. However, the Mac SE cannot DISPLAY grayscale on
+its screen or any attached video because that ability is not in the ROM.
+
+So, while you might be able to PRINT grayscale, you'd have a hard time
+SEEING the grayscale image you want to print.
+
+Doug
+-- 
+This Signature Under Construction
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Wyvern Technologies | Tidewater's Premier Online Information System
+                    | (804) 627-1818, login guest, password guest to register
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usc!wupost!gumby!calvin!news
+From: Earl D. Fife <fife@calvin.edu>
+Subject: Re: SE/30 acc & graphics card?
+Message-ID: <C5pqny.Fvw@calvin.edu>
+X-Xxdate: Mon, 19 Apr 93 05:13:14 GMT
+Sender: news@calvin.edu (The Annoying News Pseudo-User)
+Nntp-Posting-Host: 153.106.4.43
+Organization: Calvin College
+X-Useragent: Nuntius v1.1.1d20
+References: <2BCF3DD9.8771@ics.uci.edu>
+Date: Mon, 19 Apr 1993 04:19:10 GMT
+Lines: 25
+
+In article <2BCF3DD9.8771@ics.uci.edu> Matt Madsen,
+mmadsen@bonnie.ics.uci.edu writes:
+> Are there any graphics cards for the SE/30 that also have, say, an 040
+> accelerator?  There seem to be plenty of accelerator/graphics cards for
+> the _SE_, but none (that I've seen) for the SE/30.
+> 
+
+The DayStar PowerCache for the SE/30 replaces the CPU with an accelerated
+CPU plus the powercache.  This leavese the PDS slot open for a video card.
+Currenty, DayStar does not have the '040 in this configuration, but it is
+due out early next year.  With their upgrade policy, you can get the '030
+accelerator now, and when the '040 version becomes available, you get
+credit
+for the one you have.  
+
+I am running their 50 MHz version with FPU along with a Radius Precision
+Color Pivot and I'm very satisfied.
+
+-------------------------------------------------------------------------
+
+Earl D. Fife          |          Department of Mathematics
+fife@calvin.edu       |          Calvin College
+(616)957-6403         |          Grand Rapids, MI 49546
+
+=========================================================================
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!uunet!munnari.oz.au!ariel.ucs.unimelb.EDU.AU!ucsvc.ucs.unimelb.edu.au!u2087546
+From: u2087546@ucsvc.ucs.unimelb.edu.au (The Jester)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: info on apple 8*24GC requested.
+Message-ID: <1993Apr6.171734.4954@ucsvc.ucs.unimelb.edu.au>
+Date: 6 Apr 93 17:17:34 +1000
+References: <prudhom.733762331@iros1> <1993Apr5.122613.12289@alijku05.edvz.uni-linz.ac.at>
+Organization: Comedy Company
+Lines: 25
+
+In article <1993Apr5.122613.12289@alijku05.edvz.uni-linz.ac.at>, Norbert Mueller <K360171@alijku11.edvz.uni-linz.ac.at> writes:
+>> Newsgroups: comp.sys.mac.hardware
+> In article <prudhom.733762331@iros1> Serge Prud'homme,
+> prudhom@IRO.UMontreal.CA writes:
+>> Any info on the video processor Am29000 that sit on it, any way to
+> program that
+>> chip?  What companie makes that chip?
+> > 
+> Apple was never able to provide any docs or tools to program that chip. I
+> value it as
+> the least value per $ piece of computer hardware I ever bought due to the
+> COMPLETE
+> LACK support tools. There was a refund for US-buyers of this card but we
+> Europeans
+> were left out in the rain once again...
+
+I agree completely, but there was only a refund for people who bought the GC
+with a Quadra. I have seen an alpha version of an extension from Apple called
+8.24 GC QuickTime Video which offloads QuickTime compression/decompression
+from the cpu to the AM29000 on the card. So it seems it can be done even though
+in a developer article it states that the GC can't be programmed - but they
+asked that any suggestions be sent in anyway...
+
+Steve Margelis
+Melbourne University
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!pipex!uknet!uknet!edcastle!nkw-c1!nkw-va!f_tawb
+From: f_tawb@va.nkw.ac.uk
+Newsgroups: comp.sys.mac.hardware
+Subject: US SIMM prices please
+Message-ID: <1993Apr19.112009.1@va.nkw.ac.uk>
+Date: 19 Apr 93 11:20:09 GMT
+Sender: root@c1.nkw.ac.uk (Convex UNIX)
+Organization: Natural Environment Research Council
+Lines: 15
+
+
+Please could someone in the US give me the current street 
+prices on the following, with and without any relevant taxes:
+
+ 8 Mb 72 pin SIMM
+16 Mb 72 pin SIMM (both for Mac LC III)
+
+Are any tax refunds possible if they are to be exported
+to the UK? Can you recommend a reliable supplier?
+
+As I am posting this from a friend's account, please
+reply direct to me at:
+        s.fraser@ic.ac.uk
+Thanks in advance for any help  :^)
+Simon
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.hardware:51805 comp.sys.mac.system:30331 comp.sys.mac.misc:43339 comp.unix.aux:11463
+Newsgroups: comp.sys.mac.hardware,comp.sys.mac.system,comp.sys.mac.misc,comp.unix.aux
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!usc!sdd.hp.com!think.com!enterpoop.mit.edu!mintaka.lcs.mit.edu!lcs.mit.edu!nodine
+From: nodine@lcs.mit.edu (Mark H. Nodine)
+Subject: Re: Quadra SCSI Problems???
+Message-ID: <1993Apr19.131311.25871@mintaka.lcs.mit.edu>
+Keywords: Quadra SCSI APS
+Sender: news@mintaka.lcs.mit.edu
+Organization: MIT Laboratory for Computer Science
+References: <1644@jagubox.gsfc.nasa.gov> <1993Apr16.144750.1568@mintaka.lcs.mit.edu> <C5L39p.2qz@news.udel.edu>
+Date: Mon, 19 Apr 1993 13:13:11 GMT
+Lines: 28
+
+In article <C5L39p.2qz@news.udel.edu>, johnston@me.udel.edu (Bill Johnston) writes:
+|> In article <1993Apr16.144750.1568@mintaka.lcs.mit.edu> nodine@lcs.mit.edu (Mark H. Nodine) writes:
+|> >I don't know about the specific problem mentioned in your
+|> >message, but I definitely had SCSI problems between my
+|> >Q700 and my venerable Jasmine Megadrive 10 cartridge
+|> >drives.  My solution was to get Silverlining.  None of
+|> >the loops that involved blind writes worked to the drives;
+|> >in fact the only loop that worked was the "Macintosh
+|> >Software" loop (whatever that means).
+|> 
+|> I doubt this is a Quadra-specific problem.  I had to get
+|> rid of my "venerable" Bernoulli 20 last year (with enough 
+|> cartridges purchased at ~$90 each to make the whole thing 
+|> worth more than my whole computer ;).  The tech support guys
+|> at Ocean Microsystems suggested that some third-party drivers 
+|> might fix the problem - in my case the cartridges wouldn't 
+|> format/mount/partition for A/UX.  
+
+All I know is that the Megadrives worked perfectly on both my
+Mac Plus and my Powerbook 140.  It was for this reason I assumed
+the problem had something to do with the Quadra.  Even with the
+Quadra, they mostly worked OK.  The problem occurred when I ejected
+a cartridge from a drive: it would start popping up dialog boxes
+saying "This cartridge must be formatted with Jasmine Driveware"
+even though there was no cartridge in the drive.
+
+        --Mark
+
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!wupost!gumby!yale!yale.edu!nigel.msen.com!heifetz!mbsun.mlb.org!mudos!iunet!hal9k!barry.davis
+From: barry.davis@hal9k.ann-arbor.mi.us (Barry Davis) 
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: What was the APPLE LI
+Message-ID: <11067.75.uupcb@hal9k.ann-arbor.mi.us>
+Date: 13 Apr 93 02:18:00 GMT
+Distribution: world
+Organization: HAL 9000 BBS, W-NET HQ, Ann Arbor, Michigan, USA
+Reply-To: barry.davis@hal9k.ann-arbor.mi.us (Barry Davis) 
+Lines: 25
+
+EC>It was called the Mac XL when Sculley came on board. I bought one at
+a close-out place after the Mac Plus and the awesome 20-meg serial hard
+drive were introduced. To pacify people who bought the XL and only found
+it was discontinued within a year, Apple sent people like I a letter
+saying for $1500 and the XL, they would give me a 1-meg Mac Plus with
+the HD20.
+
+The Lisa was originally introduced in 1980 or '81, I forget now, and
+sold for $9995 with 2 400k floppy drives and 1Mb memory. It didn't do
+too well. <grin>
+
+Before becoming the Mac XL it was called a Lisa 2/10. It had a built in
+10meg HD by this time and was expandable to 2Mb RAM although that's not
+what the 2 in 2/10 stood for. It was the second coming of the Lisa. It
+also predated the Mac Plus AND the 20Mb serial HD by quite a few months.
+For a short while it WAS the power users system.
+---
+ . DeLuxe. 1.26b #956s . MicroFrame: The BEST in Price and Performance!
+ . QNet3. . The PipeLine : Atlanta, GA : Echo Mail From Around The World
+              
+----
+| HAL 9000 BBS:  QWK-to-Usenet gateway  | Four 14400 v.32bis dial-ins    |
+| FREE Usenet mail and 200 newsgroups!  | PCBoard 14.5aM * uuPCB * Kmail |
+| Call +1 313 663 4173 or 663 3959      +--------------------------------+
+| Member of EFF, ASP, ASAD  * 1500MB disk * Serving Ann Arbor since 1988 |
+Newsgroups: comp.dcom.lans,comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!psinntp!isc-newsserver!mutsu.rc.rit.edu!user
+From: trrrc@rc.rit.edu (Thomas R. Ridley)
+Subject: Token Ring Cards for Macs
+Message-ID: <trrrc-190493093020@mutsu.rc.rit.edu>
+Followup-To: comp.dcom.lans
+Sender: news@ultb.isc.rit.edu (USENET News System)
+Nntp-Posting-Host: mutsu.rc.rit.edu
+Organization: RIT Research Corp
+Distribution: usa
+Date: Mon, 19 Apr 1993 13:26:45 GMT
+Lines: 6
+
+I am looking for recommendations/experiences of bringing Macintosh CPUs
+onto Token-Ring Nets. Can someone point me in the right direction for
+information. 
+
+Thanks in advance.
+-Tom
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!saturn.caps.maine.edu!dartvax!coos.dartmouth.edu!hades
+From: hades@coos.dartmouth.edu (Brian V. Hughes)
+Subject: Re: 2 questions about the Centris 650's RAM
+Message-ID: <C5qIqn.7ED@dartvax.dartmouth.edu>
+Sender: news@dartvax.dartmouth.edu (The News Manager)
+Reply-To: hades@Dartmouth.Edu
+Organization: Dartmouth College, Hanover, NH
+Disclaimer: Personally, I really don't care who you think I speak for.
+References: <petere-160493121512@engels.mitre.org>
+Date: Mon, 19 Apr 1993 14:25:34 GMT
+Moderator: Rec.Arts.Comics.Info
+Lines: 10
+
+petere@tesla.mitre.org (Peter D. Engels) writes:
+
+>According to the (seen several times) postings from Dale Adams of Apple
+>Computer, both the 610 and the 650 require 80ns SIMMS - NOT 60 ns.  Only
+>the Centris 800 requires 60 ns SIMMs.
+
+    You're correct, except that's Quadra 800 not Centris 800.
+
+-Hades
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!agate!doc.ic.ac.uk!warwick!uknet!mcsun!sun4nl!ruuinf!ruunfs.fys.ruu.nl!walsteyn
+From: walsteyn@fys.ruu.nl (Fred Walsteijn)
+Subject: Re: built-in video problems on Mac IIsi !!??!!
+Message-ID: <1993Apr19.174440.1199@fys.ruu.nl>
+Organization: Physics Department, University of Utrecht, The Netherlands
+References: <1993Apr19.164611.1018@fys.ruu.nl>
+Date: Mon, 19 Apr 1993 17:44:40 GMT
+Lines: 24
+
+In <1993Apr19.164611.1018@fys.ruu.nl> walsteyn@fys.ruu.nl (Fred Walsteijn) writes:
+
+>I've seen the following problem om three Mac IIsi machines
+>all with 17 Mb RAM installed (70 or 80 ns SIMMs).
+
+>If the contents of a window are being calculated and updated
+>a lot of strange horizontal lines are temporarily generated
+>on the screen.  The lines translate to the top of the screen and
+>have a slightly lower brightness than their surroundings (they
+>are a few millimeters apart).
+>I admit that they are vague, but they can still be distinguished clearly,
+>especially if the environment (i.e. the rest of the room) is a bit dark.
+>Applications which produce this effect are:
+>- the previewer of DirectTeX 1.2 (i.e. DVIReader 1.2)
+>- Kaleidagraph 2.1.1/FPU
+
+Another program which produces this effect is:
+- SpyGlass Transform 2.1 (while contouring a big 257*257 array).
+
+Thanks for any information about this problem,
+-----------------------------------------------------------------------------
+Fred Walsteijn                                | Internet: walsteyn@fys.ruu.nl
+Institute for Marine and Atmospheric Research | FAX:      31-30-543163
+Utrecht University, The Netherlands           | Phone:    31-30-533169
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.games:25395 comp.sys.mac.system:30358 comp.sys.mac.hardware:51846
+Newsgroups: comp.sys.mac.games,comp.sys.mac.system,comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!agate!apple!mumbo.apple.com!gallant.apple.com!pyd.apple.com!buzz
+From: Steve Bollinger <buzz@apple.com>
+Subject: Re: Stereo sound problem (?) on mac games
+Sender: news@gallant.apple.com
+Message-ID: <1993Apr19.183437.28365@gallant.apple.com>
+X-Useragent: Nuntius v1.1.1d20
+Date: Mon, 19 Apr 1993 18:34:37 GMT
+X-Xxdate: Mon, 19 Apr 93 19:34:37 GMT
+X-Xxmessage-Id: <A7F83ECD5E013847@pyd.apple.com>
+References: <1qsfak$skc@network.ucsd.edu>
+Organization: Apple Computer, Inc.
+Lines: 192
+
+In article <1qsfak$skc@network.ucsd.edu> Doug P. Book,
+dpb@sdchemw2.ucsd.edu writes:
+>Hi.  I think I have a problem with the stereo sound output on my Quadra
+>900, but I am not totally sure because my roomate has the same problem
+>on his PowerBook 170.  Any info or experience anyopne has would be
+>greatly appreciated.
+>
+>When I hook my Quadra up to my home stereo system, the following types
+>of sounds (mono, as far as I can tell) all play fine through BOTH
+>speakers:
+>
+>system beeps  (already provided ones such as Indigo and ones I record)
+>
+>Armor Alley
+>Spectre
+>Spaceward Ho!
+>
+>
+>But, the following games only play out of the left channel:
+>
+>Lemmings
+>Out of This World  (awesome game, BTW)
+>Glider 4.0
+>OIDS
+>
+>
+>But still, STEREO system beeps do play in stereo, through BOTH speakers.
+>(The one I'm specifically referrring to is Apocolyptic Beginning, which
+>my roommate downloaded from some ftp site (sumex?))
+>
+>
+>All of the symptoms are the same on my rommates 170 (he can't run
+>OOTW because he doesn't have color).
+>
+>We're both running system 7.1
+>
+>
+>
+>Does anyone with Lemmings or the other three games I mentioned above get
+>sound out of both speakers on a Mac II class, Quadra, LC, PowerBook 140
+or
+>greater, Centris, SE/30, etc... (stereo) machine?
+>
+>I used to have a Mac II, and I sort of rememeber Lemmings playing in
+>stereo on that machine, not just on the left channel.  (I could be
+>mistaken, though.  If there were a problem with the Quad 900's and PB
+>170's, I am wondering why the system beeps still play in stereo?  If
+there
+>isn't a problem with our machines, I wonder why the 4 games above are
+>apparantly written to support only one channel of stereo when they
+>could just use mono sounds so the mono sound would at least come out of
+>both speakers  (like Spectre, etc. do)?
+>
+>Quadra 900's and PowerBook 170's have the same ROMS (to my knowledge),
+>so maybe this is a ROM problem?  (if so, though, why wouldn't System 7.1
+>patch over this problem?)
+>
+>
+>
+>
+>Thanks for any help you can provide!
+
+In article <1993Apr18.213827.9974@kth.se> Jon Wtte,
+d88-jwa@hemul.nada.kth.se writes:
+>Mac sound hardware is diverse; some macs play in stereo and
+>mix the output (the SE/30 for instance) while others play in
+>stereo but ONLY has the left channel for the speaker, while
+>some are "truly" mono (like the LC)
+>
+>Developers know that stuff played in the left channel is
+>guaranteed to be heard, while the right channel isn't. Some
+>send data to both, some only send data to the left channel
+>(the first is preferrable, of course)
+
+Okay, I guess its time for a quick explanation of Mac sound.
+
+The original documentation for the sound hardware (IM-3) documents how to
+make sound by directly accessing hardware.  Basically, you jam values
+into all the even bytes from SoundBase to SoundBase+0x170. This was
+because
+of how the Mac 128 (and some later machines) generated sound was by
+scanning
+this block and D/Aing every even byte (the odd bytes went to the floppy on
+some machines).
+
+When the Mac II (and Apple Sound Chip) was invented, it was designed to
+generate stereo sound. It was also designed to be compatible with we had
+once
+documented. So storing bytes at the even values at SoundBase meant "I
+want to
+play a mono sound" and so it was emulated. But Apple had since retracted
+the
+documentation on SoundBase and decided not to document the lowest layers
+of
+sound generation. So apple never explained where to stuff bytes if you
+want
+to make stereo sound.
+
+Enter game developers. The sound driver and current sound manager are
+inconveniently lame for making games. Furthermore, people who port from
+the
+IBM don't want to learn more APIs. So, it has become popular for game
+writers to write to SoundBase to make sound, since it is very easy.
+
+Since the Mac II, Apple has had many different kind of sound output
+hardware,
+and the only things they have in common are that writing to SoundBase
+works.
+On some hardware, (Mac II, IIx, IIcx, IIci at least), writing to SoundBase
+gets you mono sound through both speakers. On some Macs (Quadra
+700/900/950
+at least) writing to SoundBase gets you mono sound on the left channel
+only.
+Both are technically correct interpretations of the original
+specification,
+but one is obviously preferable for asthetic reasons.
+
+If developers use the Sound Manager (and I think the sound driver), mono
+sounds will (typically) come out through both channels regardless of the
+underlying hardware. It is possible to specify you want to generate left
+channel only, but no one does. If developers write to sound base, their
+games will only come out the left on some games.
+
+The other problem, the original Mac II only producing left channel sound
+on the internal speaker, while the SE/30 mixes both, isn't really related.
+It is due to the post generation amplification used on the motherboards of
+the different machines. It only affects true stereo sounds. Sounds which
+are actually mono, will play on the internal speaker, no matter what
+machine
+you have.
+
+Now, to more directly address the question, the games you list:
+>Lemmings
+>Out of This World  (awesome game, BTW)
+>Glider 4.0
+>OIDS
+and also
+Hellcats,
+Super Tetris
+Oxyd
+(and many more, these are just what I've tested)
+
+Cheat and write to SoundBase and so are only left channel on Quadras.
+
+
+Other games you list:
+>Armor Alley
+>Spectre
+>Spaceward Ho!
+and also
+PGA Tour Golf
+Civilization
+(and more, these are again only from personal experience)
+
+Use the sound manager and work fine on all machines.
+
+The more of the story is to developers: DON'T CHEAT!
+Really, I am absolutely, positively not allowed to do what I am about to
+do,
+but I'm going say it anyway.
+Stop cheating on sound!
+Really soon, you will be sorry, as even those without external speakers
+will be disappointed with your sound on future hardware. The grace period
+is about to end.
+The Sound Manager is understandable now, and works pretty well and will
+work
+even better soon, so use it.
+
+In conclusion:
+To Doug, it isn't a hardware problem, at least, not a bug.
+To Jon, it isn't a choice to developers as to whether they want to send
+sound
+to both channels. If they do it the right way, it is taken care of
+automatically. If you cheat, there is not way to make it work on all
+hardware.
+
+
+Have fun.
+
+Disclaimer number 1:
+I don't work on sound here at Apple, I'm just pretty well informed.
+So don't write me with sound questions.
+
+Disclaimer number 2:
+If it says up above that I wrote anything like "the grace period is about
+to end" then it is a bug in your news feed, since I am catagorically not
+allowed to say anything like that. You know what I mean.
+
+Disclaimer number 3:
+I don't speak for Apple, just me.
+
+-Steve Bollinger
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!swrinde!network.ucsd.edu!ucsbcsl!vorpal.ucsb.edu
+From: ross@vorpal.ucsb.edu (Richard Ross)
+Newsgroups: comp.sys.mac.hardware
+Subject: Powerbook with a math coprocessor?
+Keywords: powerbook, math coprocessor, pb160
+Message-ID: <8275@ucsbcsl.ucsb.edu>
+Date: 19 Apr 93 20:23:28 GMT
+Sender: root@ucsbcsl.ucsb.edu
+Lines: 9
+
+
+I really want to buy a powerbook and would like one that can run 
+Mathematica. So I need a coprocessor but I can not afford a PB180.
+(who can?)  Is it possible to put a MCP in a PB160? The guy at the  
+bookstore says no but I didn't think he had too much of a clue.
+
+Please respond by e-mail:  ross@sbphy.physics.ucsb.edu
+
+thanks in advance, richard
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!agate!boulder!ucsu!bvsd.Co.EDU!tjacobs
+From: tjacobs@bvsd.Co.EDU (S. Tyler Jacobs)
+Subject: Centris610 problem.
+Message-ID: <1993Apr19.215257.18505@ucsu.Colorado.EDU>
+Sender: news@ucsu.Colorado.EDU (USENET News System)
+Nntp-Posting-Host: bvsd.co.edu
+Organization: Boulder Valley School District
+Date: Mon, 19 Apr 1993 21:52:57 GMT
+Lines: 10
+
+The problem is this:
+After starting up my machine it gives a high pitched sound once at the desktop also it only does it when the mouse is up or a menu is not showing.
+
+as if I click the mouse the noise goes away for the amount of time the mouse is down. also this problem only happens for about 5-10 minutes.
+
+please let me know if you know what this is, it sounds like it is coming form the power supply.
+Please Post here and Email me:
+tjacobs@bvsd.co.edu
+Thanks!
+
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!usenet.ins.cwru.edu!agate!dog.ee.lbl.gov!network.ucsd.edu!news.cerf.net!iat.holonet.net!bmug!David_A._Schnider
+Message-ID: <1993Apr18.163918.380508@bmug.org>
+Newsgroups: comp.sys.mac.hardware
+Distribution: world
+From: David_A._Schnider@bmug.org
+Organization: BMUG, Inc.
+Date: Sun, 18 Apr 1993 16:39:18 PST
+Subject: Re: Monitor for LCIII
+Lines: 21
+
+Jeff,
+  I have answers to both of your questions.  First, I recommend the Sony
+CPD-1320 monitor.  It is a 14" Trinitron VGA monitor, but it is designed
+specifically for use with the LC.  It works only with Macs with specific video
+capabilities which means only the LC's and anything after the ci.  All it
+takes is a MAC<->VGA cable (I recommend one from James Engineering which is
+about $20).  These cost about $335 as compared to the much higher prices of
+comparable monitors because they are not multisynch.  I have used one for half
+a year and I love it.  
+Second, I have used Syex and found them to be decent.  I had a backorder on a
+Supra modem which I cancelled.  They were helpful in explaining the reasons
+why there were delays and they had Supra's number ready for me.  The only
+complaint was that they did not always return my calls.  
+I have been told that the CPD-1320 is selling for $339 from J&R's
+(800)221-8180.  I think Syex is a little more, but I don't know.
+
+-David
+
+**** From Planet BMUG, the FirstClass BBS of BMUG.  The message contained in
+**** this posting does not in any way reflect BMUG's official views.
+
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!usc!cs.utexas.edu!uunet!pipex!marble.uknet.ac.uk!uknet!acorn!camcon!aw
+From: aw@camcon.co.uk (Alain Waha)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: New Duo Dock info.
+Message-ID: <30003@io.camcon.co.uk>
+Date: 6 Apr 93 08:55:26 GMT
+References: <nazario-040493023201@stiles-42-kstar-node.net.yale.edu> <1993Apr4.164142.14744@umiami.ir.miami.edu> <nazario-050493004102@stiles-42-kstar-node.net.yale.edu>
+Organization: Cambridge Consultants Ltd., Cambridge, UK
+Lines: 7
+
+>> In article <nazario-040493023201@stiles-42-kstar-node.net.yale.edu>, nazario@pop.cis.yale.edu (Edgardo Nazario) writes:
+>> > The info I am about to give is not a rumour, it's the truth. The new
+>> > macintosh coming in the second quarter, will have a cpu of their own. 
+
+Excuse me but... have not all Macs got a CPU!!!
+
+Alain
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!agate!doc.ic.ac.uk!pipex!uknet!mcsun!sun4nl!tuegate.tue.nl!svin09.info.win.tue.nl!wsinpa04.win.tue.nl!not-for-mail
+From: wstomv@wsinpa04.win.tue.nl (Tom Verhoeff)
+Newsgroups: comp.sys.mac.hardware
+Subject: DeskWriter Drivers 3.1 -- How to install ?
+Date: 20 Apr 1993 10:00:34 +0200
+Organization: Eindhoven Univ. of Technology, The Netherlands
+Lines: 15
+Message-ID: <1r0aj2$ql4@wsinpa04.win.tue.nl>
+NNTP-Posting-Host: wsinpa04.win.tue.nl
+Keywords: HP DeskWriter, DW-3.1, System 7.1, installation
+
+I recently upgraded to System 7.1 and now I also upgraded my
+DeskWriter drivers from 2.2 to 3.1.  I got the software from Sumex,
+but it is not clear to me where to install what.
+
+Can someone tell me which of the files that come with DW-3.1 go where
+and for what purpose?  What can be left out, for instance, if
+you don't want to do background printing?
+
+Thanks,
+
+        Tom
+-- 
+INTERNET: wstomv@win.tue.nl  /    Eindhoven University of Technology
+VOICE: +31 40 47 41 25      /    Dept of Mathematics & Computing Science
+FAX: +31 40 43 66 85       /    PO Box 513, NL-5600 MB Eindhoven, Netherlands
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!cs.utexas.edu!geraldo.cc.utexas.edu!portal.austin.ibm.com!awdprime.austin.ibm.com!leapman
+From: leapman@austin.ibm.com (Scott Leapman)
+Subject: Re: Half-page hand scanners?
+Originator: leapman@junior.austin.ibm.com
+Sender: news@austin.ibm.com (News id)
+Message-ID: <C5s9y4.14Iw@austin.ibm.com>
+Date: Tue, 20 Apr 1993 13:10:51 GMT
+Reply-To: $LOGIN@austin.ibm.com
+References:  <20APR93.04038770.0030@lafibm.lafayette.edu>
+Organization: IBM Austin
+Lines: 8
+
+
+I have a Lightening Scan Pro 256 hand scanner.  It came with scanning/editing
+software, OCR software, and some plug-in modules for Photoshop et al.  The
+scanner was a tad on the pricey side ($480), but the scans are incredibly
+accurate, in 256 level, 300 dpi grayscale.  It also has dithered and line art
+settings when grayscale isn't desired.  Great scanning software, easy to use.  I
+frequently write letters to my neices, and spontaneouly include a scanned image
+in the note.  Hope this helps!
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.hardware:51929 comp.sys.mac.wanted:21929
+Newsgroups: comp.sys.mac.hardware,comp.sys.mac.wanted
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!howland.reston.ans.net!noc.near.net!uunet!newsgate.watson.ibm.com!hawnews.watson.ibm.com!news
+From: glalonde@watson.ibm.com
+Subject: Re: Cache card for IIsi
+Sender: news@hawnews.watson.ibm.com (NNTP News Poster)
+Message-ID: <C5sApG.1D3@hawnews.watson.ibm.com>
+Date: Tue, 20 Apr 1993 13:27:16 GMT
+News-Software: IBM OS/2 PM RN (NR/2) v0.17h by O. Vishnepolsky and R. Rogers
+Lines: 18
+Reply-To: glalonde@vnet.ibm.com
+Disclaimer: This posting represents the poster's views, not necessarily those of IBM.
+References: <C5qnow.IH2@imag.fr> <pebi.735242681@zephyr.aem.umn.edu> <1qv2u3$gt0@grouper.mkt.csd.harris.com>
+Nntp-Posting-Host: xlalonde.torolab.ibm.com
+Organization: IBM Toronto Lab
+
+>
+>As of last week, Mac's Place had the Applied Engineering QuickSilver card
+>(32k cache, one PDS slot, socket for FPU) on sale for $99.00 (without FPU).
+>Regular price is $199.
+>
+>No idea if this is still going on, but I can get the phone no. if anyone is
+>interested (I found their ad in MacUser).
+>
+
+Can some people with cache cards PLEASE post speedometer numbers they get
+with the cards. I have only one report, which seems to indicate that
+a 32K cache card gives you only about a 1% speedup!! Access to memory takes
+LONGER when you have a cache card(and get a miss) thus a small cache card
+of 32K may be worth $0. I don't know what kind of numbers 64K cards get
+you. Also I found it interesting that you can disable the cache cards
+via software(read about it in the Mac IIsi tech notes from ftp.apple.com)
+
+So is $99 a good deal or not, I still don't know.
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!agate!apple!apple!mumbo.apple.com!pcnntp.apple.com!gateway.qm.apple.com!Dale_Adams
+From: Dale_Adams@gateway.qm.apple.com (Dale Adams)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: Adding VRAM to Quadra 800 ?
+Message-ID: <1993Apr20.131530.28737@pcnntp.apple.com>
+Date: 20 Apr 93 13:15:30 GMT
+References: <wstuartj.735273842@lucky.ecn.purdue.edu>
+Sender: news@pcnntp.apple.com
+Organization: Apple Computer, Inc.,  Cupertino, CA
+Lines: 13
+
+In article <wstuartj.735273842@lucky.ecn.purdue.edu> 
+wstuartj@lucky.ecn.purdue.edu (W Stuart Jones) writes:
+> I want to go from 512K to 1M VRAM on my Quadra 800.  How many 512K SIMMS 
+> do I
+> need to buy?  Is the current 512K soldered on the board or do I need to take
+> out the current VRAM before I add more?
+
+You need to add two 256K VRAM SIMMs;  512K VRAM SIMMs will not work in any 
+of the Quadra or Centris machines.  There is already 512K of VRAM soldered 
+to the logic board.  You add the two 256K SIMMs to this to give you a 
+total of 1 MB.
+
+- Dale Adams
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!news.udel.edu!me.udel.edu!johnston
+From: johnston@me.udel.edu (Bill Johnston)
+Subject: Re: IIci ROM Offers 32-bit Clean ROM for IIx
+Message-ID: <C5sKu0.L4L@news.udel.edu>
+Sender: usenet@news.udel.edu
+Nntp-Posting-Host: me.udel.edu
+Organization: University of Delaware
+References: <mdavis.735319596@crash.cts.com>
+Date: Tue, 20 Apr 1993 17:05:59 GMT
+Lines: 45
+
+In article <mdavis.735319596@crash.cts.com> mdavis@crash.cts.com (Morgan Davis) writes:
+
+>Last week's MacWEEK article by Ric Ford indicated that David Ramsey's
+>Mac IIx has been running nicely with a Mac IIci ROM in it, offering
+>clean 32-bit ROM code (liberating his IIx from the virtual memory
+>nightmare caused by Apple's 32-bit System Enabler).
+
+[ This would make me a bit suspect of Mr. Ramsey's qualifications
+as a self-styled "expert", in fact, when I read about anybody
+using virtual memory regularly I kind of wonder ... ;-) ]
+
+Yes, one can sometimes get away with running a newer ROM (of the 
+correct size, obviously) in an older machine, but one should be 
+prepared for problems if running software that checks for machine 
+type rather than ROM trap availability and then draws incorrect 
+conclusions when special-casing - especially timing-dependent
+and driver-related stuff.
+
+In this particular case I see no reason to go to the trouble 
+of ROM-swapping.  The Apple 32-bit enabler has problems, but
+MODE32 works just fine with 7.0, 7.0.1, and 7.1.
+
+>Does anyone know of a source for these ROMs?  
+
+Sure.  Buy a used IIci motherboard.  Call Pre-Owned Electronics,
+Shreve, or other parts dealers (see the back of Computer Shopper
+or one of the Mac trades for phone numbers) and ask for a price
+on a IIci ROM.  Everything has a price.  If you happen to find
+somebody who salvaged a IIci with a dead motherboard, you might
+get a decent price.  There is probably a market for used mother-
+boards as well, so they might sell a ROM anyway.
+
+>Needless to say, I'm interested in purchasing such a ROM.  What would
+>be a reasonably price to offer?
+
+Ask for a quote and then try offering less?  Pre-Owned and
+Shreve have been known to dicker.  Their ads in various trade
+magazines often list considerably different prices for the 
+same items, and their phone quotes tend to vary as well.
+
+Still, I'm not aware of any technical reason for upgrading 
+the ROM in a IIx.  
+-- 
+-- Bill Johnston (johnston@me.udel.edu)
+-- 38 Chambers Street; Newark, DE 19711; (302)368-1949
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!cs.utexas.edu!uunet!puc.cl!isluga!rcvillab
+From: rcvillab@isluga.puc.cl (Rodrigo Carlos Villablanca)
+Subject: Performa or LC???
+Message-ID: <1993Apr20.173656.21742@tolten.puc.cl>
+Sender: news@tolten.puc.cl (News Manager)
+Nntp-Posting-Host: isluga.puc.cl
+Organization: Pontificia Universidad Catolica de Chile
+X-Newsreader: Tin 1.1 PL5
+Date: Tue, 20 Apr 1993 17:36:56 GMT
+Lines: 10
+
+Hi!!
+I have a question:
+   Which is the diference between Performa 450 and LCIII?
+   I want to know which is better.
+   If you know the specifications and the prices of this computers, can
+you tell me by email to ----> rcvillab@isluga.puc.cl
+   I'd like to know the diference between the apple monitor('14) and the 
+performa monitor too.
+
+Thanks.
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!moe.ksu.ksu.edu!osuunx.ucc.okstate.edu!constellation!essex.ecn.uoknor.edu!cmparris
+From: cmparris@essex.ecn.uoknor.edu (Chris Michael Parrish)
+Subject: Networking Macs and a PC
+Sender: usenet@constellation.ecn.uoknor.edu (Usenet Administrator)
+Message-ID: <C5sHnJ.54L@constellation.ecn.uoknor.edu>
+Date: Tue, 20 Apr 1993 15:57:11 GMT
+Nntp-Posting-Host: essex.ecn.uoknor.edu
+Organization: Engineering Computer Network, University of Oklahoma, Norman, OK, USA
+Lines: 24
+
+
+  At work we have a small appletalk network with 3 macs and  couple of printers.
+We also have a PC that has some specialized accounting software that we would 
+like to operate from any of the macs. We have Soft PC, and I have found that the
+software works just fine under it, but I would like to have all of the data
+for the program reside at one place (the PC hard disk). So my question for you
+is(actually questions)
+
+ 1) is there a board for the PC that will allow you to hook into an appletalk
+    network?
+
+ 2) if #1 is possible, is there any software/hardware combination that will 
+    allow me to mount the PC hard disk as a networked disk on the macs so I
+    can use Soft PC to run the application?
+
+ 3) if #1 or #2 is impossible, is there any other way to accomplish what I am
+    after?
+
+
+-- 
+_______________________________________________________________________________
+Chris Parrish                        |   
+University of Oklahoma               |    "To share is to split..."   
+cmparris@essex.ecn.uoknor.edu        |        - KMFDM
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.comm:22981 comp.sys.mac.hardware:51963
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!usc!usc!not-for-mail
+From: dschen@corona.hsc.usc.edu (Daniel S. Chen)
+Newsgroups: comp.sys.mac.comm,comp.sys.mac.hardware
+Subject: Re: Buying a high speed v.everything modem
+Date: 20 Apr 1993 12:25:11 -0700
+Organization: University of Southern California, Los Angeles, CA
+Lines: 2
+Sender: nntp@corona.hsc.usc.edu
+Message-ID: <1r1imnINN3di@corona.hsc.usc.edu>
+References: <1993Apr20.001127.4928@rs6000.cmp.ilstu.edu> <dr17.735319226@crux1.cit.cornell.edu>
+NNTP-Posting-Host: corona.hsc.usc.edu
+
+What is hardware handshaking and when do I want to use it? Dan
+
+Path: cantaloupe.srv.cs.cmu.edu!rochester!cornell!batcomputer!caen!usenet.cis.ufl.edu!usenet.ufl.edu!gatech!howland.reston.ans.net!zaphod.mps.ohio-state.edu!cs.utexas.edu!uunet!auspex-gw!ams
+From: ams@Auspex.COM (Allan Schwartz)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: Making an internal hard disk into an external
+Message-ID: <17504@auspex-gw.auspex.com>
+Date: 13 Apr 93 15:34:51 GMT
+References: <1993Apr10.193908.22217@leland.Stanford.EDU> <1q7p3tINNfkd@mojo.eng.umd.edu>
+Sender: news@auspex-gw.auspex.com
+Organization: Auspex Systems, Santa Clara
+Lines: 29
+Nntp-Posting-Host: auspex.auspex.com
+
+>Its not a difficult operation-- the cables and such are standard,
+>except for SCSI ID.  SCSI ID is usually three jumper pads-- labelled
+>A0-A2 on Quantums.
+
+I am trying to put a 40MB drive from my LC into a case.  It is a Conner
+CP3040A.  I can't figure out which jumpers are the SCSI ID jumpers.
+Is anyone familiar with this drive?
+
+At the end of the drive (oposite the 50 pin pibbon connector), there
+are eleven pins which look like this:
+
+
+        o o o o o   o   1
+          o o o o   o   2
+
+         L5  CR12   C37
+
+where the "o" are pins, and the "L5 CR12 C37" represent some of the
+silk screen notation near these pins.
+
+Elsewhere on the board there are four jumper pads marked E1,E2,E3,E4
+on the silk screen.
+
+Does anyone know where the SCSI ID A0,A1,A2 pins are, and where the
+drive activity light LED should be plugged into?
+
+                -allan
+-- 
+Allan M. Schwartz              +1 408 492-0900                 ams@auspex.com
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!gatech!emory!news-feed-1.peachnet.edu!umn.edu!lynx.unm.edu!SantaFe!johnson
+From: johnson@SantaFe.edu (George Johnson)
+Newsgroups: comp.sys.mac.hardware
+Subject: 13" monitor jitter
+Date: 21 Apr 1993 06:30:31 GMT
+Organization: The Santa Fe Institute
+Lines: 30
+Message-ID: <1r2pm7$44k@tierra.santafe.ede>
+NNTP-Posting-Host: sfi.santafe.ede
+X-Newsreader: TIN [version 1.1 PL8]
+
+
+Several weeks ago, I described a problem with my Apple High-Resolution
+monitor and promised to summarize replies received by e-mail. To
+recapitulate: Occasionally, every two or three hours or so, my monitor
+momentarily loses sync. The entire raster image bounces down about an
+eighth of an inch or so, then rights itself. This usually happens right
+after I close a large window, highlight a large area, or do something that
+radically alters the image on the screen. Sometimes, though, it happens
+with no provocation whatsoever.
+
+I have received a bewildering range of replies. At one extreme was
+a man, clearly quite knowledgable about monitors, who said that the
+problem was that the 13" monitor's power supply simply couldn't always
+keep up with sudden changes of the raster image; the rapid change from
+a largely light screen to a largely dark one overtaxed the monitor's
+power supply. There was no fix available, he said, because nothing was
+really wrong. (I guess he meant that the flaw was so fundamental that
+it had to be endured.)
+
+This seemed quite persuasive and I would have been tempted to
+adopt an attitude of stoicism, except for a reply from a 13" monitor
+owner who discovered that this very problem is documented in the 
+Apple Service Technical Procedures, Volume 3, under the heading
+Jitter Correction. The section describes a fix involving the replacement
+of a capacitor, the adjustment of a potentiometer, or, failing that,
+the swap of a circuit board.
+
+I would be grateful for a discussion among those who have had
+experience with this sort of thing.
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!gatech!usenet.ufl.edu!eng.ufl.edu!ukma!news1.gsfc.nasa.gov!nova.sti.nasa.gov!nova!generous
+From: generous@nova.sti.nasa.gov (Curtis Generous)
+Subject: Apple Tape backup 40SC under System 7.x
+Message-ID: <generous.734035090@nova>
+Keywords: backup, tape,
+Organization: NASA STI
+Date: Mon, 5 Apr 1993 18:38:10 GMT
+Lines: 12
+
+
+I need to get an Apple 40SC tape backup unit working under
+Sys 7.0.x, but do not have any drivers/software to access
+the device.  Does anyone know where I can fidn the tools
+to access this device?
+
+Appreciate any info/comments.
+
+--curtis
+-- 
+Curtis C. Generous      generous@sti.nasa.gov           (703) 685-1140
+NASA STI, Code JTT, Washington, DC 20546
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!uwm.edu!ux1.cso.uiuc.edu!cs.uiuc.edu!tthiel
+From: tthiel@cs.uiuc.edu (Terry Thiel)
+Subject: Datadesk keyboard+Centris fix.
+Message-ID: <C5u62t.9FK@cs.uiuc.edu>
+Organization: University of Illinois, Dept. of Comp. Sci., Urbana, IL
+Date: Wed, 21 Apr 1993 13:42:29 GMT
+Lines: 13
+
+I posted on here about a problem with a Datadesk 101e keyboard that
+failed to rebuild the desktop with the command-option keys pressed
+or to shut off inits when pressing the shift key.  After absolutely
+no help from Datadesk I called MacConnection tech support.  They tried it out
+on their Centris 610 and had the same problem.  They immediately offered
+to get a new keyboard, try it on their Centris and ship it to me
+overnight if it worked.  I could send them my keyboard back after I
+got the one that worked.  This is from a guy in Tech support named Dave.
+It turns out that the keyboard will wrok if you wait for the smiley face
+before pressing the shift key to disable inits and wait for the inits to start appearing to rebuild the desktop by pressing command-option.  I really like
+this keyboard so I was glad to be able to keep it.  On the other hand,
+Datadesks tech support sucks while MacConnection's is great!
+-Terry
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!concert!duke!news.duke.edu!Connie
+From: connie@acpub.duke.edu (Connie)
+Newsgroups: comp.sys.mac.hardware
+Subject: re: Tempest and Cyclone info NEEDED
+Message-ID: <13651@news.duke.edu>
+Date: 21 Apr 93 17:24:00 GMT
+Sender: news@news.duke.edu
+Lines: 38
+Nntp-Posting-Host: mac9.ac.duke.edu
+Xdisclaimer: No attempt was made to authenticate the sender's name.
+
+>If anyone has any information about the upcoming new computers
+>(Cyclone and Tempest), I am in need of some info. Anything would be
+>greatly appreciated.
+
+>-Shawn
+>breedsa@wkuvx1.bitnet
+
+According to MacWeek of 2-22-93:
+
+The Cyclone will come in the same metal minitower case as the Quadra
+800, while the Tempest will share the low-slung case of the Centris
+610. Apple will offer a miniature video camera that can be mounted
+above the user's monitor or moved about on the end of its cable to take
+pictures of objects or documents. Taking advantage of the 32-bit
+digital signal processor (DSP) built into the systems' logic boards,
+the camera will be able to put an image measuring 360 by 288 pixels,
+with 256 gray levels, on the screen.
+
+Users will be able to install supplementary lenses that can record
+detail as fine as the wire bonds on an integrated circuit. The camera
+is expected to cost between $150 and $250.
+
+The systems will ship with all the software needed to put Apple's
+Casper voice-recognition technology to work; users apparently will have
+to purchase an operational high-fidelity microphone.
+
+The two models will talk as well as listen. A new system facility
+called the Speech Manager will convert text strings sent by
+applications to phonemes and then pass them to a speech synthesizer.
+
+The Cyclone will include a 40MHz '040, three NuBus slots and support
+for up to 128MB of RAM. The Tempest will use a 25MHz LC040, lacking an
+FPU, and hold up to 68MB of RAM; it will have a single slot that will
+require a NuBus adapter and have room for only 7-inch NuBus cards.
+Users will be able to update the Tempest's process but not the
+Cyclone's.
+
+For more get the 02.22.93 issue of MacWeek.
+Xref: cantaloupe.srv.cs.cmu.edu rec.music.makers:32866 rec.music.makers.synth:4985 comp.music:12955 comp.sys.mac.hardware:52045 comp.sys.mac.misc:43473 misc.wanted:31179
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!zaphod.mps.ohio-state.edu!sdd.hp.com!network.ucsd.edu!sdcc12!sdcc15!ee152fcs
+From: ee152fcs@sdcc15.ucsd.edu (Bjorn Karlsson)
+Newsgroups: rec.music.makers,rec.music.makers.synth,rec.music.synth,comp.music,comp.sys.mac.hardware,comp.sys.mac.misc,misc.wanted,misc.forsale.wanted,ucsd.buy+sell,sdnet.wanted,ca.wanted
+Subject: WANTED: Audiomedia card
+Message-ID: <48293@sdcc12.ucsd.edu>
+Date: 21 Apr 93 20:58:48 GMT
+Sender: news@sdcc12.ucsd.edu
+Followup-To: poster
+Lines: 11
+Nntp-Posting-Host: sdcc15.ucsd.edu
+
+Wanted:
+
+        Digidesgn Audiomedia Card for the Mac
+        Email if you have one for sale.
+
+Thanks
+
+ee152fcs
+
+
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!ux1.cso.uiuc.edu!news.cso.uiuc.edu!uxa.cso.uiuc.edu!rab31910
+From: rab31910@uxa.cso.uiuc.edu (Alex Bratton)
+Subject: Quicktime resolution?
+Date: Wed, 21 Apr 1993 15:26:56 GMT
+Message-ID: <C5uAwx.LHI@news.cso.uiuc.edu>
+Sender: usenet@news.cso.uiuc.edu (Net Noise owner)
+Organization: University of Illinois at Urbana
+Lines: 8
+
+Anyone happen to know what the max resolution for quicktime is?  I'm 
+trying to determine if a maxed out system using quicktime could produce
+and edit broadcast quality video (including bringing the video in via
+video spigot/etc.).  So far I have yet to see anything that's even close
+to S-VHS in quicktime, but it'd be great to hear that it's possible.
+
+Thanks for the help,
+Alex Bratton
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.programmer:58287 comp.sys.mac.hardware:52059
+Newsgroups: comp.sys.mac.programmer,comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!agate!ames!nsisrv!news1.gsfc.nasa.gov!sofa.gsfc.nasa.gov!boyce
+From: Kevin Boyce <boyce@lheavx.gsfc.nasa.gov>
+Subject: Re: Using SetWUTime() with a PB170
+Message-ID: <C5uI0v.2GH@skates.gsfc.nasa.gov>
+X-Xxmessage-Id: <A7FB03BB22017D13@sofa.gsfc.nasa.gov>
+X-Xxdate: Wed, 21 Apr 93 18:59:23 GMT
+Sender: usenet@skates.gsfc.nasa.gov
+Organization: NASA/GSFC
+X-Useragent: Nuntius v1.1.1d20
+References: <C5qFLr.Lon@world.std.com>
+Date: Wed, 21 Apr 1993 18:00:26 GMT
+Lines: 15
+
+In article <C5s96u.L4p@world.std.com> Andrew E Page, aep@world.std.com
+writes:
+>One way to tell is to
+>go and open the PowerBook control panel(7.1).  There is a setting
+>there that allows you to set the time to wake up the Mac.  If it
+>is present when you open the control panel, then you can assume that
+>SetWUTime will work.  
+
+Gee, nice of them to tell us.  Like, how about a Gestalt response bit for
+the
+GestaltPowerManagerAttributesFoodSpreadProduct selector?  Well, at least
+now I know why it doesn't work (I assume; I 'm using a PB 145).
+
+-Kevin          boyce@lheavx.gsfc.nasa.gov
+"Argle Bargle Morble whoosh? "   --Moxie (or was it Pepsi?)
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!cs.utexas.edu!asuvax!ncar!hsdndev!dartvax!coos.dartmouth.edu!hades
+From: hades@coos.dartmouth.edu (Brian V. Hughes)
+Subject: Re: Monitors - should they be kept on 24 hours a day???
+Message-ID: <C5uoz9.FM3@dartvax.dartmouth.edu>
+Sender: news@dartvax.dartmouth.edu (The News Manager)
+Reply-To: hades@Dartmouth.Edu
+Organization: Dartmouth College, Hanover, NH
+Disclaimer: Personally, I really don't care who you think I speak for.
+References: <1r3jl5$igh@function.mps.ohio-state.edu> <1993Apr21.162358.5265@alleg.edu>
+Date: Wed, 21 Apr 1993 20:30:44 GMT
+Moderator: Rec.Arts.Comics.Info
+Lines: 25
+
+smytonj@murr11.alleg.edu (Jim Smyton) writes:
+
+>nevai@mps.ohio-state.edu (Paul Nevai) writes:
+
+>>Yes, I know computers and harddisk drives should be ALWAYS on. But what
+>>about monitors? They generate a lots of heat. Should I or shouldn't I
+>>keep them on 24 hours a day? Any advice?
+
+    Well the monitor is consistently the largest power drain on your
+electric bill when you are looking at your computer set-up, especially
+if you have a large (16" or greater) color monitor. Generally what I do
+is leave my Mac on all the time, except for the occasional resart or
+syetem crash, but I turn my monitor off each night before I leave my
+office. I also turn off After Dark when I do this, since there is no
+reason to have the screen saver running when there is no picture being
+displyed on the monitor's tube.
+
+>Actually, I thought Macs were suppoused to be restarted once a day.
+
+    Really? What makes you think this? The Q700 file server in my office
+has been on for the last 2 months, straight, and it hasn't had any
+problems. (Note: I also keep the monitor for the file server turned off
+when I'm not actually working on the server itself.)
+
+-Hades
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!gatech!emory!ogicse!willamette.edu!therzog
+From: therzog@willamette.edu (Thomas A. Herzog)
+Newsgroups: comp.sys.mac.hardware
+Subject: The 25MHz IIsi
+Message-ID: <C5uFzp.Btp@willamette.edu>
+Date: 21 Apr 93 17:16:37 GMT
+Article-I.D.: willamet.C5uFzp.Btp
+Organization: Willamette University, Salem OR
+Lines: 10
+
+
+  So I finally decided to risk this upgrade, FAQ in hand I've gathered the
+pieces together.  The only problem is that I haven't been able to find
+anyone who's even heard of thermal tape/glue (which is what the FAQ
+recommends for attaching the heat sink)  I am just tempted to use duct
+tape here.... anyone hae any ideas for me for attaching the heat sink to
+the processor??  much thanks.
+
+tom
+-therzog@willamette.edu
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!malgudi.oar.net!hyperion!desire.wright.edu!cse0603
+From: cse0603@desire.wright.edu
+Newsgroups: comp.sys.mac.hardware
+Subject: SAD MAC CODE 0F0064 ???
+Message-ID: <1993Apr21.124822.8824@desire.wright.edu>
+Date: 21 Apr 93 12:48:21 EST
+Organization:  Wright State University 
+Lines: 10
+
+Hello
+
+        I am the proud new owner of a MAC 512K.  Upon power-up and insertion
+        of the sytem disk, I get SAD MAC code 0F0064.  Can anyone give me a 
+        clue to what this means?
+
+        Thanks.
+
+        -Steve
+
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.hardware:52079 sci.math.symbolic:7176
+Newsgroups: comp.sys.mac.hardware,sci.math.symbolic
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!moe.ksu.ksu.edu!hobbes.physics.uiowa.edu!news.iastate.edu!pv3449.vincent.iastate.edu!whitmore
+From: whitmore@iastate.edu (Kurt D Whitmore)
+Subject: [INFO REQUEST] HP Deskwriter & Mathematica
+Message-ID: <whitmore.735434927@pv3449.vincent.iastate.edu>
+Summary: Has anyone had a problem with these?
+Sender: news@news.iastate.edu (USENET News System)
+Organization: Iowa State University, Ames IA
+Date: Wed, 21 Apr 1993 23:28:47 GMT
+Lines: 12
+
+Has anyone else gotten a system error when trying to print from Mathematica 2.1
+to the HP Deskwriter. I'm using a PB170 with:   8 megs ram
+                                                Sys 7.0.1 + Tuneup
+                                                HP Print Drivers etc....
+
+It works find on an Imagewriter I. I'd like to get as much information as
+possible before I send a bug report to Wolfram.
+
+Thanks.
+
+-Kurt (whitmore@iastate.edu)
+
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!usc!elroy.jpl.nasa.gov!ames!haven.umd.edu!cs.umd.edu!mojo.eng.umd.edu!russotto
+From: russotto@eng.umd.edu (Matthew T. Russotto)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: SAD MAC CODE 0F0064 ???
+Date: 22 Apr 1993 01:09:18 GMT
+Organization: Project GLUE, University of Maryland, College Park
+Lines: 15
+Message-ID: <1r4r7uINN769@mojo.eng.umd.edu>
+References: <1993Apr21.124822.8824@desire.wright.edu>
+NNTP-Posting-Host: tea.eng.umd.edu
+
+In article <1993Apr21.124822.8824@desire.wright.edu> cse0603@desire.wright.edu writes:
+>Hello
+>
+>       I am the proud new owner of a MAC 512K.  Upon power-up and insertion
+>       of the sytem disk, I get SAD MAC code 0F0064.  Can anyone give me a 
+>       clue to what this means?
+
+Bad system disk.  (possibly too new a version for your historical
+curiosity^H^H^H^H^H^H^H^H^HFat Mac)
+
+-- 
+Matthew T. Russotto     russotto@eng.umd.edu    russotto@wam.umd.edu
+Some news readers expect "Disclaimer:" here.
+Just say NO to police searches and seizures.  Make them use force.
+(not responsible for bodily harm resulting from following above advice)
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!bb3.andrew.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!bogus.sura.net!udel!news.udel.edu!me.udel.edu!johnston
+From: johnston@me.udel.edu (Bill Johnston)
+Subject: Re: Apple Tape backup 40SC under System 7.x
+Message-ID: <C52w0r.KBA@news.udel.edu>
+Keywords: backup, tape,
+Sender: usenet@news.udel.edu
+Nntp-Posting-Host: me.udel.edu
+Organization: University of Delaware
+References: <generous.734035090@nova> <1pskkt$3ln@fnnews.fnal.gov>
+Date: Tue, 6 Apr 1993 20:10:02 GMT
+Lines: 22
+
+In article <1pskkt$3ln@fnnews.fnal.gov> b91926@fnclub.fnal.gov (David Sachs) writes:
+>In article <generous.734035090@nova>, generous@nova.sti.nasa.gov (Curtis Generous) writes:
+
+>|> I need to get an Apple 40SC tape backup unit working under
+>|> Sys 7.0.x, but do not have any drivers/software to access the device. 
+
+>Retrospect (Dantz) works nicely with this combination.
+
+I also use Retrospect, but I noticed that Central Point Software's
+"MacTools Backup" also supports the Apple tape drive under 7.x. 
+The Apple tape drive is quite slow, so the advantages of Retrospect
+relative to the simpler MacTools Backup are less significant than 
+might be the case for someone backing up a large server to a DAT drive.  
+
+Used Apple tape drives are going for ~$100, so it might make less
+economic sense to pay an extra ~$140 for Retrospect when MacTools 
+is cheaper and includes other worthwhile utilities.
+
+Retrospect is nice, though, and I'm probably going to upgrade to 2.0.
+-- 
+-- Bill Johnston (johnston@me.udel.edu)
+-- 38 Chambers Street; Newark, DE 19711; (302)368-1949
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!emory!ogicse!netnews.nwnet.net!news.u.washington.edu!carson.u.washington.edu!guykuo
+From: guykuo@carson.u.washington.edu (Guy Kuo)
+Newsgroups: comp.sys.mac.hardware
+Subject: Quadra Clock Modification - Long
+Summary: Quadra 700 Clock Acceleration Instructions
+Keywords: Quadra,clock,acceleration,oscillator
+Message-ID: <1r577lINNjks@shelley.u.washington.edu>
+Date: 22 Apr 93 04:33:57 GMT
+Article-I.D.: shelley.1r577lINNjks
+Organization: University of Washington
+Lines: 149
+NNTP-Posting-Host: carson.u.washington.edu
+
+Here is how I modified my Quadra 700 for higher speed. Previously I
+had been using a Variable Speed Overdrive for accelerating my CPU
+but this modification is testing out as more stable at higher speeds.
+
+Your mileage may vary. The top speed you achieve cannot be predicted
+before hand. My personal Q700 has tested fine up to 32 mhz thus far.
+I didn't have higher speed clock oscillators on hand to test higher
+speeds.
+
+Parts
+
+        Clock Oscillators (4 pin TTL variety) You will need a selection of
+        speeds beginning at 50 mhz on up. The CPU will run at 1/2 the
+        oscillator speed. The original one is a 50 mhz unit. I recommend
+        getting a 50 mhz clock in case you damage the existing one.
+
+           I obtained my clock oscillators from DigiKey 1-800-344-4539 for
+           less than $5.00 each. Some of their part numbers are:
+
+                   50 mhz TTL Clock Oscillator (part # X121)
+                   62 mhz TTL Clock Oscillator (part # X136)
+                   66 mhz TTL Clock Oscillator (part # CTX137)
+
+           Don't get the half size clock oscillators. They won't fit.
+
+           There are also CMOS clock oscillators. I haven't tried one in a
+           Quadra. (They work fine in IIsi's)
+           
+        Socket: Obtain a 4 pin socket which is in the same form factor as
+           a 14 pin DIP package. Alternatively, use 4 machined socket pins
+           from an Augat style socket. Just cut them out of the socket.
+
+        Cooling Fan: A very small 12 volt fan to keep the CPU cool is a 
+           must. My VSO came with a specially modified heatsink which had
+           a fan built onto it. It had a pass-through connector which
+           tapped into the hard drive power cable. You should rig up 
+           something similar or risk frying your CPU.
+           
+Procedure
+
+1)  Insert usual disclaimer and antistatic warnings here.
+
+2)  Remove the top lid of the machine. You will see the floppy disk and
+    hard drive mounted in a plastic tower. Follow the usual anti-static
+    precautions and of course make sure the machine is OFF when you do
+    this. Unplug ALL cables, wall and monitor power supply cords from
+        the back of the mac.
+ 
+3)  Remove the power supply by pulling the plastic interlocking tab on the
+    tower forward and simultaneously pulling the power supply straight up.
+    The tab is a piece of plastic from the left posterior aspect of the
+    tower which extends downward to hook on to the power supply. You may
+    also feel a horseshoe shaped piece at the right portion of the power
+    supply. Leave that alone. The plastic tab from the tower is all you
+    need release.
+ 
+4)  Look at the rear of the tower assembly. You will see the flat ribbon
+    SCSI connector to the hard drive, a power cable and a flat ribbon cable
+    leading to the floppy drive. Disconnect all these from the motherboard.
+    The hard drive power cable connector has a tab which must be squeezed
+    to release it.
+                                            
+5)  Unplug the drive activity LED from its clear plastic mount
+
+6)  Look down the posterior, cylindrical section of the plastic tower. A
+    phillips head screw is at the base. Remove it, taking care not to drop
+    it into the case. A bit of gummy glue on your screwdriver is helpful
+    here.
+
+7)  Remove the tower assembly by pulling medially the plastic tab on the
+    right side of the tower. This tab prevents the tower from sliding
+        posteriorly. Slide the entire tower assembly 1 cm posteriorly then
+        lift the tower assembly straight up and out of the case.
+
+8)  Remove the interrupt switch assembly. It is a strangely shaped plastic
+    device at the left, front edge of the motherboard. Pull the middle,
+        rear plastic prong up and forward. The entire device will release.
+        
+9)  Unplug the speaker cable. Squeeze the plastic tab on the speaker to
+    free it then swing it backwards to free it from the case.
+        
+10) Remove the motherboard form the case. Lift the front right corner of
+    the motherboard about 1 mm. This allows it to clear the clear plastic
+        Power light guide. Slide the motherboard forward about 1 cm. The
+        motherboard then comes directly out.
+        
+11) Locate the 50 mhz clock crystal. It is a small metal box near the
+    CPU chip. Note and remember its orientation. The new clock oscillators
+        must be aligned with pin 1 in the same orientation.
+        
+        Very carefully desolder and remove the old clock oscillator. Some of
+        the pins may be bent over. Simply desolder then unbend them. Be sure
+        your desoldering iron is hot enough before heating the board.
+        
+        I used a suction desoldering iron to accomplish this task. This is
+        NOT appropriate for a first soldering experience. The motherboard is
+        a multi-layer design with very fine traces - easily damaged without
+        proper care.
+        
+12) Install your socket or socket pins where the old oscillator once was.
+
+13) Put a 50 mhz clock oscillator into the new socket. You could use the
+        old clock but it has solder on its pins. This may come of inside the
+        socket and cause corrosion problems later. I suggest using a new
+        50 mhz clock.
+        
+14) Install your cooling fan system to complete the modification.
+        
+14) Reinsert the motherboard and slide it into place.
+
+15) Snap in the interrupt switch assembly and speaker to lock the mother
+    board firmly. Plug the speaker wire back into the motherboard.
+        
+16) Reinstall the tower assembly by first placing the right wall of the
+    tower against the right wall of the case with the tower assembly about
+        1 cm posterior of its intended position. Lower the tower assembly into
+        place while maintaining contact with the right wall of the case.
+    Once fully down, slide the tower assembly anteriorly until it clicks
+    into place.
+        
+17) Reconnect the motherboard ends of the cables. DONT'T FORGET THE FLOPPY
+    DRIVE CABLE.
+
+18) Replace the phillips head screw
+
+19) Drop the power supply straight down into place until it clicks in.
+
+20) Plug the hard drive activity light back into its clear plastic mount.
+
+21) Reattach your cables and power cords. Cross your fingers and turn 
+    on the Mac. It should make the usual power on chord. If it doesn't,
+        something is amiss. Immediately turn of the power and recheck your
+        handiwork. If all is not well, you have my sincere condolences.
+        
+        Hopefully, all will work normally. Turn the machine back off and
+        replace the 50 mhz clock oscillator with a faster one. Reboot and
+        be astounded. 
+        
+        You will need to fully test the machine for many hours before deciding
+        a particular speed is truly usable. With my VSO, a machine lock-up
+        might take 8 hours of operation to occur. In the brief time since
+        modifying my clock oscillator (36 hours) I have not had a single
+        problem.
+        
+Good Luck to all who attempt this modification. There is a small but real
+risk, but you could well reach Quadra 950 speeds or higher with less than
+$50 in parts.
+
+Guy Kuo <guykuo@u.washington.edu>
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!sdd.hp.com!nigel.msen.com!heifetz!mbsun.mlb.org!mudos!iunet!hal9k!barry.davis
+From: barry.davis@hal9k.ann-arbor.mi.us (Barry Davis) 
+Newsgroups: comp.sys.mac.hardware
+Subject: Laser Writer IINTX upgrad
+Message-ID: <11189.75.uupcb@hal9k.ann-arbor.mi.us>
+Date: 13 Apr 93 10:54:00 GMT
+Distribution: world
+Organization: HAL 9000 BBS, W-NET HQ, Ann Arbor, Michigan, USA
+Reply-To: barry.davis@hal9k.ann-arbor.mi.us (Barry Davis) 
+Lines: 22
+
+
+DB>LaserWriter IINTX upgrade kit is.
+
+DB>Its a small box, which has a bag inn it , seemingly
+DB>containing 6 chips (look like ROMS) and a IINTX manual.
+DB>The installation instructions are most informative and say, in full,
+DB>"This product must be installed by an Apple ........."
+
+DB>SO what does this do ? At first I thought it might be a NT to NTX
+DB>upgrade, but I thought that required an entirely new board.
+
+Sounds like you got the Adobe ROM upgrade for an NTX. That describes
+the kit I got when I upgraded to the 51.2 or 52.1 PostScript in my NTX.
+---
+ . DeLuxe. 1.26b #956s . MicroFrame: The BEST in Price and Performance!
+ . QNet3. . The PipeLine : Atlanta, GA : Echo Mail From Around The World
+                                                             
+----
+| HAL 9000 BBS:  QWK-to-Usenet gateway  | Four 14400 v.32bis dial-ins    |
+| FREE Usenet mail and 200 newsgroups!  | PCBoard 14.5aM * uuPCB * Kmail |
+| Call +1 313 663 4173 or 663 3959      +--------------------------------+
+| Member of EFF, ASP, ASAD  * 1500MB disk * Serving Ann Arbor since 1988 |
+From: rick.zeman@his.com (Rick Zeman)
+Sender: UUCP@his.com
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!noc.near.net!uunet!clone!UUCP
+Newsgroups: comp.sys.mac.hardware
+Subject: Mac SCSI spec?
+Message-ID: <735472092.AA01860@his.com>
+Date: Thu, 22 Apr 1993 00:54:00
+Lines: 30
+
+On 4/20/93, Tim Keanini was heard to say regarding "Mac SCSI spec?:" 
+
+  TK> From: blast@nntp.crl.com (Tim
+  TK> Keanini)
+  TK> 
+  TK> I have a MacIIFX and I know that it is wired about its SCSI chain.
+  TK> 
+  TK> I just bought a drive and I need to find out a few hardcore SCSI
+  TK> question:
+  TK> 
+  TK> Does the IIFX SCSI chain want to see active or passive termination?
+  TK> 
+  TK> Does the IIFX SCSI spec want me to enable the initiation of the SDTR
+  TK> message?
+  TK> 
+  TK> WHat does the IIFX SCSI spec want as far as parity checking?
+  TK> 
+  TK> These are some very good questions for the FAQ. If someone does not
+  TK> have time to answer these questions but does know where I can look
+  TK> them up please let me know and I will repost the answers for everyone
+  TK> to see.
+  TK> 
+
+      Read TechNote #273...it deals with more than any sane person wants to
+know about the IIfx's SCSI....
+
+  TK> thanks, Tim Keanini        <timk@broder.com>  or  <blast@crl.com>
+  TK> Sound Engineer         Broderbund Software
+  TK> 
+  
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!ira.uka.de!math.fu-berlin.de!informatik.tu-muenchen.de!menes
+From: menes@statistik.tu-muenchen.de (Rainer Menes)
+Subject: Re: Quadra clock chip - followup
+Keywords: quadra,clock,oscillator
+References:  <1r5j7oINN23e@shelley.u.washington.edu>
+Originator: menes@suniams2.statistik.tu-muenchen.de
+Sender: menes@Informatik.TU-Muenchen.DE (Rainer Menes)
+Organization: Technische Universitaet Muenchen, Germany
+Date: Thu, 22 Apr 1993 10:24:39 GMT
+Message-ID: <1993Apr22.102439.6566@Informatik.TU-Muenchen.DE>
+Lines: 87
+
+
+
+I have replaced the osz to 66 MHz yesterday and no truble at all. My Quadra now works at 33 MHz stable for more than 14 hours. I have also tried a 70 MHz osz, but after 1/2 hour my Quadra 700 died. I am not sure what was the reason for that,
+but it is to risky to run it to fast. Most of your Quadras 700 should work at 33 MHz without any problems. 
+
+But a safety tip do a backup from your harddisk befor you start to upgrade. During my 35 MHz test I damaged my harddisk and had a hardtime to get it working again. So once again do a backup befor you start!!!!!!!!!
+
+Now the speedometer results after replacing the osz.
+
+Speedometer Report for menes rainer. Prepared April 22, 1993.
+
+Machine Record Version #: 5
+
+
+User Comment:
+Quadra 700 33Mhz and Ram Disk
+20 MByte RAM + 2 MByte VRAM
+
+System Information:
+Computer: Mac Quadra 700
+CPU: MC68040
+FPU: Integral FPU
+MMU: Integral MMU
+Color Quickdraw: 2.30 (32 Bit QD)
+System Version: 7.1.6
+Finder Version: D1-7.1
+AppleTalk Version: 57
+LaserWriter Version: D1-7.1.2
+Laser Prep Version: Not Found
+ImageWriter Version: D1-7.0.1
+ROM Version: $067C
+ROM Size: 1024
+Bit Depth: 1
+Horizontal DPI: 72
+Vertical DPI: 72
+Primary Screen Size: 832 x 624
+Physical RAM: 20480K
+Logical RAM: 20454K
+
+P.R. Results (Uses Mac Classic as 1.0):
+CPU: 21.625
+Graphics: 30.052
+Disk: 28.351     Name of Hard Disk tested: RAM Disk
+Math: 135.128
+Performance Rating (PR): 36.848
+
+Benchmark Results (Uses Mac Classic as 1.0):
+KWhetstones: 1500.000     205.479
+Dhrystones: 26315.789     27.008
+Towers: 24.960
+QuickSort: 22.391
+Bubble Sort: 23.823
+Queens: 24.105
+Puzzle: 28.804
+Permutations: 26.523
+Fast Fourier: 167.728
+F.P. Matrix Multiply: 154.452
+Integer Matrix Multiply: 30.250
+Sieve: 25.602
+Benchmark Average: 63.427
+
+FPU Tests (Uses Mac II as 1.0):
+@@FFPU Fast Fourier: 14.636
+FPU KWhetstones: 5454.545     7.636
+FPU F.P. Matrix Mult.: 14.333
+FPU Test Average: 12.202
+
+Color Tests (Uses Mac II as 1.0):
+Black & White: 6.395
+4 Colors: 6.773
+16 Colors: 6.957
+256 Colors: 7.016
+Color Test Average: 6.785
+
+Very interesting are the graphics results (Graphics 30.052) couldn't belief this, but it is true. Two points which my cause problems are the 4 MByte Ram solder on the board. The are only 80ns Rams and run at the upperlimit with 33 MHz. The next part which may cause trouble are the Video Rams. I have the orignal 100ns VRAMs from Apple in my Quadra, here you are also at the upperlimit where most of the chips running but it isn't garantied to run. Most of the other parts on the Quadra board running on there o
+
+
+
+
+wn clockspeed so they wont make truble.
+
+The most importaned question is do I neat a new heat sink. I would say NO. After running my Quadra for more than 14 hours the heat sink is really cool. A 33 MHz 486 with heat sink is mutch warmer than the 68040 in the Quadra, so I didn't see any problems. The room temperatur was 22 Celsius (72 F). If you living in a area were it is hot 100 F (45 C) and your room temperatur is not mutch below I would suggest a new heat sink with a ventilator to stay on the safe side.
+
+
+Hope you will have the same success than I had,
+
+Rainer
+
+email: menes@statistik.tu-muenchen.de
+ 
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!enterpoop.mit.edu!senator-bedfellow.mit.edu!athena.mit.edu!afung
+From: afung@athena.mit.edu (Archon Fung)
+Newsgroups: comp.sys.mac.hardware
+Subject: PowerPC NuBUS rumors?
+Date: 22 Apr 1993 15:00:44 GMT
+Organization: Massachusetts Institute of Technology
+Lines: 9
+Distribution: world
+Message-ID: <AFUNG.93Apr22110048@thobbes.mit.edu>
+NNTP-Posting-Host: thobbes.mit.edu
+
+I read in MacWeek that some developers are getting NuBUS cards from apple
+with pre-release PowerPC chips on them.  Does this mean that when the
+chip is released, those of us with old apples will be able to take
+advantage of the PowerPC RISC technology just by inserting a card?
+
+I don't know anything about hardware, so can someone tell me how much of
+a cludge this would be?
+
+Archon
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!darwin.sura.net!haven.umd.edu!uunet!pipex!uknet!mcsun!ub4b!rc1!rherzog
+From: rherzog@rc1.vub.ac.be (Herzog Robert (DBM))
+Newsgroups: comp.sys.mac.hardware
+Subject: Moniterm VCX on mac? Which card to use?
+Message-ID: <1729@rc1.vub.ac.be>
+Date: 22 Apr 93 18:23:01 GMT
+Sender: news@rc1.vub.ac.be
+Distribution: world
+Organization: Brussels Free Universities (VUB/ULB), Belgium
+Lines: 6
+Keywords: moniterm VCX
+
+I have a nice VXC Moniterm 19 in B/W monitor, formerly used on an ATARI ST.
+I think such monitors are / have been used on macs.
+Can someone tell me what mac can use it, what card I should get to use it, etc..
+This monitor also has a label on the front saying Viking 2/90, and has a DB9
+connector.
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!wupost!howland.reston.ans.net!zaphod.mps.ohio-state.edu!sdd.hp.com!decwrl!apple!mumbo.apple.com!pcnntp.apple.com!gateway.qm.apple.com!Dale_Adams
+From: Dale_Adams@gateway.qm.apple.com (Dale Adams)
+Subject: Re: 72-pin SIMMS for Q-800, be careful before buying
+Sender: news@pcnntp.apple.com
+Message-ID: <1993Apr22.191947.6527@pcnntp.apple.com>
+Date: Thu, 22 Apr 1993 19:19:47 GMT
+References: <C5w9v0.FCE@news.cso.uiuc.edu>
+Organization: Apple Computer, Inc.,  Cupertino, CA
+Lines: 22
+
+In article <C5w9v0.FCE@news.cso.uiuc.edu> Marty Sachs 
+<msachs@ux1.cso.uiuc.edu> writes:
+> I purchased 2x8 MB 72-pin (60 ns) SIMMs for my Quadra 800 from Chip
+> Merchant (I've been very satisfied with them in the past).  Either one
+> alone works, but both together fail.  I called Apple for advice and was
+> told that there was a problem with "Composite" SIMMs.  Only non-composite
+> SIMMs should be used with the Q-800.  Chip Merchant confirmed that they
+> presently sell only composite 72-pin SIMMs.  So, Q-800 SIMMs need to be
+> both 60 ns and non-composite.
+
+8 MB SIMMs do not have to be composite SIMMs, although many (most?) 16 MB 
+SIMMs are.  72-pin SIMMs allow two memory banks per SIMM, thus permitting 
+the use of 4 Mb DRAM devices (the same ones used on 4 MB SIMMs) to be used 
+for two 4 MB banks on one SIMM.  I can't imagine that it would be cheaper 
+to build an 8 MB SIMM using 1 Mb DRAMs as the 4 Mb parts reached (and 
+exceeded) bit for bit price parity with the 1 Mb parts some time ago.  
+It's probably possible to build a single-bank 8 MB SIMM using 4 Mb parts - 
+this could cause problems in a Q800.  I'm not sure why you'd want to do 
+this, though, as a dual-bank 8 MB SIMM would be cheaper to build than a 
+single-bank composite one.
+
+- Dale Adams
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!swrinde!cs.utexas.edu!geraldo.cc.utexas.edu!portal.austin.ibm.com!awdprime.austin.ibm.com!kelleyb
+From: kelleyb@austin.ibm.com (Kelley Boylan)
+Subject: Re: Monitors - should they be kept on 24 hours a day???
+Originator: kelleyb@kelleyb.austin.ibm.com
+Sender: news@austin.ibm.com (News id)
+Message-ID: <C5wLAn.AnC@austin.ibm.com>
+Date: Thu, 22 Apr 1993 21:06:22 GMT
+Reply-To: kelleyb@austin.ibm.com
+References: <1r3jl5$igh@function.mps.ohio-state.edu> <C5w020.8rp@hawk.cs.ukans.edu> <1r6gis$e46@calvin.NYU.EDU>
+Organization: IBM Austin, PowerPC
+Lines: 21
+
+
+> > The electricy consumption will go down if you turn them off overnight,
+> > along with heat.
+> 
+>       I wonder how hard it would be (i.e. what it would add to the cost)
+> to design desktop machines with a power saver feature built in which would
+> reduce power consumption automatically if the machine is idle for more than
+> some amount of time. 
+
+Apple and several other manufacturers have already committed to a monitor
+design that does just that.  It was announced along with the new 
+administration's efforts to cut waste and fuel consumption.  I know that
+in the buildings where I work, gigawatts are wasted by unused, always-on
+machines and monitors.
+
+-Kelley-
+-- 
+-----------------------------------------------------------------
+Thomas Kelley Boylan, PowerPC, IBM Austin, kelleyb@austin.ibm.com
+-----------------------------------------------------------------
+                  I buy and pay for my own opinions
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!ogicse!uwm.edu!cs.utexas.edu!milano!shrike!flash
+From: flash@austin.lockheed.com (James W. Melton)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: LCIII problems (sideways HD's)
+Message-ID: <1747@shrike.com>
+Date: 22 Apr 93 19:51:24 GMT
+Article-I.D.: shrike.1747
+References: <1993Apr16.021225.19717@leland.Stanford.EDU> <1qmir5$3l5@usenet.INS.CWRU.Edu>
+Organization: "Lockheed Austin Division, 6800 Burleson Rd, Austin, TX 78744
+Lines: 36
+
+In article <1qmir5$3l5@usenet.INS.CWRU.Edu> kephart@snowhite.eeap.cwru.edu (T. Kephart) writes:
+>In article <1qmgjk$ao5@menudo.uh.edu> , sunnyt@coding.bchs.uh.edu writes:
+>>      Its not a good idea to have a horizontally formatted hard disk in a  
+>> vertical position.  If the drive is formatted in a horizontal position,
+>it can  
+>> not completely compensate for the gravitational pull in a vertical position.   
+>
+>I asked this question a while ago while contemplating placing my 650 on 
+>it's side.  I received a response from someone at Seagate (Sorry I 
+>trashed the message) stating that most newer drives (Seagates at the 
+>least) can very well compensate for gravity.  This means that a 
+>horizontally formatted drive can be later placed vertically with no data 
+>integrity problems.
+
+So is there any problems putting a drive formatted vertically on
+its side horizontally?
+
+I got a drive a few years ago with the rubber feet on the side,
+etc. and have used it like that since (obviously designed for that
+orientation). However, it doesn't fit under any of the clever
+places I can think of to place it, so I would really like to lay it
+flat and put it under a low shelf.
+
+This is probably not a "newer" drive, and it is only 70 meg, but
+when I bought it, it was a large drive for an average user
+(comparable to buying a 200 meg drive today). So is my old, 70 meg
+drive as fragile (or not) as a new 200 meg drive?
+
+Just curious.....
+
+
+-- 
+Jim Melton, novice guru
+email:      flash@austin.lockheed.com | "So far as we know, our
+voice mail: (512) 386-4486            |  computer has never had
+fax:        (512) 386-4223            |  an undetected error"
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!news-feed-1.peachnet.edu!gatech!howland.reston.ans.net!zaphod.mps.ohio-state.edu!uwm.edu!linac!att!csn!cherokee!hoarder.advtech.uswest.com!user
+From: bob@advtech.uswest.com (bob brown)
+Subject: Re: Monitors - kept on 24 hrs/day (long)
+Message-ID: <bob-220493160359@hoarder.advtech.uswest.com>
+Followup-To: comp.sys.mac.hardware
+Sender: news@advtech.uswest.com (Radio Free Boulder)
+Nntp-Posting-Host: hoarder.advtech.uswest.com
+Organization: uswest advanced technologies
+References: <1r3jl5$igh@function.mps.ohio-state.edu> <1r49d2INN23e@jhunix.hcf.jhu.edu> <21APR199323231675@utkvx.utk.edu> <7106@npri6.npri.com>
+Date: Thu, 22 Apr 1993 22:04:26 GMT
+Lines: 68
+
+In article <7106@npri6.npri.com>, murphy@npri6.npri.com (David P. Murphy)
+wrote:
+> 
+> 
+> >A CNN factiod in the last few months stated that 40% of all the computers
+> >in the U.S. are left on 24 hours a day, 7 days a week.  I don't recall
+> >CNN's source.
+> >
+> >ljones@utkvx.utk.edu (Leslie Jones)
+
+
+Here's something to add to the discussion:
+
+Newsgroups: misc.activism.progressive
+From: "James P. Reynolds" <jpr1@lehigh.edu>
+Subject: When you're not using it, turn it off!
+Date: Mon, 22 Mar 1993 06:50:14 GMT
+Lines: 53
+
+Research has shown that the majority of the time that the United
+States' 30 to 35 million personal computers are on, they are not
+actively being used.  In addition, 30 to 40 percent are left running
+at night and on weekends.
+
+Computer equipment is now the fastest growing private-sector use
+of electricity.  Computers alone are believed to account for five
+percent of commercial electricity consumption, and may account for
+ten percent by the year 2000.
+
+If you are one of those who leave them on after you're done, it
+would be a big environmental benefit if you would just TURN IT OFF
+when you're not using it.  It only takes a second or two to do.
+
+Also, the majority of the power your computer uses is not consumed
+by the computer itself, but by the monitor.  If you can't turn the
+computer off, then please just TURN OFF THE MONITOR.
+
+The U.S. Environmental Protection Agency has formed an alliance
+with computer manufacturers to promote the introduction of energy-
+efficient PCs that "power down" automatically when not being used
+and thus reduce the air pollution caused by power generation.  These
+new computers will save enough electricity to power both Vermont and
+New Hampshire and save up to 1 billion U.S. dollars in annual
+electricity bills.  Look for the special EPA "Energy Star" logo when
+you buy computers.  They should be available in one to two years.
+
+According to the EPA studies, the energy saved will prevent CO2
+emissions of 20 million tons annually, the equivalent of five million
+automobiles.  Also, 140,000 tons of SO2 and 75,000 tons of nitrogen
+oxide emissions will be saved; these are the major pollutants
+responsible for acid rain.
+
+Please do your part ... be responsible.  If you're not using it,
+then just TURN IT OFF.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Information herein is partially taken from the 1993 "Information
+Please" Almanac, page 573, and the U.S. Envirnomental Protection
+Agency's "Environmental News."
+
+Please redistribute this message to every computer bulletin board,
+network, memo system, etc. you can think of.  Archive it and post
+it every so often if you can.  Let's get the word out to everyone.
+We need to be responsible about the way we consume.
+
+Jim Reynolds
+[end]
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!ogicse!decwrl!concert!gatech!usenet.ins.cwru.edu!b63545.student.cwru.edu!jmk13
+From: jmk13@po.cwru.edu (Joseph M. Kasanic)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: how do you like the Apple Color OneScanner?
+Message-ID: <1pt46r$li6@usenet.INS.CWRU.Edu>
+Date: 6 Apr 93 23:36:59 GMT
+Article-I.D.: usenet.1pt46r$li6
+References: <1993Apr5.203903.12192@midway.uchicago.edu>
+Distribution: world
+Organization: Case School of Engineering
+Lines: 19
+NNTP-Posting-Host: b63545.student.cwru.edu
+X-UserAgent: Nuntius v1.1.1d20
+X-XXMessage-ID: <A7E78C567302F839@b63545.student.cwru.edu>
+X-XXDate: Tue, 6 Apr 93 03:36:54 GMT
+
+In article <1993Apr5.203903.12192@midway.uchicago.edu> JohnC,
+jcav@ellis.uchicago.edu writes:
+>We're all set to buy one of these for the office, to use for scanning in
+>color photographs and for optical character recognition.  We've played
+with
+>the original grayscale OneScanner and were very pleased.  Is the color
+model
+>comparable in quality?
+>
+>Also, what brand of OCR software would you recommend?  We're leaning
+toward
+>Caere OmniPage.  Any better ideas?  Thanks.
+
+I work in a campus bookstore and we had the opportunity to demo the Color
+One
+Scanner.  I found it to be very impressive as well as affordable (with the
+ educational discount of course!).  Note also that it comes with Ofoto
+software
+which is sufficient for our needs.
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!bb3.andrew.cmu.edu!andrew.cmu.edu!am2o+
+From: Alexander Samuel McDiarmid <am2o+@andrew.cmu.edu>
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: SVGA Monitors and Centris (the real story)
+Date: Fri, 23 Apr 1993 01:24:53 -0400
+Organization: Sophomore, Mechanical Engineering, Carnegie Mellon, Pittsburgh, PA
+Lines: 48
+Message-ID: <cfprqZS00WALM90ecx@andrew.cmu.edu>
+NNTP-Posting-Host: po2.andrew.cmu.edu
+In-Reply-To: <C5wxqG.H93@news.claremont.edu>
+
+    THe origional bit is missing but long/short follows:
+
+    The origional poster asked if he/she could use any old vga/svga
+monitor with a centris (hence title).  
+
+    The answer ot this question is an unqualified yes.  You can use any
+old vga/svga monitor with a centris.  You do need an adaptor (I use a
+Mac vga-q from james engineering (510) 525-7350) to run between the two
+machines.  THe adaptor I have mentioned will convert a centris to a
+three row vga/svga 25(?) pin adaptor for your monitor.
+
+    NOW, the special interest disclaimer.
+ The above answer is correct for using a vga monitor at 600x400
+resolution.  IF your monitor will sync to 56Khz horizontal the above
+adaptor will allow you to choose 800x600 resolution (I prefer this on my
+1604s).
+
+THen You have the question of matching adaptors and sync rates.  I would
+advocate calling James engineering because they seem to have a clue.  As
+to the comment by the person who said don't bother calling Apple because
+they will treat you like an idiot this is totally untrue.
+    APPLE WILL TREAT YOU LIKE A F**KING ASSANINE IDIOT FOR EVEN
+CONSIDERING GOING THIRD PARTY AND IF YOU WANT THIS TREATMENT WANTS YOU
+TO PAY FOR THEIR THECH SUPPORT LINE (the supposedly compitantly one) AND
+THEN STILL HAS NO FU***** CLUE.
+
+personal experience.  also the tech suppport for the vga monitor makers
+doesn't see to extend to Macs (Sony, Magnavox).  In addition to this to
+find out the info you will have to call dealers unless you can find the
+sync rates elsewhere as ads like Hardware that fits
+(*&^%&%^%$$(&**&^(%&%^$!) that rate monitor resolutions give the most
+favorable rating (which usually means you can get this if you use a
+specialized application video card).(i.e. "well you can get a resolution
+1168x832 on this $5,  9" "super smelly sock" monitor that will let you
+display TWO FULL PAGES side by side.  All you need is our reasonably
+priced "oder eater" video board for $27,000 and it will give you an
+ultra fast horizontal sync rate of SIX fast kilohertz and three Khz
+vertical.")
+
+
+
+Note:  with the sony 1604 at least on the centris 610 built in video
+board using an 832x624 adaptor, there is a boarder of an inch + to the
+sides of the image after adjusting the horizontal width as favorably as
+possible.  Using a 800x600 adaptor this can be reduced to about half an
+inch.
+
+                                                                    -A.
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!nevada.edu!jimi!tcs!elenay_creations
+Message-ID: <1993Apr22.052020.57482@tcs.las-vegas.nv.us>
+Newsgroups: comp.sys.mac.hardware
+Distribution: world
+From: elenay_creations@tcs.las-vegas.nv.us (Anthony D. Saxton)
+Organization: Cyber Sanctum BBS 702.435.2179
+Date: Thu, 22 Apr 1993 05:20:20 PST
+Subject: Re: Apple 8*24 GC Video Card
+Lines: 18
+
+> A friend of mine recently acquired an 8!24 GC card for his IIsi
+> and was wondering why it always starts up in black and white.
+> I know there have been numerous reports about the worth of
+> the GC, but I was wondering if anyone could elaborate a little
+> more on the subject.  Any replies encouraged.  Thanks in ad-
+> vance.
+>
+>                                               Joe Kasanic
+>
+
+I've had similar problems w/ other board types, and the problem is NOT a
+result of the 8/24GC board! Try Zapping the PRAM by holding down
+"Command-Option-P-R" durring startup! You will have to reset everything to
+your previous preferences (The Date & Time remain intact!), but the Video
+Board will start remembering it's previous settings!
+
+Anthony D. Saxton
+Elenay Creations
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!howland.reston.ans.net!zaphod.mps.ohio-state.edu!cs.utexas.edu!uunet!nwnexus!dbug!Pamela_E._Mullen
+Message-ID: <1993Apr16.105859.11964@dbug.org>
+Newsgroups: comp.sys.mac.hardware
+Distribution: world
+From: Pamela_E._Mullen@dbug.org
+Organization: Seattle Mac dBUG
+Return-Receipt-To: Pamela_E._Mullen@dbug.org
+Date: Fri, 16 Apr 1993 10:58:59  PST
+Subject: PB 100 to Non Apple Printer
+Lines: 8
+
+Is there a workaround which will enable me to print to a HPLJ4 from my
+Powerbook 100? (Actually I'm going to a 4M which will have an Ethernet card in
+the LocalTalk slot!!!GRRRRR). Is there some hardware which will enable me to
+this easily (kind of plug and play!).
+
+Thanks, Pam Mullen
+--    [ This message was sent by a member of Seattle Mac dBUG's ExChange BBS ]
+            PO Box 3463, Seattle, WA  98114 USA        Infoline (206) 624-9329
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!das-news.harvard.edu!noc.near.net!uunet!mcsun!dxcern!dscomsa!michael.desy.de!user
+From: h01sav.dsyibm.desy.de (Michael M. Savitski)
+Subject: cd300 question
+Message-ID: <h01sav.dsyibm.desy.de-230493200218@michael.desy.de>
+Followup-To: comp.sys.mac.hardware
+Sender: usenet@dscomsa.desy.de (usenet)
+Organization: DESY
+Date: Fri, 23 Apr 1993 20:12:30 GMT
+Lines: 19
+
+Hi, there!
+I have a MAC LC and consider buying CD300. I've been told,
+however, that:
+1. The double speed of CD300 is achievable only on machines
+   with SCSI-2.
+2. The double speed is a prerequisite for PhotoCD multisession
+   capability, which I need.
+3. Which means I seem to gain nothing compared with, say CD150.
+
+Any comments?
+Thanx.
+
+===================================================================
+Michael M. Savitski                          Tel:   (040) 8998-3560
+DESY-Deutsches Elektronen Synchrotron        Fax:   (040) 8998-3093 
+Notkestr. 85, D2000 Hamburg 52, Germany             (040) 8994-4385
+Internet : h01sav@dsyibm.desy.de 
+DECNET :   VXDESY::SAVITSKI 
+===================================================================
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!usc!elroy.jpl.nasa.gov!nntp-server.caltech.edu!triumvir
+From: triumvir@cco.caltech.edu (Martin W. Lin)
+Newsgroups: comp.sys.mac.hardware
+Subject: SWII on SE:  System 6.0.8 or 7.1?
+Date: 23 Apr 1993 18:29:08 GMT
+Organization: California Institute of Technology, Pasadena
+Lines: 12
+Message-ID: <1r9chkINNj71@gap.caltech.edu>
+NNTP-Posting-Host: sandman.caltech.edu
+
+I'm planning on getting a StyleWriter II for my Mac SE (2.5 MB ram, HD, two
+800k floppy drives).  Do any of you out there have any recommendations as
+to whether running System 6.0.8 is better or worse than switching to 7.1.
+I don't do much real work on this machine any more, but would like to keep
+it for word processing (Using Word 4 and don't see much advantage to going
+to Word 5, since it is slower).
+
+Any help or comments would be appreciated.  Thanks in advance.
+
+Martin Lin
+triumvir@cco.caltech.edu
+
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!saimiri.primate.wisc.edu!usenet.coe.montana.edu!news.u.washington.edu!carson.u.washington.edu!guykuo
+From: guykuo@carson.u.washington.edu (Guy Kuo)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: cd300 question
+Date: 23 Apr 1993 19:20:52 GMT
+Organization: University of Washington
+Lines: 4
+Message-ID: <1r9fikINN81o@shelley.u.washington.edu>
+References: <h01sav.dsyibm.desy.de-230493200218@michael.desy.de>
+NNTP-Posting-Host: carson.u.washington.edu
+
+Double speed performance from a CD drive does not require SCSI-2 interfacing.
+The resultant 300 kbps speed is well within the transfer rate of an LC. In
+other words, I believe you have been given incorrect information.
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!uwm.edu!ux1.cso.uiuc.edu!newsrelay.iastate.edu!news.iastate.edu!kmradke
+From: kmradke@iastate.edu (Kevin M Radke)
+Subject: Unknown Mac board NATIONAL INSTRUMENTS NB-DMA-8
+Message-ID: <C5yGDq.6MI@news.iastate.edu>
+Sender: news@news.iastate.edu (USENET News System)
+Organization: Iowa State University, Ames, IA
+Distribution: usa
+Date: Fri, 23 Apr 1993 21:15:19 GMT
+Lines: 22
+
+I need help identifying this board that I found stuffed away in a corner.
+
+As the title says, all that is printed on it is NATIONAL INSTRUMENTS NB-DMA-8.
+It fits fine in my Mac IIci and snooper gives the very same name for the
+board.  It looks like it has an HP-IB connector on the back of it and
+another connector on the top (2 rows by 25 pins).  It also looks like
+it has an Intel processor on it (#A82380-16 Intel '86)
+
+On an EEPROM there is a sticker with the P/N 700584-01.
+
+Anybody ever seen or heard of one?  Or better yet, do you know what it does?
+We are all clueless here.  Our last option is to hook it up to our HP
+workstations and see if any smoke comes out.
+
+Thanks a lot!
+
+Kevin
+-- 
+-------------------------------------------------------------------------
+| Um, I forget...                       |      kmradke@iastate.edu      |
+-------------------------------------------------------------------------
+
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!news.udel.edu!darwin.sura.net!rouge!wupost!news.miami.edu!umiami!f2ehg786
+From: f2ehg786@umiami.ir.miami.edu
+Newsgroups: comp.sys.mac.hardware
+Subject: Apple 40MB HD in PowerDrive ext. case?
+Message-ID: <1993Apr23.171724.14890@umiami.ir.miami.edu>
+Date: 23 Apr 93 17:17:24 EDT
+Organization: Univ of Miami IR
+Lines: 14
+
+I'd like to install an Apple (Quantum) 40 MB hard drive taken from a IIsi in an
+external PowerDrive box from Hard Drives International that currenty has a dead
+Conner mechanism in it. Have you done this (or do you know how)? If so, could
+you please walk me through it, in as much detail as possible?
+
+Please email me directly. If anyone else is interested in this, email me and
+I'll forward responses to you. If enough people want instructions, I'll post a
+summary within a week or so.
+
+Thanks in advance,
+
+Bill Krauthammer
+f2ehg786@umiami.ir.miami.edu
+
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!agate!iat.holonet.net!bmug!Alan_J._Novidor
+Message-ID: <1993Apr22.074225.387917@bmug.org>
+Newsgroups: comp.sys.mac.hardware
+Distribution: world
+From: Alan_J._Novidor@bmug.org
+Organization: BMUG, Inc.
+Date: Thu, 22 Apr 1993 07:42:25 PST
+Subject: Re: Price drop on C650 within
+Lines: 8
+
+The price you have on the 650 8/80 seems very good. I too would like to know
+where it is fromif it is not giving away secrets.
+
+Thanks, Alan.
+
+**** From Planet BMUG, the FirstClass BBS of BMUG.  The message contained in
+**** this posting does not in any way reflect BMUG's official views.
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!darwin.sura.net!zaphod.mps.ohio-state.edu!news.acns.nwu.edu!aragorn14.acns.nwu.edu!user
+From: b-clark@nwu.edu (Brian Clark)
+Subject: Re: Unknown Mac board NATIONAL INSTRUMENTS NB-DMA-8
+Message-ID: <b-clark-230493194446@aragorn14.acns.nwu.edu>
+Followup-To: comp.sys.mac.hardware
+Sender: usenet@news.acns.nwu.edu (Usenet on news.acns)
+Nntp-Posting-Host: aragorn14.acns.nwu.edu
+Organization: Northwestern University
+References: <C5yGDq.6MI@news.iastate.edu>
+Distribution: usa
+Date: Sat, 24 Apr 1993 00:40:45 GMT
+Lines: 36
+
+In article <C5yGDq.6MI@news.iastate.edu>, kmradke@iastate.edu (Kevin M
+Radke) wrote:
+> 
+> I need help identifying this board that I found stuffed away in a corner.
+> 
+> As the title says, all that is printed on it is NATIONAL INSTRUMENTS NB-DMA-8.
+> It fits fine in my Mac IIci and snooper gives the very same name for the
+> board.  It looks like it has an HP-IB connector on the back of it and
+> another connector on the top (2 rows by 25 pins).  It also looks like
+> it has an Intel processor on it (#A82380-16 Intel '86)
+> 
+> On an EEPROM there is a sticker with the P/N 700584-01.
+> 
+> Anybody ever seen or heard of one?  Or better yet, do you know what it does?
+> We are all clueless here.  Our last option is to hook it up to our HP
+> workstations and see if any smoke comes out.
+
+It's made by (SURPRISE) National Instruments:
+6504 Bridge Point Parkway
+Austin, TX 78730-5039
+(800) 433-3488
+anonymouse ftp at: ftp.natinst.com
+
+Their 1991 catalog lists the NB-8G as follows:
+
+fetch and deposit DMA controller (8 channels)
+IEEE-488 interface with data rates up to 850 kB/sec, with DMA and
+programmed I/O
+   transfers
+8 16-bit counter timer channels
+RTSI bus (that's the connector on the top of the board - it links it with
+   other National Instrument boards
+List price of $1295
+
+The board isn't in later catalogs: it has been superceeded by the
+NB-DMA2800.
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!crabapple.srv.cs.cmu.edu!fs7.ece.cmu.edu!europa.eng.gtefsd.com!howland.reston.ans.net!zaphod.mps.ohio-state.edu!swrinde!news.dell.com!pmafire!mica-nsf.inel.gov!cwis.isu.edu!ux1!durtralp
+From: durtralp@ux1.isu.edu (Ralph Durtschi)
+Subject: Re: IIsi clock upgrade
+Message-ID: <C532M3.DzJ@ux1.isu.edu>
+Organization: Idaho State University, Pocatello
+References: <1993Apr3.165013.13822@cdf.toronto.edu>
+Date: Tue, 6 Apr 1993 22:32:26 GMT
+Lines: 47
+
+Hi, I have been getting a lot of requests for this information so I thought
+I would post it for those interested parties. (Sorry for length).
+
+To increase the MacIISi speed to 25MHz or 33MHz the clock must be changed
+from 40MHz to 50MHz or 64MHz respectively.
+This is done by going to a static-free work station or putting some
+aluminum foil down to work on.
+        1. Open up the Si by lifting the tabs at the back of the case.
+        2. Remove the Hard Disk by disconnecting the power and SCSI cables,
+                spreading the tabs, and lifting the drive out.
+        3. Remove the flopy drive.
+        4. Remove the power supply by spreading the tab in front and lifting
+                the supply straight up and out.
+        5. Remove the fan by pressing the ears together at the back, bottom
+                side of the fan and lifting straight up and out.
+        6. Remove the Mother Board by spreading the tabs on the left and
+                right side of the board and sliding the board forward then
+                lifting the board out. (all connectors on the back of the
+                board must be removed first)
+        7. Desolder the 40MHz clock (the one closest to the memory modules).
+                This is not easy even for a skilled solderer.
+        8. Get an IC socket with the round pins and remove four of the pins
+                by pushing them up from the bottom with long nose pliers.
+        9. Put the four pins in the holes vacated by the clock and solder 
+                them in.
+        10.Insert a 50MHz or 64MHz clock.
+        11.Put large power transistor heat sink's on the processor chip and 
+                the other large chip just to the right of the processor and
+                figure some way to hold the heat sync's in place. I made a
+                simple clamp by putting a four inch screw up through the hole
+                in the board between the two chips. Mount the screw using
+                insulated washers. Screw a cross member down over the heat
+                sync's to hold them in place. Don't use too much pressure.
+
+        12. Put it all back together and go-for-it.
+
+Disclaimer: this is only the procedure I used and is not authorized by anyone.
+            You are on your own for this procedure. I'm quite sure it will
+            void your warentee.
+
+Bye for now,
+************************************************
+Ralph Durtschi    (208) 236-3256
+Idaho State University
+EMAIL:  durtralp@ux1.isu.edu
+************************************************ 
+
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!gatech!howland.reston.ans.net!zaphod.mps.ohio-state.edu!moe.ksu.ksu.edu!matt.ksu.ksu.edu!news
+From: paryavi@matt.ksu.ksu.edu (Saiid Paryavi)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: Centris 610 flaky?
+Date: 23 Apr 1993 21:46:06 -0500
+Organization: Kansas State University
+Lines: 29
+Message-ID: <1ra9leINNhvh@matt.ksu.ksu.edu>
+References: <C5yDqC.6JK@cs.uiuc.edu> <C5yFyq.BLw@cs.uiuc.edu>
+NNTP-Posting-Host: matt.ksu.ksu.edu
+
+tthiel@cs.uiuc.edu (Terry Thiel) writes:
+
+>scott@cs.uiuc.edu (Jay Scott) writes:
+>>A rep at the dealer (actually it's a university order center, so
+>>they don't have any immediate financial interest), told me that
+>>they have been having lots of problems with their Centris 610.
+>>He didn't go into details, but mentioned problems with the
+>>floppy drive and intermittent problems with printing files.
+>>It sounded to me like they were having both hardware problems
+>>and software compatibility problems with the machine.
+>>He's not recommending the Centris 610 to anybody; he says to
+>>consider a Centris 650 or a IIvx. (Why he would recommend a
+>>IIvx over an LCIII I don't know, but that's what he said.)
+>>So, what does the net think? Did the dealer just get one flaky
+>>machine, or did Apple send the C610 out the door too early?
+>>Is your C610 working just great, or is it buggy too?
+
+My Centris 610 is working perfectly.  There is one problem that I have
+noticed.  FastBack II backup utility does not work!!!  The strange thing
+is that it works with my friend's 610 most of the time, however, it never
+works with my machine.  I assume it is some sort of software problem and
+not hardware related.
+
+
+
+-- 
+*************************************************************************
+Saiid Paryavi           paryavi@matt.ksu.ksu.edu        saiid@cis.ksu.edu
+*************************************************************************
+Path: cantaloupe.srv.cs.cmu.edu!rochester!cornell!batcomputer!caen!saimiri.primate.wisc.edu!zazen!uwec.edu!schriejh
+From: schriejh@cnsvax.uwec.edu
+Newsgroups: comp.sys.mac.hardware
+Subject: SVGA and PowerBook 160?
+Message-ID: <1993Apr23.223208.6404@cnsvax.uwec.edu>
+Date: 23 Apr 93 22:32:08 -0600
+Reply-To: schriejh@cnsvax.uwec.edu
+Organization: University of Wisconsin Eau Claire
+Lines: 18
+
+
+        OK...here is my question.  I want to hook up my PowerBook 160 to
+a SVGA monitor but I do not want to buy the PowerBook/DOS Companion.  Can
+anyone tell me the EXACT cable I need to connect them?  If there is such
+a cable, can I purchase it from MacWharehouse or some computer store?
+If I must buy the cable from James Engineering, how much do they run and
+how can I get a hold them???  I guess that was more than 'a' question.  :)
+Thanks in advance for any replys.
+
+            John Schrieber       E-mail: schriejh@cnsvax.uwec.edu
+          
+   _/       _/   _/   _/    _/    _/   _/_/    _/   _/_/_/_/    _/_/_/_/    
+    _/     _/   _/   _/   _/     _/   _/  _/  _/  _/            _/          
+     _/   _/   _/   _/ _/       _/   _/    _/_/   _/    _/_/      _/        
+      _/ _/   _/   _/    _/    _/   _/      _/    _/      _/        _/      
+        _/   _/   _/      _/  _/   _/      _/      _/_/_/_/    _/_/_/_/     
+                                                                            
+
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!darwin.sura.net!howland.reston.ans.net!agate!iat.holonet.net!bmug!David_A._Schnider
+Message-ID: <1993Apr23.155354.392269@bmug.org>
+Newsgroups: PowerBook,Hardware,Modems,comp.sys.mac.hardware
+Distribution: world
+From: David_A._Schnider@bmug.org
+Organization: BMUG, Inc.
+Date: Fri, 23 Apr 1993 15:53:54 PST
+Subject: PSI modem problem II
+Lines: 17
+
+The first problem was the sound.  I tried the M0, but then even the logon was
+muted.  I don't want that.  Any other suggestions for that hissing?
+
+The second is really strange.  First, I kept mentioning that FC slowed down
+all the time and took too long.  Well I just logged on with extensions off and
+I didn't have any slowdown.  Also, last time I was online I quit (which
+usually disconnects and quits).  It disconnected but it wouldn't quit.  I had
+to force quit, and then when I launched FC again it said the modem port was in
+use.  This is really strange.  I thought it might have to do with fax
+software.  Or the restart could have reset the modem port (a more likely
+explanation).  So, any suggestions?
+
+-David
+
+**** From Planet BMUG, the FirstClass BBS of BMUG.  The message contained in
+**** this posting does not in any way reflect BMUG's official views.
+
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!howland.reston.ans.net!noc.near.net!das-news.harvard.edu!ogicse!lclark!corbo
+From: corbo@lclark.edu (Beth Corbo)
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: StyleWriter II Dying?
+Message-ID: <1993Apr24.195357.12033@lclark.edu>
+Date: 24 Apr 93 19:53:57 GMT
+Article-I.D.: lclark.1993Apr24.195357.12033
+References: <1993Apr24.003052.6425@ultb.isc.rit.edu>
+Organization: Lewis & Clark College, Portland OR
+Lines: 26
+
+In article <1993Apr24.003052.6425@ultb.isc.rit.edu> bsd9554@ultb.isc.rit.edu (B.S. Davidson) writes:
+>I bought a StyleWriter II a couple months ago, and lately, when I print
+>something, I notice white lines or "gaps" running through the line being
+>printed.  It's almost like the paper is advancing a smidge too far when
+>advancing lines.  
+>
+>I replaced the ink cartridge thinking it might be the problem, but the lines
+>are still there.  Has anyone else noticed this problem?  What's the best way to
+>get rid of it?
+>
+
+>| Brian S. Davidson                 | Internet: bsd9554@ultb.isc.rit.edu |
+
+
+  I had a similar problem with my StyleWriter I (the original!).
+Have you tried cleaning the print heads? With the SWII driver, it's
+and option in the Print dialog box. Sometimes I had to do it several
+times to get the crud out. Yes it wastes ink, but it beats those
+white annoying lines.
+  Another idea is to print a couple of pages with just a big
+black box. It can help to get the ink flowing.
+  Good luck!
+
+  Beth Corbo
+
+corbo@lclark.edu
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!news.acns.nwu.edu!mac183.mech.nwu.edu!user
+From: rts@nwu.edu (Ted Schreiber)
+Subject: Recs on  Mac Video System -Cards Software?
+Message-ID: <rts-240493183949@mac183.mech.nwu.edu>
+Followup-To: comp.sys.mac.hardware
+Sender: usenet@news.acns.nwu.edu (Usenet on news.acns)
+Nntp-Posting-Host: mac183.mech.nwu.edu
+Organization: Mechanical Engineering
+Date: Sat, 24 Apr 1993 23:31:36 GMT
+Lines: 23
+
+What would be a good platform for some fairly basic video work of the
+following nature:
+
+Reading real video in for playbak in various app's 5-10 Minnutes in length
+Basic editing features for said video - rearange sequences, adding grapic
+slides from something like power point etc... 
+
+I'm not to familiar with this stuff but would like a good system with crisp
+performance.  It's for educational/promotional things so the video quality
+should be decent.
+
+I'm thinking Tempest or cyclone, Big drive,loads o ram, Floptical or 128Mb
+optical ?? - however, I'm not to sure of the various cards and software
+thats out there.
+
+Please email any responses,
+
+Thanks
+
+Ted Schreiber
+Mechanical Enginering 
+Northwestern University
+Tel: 708.491.5386 FAX 708.491.3915 Email: rts@nwu.edu
+From: Philip.Schuler@f421.n109.z1.his.com (Philip Schuler)
+Sender: UUCP@Clone.his.com
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!wupost!uunet!Clone!UUCP
+Newsgroups: comp.sys.mac.hardware
+Subject: Re: CENTRIS 610 VIDEO PROBLEM-HELP
+Message-ID: <735724842.AA02089@Clone.his.com>
+Date: Sun, 18 Apr 1993 10:53:24
+Lines: 28
+
+> When the computer is set for 256 colors and certain operations are done,
+> particularly vertical scrolling through a window, horizontal white lines
+> appear on the monitor (which generally but not always spare open windows). 
+> These lines accummulate as the operation is continued.  If a window is
+moved
+> over the involved area of the screen and then moved away the line disappear
+> from that area of the screen.  This problem is not observed if the monitor
+is
+> configured for 16 colors or a 14 inch Apple monitor with 256 colors is
+used.
+> 
+> I suspect a bad video RAM chip but cannot be certain.  The problem has been
+> apparent since day 1 but has gotten worse.
+ 
+Andrew,
+        I had the same problem when I bought some additional VRAM. In my case
+the problem arose when I set the color depth to 16 bit on a 14" monitor.  The
+problem was solved by sending back the SIMMs and getting different ones. 
+Someone on a local bbs I use said that the problem is with incompatible VRAM
+chips and that Apple has some kind of repair/technical note discussing the
+issue.
+
+        If you've had the problem since day 1, I'd take the chips back to
+whomever sold them to you and get good ones.
+
+--Phil Schuler
+
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!uunet.ca!ohrd!usenet
+From: truemner@mac-truemner.rd.hydro.on.ca (Gary Truemner)
+Subject: Re: Syquest 150 ???
+Message-ID: <truemner-240493200022@wren.rd.hydro.on.ca>
+Followup-To: comp.sys.mac.hardware
+Sender: usenet@rd.hydro.on.ca (Usenet Administrator)
+Organization: ONTARIO HYDRO, Toronto,CANADA
+References: <93759@hydra.gatech.EDU>
+Distribution: usa
+Date: Sun, 25 Apr 93 00:12:12 GMT
+Lines: 12
+
+In article <93759@hydra.gatech.EDU>, gt8798a@prism.gatech.EDU (Anthony S.
+Kim) wrote:
+> 
+> I remember someone mention about a 150meg syquest.  Has anyone else
+> heard anything about this?  I'd be interested in the cost per megabyte and the
+> approximate cost of the drive itself and how they compare to the Bernoulli 150.
+
+>>>>Bernoulli also offer 20MB floppy drives that read 1.4MB floppies. Their 150MB Multidisk reads all formats. and writes 90MB. Bernoulli's are installed in industrial computers...much more rugged than Syquest....you get what you pay for I guess....haven't heard about 150MB Syquest???
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  THANKS...... _/_/_/  truemner@mac-truemner.rd.hydro.on.ca     _/  _/
+              _/  _/ ONTARIO HYDRO.Automated.NDT&Welding.R&D   _/_/_/
+             _/_/_/ (416)207 6380.FAX:237 9285.Toronto.CANADA _/  _/
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.programmer:58541 comp.sys.mac.hardware:52342 comp.sys.next.hardware:4473 comp.sys.next.software:5025
+Newsgroups: comp.sys.mac.programmer,comp.sys.mac.hardware,comp.sys.next.hardware,comp.sys.next.software
+Path: cantaloupe.srv.cs.cmu.edu!magnesium.club.cc.cmu.edu!news.sei.cmu.edu!cis.ohio-state.edu!zaphod.mps.ohio-state.edu!saimiri.primate.wisc.edu!zazen!doug.cae.wisc.edu!carter
+From: carter@cae.wisc.edu (Carter Gregory)
+Subject: Re: Computer Engr vs. Computer Science
+Organization: U of Wisconsin-Madison College of Engineering
+Distribution: usa
+Date: 25 Apr 93 11:44:38 CDT
+Message-ID: <1993Apr25.114438.16516@doug.cae.wisc.edu>
+References: <3911@ncr-mpd.FtCollinsCO.NCR.COM> <tecot.735093703@Xenon.Stanford.EDU> <1qqla6INN7ho@srvr1.engin.umich.edu>
+Lines: 91
+
+In article <1qqla6INN7ho@srvr1.engin.umich.edu> chyang@engin.umich.edu (Chung Hsiung Yang) writes:
+>In article <tecot.735093703@Xenon.Stanford.EDU> tecot@Xenon.Stanford.EDU (Edward M. Tecot) writes:
+>>>A professor of mine once said "The difference between a Computer Engineer and
+>>>a Computer Scientist is about $5000" meaning the Engineer makes $5000 more than
+>>>P.S. The $5000 is not just a joke
+>>>Scott
+>>
+>>For the most part, this is a bunch of bunk.  I've got a Computer Engineering
+>>degree, yet I've spent the last 7 years writing software that people actually
+>>use.  Moreover, the salary distinctions are incorrect; I received 3 job offers
+>>upon graduation; the two jobs that actually used my hardware experience were
+>>$7000/year lower!  My advice is to decide which classes and projects most
+>>interest you, and pick the major that allows you to take them.
+>>
+>>_emt
+>
+>       Well here is my $0.02 worth.  Advice from a grad student.
+>
+>       I agree with the gentlemen who wrote the comment before me.
+>The important thing is pick what ever interest you the most and 
+>learn as much as possible about it.  
+>
+>       In my five years of education in this field, though brief 
+>compare to alot of people, I had to think about this kind of 
+>question a lot.  Did I make the right decision in going into
+>Electrical Engineering as opposed to Computer engineering or
+>CS?  The more I go thru school, the more I believe that this
+>kind of question is irrelevant.  
+> 
+
+        Interesting, as I think computer technology is now
+becomming widespread enough now that it is no longer a position
+which must require a degree.  I know of several people I work
+with that make just as much as I do and they don't even have
+a BS degree in comp sci. yet they make 28+ a year.  They also
+didn't have to pay 30 grand to thier local University either. :(
+       I think computer programming is being reduced to a trade
+practice, than a truly specialty field.  It will be even more
+so in the future.
+       If your interested in cutting edge type of stuff and you
+choose CS as I did, I suggest checking out the emerging field
+of Software Engineering.  The difficulties for example of designing
+scaleable design environments for individuals so that a single person
+can handle 100,000 to 1,000,000 million lines of code all by himself
+in a reasonable manner and then incorporate that into a teamwork enviroment
+is truly a gigantic problem...not going to be solved any time soon
+unfortunately...but hey you could be the person that provides
+the missing key for some good groundwork!
+
+>       I have come to believe that choosing CS because one 
+>does not like hardware or choosing hardware because one does
+>not like to program is really doing an injustice of building
+>and computer and making it useful for something.  Everything
+>is interwoven and inseparable.  CS, CE, and EE are all a 
+>part of a really great discipline and do depend on each other.
+>
+>       My advice is don't limit yourself, but make a decision
+>based on which major will give you the best opportunities to 
+>learn.  That of course depends on the curriculum at your 
+>persective school.  I would choose a major that allows me to
+>explore as much as possible.  Beside, I don't know why the
+>school would make a student choose a major before her/his
+>sophamore year.                  
+>
+>       Hey you may be so interested in this field that you 
+>decided to learn all about the making of computers in which 
+>case, you suffer a little more and go to grad school.
+>
+>       About the money.  Don't look at the averages, if you
+>are good, you are going to earn more money than anyone else. 
+>If you are a superstar programmer, you will earn millions.  
+>Like wise if you are a hotshot computer designers.        
+
+Well, if your like the poor slobs in the world..like me, you are
+in no financial position to continue Graduate work right out
+of a Top 10 comp sci school.
+
+The trick is, to find some generous INC you work for to PAY for the
+rest of your education...TRUST ME its the best way to go..even
+if you don't get a TOP salary.  Which I have always been a poor
+slob throughout school but if you follow this rule: BOOK=SALARY=FOOD&SHELTER
+you should always have a computer and you won't go hungry.
+
+What else could a man want?! 
+
+>
+>- Chung Yang
+>
+
+-Greg Carter
+
+Newsgroups: comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!bogus.sura.net!darwin.sura.net!howland.reston.ans.net!torn!nott!bnrgate!bcars267!bcarh929!mwnorman
+From: mwnorman@bcarh929bnr.ca (Michael Norman)
+Subject: PowerPC and old Macs: what happens then?
+Message-ID: <1993Apr26.165858.26874@bnr.ca>
+Keywords:  PowerPC, 680X0-Macs, obsolete or what
+Sender: news@bnr.ca (usenet)
+Nntp-Posting-Host: bcarh929
+Organization: Bell-Northern Research
+Date: Mon, 26 Apr 1993 16:58:58 GMT
+Lines: 23
+
+I have a few questions that I would like answers to 
+(or opinions on) since I'm thinking about buying a LC-III:
+
+Q1) When the PowerPC-based Macs are announced, what will
+happen to the 680X0-based Macs?  
+
+Q2) Is System 7 the 'last word' for 680X0-based Macs? 
+Will we ever get REAL multi-tasking for the Mac?
+
+Q3) Will there be a way for NuBUS/PDS-equipped Macs to add 
+a PowerPC-on-a-board to their systems?
+
+I'd hate to think that I'm going to put my $$ down
+on a machine that in 6 months is now part of a
+dead-end product line!
+
+Thanks in advance,
+------------
+Mike Norman,c/o Bell-Northern Research 
+P.O. Box 3511 Station 'C' Ottawa 
+Ontario Canada K1Y 4H7 M/S 115      Internet: mwnorman@bnr.ca
+tel: (613) 763-7717 (FAX:613-763-5568) 
+"Hasta la vista, Baby!" A. Schwarzenegger
+Xref: cantaloupe.srv.cs.cmu.edu comp.sys.mac.system:30698 comp.sys.mac.hardware:52404
+Newsgroups: comp.sys.mac.system,comp.sys.mac.hardware
+Path: cantaloupe.srv.cs.cmu.edu!rochester!udel!darwin.sura.net!haven.umd.edu!uunet!puc.cl!pablo
+From: pablo@ing.puc.cl (Pablo A. Millan L.)
+Subject: Re: File Sharing Magneto Opticals?
+Message-ID: <1993Apr26.185530.7027@tolten.puc.cl>
+Followup-To: comp.sys.mac.system,comp.sys.mac.hardware
+Sender: news@tolten.puc.cl (News Manager)
+Nntp-Posting-Host: malloco.ing.puc.cl
+Organization: Pontificia Universidad Catolica de Chile
+X-Newsreader: TIN [version 1.1 PL8]
+References: <96333@bcsaic.boeing.com>
+Date: Mon, 26 Apr 1993 18:55:30 GMT
+Lines: 25
+
+Jann VanOver (vanover@bcsaic.boeing.com) wrote:
+
+> My co-worker has just attached a magneto-optical drive to his mac.
+> Works Great for him.  However, he tried to turn on file sharing, but it
+> wouldn't work.  Had some message about "Not all volumes are shareable"
+> ???
+
+> So - has anyone had success in sharing MOs?  If so, please tell me how!
+
+Hi.
+
+He needs insert the MO before FileSharing get turned on, and the only one
+that can see the disk is the owner of the machine. (I'm not sure but seems
+that the check "Allow owner to see entire disk" should be enabled too).
+
+A bad thing: you can't eject the disk until FS is turned off.
+
+Hope that helps.
+
+--
+Pablo A. Millan L.        |  MIS OPINIONES SON MIAS (pero te las puedo vender)
+------------------------------------------------------------------------------
+email : pablo@ing.puc.cl  |  Seeds Limitada, Santiago, Chile
+------------------------------------------------------------------------------
+"Research is what I'm doing when I don't know what I'm doing" -- W. von Braun

@@ -1,4 +1,4 @@
-Newsgroup: sci.crypt
+sci.crypt
 document_id: 14147
 From: Marc VanHeyningen <mvanheyn@cs.indiana.edu>
 Subject: RIPEM Frequently Asked Questions

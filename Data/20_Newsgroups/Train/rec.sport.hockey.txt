@@ -1,4 +1,4 @@
-Newsgroup: rec.sport.hockey
+rec.sport.hockey
 document_id: 52550
 From: dchhabra@stpl.ists.ca (Deepak Chhabra)
 Subject: Superstars and attendance (was Teemu Selanne, was +/- leaders)

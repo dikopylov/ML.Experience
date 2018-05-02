@@ -1,4 +1,4 @@
-Newsgroup: sci.med
+sci.med
 document_id: 57110
 From: bed@intacc.uucp (Deb Waddington)
 Subject: INFO NEEDED: Gaucher's Disease

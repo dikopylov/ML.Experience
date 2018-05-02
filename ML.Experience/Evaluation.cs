@@ -50,8 +50,6 @@ namespace ML.Experience
             double recall = Recall();
 
             return Math.Round((2 * precision * recall / (precision + recall) * 100), 0);
-
         }
-
     }
 }

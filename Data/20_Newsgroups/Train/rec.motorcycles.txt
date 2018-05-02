@@ -1,4 +1,4 @@
-Newsgroup: rec.motorcycles
+rec.motorcycles
 document_id: 101725
 Subject: Re: Lexan Polish?
 From: jeff@mri.com (Jonathan Jefferies)

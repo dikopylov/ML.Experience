@@ -1,4 +1,4 @@
-Newsgroup: rec.autos
+rec.autos
 document_id: 101551
 From: cs012055@cs.brown.edu (Hok-Chung Tsang)
 Subject: Re: Saturn's Pricing Policy

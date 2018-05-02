@@ -1,4 +1,4 @@
-Newsgroup: comp.sys.mac.hardware
+comp.sys.mac.hardware
 document_id: 50418
 From: xor@clotho.acm.rpi.edu (Joe Schwartz)
 Subject: Re: NUTEK FACES APPLE'S WRATH (article!!!!!!) READ

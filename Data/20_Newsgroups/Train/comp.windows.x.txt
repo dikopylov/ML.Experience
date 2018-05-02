@@ -1,4 +1,4 @@
-Newsgroup: comp.windows.x
+comp.windows.x
 document_id: 64830
 From: chongo@toad.com (Landon C. Noll)
 Subject: 10th International Obfuscated C Code Contest Opening (1 of 2)

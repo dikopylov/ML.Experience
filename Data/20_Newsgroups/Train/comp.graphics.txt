@@ -1,3 +1,4 @@
+comp.graphics
 From: lipman@oasys.dt.navy.mil (Robert Lipman)
 Subject: CALL FOR PRESENTATIONS: Navy SciViz/VR Seminar
 
