@@ -78,11 +78,13 @@
     <Compile Include="Classifier\KNearestNeighbors.cs" />
     <Compile Include="Classifier\NaiveBayes.cs" />
     <Compile Include="Classifier\RandomClass.cs" />
+    <Compile Include="CSVToImages.cs" />
     <Compile Include="Evaluation.cs" />
     <Compile Include="ImageToCSV.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classifier\SupportVectorMachines.cs" />
+    <Compile Include="RandomToken.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
