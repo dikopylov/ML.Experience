@@ -5,11 +5,13 @@ using System;
 using System.Data;
 using System.IO;
 using ML.Experience.Classifier;
+using Accord.Statistics.Analysis;
 
 namespace ML.Experience
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             //// Poker Hand //
@@ -27,17 +29,21 @@ namespace ML.Experience
             IClassifier[] classifier = new IClassifier[] { new KNearestNeighbors(4), new NaiveBayes(),
                 new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new RandomClass(10)};
 
+            //Console.WriteLine("Poker Hand");
             //int[][] predictedPoker = new int[classifier.Length][];
             //for (int i = 0; i < classifier.Length; i++)
             //{
             //    classifier[i].Learn(dataTrainInputs, dataTrainOutputs);
             //    predictedPoker[i] = classifier[i].Predict(dataTestInputs);
-            //    Console.WriteLine(new Evaluation(dataTestOutputs, predicted[i]).Fmeasure());
+            //    Console.WriteLine(classifier[i]);
+            //    Console.WriteLine("Precision: " + new Evaluation(dataTestOutputs, predictedPoker[i]).Precision());
+            //    Console.WriteLine("Recall: " + new Evaluation(dataTestOutputs, predictedPoker[i]).Recall());
+            //    Console.WriteLine("F-Measure: " + new Evaluation(dataTestOutputs, predictedPoker[i]).Fmeasure());
             //}
             //// Poker Hand //
 
-            // 20 Newsgroup //
-            // Train data
+            //20 Newsgroup //
+            //Train data
             string[] filesTrain = Directory.GetFiles(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\20_Newsgroups\Train");
             string[] dataTrainNewsInputs = new string[filesTrain.Length];
             int[] dataTrainNewsOutputs = new int[filesTrain.Length];
@@ -59,17 +65,16 @@ namespace ML.Experience
             {
                 filesTest[i] = Directory.GetFiles(dir[i]);
             }
-
-            string[][] dataTestNewsInputs = new string[dir.Length][];
+            /// Преобразовать bow в ВЕКТОр GetFeatureVector
+            string[,] dataTestNewsInputs = new string[dir.Length, filesTest[0].Length];
             int[] dataTestNewsOutputs = new int[dir.Length];
-            for (int k = 0; k < dir.Length; k++)
+            for (int k = 0; k < filesTest.Length; k++)
             {
-                for (int i = 0; i < filesTest.Length; i++)
+                for (int i = 0; i < filesTest[k].Length; i++)
                 {
-                    dataTestNewsOutputs[k] = k;
                     using (StreamReader sr = new StreamReader(filesTest[k][i]))
                     {
-                        dataTestNewsInputs[k][i] = sr.ReadToEnd();
+                        dataTestNewsInputs[k, i] = sr.ReadToEnd();
                         wordsTest[k] = Framework.Tools.Tokenize(dataTrainNewsInputs[k]);
                     }
                 }
@@ -93,7 +98,9 @@ namespace ML.Experience
                 predictedNews[i] = classifier[i].Predict(bowTest);
                 Console.WriteLine(new Evaluation(dataTrainNewsOutputs, predictedNews[i]).Fmeasure());
             }
-            // 20 Newsgroup //
+            //20 Newsgroup //
+
+            Console.ReadLine();
         }
     }
 }

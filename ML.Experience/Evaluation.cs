@@ -5,15 +5,10 @@ namespace ML.Experience
     class Evaluation 
     {
         Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater { get; set; }
-        int[] DataPredicted { get; set; }
-
-        int[] DataOutputs { get; set; }
 
         public Evaluation(int[] dataOutputs, int[] dataPredicted)
         {
-            DataPredicted = dataPredicted;
-            DataOutputs = dataOutputs;
-            Estimater = new Accord.Statistics.Analysis.GeneralConfusionMatrix(DataOutputs, dataPredicted);
+            Estimater = new Accord.Statistics.Analysis.GeneralConfusionMatrix(dataOutputs, dataPredicted);
         }
 
         public double Precision()
@@ -49,7 +44,7 @@ namespace ML.Experience
             double precision = Precision();
             double recall = Recall();
 
-            return Math.Round((2 * precision * recall / (precision + recall) * 100), 0);
+            return Math.Round((2 * precision * recall / (precision + recall)), 0);
         }
     }
 }
