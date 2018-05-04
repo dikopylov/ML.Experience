@@ -1,27 +1,18 @@
-﻿using Accord.MachineLearning;
-
+﻿
 namespace ML.Experience.Classifier
 {
-    class KNearestNeighbors : IClassifier//<KNearestNeighbors>
+    class KNearestNeighbors : IClassifier
     {
-        /// <summary>
-        /// Количество соседей
-        /// </summary>
-        int K { get; set; }
-
         Accord.MachineLearning.KNearestNeighbors KNN { get; set; }
 
-        public KNearestNeighbors(int k)
+        public KNearestNeighbors(int k = 1)
         {
             KNN = new Accord.MachineLearning.KNearestNeighbors(k);
         }
 
         public void Learn(double[][] dataTrainInputs, int[] dataTrainOutputs)
         {
-            //return new KNearestNeighbors(K)
-            // {
             KNN = KNN.Learn(dataTrainInputs, dataTrainOutputs);
-            //};
         }
 
         public int[] Predict(double[][] dataTestInputs)

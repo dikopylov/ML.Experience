@@ -21,7 +21,7 @@ namespace ML.Experience
             {
                 sumPresicions += precisions[i];
             }
-
+            int[,] matrix = Estimater.Matrix;
             return Math.Round((sumPresicions / precisions.Length) * 100, 0);
         }
 
@@ -35,7 +35,7 @@ namespace ML.Experience
             {
                 sumRecalls += recalls[i];
             }
-
+            int[,] matrix = Estimater.Matrix;
             return Math.Round((sumRecalls / recalls.Length) * 100, 0);
         }
 
@@ -43,7 +43,7 @@ namespace ML.Experience
         {
             double precision = Precision();
             double recall = Recall();
-
+            int[,] matrix = Estimater.Matrix;
             return Math.Round((2 * precision * recall / (precision + recall)), 0);
         }
     }

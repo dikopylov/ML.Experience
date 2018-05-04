@@ -1,25 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace ML.Experience.Classifier
 {
-    class SupportVectorMachines : IClassifier//<SupportVectorMachines>
+    class SupportVectorMachines : IClassifier
     {
-        /// <summary>
-        /// Ядро
-        /// </summary>
-        //Accord.Statistics.Kernels.IKernel Kernel { get; set; }
-
         /// <summary>
         /// Обученная модель
         /// </summary>
         Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear> SVM { get; set; }
 
         /// <summary>
-        /// 
+        /// Обучение модели
         /// </summary>
         Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning<Accord.Statistics.Kernels.Linear> Teacher { get; set; }
 
@@ -28,7 +18,7 @@ namespace ML.Experience.Classifier
         /// </summary>
         Accord.MachineLearning.VectorMachines.Learning.Loss lossFunction { get; set; }
 
-        public SupportVectorMachines(Accord.MachineLearning.VectorMachines.Learning.Loss L)//Accord.Statistics.Kernels.IKernel kernel)
+        public SupportVectorMachines(Accord.MachineLearning.VectorMachines.Learning.Loss L)
         {
             lossFunction = L;
             Teacher = new Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning<Accord.Statistics.Kernels.Linear>()
@@ -38,16 +28,11 @@ namespace ML.Experience.Classifier
                     Loss = lossFunction
                 }
             };
-            /// new Accord.Statistics.Kernels.Linear();
-            //Kernel = kernel;
         }
 
         public void Learn(double[][] dataTrainInputs, int[] dataTrainOutputs)
         {
-            //return new SupportVectorMachines(lossFunction)
-            //{
             SVM = Teacher.Learn(dataTrainInputs, dataTrainOutputs);
-            //};
         }
 
         public int[] Predict(double[][] dataTestInputs)

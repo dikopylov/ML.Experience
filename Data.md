@@ -1,5 +1,5 @@
 # Datasets
-  CSV - задача: Poker Hand http://archive.ics.uci.edu/ml/datasets/Poker+Hand
+  CSV - задача: Iris Fisher https://archive.ics.uci.edu/ml/datasets/iris
   
   Распознавание изображения: Mnist http://yann.lecun.com/exdb/mnist/
   
