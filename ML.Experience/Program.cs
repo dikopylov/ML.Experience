@@ -5,6 +5,7 @@ using System;
 using System.Data;
 using System.IO;
 using ML.Experience.Classifier;
+using ML.Experience.Converter;
 
 namespace ML.Experience
 {
@@ -101,10 +102,14 @@ namespace ML.Experience
         }
         static void Main(string[] args)
         {
+           var a =  new ImageToCSV().InitImages();
+           a.
+
             IClassifier[] classifier = new IClassifier[] { new KNearestNeighbors(1), new NaiveBayes(),
                 new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new RandomClass(10)};
             //Iris(classifier);
             //NewsGroup(classifier);
+
             Console.ReadLine();
         }
     }

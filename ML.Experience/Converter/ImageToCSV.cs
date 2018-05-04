@@ -1,13 +1,9 @@
 ﻿using Accord.IO;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ML.Experience
+namespace ML.Experience.Converter
 {
     /// <summary>
     /// Конвертация MNIST
@@ -42,20 +38,19 @@ namespace ML.Experience
         /// <param name="n">кол-во изображений</param>
         /// <param name="path">путь</param>
         /// <returns></returns>
-        public Bitmap[] InitImages(int n = 350, string path = @"H:\Documents\Visual Studio 2015\Projects\ML\ML\Image\mnist\testSample")
+        public Bitmap[] InitImages(string path = @"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\ImageTest\")
         {
-            string[] filename = new string[n];
-            Bitmap[] img = new Bitmap[n];
+            string[] filesTrain = Directory.GetFiles(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\ImageTest\");
+            Bitmap[] img = new Bitmap[filesTrain.Length];
 
-            for (int i = 0; i < n; i++)
+            int i = 0;
+            foreach (string file in filesTrain)
             {
-                int k = i + 1;
-                string nameImg = "img_" + k + ".jpg";
-                filename[i] = Path.Combine(path, nameImg);
-                using (StreamReader reader = new StreamReader(new FileStream(filename[i], FileMode.Open, FileAccess.Read, FileShare.Read)))
+                using (StreamReader reader = new StreamReader(new FileStream(file, FileMode.Open, FileAccess.Read, FileShare.Read)))
                 {
-                    img[i] = (Bitmap)Image.FromFile(filename[i], true);
+                    img[i] = (Bitmap)Image.FromFile(file, true);
                 }
+                i++;
             }
             return img;
         }
@@ -78,7 +73,6 @@ namespace ML.Experience
                     }
                 }
             }
-            //return Values;
         }
 
         /// <summary>
@@ -96,11 +90,10 @@ namespace ML.Experience
                     Values[0, k++] = (color.R + color.G + color.B) / 3;
                 }
             }
-            // return values;
         }
 
 
-        public void SaveCSV(string path = @"H:\Documents\Visual Studio 2015\Projects\ML\ML\CSV\testConverted\")
+        public void SaveCSV(string path = @"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\ImageTestConvert\")
         {
             string timeBefore = DateTime.Now.ToString();
             string timeAfter = "";
