@@ -1,7 +1,7 @@
 ﻿
 namespace ML.Experience.Classifier
 {
-    class SupportVectorMachines : IClassifier
+    class SupportVectorMachines : IClassifier<double, int>
     {
         /// <summary>
         /// Обученная модель

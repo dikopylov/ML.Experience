@@ -1,17 +1,23 @@
-﻿using System;
+﻿using Accord.MachineLearning;
+using System;
+using System.Collections.Generic;
 
 namespace ML.Experience.Classifier
 {
-    class RandomClass : IClassifier
+    class RandomClass : IClassifier<double, int>
     {
-        int NumberOfClasses { get; set; }
-        public RandomClass(int numberOfClasses)
-        {
-            NumberOfClasses = numberOfClasses;
-        }
+        List<int> NumberOfClasses { get; set; }
+
         public void Learn(double[][] dataTrainInputs, int[] dataTrainOutputs)
         {
-            return;
+            NumberOfClasses = new List<int>();
+            foreach (int data in dataTrainOutputs)
+            {
+                if (!NumberOfClasses.Contains(data))
+                {
+                    NumberOfClasses.Add(data);
+                }
+            }
         }
 
         public int[] Predict(double[][] dataTestInputs)
@@ -21,7 +27,7 @@ namespace ML.Experience.Classifier
             Random label = new Random();
             for (int i = 0; i < predicted.Length; i++)
             {
-                predicted[i] = label.Next(0, NumberOfClasses);
+                predicted[i]  = label.Next(0, NumberOfClasses.Count);
             }
             return predicted;
         }

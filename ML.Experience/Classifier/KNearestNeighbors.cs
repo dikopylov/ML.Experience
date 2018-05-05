@@ -1,11 +1,12 @@
 ﻿
 namespace ML.Experience.Classifier
 {
-    class KNearestNeighbors : IClassifier
+    class KNearestNeighbors : IClassifier<double, int>
+        
     {
         Accord.MachineLearning.KNearestNeighbors KNN { get; set; }
 
-        public KNearestNeighbors(int k = 1)
+        public KNearestNeighbors(int k = 2)
         {
             KNN = new Accord.MachineLearning.KNearestNeighbors(k);
         }
@@ -19,5 +20,6 @@ namespace ML.Experience.Classifier
         {
             return KNN.Decide(dataTestInputs);
         }
+
     }
 }

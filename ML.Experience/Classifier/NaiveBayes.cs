@@ -2,7 +2,7 @@
 
 namespace ML.Experience.Classifier
 {
-    class NaiveBayes : IClassifier//<NaiveBayes>
+    class NaiveBayes : IClassifier<double, int>
     {
         /// <summary>
         /// Обученная модель
