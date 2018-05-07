@@ -122,10 +122,14 @@ namespace ML.Experience
         }
         static void Main(string[] args)
         {
-            Iris();
-            NewsGroup();
+            //Iris();
+            //NewsGroup();
 
-            Console.ReadLine();
+            ImageToCSV img = new ImageToCSV();
+
+            img.SaveCSV(img.InitImages(), img.GetPixelImages(img.InitImages()));
+
+            //Console.ReadLine();
         }
     }
 }

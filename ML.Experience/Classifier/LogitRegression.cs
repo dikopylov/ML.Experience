@@ -25,7 +25,6 @@ namespace ML.Experience.Classifier
             return MLR.Decide(dataTestInputs);
         }
 
-
         public int[] PredictByProbability(double[][] dataTrainInputs)
         {
             double[][] probabilities = MLR.Probabilities(dataTrainInputs);

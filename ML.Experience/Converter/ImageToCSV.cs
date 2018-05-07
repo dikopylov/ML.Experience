@@ -13,16 +13,17 @@ namespace ML.Experience.Converter
         /// <summary>
         /// Создание заголовка для каждого пикселя
         /// </summary>
-        string[] Pixel
+        string[] Headers
         {
             get
             {
-                string[] pixel = new string[28 * 28];
-                for (int i = 0; i < 28 * 28; i++)
+                string[] header = new string[28 * 28 + 1];
+                header[0] = "label";
+                for (int i = 1; i < 28 * 28 + 1; i++)
                 {
-                    pixel[i] = "pixel" + i;
-                }
-                return pixel;
+                    header[i] = "pixel" + (i - 1);
+                }           
+                return header;
             }
         }
 
@@ -30,7 +31,7 @@ namespace ML.Experience.Converter
         /// Поле содержит значение каждого пикселя
         /// Двумерный массив используется для грамотной записи данных в файл
         /// </summary>
-        int[,] Values { get; } = new int[1, 28 * 28];
+        ///int[,] Values { get; } = new int[1, 28 * 28];
 
         /// <summary>
         /// Инициализация всех изображений
@@ -59,9 +60,9 @@ namespace ML.Experience.Converter
         /// Получение всех пикселей изображения
         /// </summary>
         /// <param name="img">массив изображений</param>
-        public void GetPixelImages(Bitmap[] img)
+        public int[,] GetPixelImages(Bitmap[] img)
         {
-            int k = 0;
+            int[,] Values = new int[img.Length, img[0].Size.Width * img[0].Size.Height + 1];
             foreach (Bitmap picture in img)
             {
                 for (int y = 0; y < picture.Height; y++)
@@ -69,31 +70,32 @@ namespace ML.Experience.Converter
                     for (int x = 0; x < picture.Width; x++)
                     {
                         Color color = picture.GetPixel(x, y);
-                        Values[0, k++] = (color.R + color.G + color.B) / 3;
+                        Values[y,x] = (color.R + color.G + color.B) / 3;
                     }
                 }
             }
+            return Values;
         }
 
-        /// <summary>
-        /// Получение всех пикселей изображения
-        /// </summary>
-        /// <param name="img">изображение</param>
-        public void GetPixelImage(Bitmap img)
-        {
-            int k = 0;
-            for (int y = 0; y < img.Height; y++)
-            {
-                for (int x = 0; x < img.Width; x++)
-                {
-                    Color color = img.GetPixel(x, y);
-                    Values[0, k++] = (color.R + color.G + color.B) / 3;
-                }
-            }
-        }
+        ///// <summary>
+        ///// Получение всех пикселей изображения
+        ///// </summary>
+        ///// <param name="img">изображение</param>
+        //public void GetPixelImage(Bitmap img)
+        //{
+        //    int[] Values = new int[img.Size];
+        //    for (int y = 0; y < img.Height; y++)
+        //    {
+        //        for (int x = 0; x < img.Width; x++)
+        //        {
+        //            Color color = img.GetPixel(x, y);
+        //            Values[y, x] = (color.R + color.G + color.B) / 3;
+        //        }
+        //    }
+        //}
 
 
-        public void SaveCSV(string path = @"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\ImageTestConvert\")
+        public void SaveCSV(Bitmap[] img, int[,] Values, string path = @"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\ImageTestConvert\MnistTest.csv")
         {
             string timeBefore = DateTime.Now.ToString();
             string timeAfter = "";
@@ -108,13 +110,23 @@ namespace ML.Experience.Converter
                     timeAfter += c;
             }
 
-            FileStream csvCreate = new FileStream(path + timeAfter + ".csv", FileMode.CreateNew); //создание нового файла
+            //создание нового файла
+            FileStream csvCreate = new FileStream(path, FileMode.OpenOrCreate);
             csvCreate.Close();
-            using (CsvWriter writer = new CsvWriter(path + timeAfter + ".csv", ','))
-            {
-                writer.WriteHeaders(Pixel);
-                writer.Write(Values);
-            }
+
+            using (CsvWriter writer = new CsvWriter(path, ','))
+                {
+                    writer.WriteHeaders(Headers);
+                }
+            
+
+            //for(int i = 0; i < Values.Length; i++)
+            //{
+                using (CsvWriter writer = new CsvWriter(path, ','))
+                {
+                    writer.Write(Values);
+                }
+          //  }
         }
     }
 }
