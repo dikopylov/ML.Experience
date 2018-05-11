@@ -14,36 +14,35 @@ namespace ML.Experience
     {
         static void Iris()
         {
-            DataTable dataTrainPoker = new CsvReader(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTrain.csv", false)
+            DataTable dataTrain = new CsvReader(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTrain.csv", false)
             {
                 Delimiter = ';'
             }.ToTable();
-            DataTable dataTestPoker = new CsvReader(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTest.csv", false)
+            DataTable dataTest = new CsvReader(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTest.csv", false)
             {
                 Delimiter = ';'
             }.ToTable();
 
-            int[] dataTrainOutputs = dataTrainPoker.Columns[4].ToArray<int>();
-            dataTrainPoker.Columns.RemoveAt(4);
-            double[][] dataTrainInputs = dataTrainPoker.ToJagged<double>();
+            int[] dataTrainOutputs = dataTrain.Columns[4].ToArray<int>();
+            dataTrain.Columns.RemoveAt(4);
+            double[][] dataTrainInputs = dataTrain.ToJagged<double>();
 
-            int[] dataTestOutputs = dataTestPoker.Columns[4].ToArray<int>();
-            dataTestPoker.Columns.RemoveAt(4);
-            double[][] dataTestInputs = dataTestPoker.ToJagged<double>();
+            int[] dataTestOutputs = dataTest.Columns[4].ToArray<int>();
+            dataTest.Columns.RemoveAt(4);
+            double[][] dataTestInputs = dataTest.ToJagged<double>();
 
             IClassifier<double, int>[] classifier = new IClassifier<double, int>[] { new KNearestNeighbors(4) , new NaiveBayes(),
                 new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new LogitRegression(), new RandomClass()};
 
-            int[][] predictedPoker = new int[classifier.Length][];
+            int[][] predicted = new int[classifier.Length][];
 
-            Console.WriteLine("Iris");
             for (int i = 0; i < classifier.Length; i++)
             {
                 classifier[i].Learn(dataTrainInputs, dataTrainOutputs);
-                predictedPoker[i] = classifier[i].Predict(dataTestInputs);
+                predicted[i] = classifier[i].Predict(dataTestInputs);
 
-                IEvaluation<double>[] evaluation = new IEvaluation<double>[] { new Precision(dataTestOutputs, predictedPoker[i]),
-                new Recall(dataTestOutputs, predictedPoker[i]), new FScore(dataTestOutputs, predictedPoker[i])} ;
+                IEvaluation<double>[] evaluation = new IEvaluation<double>[] { new Precision(dataTestOutputs, predicted[i]),
+                new Recall(dataTestOutputs, predicted[i]), new FScore(dataTestOutputs, predicted[i])} ;
 
                 Console.WriteLine(classifier[i]);
                 foreach (IEvaluation<double> metric in evaluation)
@@ -101,7 +100,7 @@ namespace ML.Experience
             double[][] bowTrain = codebook.Transform(wordsTrain);
             double[][] bowTest = codebook.Transform(wordsTest);
 
-            IClassifier<double, int>[] classifier = new IClassifier<double, int>[] { new KNearestNeighbors(5), new NaiveBayes(),
+            IClassifier<double, int>[] classifier = new IClassifier<double, int>[] { new KNearestNeighbors(3), new NaiveBayes(),
                 new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new LogitRegression(), new RandomClass()};
 
             int[][] predicted = new int[classifier.Length][];
@@ -120,16 +119,54 @@ namespace ML.Experience
                 }
             }
         }
+
+        static void Mnist()
+        {
+            string pathMnistCSV = @"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\ImageTestConvert\MnistTest.csv";
+            string pathMnistImg = @"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\ImageTest";
+
+            //ImgToCSV itc = new ImgToCSV();
+            //itc.Convert(pathMnistImg, pathMnistCSV);
+
+            DataTable dataTrain = new CsvReader(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\MnistTrain.csv", true).ToTable();
+            DataTable dataTest = new CsvReader(pathMnistCSV, true).ToTable();
+
+            int[] dataTrainOutputs = dataTrain.Columns["label"].ToArray<int>();
+            dataTrain.Columns.Remove("label");
+            double[][] dataTrainInputs = dataTrain.ToJagged<double>();
+
+            int[] dataTestOutputs = dataTest.Columns["label"].ToArray<int>();
+            dataTest.Columns.Remove("label");
+            double[][] dataTestInputs = dataTest.ToJagged<double>();
+
+
+            IClassifier<double, int>[] classifier = new IClassifier<double, int>[] { new KNearestNeighbors(5) , new NaiveBayes(),
+                new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new LogitRegression(), new RandomClass()};
+
+            int[][] predicted = new int[classifier.Length][];
+
+            for (int i = 0; i < classifier.Length; i++)
+            {
+                classifier[i].Learn(dataTrainInputs, dataTrainOutputs);
+                predicted[i] = classifier[i].Predict(dataTestInputs);
+
+                IEvaluation<double>[] evaluation = new IEvaluation<double>[] { new Precision(dataTestOutputs, predicted[i]),
+                new Recall(dataTestOutputs, predicted[i]), new FScore(dataTestOutputs, predicted[i])};
+
+                Console.WriteLine(classifier[i]);
+                foreach (IEvaluation<double> metric in evaluation)
+                {
+                    Console.WriteLine("{0}: {1}%", metric, metric.Measure());
+                }
+            }
+        }
+
         static void Main(string[] args)
         {
-            //Iris();
-            //NewsGroup();
+            Mnist();
 
-            ImageToCSV img = new ImageToCSV();
 
-            img.SaveCSV(img.InitImages(), img.GetPixelImages(img.InitImages()));
-
-            //Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }

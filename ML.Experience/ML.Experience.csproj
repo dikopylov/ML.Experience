@@ -82,8 +82,9 @@
     <Compile Include="Classifier\NaiveBayes.cs" />
     <Compile Include="Classifier\RandomClass.cs" />
     <Compile Include="Converter\CSVToImages.cs" />
+    <Compile Include="Converter\IConverter.cs" />
+    <Compile Include="Converter\ImgToCSV.cs" />
     <Compile Include="Converter\RandomToken.cs" />
-    <Compile Include="Converter\ImageToCSV.cs" />
     <Compile Include="Evaluation\FScore.cs" />
     <Compile Include="Evaluation\IEvaluation.cs" />
     <Compile Include="Evaluation\Precision.cs" />
