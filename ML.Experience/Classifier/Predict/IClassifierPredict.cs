@@ -1,13 +1,16 @@
-﻿
-namespace ML.Experience.Classifier
+﻿using ML.Experience.Converter;
+
+namespace ML.Experience.Classifier.Predict
 {
-    interface IClassifierPredict<TInput, TOutput>
+    interface IClassifierPredict<TInput, TOutput, TModel>
     {
+        TModel Model { get; set; }
+        
         /// <summary>
         /// Предсказательный алгоритм
         /// </summary>
         /// <param name="dataTestInputs">>вектор входных параметров</param>
         /// <returns>массив предсказанных чисел</returns>
-        TOutput[] Predict(TInput[][] dataTestInputs);
+        TOutput[] Predict(IConverter<TInput, TOutput> data);
     }
 }

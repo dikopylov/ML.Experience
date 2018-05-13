@@ -7,6 +7,7 @@ using System.IO;
 using ML.Experience.Classifier;
 using ML.Experience.Converter;
 using ML.Experience.Evaluation;
+using ML.Experience.Classifier.Learn;
 
 namespace ML.Experience
 {
@@ -14,157 +15,116 @@ namespace ML.Experience
     {
         static void Iris()
         {
-            DataTable dataTrain = new CsvReader(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTrain.csv", false)
-            {
-                Delimiter = ';'
-            }.ToTable();
-            DataTable dataTest = new CsvReader(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTest.csv", false)
-            {
-                Delimiter = ';'
-            }.ToTable();
 
-            int[] dataTrainOutputs = dataTrain.Columns[4].ToArray<int>();
-            dataTrain.Columns.RemoveAt(4);
-            double[][] dataTrainInputs = dataTrain.ToJagged<double>();
+            ConvertFromCSV dataTrain = new ConvertFromCSV("class", ';');
+            ConvertFromCSV dataTest = new ConvertFromCSV("class", ';');
 
-            int[] dataTestOutputs = dataTest.Columns[4].ToArray<int>();
-            dataTest.Columns.RemoveAt(4);
-            double[][] dataTestInputs = dataTest.ToJagged<double>();
+            dataTrain.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTrain.csv");
+            dataTest.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTest.csv");
 
-            IClassifier<double, int>[] classifier = new IClassifier<double, int>[] { new KNearestNeighbors(4) , new NaiveBayes(),
-                new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new LogitRegression(), new RandomClass()};
+            object [] classifierLearn = new object[] { new KNearestNeighbors(4) , new NaiveBayes(),
+                new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new LogitRegression() };
 
-            int[][] predicted = new int[classifier.Length][];
+            //IClassifierLearn<double, int, object, object> classifierLearn = new IClassifierLearn<double, int, object, object>[]
+            //{
+            //    new KNearestNeighbors(4) , new NaiveBayes(),
+            //    new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new LogitRegression()
+            //};
 
-            for (int i = 0; i < classifier.Length; i++)
-            {
-                classifier[i].Learn(dataTrainInputs, dataTrainOutputs);
-                predicted[i] = classifier[i].Predict(dataTestInputs);
 
-                IEvaluation<double>[] evaluation = new IEvaluation<double>[] { new Precision(dataTestOutputs, predicted[i]),
-                new Recall(dataTestOutputs, predicted[i]), new FScore(dataTestOutputs, predicted[i])} ;
+            //int[][] predicted = new int[classifier.Length][];
 
-                Console.WriteLine(classifier[i]);
-                foreach (IEvaluation<double> metric in evaluation)
-                {
-                    Console.WriteLine("{0}: {1}%", metric, metric.Measure());
-                }                                 
-            }
+            //for (int i = 0; i < classifier.Length; i++)
+            //{
+            //    classifier[i].Learn(dataTrainInputs, dataTrainOutputs);
+            //    predicted[i] = classifier[i].Predict(dataTestInputs);
+
+            //    IEvaluation<double>[] evaluation = new IEvaluation<double>[] { new Precision(dataTestOutputs, predicted[i]),
+            //    new Recall(dataTestOutputs, predicted[i]), new FScore(dataTestOutputs, predicted[i])};
+
+            //    Console.WriteLine(classifier[i]);
+            //    foreach (IEvaluation<double> metric in evaluation)
+            //    {
+            //        Console.WriteLine("{0}: {1}%", metric, metric.Measure());
+            //    }
+            //}
         }
-
+        
         static void NewsGroup()
         {
-            string[] filesTrain = Directory.GetFiles(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\20_Newsgroups\Big\Train");
-            string[] dataTrainInputs = new string[filesTrain.Length];
-            int[] dataTrainOutputs = new int[filesTrain.Length];
-            string[][] wordsTrain = new string[filesTrain.Length][];
-            for (int i = 0; i < filesTrain.Length; i++)
-            {
-                using (StreamReader sr = new StreamReader(filesTrain[i]))
-                {
-                    dataTrainOutputs[i] = i;
-                    dataTrainInputs[i] = sr.ReadToEnd();
-                    wordsTrain[i] = Framework.Tools.Tokenize(dataTrainInputs[i]);
-                }
-            }
-            string[] dir = Directory.GetDirectories(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\20_Newsgroups\Big\Test");
-            string[][] filesTest = new string[dir.Length][];
-            string[][] wordsTest = new string[dir.Length][];
-            for (int i = 0; i < dir.Length; i++)
-            {
-                filesTest[i] = Directory.GetFiles(dir[i]);
-            }
 
-            string[,] dataTestInputs = new string[dir.Length, filesTest[0].Length];
-            int[] dataTestOutputs = new int[dir.Length];
-            for (int k = 0; k < filesTest.Length; k++)
-            {
-                for (int i = 0; i < filesTest[k].Length; i++)
-                {
-                    using (StreamReader sr = new StreamReader(filesTest[k][i]))
-                    {
-                        dataTestInputs[k, i] = sr.ReadToEnd();
-                        wordsTest[k] = Framework.Tools.Tokenize(dataTrainInputs[k]);
-                    }
-                }
-            }
+            ConvertFromText dataTrain = new ConvertFromText();
+            ConvertFromText dataTest = new ConvertFromText(false);
 
-
-            var codebook = new Framework.BagOfWords()
+            dataTrain.Codebook = new Framework.BagOfWords()
             {
                 MaximumOccurance = 20
             };
 
-            codebook.Learn(wordsTrain);
+            dataTest.Codebook = dataTrain.Codebook;
 
-            double[][] bowTrain = codebook.Transform(wordsTrain);
-            double[][] bowTest = codebook.Transform(wordsTest);
+            dataTrain.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\20_Newsgroups\Lite\Train1");
+            dataTest.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\20_Newsgroups\Lite\Test1");
 
-            IClassifier<double, int>[] classifier = new IClassifier<double, int>[] { new KNearestNeighbors(3), new NaiveBayes(),
-                new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new LogitRegression(), new RandomClass()};
+            //double[][] bowTrain = codebook.Transform(wordsTrain);
+            //double[][] bowTest = codebook.Transform(wordsTest);
 
-            int[][] predicted = new int[classifier.Length][];
-            for (int i = 0; i < classifier.Length; i++)
-            {
-                classifier[i].Learn(bowTrain, dataTrainOutputs);
-                predicted[i] = classifier[i].Predict(bowTest);
+            //IClassifier<double, int>[] classifier = new IClassifier<double, int>[] { new KNearestNeighbors(3), new NaiveBayes(),
+            //    new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new LogitRegression(), new RandomClassifier()};
 
-                IEvaluation<double>[] evaluation = new IEvaluation<double>[] { new Precision(dataTestOutputs, predicted[i]),
-                new Recall(dataTestOutputs, predicted[i]), new FScore(dataTestOutputs, predicted[i])};
+            //int[][] predicted = new int[classifier.Length][];
+            //for (int i = 0; i < classifier.Length; i++)
+            //{
+            //    classifier[i].Learn(bowTrain, dataTrainOutputs);
+            //    predicted[i] = classifier[i].Predict(bowTest);
 
-                Console.WriteLine(classifier[i]);
-                foreach (IEvaluation<double> metric in evaluation)
-                {
-                    Console.WriteLine("{0}: {1}%", metric, metric.Measure());
-                }
-            }
+            //    IEvaluation<double>[] evaluation = new IEvaluation<double>[] { new Precision(dataTestOutputs, predicted[i]),
+            //    new Recall(dataTestOutputs, predicted[i]), new FScore(dataTestOutputs, predicted[i])};
+
+            //    Console.WriteLine(classifier[i]);
+            //    foreach (IEvaluation<double> metric in evaluation)
+            //    {
+            //        Console.WriteLine("{0}: {1}%", metric, metric.Measure());
+            //    }
+            //}
         }
 
         static void Mnist()
         {
-            string pathMnistCSV = @"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\ImageTestConvert\MnistTest.csv";
-            string pathMnistImg = @"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\ImageTest";
+            string pathMnistImg = @"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\ImageTestLite";
+            string pathMnistCSV = @"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\MnistTrainLite.csv";
 
-            //ImgToCSV itc = new ImgToCSV();
-            //itc.Convert(pathMnistImg, pathMnistCSV);
+            ConvertFromCSV dataTrain = new ConvertFromCSV("label");
+            ConvertFromImage dataTest = new ConvertFromImage();
 
-            DataTable dataTrain = new CsvReader(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Mnist\MnistTrain.csv", true).ToTable();
-            DataTable dataTest = new CsvReader(pathMnistCSV, true).ToTable();
+            dataTrain.Convert(pathMnistCSV);
+            dataTest.Convert(pathMnistImg);
 
-            int[] dataTrainOutputs = dataTrain.Columns["label"].ToArray<int>();
-            dataTrain.Columns.Remove("label");
-            double[][] dataTrainInputs = dataTrain.ToJagged<double>();
+            //IClassifier<double, int>[] classifier = new IClassifier<double, int>[] { new KNearestNeighbors(5) , new NaiveBayes(),
+            //    new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new LogitRegression(), new RandomClassifier()};
 
-            int[] dataTestOutputs = dataTest.Columns["label"].ToArray<int>();
-            dataTest.Columns.Remove("label");
-            double[][] dataTestInputs = dataTest.ToJagged<double>();
+            //int[][] predicted = new int[classifier.Length][];
 
+            //for (int i = 0; i < classifier.Length; i++)
+            //{
+            //    classifier[i].Learn(dataTrainInputs, dataTrainOutputs);
+            //    predicted[i] = classifier[i].Predict(dataTestInputs);
 
-            IClassifier<double, int>[] classifier = new IClassifier<double, int>[] { new KNearestNeighbors(5) , new NaiveBayes(),
-                new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new LogitRegression(), new RandomClass()};
+            //    IEvaluation<double>[] evaluation = new IEvaluation<double>[] { new Precision(dataTestOutputs, predicted[i]),
+            //    new Recall(dataTestOutputs, predicted[i]), new FScore(dataTestOutputs, predicted[i])};
 
-            int[][] predicted = new int[classifier.Length][];
-
-            for (int i = 0; i < classifier.Length; i++)
-            {
-                classifier[i].Learn(dataTrainInputs, dataTrainOutputs);
-                predicted[i] = classifier[i].Predict(dataTestInputs);
-
-                IEvaluation<double>[] evaluation = new IEvaluation<double>[] { new Precision(dataTestOutputs, predicted[i]),
-                new Recall(dataTestOutputs, predicted[i]), new FScore(dataTestOutputs, predicted[i])};
-
-                Console.WriteLine(classifier[i]);
-                foreach (IEvaluation<double> metric in evaluation)
-                {
-                    Console.WriteLine("{0}: {1}%", metric, metric.Measure());
-                }
-            }
+            //    Console.WriteLine(classifier[i]);
+            //    foreach (IEvaluation<double> metric in evaluation)
+            //    {
+            //        Console.WriteLine("{0}: {1}%", metric, metric.Measure());
+            //    }
+            //}
         }
 
+        
         static void Main(string[] args)
         {
             Mnist();
-
 
             Console.ReadLine();
         }

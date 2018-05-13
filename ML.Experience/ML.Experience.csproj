@@ -74,24 +74,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classifier\IClassifier.cs" />
-    <Compile Include="Classifier\IClassifierPredict.cs" />
-    <Compile Include="Classifier\IClassifierLearn.cs" />
-    <Compile Include="Classifier\KNearestNeighbors.cs" />
-    <Compile Include="Classifier\LogitRegression.cs" />
-    <Compile Include="Classifier\NaiveBayes.cs" />
-    <Compile Include="Classifier\RandomClass.cs" />
-    <Compile Include="Converter\CSVToImages.cs" />
+    <Compile Include="Classifier\Learn\KNearestNeighbors.cs" />
+    <Compile Include="Classifier\Learn\LogitRegression.cs" />
+    <Compile Include="Classifier\Learn\NaiveBayes.cs" />
+    <Compile Include="Classifier\Predict\RandomClassifier.cs" />
+    <Compile Include="Classifier\Learn\SupportVectorMachines.cs" />
+    <Compile Include="Classifier\Predict\IClassifierPredict.cs" />
+    <Compile Include="Classifier\Learn\IClassifierLearn.cs" />
+    <Compile Include="Classifier\Predict\KNearestNeighbors.cs" />
+    <Compile Include="Classifier\Predict\LogitRegression.cs" />
+    <Compile Include="Classifier\Predict\NaiveBayes.cs" />
+    <Compile Include="Converter\ConvertFromImage.cs" />
+    <Compile Include="Converter\ConvertFromText.cs" />
     <Compile Include="Converter\IConverter.cs" />
-    <Compile Include="Converter\ImgToCSV.cs" />
-    <Compile Include="Converter\RandomToken.cs" />
+    <Compile Include="Converter\ConvertFromCSV.cs" />
     <Compile Include="Evaluation\FScore.cs" />
     <Compile Include="Evaluation\IEvaluation.cs" />
     <Compile Include="Evaluation\Precision.cs" />
     <Compile Include="Evaluation\Recall.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Classifier\SupportVectorMachines.cs" />
+    <Compile Include="Classifier\Predict\SupportVectorMachines.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
