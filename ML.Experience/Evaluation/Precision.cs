@@ -4,14 +4,8 @@ namespace ML.Experience.Evaluation
 {
     class Precision : IEvaluation<double>
     {
-        public Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater { get; set; }
 
-        public Precision(int[] dataOutputs, int[] dataPredicted)
-        {
-            Estimater = new Accord.Statistics.Analysis.GeneralConfusionMatrix(dataOutputs, dataPredicted);
-        }
-
-        public double Measure()
+        public double Measure(Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater)
         {
             /// Получаем точность по каждому вектору
             double[] precisions = Estimater.Precision;

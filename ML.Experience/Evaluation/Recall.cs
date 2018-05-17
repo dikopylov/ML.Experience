@@ -4,14 +4,7 @@ namespace ML.Experience.Evaluation
 {
     class Recall : IEvaluation<double>
     {
-        public Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater { get; set; }
-
-        public Recall(int[] dataOutputs, int[] dataPredicted)
-        {
-            Estimater = new Accord.Statistics.Analysis.GeneralConfusionMatrix(dataOutputs, dataPredicted);
-        }
-
-        public double Measure()
+        public double Measure(Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater)
         {
             /// Получаем полноту по каждому вектору
             double[] recalls = Estimater.Recall;

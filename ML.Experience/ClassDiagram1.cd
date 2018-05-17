@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Interface Name="ML.Experience.Converter.IConverter&lt;TInput, TOutput&gt;">
+    <Position X="4.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Converter\IConverter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ML.Experience.Classifier.Learn.IClassifierLearn&lt;TInput, TOutput, TModel, TTeacher&gt;">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAgAAAAAA=</HashCode>
+      <FileName>Classifier\Learn\IClassifierLearn.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ML.Experience.Classifier.Predict.IClassifierPredict&lt;TInput, TOutput, TModel&gt;">
+    <Position X="4.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAg=</HashCode>
+      <FileName>Classifier\Predict\IClassifierPredict.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ML.Experience.Evaluation.IEvaluation&lt;TOutput&gt;">
+    <Position X="0.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Evaluation\IEvaluation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
