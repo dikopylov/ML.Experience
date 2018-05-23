@@ -1,4 +1,5 @@
-﻿using ML.Experience.Converter;
+﻿using Accord.IO;
+using ML.Experience.Converter;
 
 namespace ML.Experience.Classifier.Predict
 {
@@ -14,9 +15,16 @@ namespace ML.Experience.Classifier.Predict
             Model = model;
         }
 
+        public NaiveBayes() { }
+
         public int[] Predict(IConverter<double, int> data)
         {
             return Model.Decide(data.Inputs);
+        }
+
+        public void Load(string path)
+        {
+            Model = Serializer.Load<Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>>(path);
         }
     }
 }

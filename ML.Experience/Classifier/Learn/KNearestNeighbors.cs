@@ -1,9 +1,11 @@
-﻿
-using ML.Experience.Converter;
+﻿using ML.Experience.Converter;
+using System;
+using Accord.MachineLearning;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class KNearestNeighbors : IClassifierLearn<double, int, Accord.MachineLearning.KNearestNeighbors, Accord.MachineLearning.KNearestNeighbors>
+    class KNearestNeighbors : IClassifierLearn<double, int, 
+        Accord.MachineLearning.KNearestNeighbors, Accord.MachineLearning.KNearestNeighbors>
         
     {
         public Accord.MachineLearning.KNearestNeighbors Model { get; set; }
@@ -20,5 +22,11 @@ namespace ML.Experience.Classifier.Learn
             Model = Teacher.Learn(data.Inputs, data.Outputs);
         }
 
+        public void Save(IClassifierLearn<double, int,
+        Accord.MachineLearning.KNearestNeighbors, 
+        Accord.MachineLearning.KNearestNeighbors> classifier, string path)
+        {
+            Accord.IO.Serializer.Save(classifier.Model, path);
+        }
     }
 }

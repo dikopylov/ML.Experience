@@ -1,8 +1,10 @@
 ﻿using ML.Experience.Converter;
+using System;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class SupportVectorMachines : IClassifierLearn<double, int, Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear>,
+    class SupportVectorMachines : IClassifierLearn<double, int, 
+        Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear>,
         Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning<Accord.Statistics.Kernels.Linear>>
     {
         /// <summary>
@@ -15,19 +17,13 @@ namespace ML.Experience.Classifier.Learn
         /// </summary>
         public Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning<Accord.Statistics.Kernels.Linear> Teacher { get; set; }
 
-        /// <summary>
-        /// Функция потерь: L1 or L2
-        /// </summary>
-        public Accord.MachineLearning.VectorMachines.Learning.Loss lossFunction { get; set; }
-
-        public SupportVectorMachines(Accord.MachineLearning.VectorMachines.Learning.Loss L)
+        public SupportVectorMachines()
         {
-            lossFunction = L;
             Teacher = new Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning<Accord.Statistics.Kernels.Linear>()
             {
                 Learner = (p) => new Accord.MachineLearning.VectorMachines.Learning.LinearDualCoordinateDescent()
                 {
-                    Loss = lossFunction
+                    Loss = Accord.MachineLearning.VectorMachines.Learning.Loss.L2
                 }
             };
         }
@@ -35,6 +31,14 @@ namespace ML.Experience.Classifier.Learn
         public void Learn(IConverter<double, int> data)
         {
             Model = Teacher.Learn(data.Inputs, data.Outputs);
+        }
+
+        public void Save(IClassifierLearn<double, int,
+                        Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear>,
+                        Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning<Accord.Statistics.Kernels.Linear>> classifier,
+            string path)
+        {
+            Accord.IO.Serializer.Save(classifier.Model, path);
         }
     }
 }

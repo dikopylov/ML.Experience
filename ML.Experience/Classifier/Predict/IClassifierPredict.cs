@@ -12,5 +12,10 @@ namespace ML.Experience.Classifier.Predict
         /// <param name="dataTestInputs">>вектор входных параметров</param>
         /// <returns>массив предсказанных чисел</returns>
         TOutput[] Predict(IConverter<TInput, TOutput> data);
+
+        /// <summary>
+        /// Загрузить модель
+        /// </summary>
+        void Load(string path);
     }
 }

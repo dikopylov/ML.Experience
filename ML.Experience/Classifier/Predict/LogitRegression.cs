@@ -1,4 +1,5 @@
-﻿using ML.Experience.Converter;
+﻿using Accord.IO;
+using ML.Experience.Converter;
 using System;
 using System.Linq;
 
@@ -14,6 +15,8 @@ namespace ML.Experience.Classifier.Predict
             Model = model;
         }
 
+        public LogitRegression() { }
+
         public int[] Predict(IConverter<double, int> data)
         {
             double[][] probabilities = Model.Probabilities(data.Inputs);
@@ -26,6 +29,10 @@ namespace ML.Experience.Classifier.Predict
             return predictedByProbabilities;
         }
 
+        public void Load(string path)
+        {
+            Model = Serializer.Load<Accord.Statistics.Models.Regression.MultinomialLogisticRegression>(path);
+        }
     }
 }
 

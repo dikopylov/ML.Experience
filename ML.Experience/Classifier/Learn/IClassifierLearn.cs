@@ -2,15 +2,15 @@
 
 namespace ML.Experience.Classifier.Learn
 {
-    interface IClassifierLearn<TInput, TOutput, TModel, TTeacher>
+    interface IClassifierLearn<TInput, TOutput, TModel, TTeacher> //: IClassifierLearn
     {
         /// <summary>
-        /// Объект классификатора
+        /// Объект модели
         /// </summary>
         TModel Model { get; set; }
 
         /// <summary>
-        /// Объект обучения классификатора
+        /// Объект обучения
         /// </summary>
         TTeacher Teacher { get; set; }
 
@@ -19,5 +19,7 @@ namespace ML.Experience.Classifier.Learn
         /// </summary>
         /// <param name="data">вектор входных параметров</param>
         void Learn(IConverter<TInput, TOutput> data);
+
+        void Save(IClassifierLearn<TInput, TOutput, TModel, TTeacher> classifier, string path);
     }
 }

@@ -25,5 +25,10 @@ namespace ML.Experience.Classifier.Predict
             }
             return predicted;
         }
+
+        public void Load(string path)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
