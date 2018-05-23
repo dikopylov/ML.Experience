@@ -6,6 +6,8 @@
 # Dataset
 Data/
 
+/TrainedModel
+/Emissions
 
 # User-specific files
 *.suo
