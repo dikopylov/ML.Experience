@@ -1,14 +1,18 @@
-﻿using System.Data;
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
 using System.IO;
 using Framework = Accord.MachineLearning;
 
 namespace ML.Experience.Converter
 {
-    class ConvertFromText : IConverter<double, int>
+    class ConvertFromText : IConverter
     {
         public double[][] Inputs { get; set; }
 
         public int[] Outputs { get; set; }
+
+        public Dictionary<string, int> Translator { get; set; }
 
         bool IsTrain { get; set; }
 
@@ -30,8 +34,9 @@ namespace ML.Experience.Converter
                 files[i] = Directory.GetFiles(dir[i]);
             }
 
-            string[,] dataTestInputs = new string[dir.Length, files[0].Length];
+            string[,] dataInputs = new string[dir.Length, files[0].Length];
             Outputs = new int[dir.Length];
+            Translator = new Dictionary<string, int>();
 
             for (int k = 0; k < files.Length; k++)
             {
@@ -39,9 +44,19 @@ namespace ML.Experience.Converter
                 {
                     using (StreamReader sr = new StreamReader(files[k][i]))
                     {
-                        Outputs[k] = k;
-                        dataTestInputs[k, i] = sr.ReadToEnd();
-                        words[k] = Framework.Tools.Tokenize(dataTestInputs[k, i]);
+                        //Outputs[k] = files[k][i].
+                        var split = files[k][i].Split('\\');
+                        try
+                        {
+                            Translator.Add(split[split.Length - 2], k);
+                        }
+                        catch(ArgumentException)
+                        {
+
+                        }
+                        Outputs[k] = Translator[split[split.Length - 2]];
+                        dataInputs[k, i] = sr.ReadToEnd();
+                        words[k] = Framework.Tools.Tokenize(dataInputs[k, i]);
                     }
                 }
             }

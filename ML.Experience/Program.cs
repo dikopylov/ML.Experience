@@ -202,7 +202,7 @@ namespace ML.Experience
             dataTrain.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTrain.csv");
             //dataTest.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTest.csv");
 
-            var knn = new Learn.KNearestNeighbors();
+           // var knn = new Learn.KNearestNeighbors();
 
             //    var gscv = Framework.Performance.GridSearch<double[], int>.Create(
 
@@ -270,10 +270,27 @@ namespace ML.Experience
 //            //int bestK = result.BestParameters.K;
         }
 
+
+        static void IrisWord()
+        {
+            ConvertFromCSV dataTrain = new ConvertFromCSV("class", ';');
+            ConvertFromCSV dataTest = new ConvertFromCSV("class", ';');
+
+            dataTrain.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisNameTrain.csv");
+            dataTest.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisNameTest.csv");
+
+            var knnL = new Learn.KNearestNeighbors();
+            knnL.Learn(dataTrain);
+
+            var knnP = new Predict.KNearestNeighbors(knnL.Model);
+            var predict = knnP.PredictToString(dataTest);
+            //dataTest.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTest.csv");
+        }
+
         static void Main(string[] args)
         {
-            CvIris();
-
+            IrisWord();
+            NewsGroup();
             //Console.ReadLine();
         }
     }

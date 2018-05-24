@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace ML.Experience.Classifier.Predict
 {
-    class LogitRegression : IClassifierPredict<double, int, Accord.Statistics.Models.Regression.MultinomialLogisticRegression>
+    class LogitRegression : IClassifierPredict<Accord.Statistics.Models.Regression.MultinomialLogisticRegression>
 
     {
         public Accord.Statistics.Models.Regression.MultinomialLogisticRegression Model { get; set; }
@@ -17,7 +17,7 @@ namespace ML.Experience.Classifier.Predict
 
         public LogitRegression() { }
 
-        public int[] Predict(IConverter<double, int> data)
+        public int[] Predict(IConverter data)
         {
             double[][] probabilities = Model.Probabilities(data.Inputs);
             int[] predictedByProbabilities = new int[data.Inputs.Length];

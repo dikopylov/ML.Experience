@@ -3,7 +3,7 @@ using ML.Experience.Converter;
 
 namespace ML.Experience.Classifier.Predict
 {
-    class NaiveBayes : IClassifierPredict<double, int, Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>>
+    class NaiveBayes : IClassifierPredict<Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>>
     {
         /// <summary>
         /// Обученная модель
@@ -17,7 +17,7 @@ namespace ML.Experience.Classifier.Predict
 
         public NaiveBayes() { }
 
-        public int[] Predict(IConverter<double, int> data)
+        public int[] Predict(IConverter data)
         {
             return Model.Decide(data.Inputs);
         }

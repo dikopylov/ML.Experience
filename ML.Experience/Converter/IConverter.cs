@@ -1,12 +1,15 @@
-﻿using System.Data;
+﻿using System.Collections.Generic;
+using System.Data;
 
 namespace ML.Experience.Converter
 {
-    interface IConverter<TInput, TOutput>
+    interface IConverter
     {
-        TInput[][] Inputs { get; set; }
+        double[][] Inputs { get; set; }
 
-        TOutput[] Outputs { get; set; }
+        int[] Outputs { get; set; }
+
+        Dictionary<string, int> Translator { get; set; }
 
         void Convert(string path);
     }

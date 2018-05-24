@@ -2,7 +2,7 @@
 
 namespace ML.Experience.Classifier.Predict
 {
-    interface IClassifierPredict<TInput, TOutput, TModel>
+    interface IClassifierPredict<TModel>
     {
         TModel Model { get; set; }
         
@@ -11,7 +11,7 @@ namespace ML.Experience.Classifier.Predict
         /// </summary>
         /// <param name="dataTestInputs">>вектор входных параметров</param>
         /// <returns>массив предсказанных чисел</returns>
-        TOutput[] Predict(IConverter<TInput, TOutput> data);
+        int[] Predict(IConverter data);
 
         /// <summary>
         /// Загрузить модель

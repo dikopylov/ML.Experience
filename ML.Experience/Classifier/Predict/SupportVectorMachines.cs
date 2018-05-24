@@ -4,7 +4,7 @@ using ML.Experience.Converter;
 
 namespace ML.Experience.Classifier.Predict
 {
-    class SupportVectorMachines : IClassifierPredict<double, int, Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear>>
+    class SupportVectorMachines : IClassifierPredict<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear>>
     {
         /// <summary>
         /// Обученная модель
@@ -18,7 +18,7 @@ namespace ML.Experience.Classifier.Predict
 
         public SupportVectorMachines() { }
 
-        public int[] Predict(IConverter<double, int> data)
+        public int[] Predict(IConverter data)
         {
             return Model.Decide(data.Inputs);
         }

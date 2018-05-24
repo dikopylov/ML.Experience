@@ -4,11 +4,11 @@ using System.Linq;
 
 namespace ML.Experience.Classifier.Predict
 {
-    class RandomClassifier : IClassifierPredict<double, int, object>
+    class RandomClassifier : IClassifierPredict<object>
     {
         public object Model { get; set; }
 
-        public int[] Predict(IConverter<double, int> data)
+        public int[] Predict(IConverter data)
         {
             int NumberOfClasses = data.Outputs
                             .Cast<int>()

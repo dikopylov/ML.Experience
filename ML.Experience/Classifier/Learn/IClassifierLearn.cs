@@ -2,7 +2,7 @@
 
 namespace ML.Experience.Classifier.Learn
 {
-    interface IClassifierLearn<TInput, TOutput, TModel, TTeacher> //: IClassifierLearn
+    interface IClassifierLearn<TModel, TTeacher>
     {
         /// <summary>
         /// Объект модели
@@ -18,8 +18,8 @@ namespace ML.Experience.Classifier.Learn
         /// Обучающий алгоритм
         /// </summary>
         /// <param name="data">вектор входных параметров</param>
-        void Learn(IConverter<TInput, TOutput> data);
+        void Learn(IConverter data);
 
-        void Save(IClassifierLearn<TInput, TOutput, TModel, TTeacher> classifier, string path);
+        void Save(IClassifierLearn<TModel, TTeacher> classifier, string path);
     }
 }

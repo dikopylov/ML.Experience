@@ -4,7 +4,7 @@ using System;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class NaiveBayes : IClassifierLearn<double, int, Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>,
+    class NaiveBayes : IClassifierLearn<Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>,
       Accord.MachineLearning.Bayes.NaiveBayesLearning<Accord.Statistics.Distributions.Univariate.NormalDistribution>>
     {
         /// <summary>
@@ -26,13 +26,12 @@ namespace ML.Experience.Classifier.Learn
             };
         }
 
-        public void Learn(IConverter<double, int> data)
+        public void Learn(IConverter data)
         {
             Model = Teacher.Learn(data.Inputs, data.Outputs);
         }
 
-        public void Save(IClassifierLearn<double, int,
-                        Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>,
+        public void Save(IClassifierLearn<Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>,
                         Accord.MachineLearning.Bayes.NaiveBayesLearning<Accord.Statistics.Distributions.Univariate.NormalDistribution>> classifier, string path)
         {
             Accord.IO.Serializer.Save(classifier.Model, path);

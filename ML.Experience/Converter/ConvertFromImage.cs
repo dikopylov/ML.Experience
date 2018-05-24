@@ -1,14 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 
 namespace ML.Experience.Converter
 {
-    class ConvertFromImage : IConverter<double, int>
+    class ConvertFromImage : IConverter
     {
         public double[][] Inputs { get; set; }
 
         public int[] Outputs { get; set; }
+
+        public Dictionary<string, int> Translator { get; set; }
 
         public void Convert(string pathData)
         {

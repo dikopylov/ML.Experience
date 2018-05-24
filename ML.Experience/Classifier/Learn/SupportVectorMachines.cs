@@ -3,8 +3,7 @@ using System;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class SupportVectorMachines : IClassifierLearn<double, int, 
-        Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear>,
+    class SupportVectorMachines : IClassifierLearn<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear>,
         Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning<Accord.Statistics.Kernels.Linear>>
     {
         /// <summary>
@@ -28,13 +27,12 @@ namespace ML.Experience.Classifier.Learn
             };
         }
 
-        public void Learn(IConverter<double, int> data)
+        public void Learn(IConverter data)
         {
             Model = Teacher.Learn(data.Inputs, data.Outputs);
         }
 
-        public void Save(IClassifierLearn<double, int,
-                        Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear>,
+        public void Save(IClassifierLearn<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear>,
                         Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning<Accord.Statistics.Kernels.Linear>> classifier,
             string path)
         {
