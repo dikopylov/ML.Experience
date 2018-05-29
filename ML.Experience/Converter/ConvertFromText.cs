@@ -44,7 +44,6 @@ namespace ML.Experience.Converter
                 {
                     using (StreamReader sr = new StreamReader(files[k][i]))
                     {
-                        //Outputs[k] = files[k][i].
                         var split = files[k][i].Split('\\');
                         try
                         {
@@ -52,7 +51,7 @@ namespace ML.Experience.Converter
                         }
                         catch(ArgumentException)
                         {
-
+                            Outputs[k] = k;
                         }
                         Outputs[k] = Translator[split[split.Length - 2]];
                         dataInputs[k, i] = sr.ReadToEnd();

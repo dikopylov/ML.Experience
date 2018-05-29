@@ -4,13 +4,14 @@ using Accord.MachineLearning;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class KNearestNeighbors: IClassifierLearn<Accord.MachineLearning.KNearestNeighbors, 
-        Accord.MachineLearning.KNearestNeighbors>
-        
+    class KNearestNeighbors: IClassifierLearnModel<Accord.MachineLearning.KNearestNeighbors>
+
     {
         public Accord.MachineLearning.KNearestNeighbors Model { get; set; }
 
         public Accord.MachineLearning.KNearestNeighbors Teacher { get; set; }
+
+        public int K { get { return Teacher.K; } set { Teacher.K = value; } }
 
         public KNearestNeighbors(int k = 2)
         {
@@ -22,10 +23,9 @@ namespace ML.Experience.Classifier.Learn
             Model = Teacher.Learn(data.Inputs, data.Outputs);
         }
 
-        public void Save(IClassifierLearn<Accord.MachineLearning.KNearestNeighbors, 
-        Accord.MachineLearning.KNearestNeighbors> classifier, string path)
+        public void Save(string path)
         {
-            Accord.IO.Serializer.Save(classifier.Model, path);
+            Accord.IO.Serializer.Save(Model, path);
         }
     }
 }

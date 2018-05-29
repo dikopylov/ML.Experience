@@ -2,7 +2,7 @@
 
 namespace ML.Experience.Evaluation
 {
-    class FScore : IEvaluation<double>
+    class FScore : IEvaluation
     {
         public double Measure(Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater)
         {

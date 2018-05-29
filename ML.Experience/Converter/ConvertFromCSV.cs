@@ -64,6 +64,6 @@ namespace ML.Experience.Converter
             {
                 Outputs[i] = Translator[OutputsToString[i]];
             }
-        }
+       }
     }
 }

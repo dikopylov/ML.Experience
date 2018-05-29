@@ -4,9 +4,7 @@ using System;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class LogitRegression : IClassifierLearn<Accord.Statistics.Models.Regression.MultinomialLogisticRegression,
-       Accord.Statistics.Models.Regression.Fitting.MultinomialLogisticLearning<Accord.Math.Optimization.ConjugateGradient>>
-
+    class LogitRegression : IClassifierLearn
     {
         public Accord.Statistics.Models.Regression.MultinomialLogisticRegression Model { get; set; }
 
@@ -22,11 +20,9 @@ namespace ML.Experience.Classifier.Learn
             Model = Teacher.Learn(data.Inputs, data.Outputs);
         }
 
-        public void Save(IClassifierLearn<Accord.Statistics.Models.Regression.MultinomialLogisticRegression,
-                        Accord.Statistics.Models.Regression.Fitting.MultinomialLogisticLearning<Accord.Math.Optimization.ConjugateGradient>> classifier, 
-                        string path)
+        public void Save(string path)
         {
-            Accord.IO.Serializer.Save(classifier.Model, path);
+            Accord.IO.Serializer.Save(Model, path);
         }
     }
 }

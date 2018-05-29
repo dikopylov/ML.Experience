@@ -74,6 +74,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classifier\Learn\IClassifierLearnModel.cs" />
     <Compile Include="Classifier\Learn\KNearestNeighbors.cs" />
     <Compile Include="Classifier\Learn\LogitRegression.cs" />
     <Compile Include="Classifier\Learn\NaiveBayes.cs" />
@@ -88,10 +89,15 @@
     <Compile Include="Converter\ConvertFromText.cs" />
     <Compile Include="Converter\IConverter.cs" />
     <Compile Include="Converter\ConvertFromCSV.cs" />
+    <Compile Include="Evaluation\Accuracy.cs" />
+    <Compile Include="Evaluation\Error.cs" />
     <Compile Include="Evaluation\FScore.cs" />
     <Compile Include="Evaluation\IEvaluation.cs" />
     <Compile Include="Evaluation\Precision.cs" />
     <Compile Include="Evaluation\Recall.cs" />
+    <Compile Include="GridSearch\GridDimension.cs" />
+    <Compile Include="GridSearch\IDimensionEnumerator.cs" />
+    <Compile Include="GridSearch\Parameters.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classifier\Predict\SupportVectorMachines.cs" />

@@ -1,13 +1,13 @@
 ﻿
 namespace ML.Experience.Evaluation
 {
-    interface IEvaluation<TOutput>
+    interface IEvaluation
     {
 
         /// <summary>
         /// Выполнение оценки
         /// </summary>
         /// <returns>Оценка</returns>
-        TOutput Measure(Accord.Statistics.Analysis.GeneralConfusionMatrix estimater);
+        double Measure(Accord.Statistics.Analysis.GeneralConfusionMatrix estimater);
     }
 }

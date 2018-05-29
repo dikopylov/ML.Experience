@@ -4,10 +4,8 @@ using System.Linq;
 
 namespace ML.Experience.Classifier.Predict
 {
-    class RandomClassifier : IClassifierPredict<object>
+    class RandomClassifier : IClassifierPredict
     {
-        public object Model { get; set; }
-
         public int[] Predict(IConverter data)
         {
             int NumberOfClasses = data.Outputs
@@ -28,7 +26,7 @@ namespace ML.Experience.Classifier.Predict
 
         public void Load(string path)
         {
-            throw new NotImplementedException();
+            return;
         }
     }
 }

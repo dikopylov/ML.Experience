@@ -9,6 +9,9 @@ using ML.Experience.Evaluation;
 using Learn = ML.Experience.Classifier.Learn;
 using Predict = ML.Experience.Classifier.Predict;
 using Accord.IO;
+using System.Collections.Generic;
+using ML.Experience.GridSearch;
+using System.Collections;
 
 namespace ML.Experience
 {
@@ -20,17 +23,19 @@ namespace ML.Experience
             ConvertFromCSV dataTrain = new ConvertFromCSV("class", ';');
             ConvertFromCSV dataTest = new ConvertFromCSV("class", ';');
 
-            dataTrain.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTrain.csv");
-            dataTest.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTest.csv");
+            string pathTrain = @"C:\Users\user\Desktop\Дима\ML.Experience\Data\Iris\IrisTrain.csv";
+            string pathTest= @"C:\Users\user\Desktop\Дима\ML.Experience\Data\Iris\IrisTest.csv";
 
-            //IClassifierLearn<double, int, object, object> classifierLearn = new IClassifierLearn<double, int, object, object>[]
-            //{
-            //    new KNearestNeighbors(4) , new NaiveBayes(),
-            //    new SupportVectorMachines(Framework.VectorMachines.Learning.Loss.L2), new LogitRegression()
-            //};
+            dataTrain.Convert(pathTrain);
+            dataTest.Convert(pathTest);
 
+            Learn.IClassifierLearn[] classifierLearn = new Learn.IClassifierLearn[]
+            {
+                new Learn.KNearestNeighbors(4) , new Learn.NaiveBayes(),
+                new Learn.SupportVectorMachines(new Accord.Statistics.Kernels.Linear()), new Learn.LogitRegression()
+            };
 
-            //int[][] predicted = new int[classifier.Length][];
+           //int[][] predicted = new int[classifier.Length][];
 
             //for (int i = 0; i < classifier.Length; i++)
             //{
@@ -43,7 +48,7 @@ namespace ML.Experience
             //    Console.WriteLine(classifier[i]);
             //    foreach (IEvaluation<double> metric in evaluation)
             //    {
-            //        Console.WriteLine("{0}: {1}%", metric, metric.Measure());
+            //        Console.WriteLine("{ 0}: {1}%", metric, metric.Measure());
             //    }
             //}
         }
@@ -154,143 +159,142 @@ namespace ML.Experience
             //}
         }
 
-        static void CvIris()
-        {
-            ConvertFromCSV dataTrain = new ConvertFromCSV("class", ';');
-            ConvertFromCSV dataTest = new ConvertFromCSV("class", ';');
-
-            dataTrain.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTrain.csv");
-            dataTest.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTest.csv");
-
-            var knnL = new Learn.KNearestNeighbors();
-            //var z = new Accord.Math.Distances.Euclidean();
-            //knn.Model.Distance = z;
-            var knnP = new Predict.KNearestNeighbors();
-            knnP.Load(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\TrainedModel\knn.bin");
-            //a.
-
-            //var knn = new Predict.KNearestNeighbors(Serializer.Load<Framework.KNearestNeighbors>(Path.Combine(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\TrainedModel", "knn.bin")));
-
-            var cv = Framework.CrossValidation.Create(
-
-            k: 5, // We will be using 10-fold cross validation
-
-            learner: (p) => knnP.Model,
-
-            // Now we have to specify how the tree performance should be measured:
-            loss: (actual, expected, p) => new Accord.Math.Optimization.Losses.ZeroOneLoss(expected).Loss(actual),
-
-            // This function can be used to perform any special
-            // operations before the actual learning is done, but
-            // here we will just leave it as simple as it can be:
-            fit: (teacher, x, y, w) => teacher.Learn(x, y, w),
-
-            // Finally, we have to pass the input and output data
-            // that will be used in cross-validation. 
-            x: dataTrain.Inputs, y: dataTrain.Outputs
-            );
-            var result = cv.Learn(dataTrain.Inputs, dataTrain.Outputs);
-            double validationError = result.Validation.Mean; 
-        }
-
-
         static void GSIris()
         {
             ConvertFromCSV dataTrain = new ConvertFromCSV("class", ';');
             //ConvertFromCSV dataTest = new ConvertFromCSV("class", ';');
 
-            dataTrain.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTrain.csv");
+            dataTrain.Convert(@"C:\Users\user\Desktop\Дима\ML.Experience\Data\Iris\IrisTrain.csv");
             //dataTest.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTest.csv");
 
-           // var knn = new Learn.KNearestNeighbors();
+            var knn = new Learn.KNearestNeighbors();
+           
 
-            //    var gscv = Framework.Performance.GridSearch<double[], int>.Create(
+            var gscv = Framework.Performance.GridSearch<double[], int>.Create(
+            ranges: new
+            {
+                K = Framework.Performance.GridSearch.Range(1, 20),
+            },
 
-            //    // Here we can specify the range of the parameters to be included in the search
-            //    ranges: new
-            //    {
-            //        Method = Framework.Performance.GridSearch.Values<Accord.Math.Optimization.IOptimizationMethod>(new Accord.Math.Optimization.ConjugateGradient(),
-            //        new Accord.Math.Optimization.GradientDescent())
-            //    },
+            learner: (p) => new Framework.KNearestNeighbors()
+            {
+                K = p.K,
+                Distance = new Accord.Math.Distances.Euclidean()
+            },
 
-            //    // Indicate how learning algorithms for the models should be created
-            //    learner: (p) => new Accord.Statistics.Models.Regression.Fitting.MultinomialLogisticLearning<TMethod>
-            //    {
-            //        // Here, we can use the parameters we have specified above:
-            //        Method = p.Method.Value
-            //    },
+            fit: (teacher, x, y, w) => teacher.Learn(x, y, w),
 
-            //    // Define how the model should be learned, if needed
-            //    fit: (teacher, x, y, w) => teacher.Learn(x, y, w),
+            loss: (actual, expected, m) => new Accord.Math.Optimization.Losses.ZeroOneLoss(expected).Loss(actual)
+        );
 
-            //    // Define how the performance of the models should be measured
-            //    loss: (actual, expected, m) => new Accord.Math.Optimization.Losses.ZeroOneLoss(expected).Loss(actual)
+            var result = gscv.Learn(dataTrain.Inputs, dataTrain.Outputs);
 
-            //    //folds: 5 // use k = 3 in k-fold cross validation
+            int bestK = result.BestParameters.K;
 
-            //    //x: dataTrain.Inputs, y: dataTrain.Outputs // so the compiler can infer generic types
-            //);
-
-            //   var result = gscv.Learn(dataTrain.Inputs, dataTrain.Outputs);
-
-            //    // Get the best values for the parameters:
-            //    int bestK = result.BestParameters.K;
-            //}
-
-//            var gscv = Framework.Performance.GridSearch<double[], int>.Create(
-
-//    // Here we can specify the range of the parameters to be included in the search
-//    ranges: new
-//    {
-//        K = Framework.Performance.GridSearch.Range(1, 20),
-//    },
-
-//    // Indicate how learning algorithms for the models should be created
-//    learner: (p) => new Framework.KNearestNeighbors()
-//    {
-//                    // Here, we can use the parameters we have specified above:
-//                    K = p.K,
-//        Distance = new Accord.Math.Distances.Euclidean()
-//    },
-
-//    // Define how the model should be learned, if needed
-//    fit: (teacher, x, y, w) => teacher.Learn(x, y, w),
-
-//    // Define how the performance of the models should be measured
-//    loss: (actual, expected, m) => new Accord.Math.Optimization.Losses.ZeroOneLoss(expected).Loss(actual)
-
-////folds: 5 // use k = 3 in k-fold cross validation
-
-////x: dataTrain.Inputs, y: dataTrain.Outputs // so the compiler can infer generic types
-//);
-
-//            var result = gscv.Learn(dataTrain.Inputs, dataTrain.Outputs);
-
-//            //// Get the best values for the parameters:
-//            //int bestK = result.BestParameters.K;
+            var bestModel = result.BestModel;
         }
-
 
         static void IrisWord()
         {
             ConvertFromCSV dataTrain = new ConvertFromCSV("class", ';');
             ConvertFromCSV dataTest = new ConvertFromCSV("class", ';');
 
-            dataTrain.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisNameTrain.csv");
-            dataTest.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisNameTest.csv");
+            string pathTrain = @"C:\Users\user\Desktop\Дима\ML.Experience\Data\Iris\IrisNameTrain.csv";
+            string pathTest = @"C:\Users\user\Desktop\Дима\ML.Experience\Data\Iris\IrisNameTest.csv";
+
+            dataTrain.Convert(pathTrain);
+            dataTest.Convert(pathTest);
 
             var knnL = new Learn.KNearestNeighbors();
             knnL.Learn(dataTrain);
 
-            var knnP = new Predict.KNearestNeighbors(knnL.Model);
-            var predict = knnP.PredictToString(dataTest);
+            //var knnP = new Predict.KNearestNeighbors(knnL.Model);
+            //var predict = knnP.PredictToString(dataTest);
             //dataTest.Convert(@"H:\Documents\Visual Studio 2015\Projects\ML.Experience\Data\Iris\IrisTest.csv");
         }
 
+        static void IrisOpti()
+        {
+            ConvertFromCSV dataTrain = new ConvertFromCSV("class", ';');
+            ConvertFromCSV dataTest = new ConvertFromCSV("class", ';');
+
+            //ConvertFromCSV dataTrain = new ConvertFromCSV("label");
+            //ConvertFromCSV dataTest = new ConvertFromCSV("label");
+            string pathTrain = @"C:\Users\user\Desktop\Дима\ML.Experience\Data\Iris\IrisNameTrain.csv";
+            string pathTest = @"C:\Users\user\Desktop\Дима\ML.Experience\Data\Iris\IrisNameTest.csv";
+            dataTrain.Convert(pathTrain);
+            dataTest.Convert(pathTest);
+
+
+
+            var knnL = new Learn.KNearestNeighbors();
+            knnL.Learn(dataTrain);
+            
+            var knnP = new Predict.KNearestNeighbors(knnL);
+
+            knnP.Model.Distance = new Accord.Math.Distances.Euclidean();
+
+            double[] error = new double[dataTest.Outputs.Length];
+
+            for (int i = 1; i < dataTest.Outputs.Length; i++)
+            {
+                knnP.Model.K = i;
+
+                var predict = knnP.Predict(dataTest);
+                var gcm = new Accord.Statistics.Analysis.GeneralConfusionMatrix(predict, dataTest.Outputs);
+                error[i] = 1 - new Accuracy().Measure(gcm);
+            }
+                var errorMin = new Dictionary<string, double> { { "K", Array.IndexOf(error, error.Min()) + 1 },
+                { "Error", error.Min() } };
+          
+        }
+
+        static void GD()
+        {
+            ConvertFromCSV dataTrain = new ConvertFromCSV("class", ';');
+            //ConvertFromCSV dataTest = new ConvertFromCSV("class", ';');
+
+            string pathTrain = @"C:\Users\Дмитрий\Desktop\Дима\ML.Experience\Data\Iris\IrisNameTrain.csv";
+            //string pathTest = @"C:\Users\user\Desktop\Дима\ML.Experience\Data\Iris\IrisNameTest.csv";
+            dataTrain.Convert(pathTrain);
+            //dataTest.Convert(pathTest);
+
+            //var classifierLearn = new Learn.IClassifierLearn[] { new Learn.KNearestNeighbors(),
+            //    new Learn.LogitRegression(), new Learn.NaiveBayes(), new Learn.SupportVectorMachines()};
+
+            var knnL = new Learn.KNearestNeighbors();
+            var knnP = new Predict.KNearestNeighbors();
+
+            var gdKNN = new GridDimension<Framework.KNearestNeighbors>
+            {
+                ClassifierLearn = () => knnL,
+                ClassifierPredict = model => new Predict.KNearestNeighbors(knnL),
+                Start = 1,
+                Step = 1,
+                Finish = 3,
+                SetParameter = x => knnL.K = x,
+                Learner = (teacher, data) => teacher.Learn(data),
+                Predictor = (forecast, data) => forecast.Predict(data),
+                Evaluation = (expected, predicted) => new Evaluation.Error()
+                .Measure(new Accord.Statistics.Analysis.GeneralConfusionMatrix(expected, predicted)),
+                Data = dataTrain
+            };
+
+            gdKNN.Fit();
+        }
+            //var bin = new string[] { "knn.bin", "lr.bin", "nb.bin", "svm.bin" };
+
+            //for (int i = 0; i < classifierPredict.Length; i++)
+            //{
+            //    classifierPredict[i].Load(@"C:\Users\user\Desktop\Дима\ML.Experience\TrainedModel\Iris\" + bin[i]);
+            //}
+
         static void Main(string[] args)
         {
-            IrisWord();
-            NewsGroup();
+            //GSIris();
+            GD();
+            //IrisWord();
+            //GSIris();
             //Console.ReadLine();
         }
     }

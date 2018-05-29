@@ -3,20 +3,19 @@ using ML.Experience.Converter;
 
 namespace ML.Experience.Classifier.Predict
 {
-    class NaiveBayes : IClassifierPredict<Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>>
+    class NaiveBayes : IClassifierPredict
     {
         /// <summary>
         /// Обученная модель
         /// </summary>        
         public Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution> Model { get; set; }
 
-        public NaiveBayes(Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution> model)
+        public NaiveBayes(Learn.NaiveBayes nb)
         {
-            Model = model;
+            Model = nb.Model;
         }
 
         public NaiveBayes() { }
-
         public int[] Predict(IConverter data)
         {
             return Model.Decide(data.Inputs);

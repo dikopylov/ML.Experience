@@ -26,7 +26,6 @@ namespace ML.Experience.Converter
 
                 using (StreamReader reader = new StreamReader(new FileStream(files[k], FileMode.Open, FileAccess.Read, FileShare.Read)))
                 {
-
                     label = Int32.Parse(Path.GetFileName(files[k]).Split('_')[0]);
                     img = (Bitmap)Image.FromFile(files[k], true);
                 }

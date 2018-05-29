@@ -5,14 +5,19 @@ using System.Linq;
 
 namespace ML.Experience.Classifier.Predict
 {
-    class KNearestNeighbors : IClassifierPredict<Accord.MachineLearning.KNearestNeighbors>
+    class KNearestNeighbors : IClassifierPredict
         
     {
         public Accord.MachineLearning.KNearestNeighbors Model { get; set; }
 
-        public KNearestNeighbors(Accord.MachineLearning.KNearestNeighbors model)
+        public KNearestNeighbors(Learn.KNearestNeighbors knn)
         {
-            Model = model;
+            Model = knn.Model;
+        }
+
+        public KNearestNeighbors(Learn.IClassifierLearnModel<Accord.MachineLearning.KNearestNeighbors> knn)
+        {
+            Model = knn.Model;
         }
 
         public KNearestNeighbors() { }

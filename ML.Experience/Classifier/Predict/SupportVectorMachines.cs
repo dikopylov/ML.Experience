@@ -4,16 +4,16 @@ using ML.Experience.Converter;
 
 namespace ML.Experience.Classifier.Predict
 {
-    class SupportVectorMachines : IClassifierPredict<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear>>
+    class SupportVectorMachines : IClassifierPredict
     {
         /// <summary>
         /// Обученная модель
         /// </summary>
-        public Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear> Model { get; set; }
+        public Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine Model { get; set; }
 
-        public SupportVectorMachines(Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear> model)
+        public SupportVectorMachines(Learn.SupportVectorMachines svm)
         {
-            Model = model;
+            Model = svm.Model;
         }
 
         public SupportVectorMachines() { }
@@ -25,7 +25,7 @@ namespace ML.Experience.Classifier.Predict
 
         public void Load(string path)
         {
-            Model = Serializer.Load<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.Linear>>(path);
+            Model = Serializer.Load<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine>(path);
         }
     }
 }

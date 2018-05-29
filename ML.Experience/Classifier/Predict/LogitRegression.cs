@@ -5,14 +5,14 @@ using System.Linq;
 
 namespace ML.Experience.Classifier.Predict
 {
-    class LogitRegression : IClassifierPredict<Accord.Statistics.Models.Regression.MultinomialLogisticRegression>
+    class LogitRegression : IClassifierPredict
 
     {
         public Accord.Statistics.Models.Regression.MultinomialLogisticRegression Model { get; set; }
 
-        public LogitRegression(Accord.Statistics.Models.Regression.MultinomialLogisticRegression model)
+        public LogitRegression(Learn.LogitRegression lr)
         {
-            Model = model;
+            Model = lr.Model;
         }
 
         public LogitRegression() { }
