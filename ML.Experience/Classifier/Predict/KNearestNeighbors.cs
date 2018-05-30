@@ -10,10 +10,10 @@ namespace ML.Experience.Classifier.Predict
     {
         public Accord.MachineLearning.KNearestNeighbors Model { get; set; }
 
-        public KNearestNeighbors(Learn.KNearestNeighbors knn)
-        {
-            Model = knn.Model;
-        }
+        //public KNearestNeighbors(Learn.KNearestNeighbors knn)
+        //{
+        //    Model = knn.Model;
+        //}
 
         public KNearestNeighbors(Learn.IClassifierLearnModel<Accord.MachineLearning.KNearestNeighbors> knn)
         {

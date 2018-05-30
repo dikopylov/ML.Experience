@@ -9,5 +9,7 @@ namespace ML.Experience.Classifier.Learn
     interface IClassifierLearnModel<T> : IClassifierLearn
     {
         T Model { get; set; }
+
+        IClassifierLearnModel<T> Clone();
     }
 }

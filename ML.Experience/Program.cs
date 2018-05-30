@@ -262,17 +262,19 @@ namespace ML.Experience
             //var classifierLearn = new Learn.IClassifierLearn[] { new Learn.KNearestNeighbors(),
             //    new Learn.LogitRegression(), new Learn.NaiveBayes(), new Learn.SupportVectorMachines()};
 
-            var knnL = new Learn.KNearestNeighbors();
-            var knnP = new Predict.KNearestNeighbors();
+            //var knnL = new Learn.KNearestNeighbors();
+            //var knnP = new Predict.KNearestNeighbors();
 
             var gdKNN = new GridDimension<Framework.KNearestNeighbors>
             {
-                ClassifierLearn = () => knnL,
-                ClassifierPredict = model => new Predict.KNearestNeighbors(knnL),
+                LearnOption = (x) => new Learn.KNearestNeighbors()
+                {
+                    K = x
+                },
+                PredictOption = model => new Predict.KNearestNeighbors(model),
                 Start = 1,
                 Step = 1,
                 Finish = 3,
-                SetParameter = x => knnL.K = x,
                 Learner = (teacher, data) => teacher.Learn(data),
                 Predictor = (forecast, data) => forecast.Predict(data),
                 Evaluation = (expected, predicted) => new Evaluation.Error()

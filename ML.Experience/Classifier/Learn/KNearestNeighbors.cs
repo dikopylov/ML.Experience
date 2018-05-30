@@ -27,5 +27,13 @@ namespace ML.Experience.Classifier.Learn
         {
             Accord.IO.Serializer.Save(Model, path);
         }
+
+        public IClassifierLearnModel<Accord.MachineLearning.KNearestNeighbors> Clone()
+        {
+            return new KNearestNeighbors()
+            {
+                Model = this.Model,
+            };
+        }
     }
 }
