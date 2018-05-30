@@ -9,6 +9,9 @@ Data/
 /TrainedModel
 /Emissions
 
+TrainedModel/
+Emissions/
+
 # User-specific files
 *.suo
 *.user
