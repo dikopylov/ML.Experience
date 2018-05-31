@@ -9,9 +9,9 @@ namespace ML.Experience.GridSearch
     class GridDimension<TModel, TTeacher, TParam> : IGridDimension
 
     {
-        public Parameters<TParam>[] Criterion { get; set; }
+        public GridDimensionParameters<TParam>[] Criterion { get; set; }
 
-        public Func<Parameters<TParam>, Learn.IClassifierLearnModel<TModel, TTeacher>> LearnOption { get; set; }
+        public Func<GridDimensionParameters<TParam>, Learn.IClassifierLearnModel<TModel, TTeacher>> LearnOption { get; set; }
 
         public Func<Learn.IClassifierLearnModel<TModel, TTeacher>, Predict.IClassifierPredict> PredictOption { get; set; }
 

@@ -2,29 +2,29 @@
 
 namespace ML.Experience.GridSearch
 {
-    class Parameters<TParam>
+    class GridDimensionParameters<TParam>
     {
         public string Name { get; set; }
 
         public TParam Value { get; set; }
 
-        public Parameters(string name, TParam value)
+        public GridDimensionParameters(string name, TParam value)
         {
             Name = name;
             Value = value;
         }
 
-        public Parameters(string name)
+        public GridDimensionParameters(string name)
         {
             Name = name;
         }
 
-        public Parameters()
+        public GridDimensionParameters()
         {
 
         }
 
-        static public Parameters<int>[] Range(string name, int start, int finish, int step = 1)
+        static public GridDimensionParameters<int>[] Range(string name, int start, int finish, int step = 1)
         {
             List<Parameters<int>> range = new List<Parameters<int>>();
             for (int i = start; i < finish; i += step)

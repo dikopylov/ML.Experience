@@ -10,7 +10,8 @@ namespace ML.Experience.Classifier.Predict
     {
         public Accord.Statistics.Models.Regression.MultinomialLogisticRegression Model { get; set; }
 
-        public LogitRegression(Learn.LogitRegression lr)
+        public LogitRegression(Learn.IClassifierLearnModel<Accord.Statistics.Models.Regression.MultinomialLogisticRegression,
+            Accord.Statistics.Models.Regression.Fitting.MultinomialLogisticLearning<Accord.Math.Optimization.ConjugateGradient>> lr)
         {
             Model = lr.Model;
         }

@@ -271,10 +271,10 @@ namespace ML.Experience
             var gussian = new Accord.Statistics.Kernels.Gaussian();
             var polynomial = new Accord.Statistics.Kernels.Polynomial();
 
-            var kernel = new Parameters<Accord.Statistics.Kernels.IKernel>[] {
-            new Parameters<Accord.Statistics.Kernels.IKernel>("Kernel", linear),
-            new Parameters<Accord.Statistics.Kernels.IKernel>("Kernel", gussian),
-            new Parameters<Accord.Statistics.Kernels.IKernel>("Kernel", polynomial)};
+            var kernel = new GridDimensionParameters<Accord.Statistics.Kernels.IKernel>[] {
+            new GridDimensionParameters<Accord.Statistics.Kernels.IKernel>("Kernel", linear),
+            new GridDimensionParameters<Accord.Statistics.Kernels.IKernel>("Kernel", gussian),
+            new GridDimensionParameters<Accord.Statistics.Kernels.IKernel>("Kernel", polynomial)};
 
             var gdSVM = new GridDimension<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine,
                 Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning,
@@ -290,9 +290,9 @@ namespace ML.Experience
                 Data = dataTrain
             };
 
-            var K1 = new Parameters<int>[] { new Parameters<int>("K", 1), new Parameters<int>("K", 2) };
+            var K1 = new GridDimensionParameters<int>[] { new GridDimensionParameters<int>("K", 1), new GridDimensionParameters<int>("K", 2) };
 
-            var K2 = Parameters<int>.Range("K", 3, 6, 2);
+            var K2 = GridDimensionParameters<int>.Range("K", 3, 6, 2);
 
             var gdKNN = new GridDimension<Framework.KNearestNeighbors,
                 Framework.KNearestNeighbors, 

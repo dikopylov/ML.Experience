@@ -101,7 +101,7 @@
     <Compile Include="GridSearch\GridDimensionCollection.cs" />
     <Compile Include="GridSearch\GridDimensionEnum.cs" />
     <Compile Include="GridSearch\IGridDimension.cs" />
-    <Compile Include="GridSearch\Parameters.cs" />
+    <Compile Include="GridSearch\GridDimensionParameters.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classifier\Predict\SupportVectorMachines.cs" />
