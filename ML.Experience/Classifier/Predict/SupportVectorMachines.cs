@@ -6,15 +6,21 @@ namespace ML.Experience.Classifier.Predict
 {
     class SupportVectorMachines : IClassifierPredict
     {
-        /// <summary>
-        /// Обученная модель
-        /// </summary>
-        public Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine Model { get; set; }
+        public Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine
+             Model { get; set; }
 
-        public SupportVectorMachines(Learn.SupportVectorMachines svm)
+        public SupportVectorMachines(
+            Learn.IClassifierLearnModel
+            <Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine, 
+                Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning> svm)
         {
             Model = svm.Model;
         }
+
+        //public SupportVectorMachines(Learn.SupportVectorMachines<TKernel> svm)
+        //{
+        //    Model = svm.Model;
+        //}
 
         public SupportVectorMachines() { }
 
@@ -25,7 +31,7 @@ namespace ML.Experience.Classifier.Predict
 
         public void Load(string path)
         {
-            Model = Serializer.Load<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine>(path);
+         //   Model = Serializer.Load<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.IKernel>>(path);
         }
     }
 }

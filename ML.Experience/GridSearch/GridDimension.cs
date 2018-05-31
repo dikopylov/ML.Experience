@@ -1,5 +1,4 @@
 ﻿using ML.Experience.Converter;
-using ML.Experience.Evaluation;
 using System;
 using System.Linq;
 using Learn = ML.Experience.Classifier.Learn;
@@ -7,23 +6,20 @@ using Predict = ML.Experience.Classifier.Predict;
 
 namespace ML.Experience.GridSearch
 {
-    class GridDimension<T> : IDimensionEnumerator
+    class GridDimension<TModel, TTeacher, TParam> : IGridDimension
+
     {
-        public int Start { get; set; }
-        public int Step { get; set; }
-        public int Finish { get; set; }
+        public Parameters<TParam>[] Criterion { get; set; }
 
-        public Action<double[]> Criterion { get; set; }
+        public Func<Parameters<TParam>, Learn.IClassifierLearnModel<TModel, TTeacher>> LearnOption { get; set; }
 
-        public Func<int, Learn.IClassifierLearnModel<T>> LearnOption { get; set; }
-
-        public Func<Learn.IClassifierLearnModel<T>, Predict.IClassifierPredict> PredictOption { get; set; }
+        public Func<Learn.IClassifierLearnModel<TModel, TTeacher>, Predict.IClassifierPredict> PredictOption { get; set; }
 
         public Action<Learn.IClassifierLearn, IConverter> Learner { get; set; }
 
         public Func<Predict.IClassifierPredict, IConverter, int[]> Predictor { get; set; }
 
-        public Learn.IClassifierLearnModel<T>[] LearnModel { get; set; }
+        public Learn.IClassifierLearnModel<TModel, TTeacher>[] LearnModel { get; set; }
 
         public Predict.IClassifierPredict[] PredictModel { get; set; }
 
@@ -38,19 +34,6 @@ namespace ML.Experience.GridSearch
         public int[][] Predicted { get; set; }
 
         public Predict.IClassifierPredict BestModel { get; set; }
-
-        int GetLengthModels()
-        {
-            int k = 0;
-            for (int i = Start; i < Finish; i += Step) { k++; }
-
-            LearnModel = new Learn.IClassifierLearnModel<T>[k];
-            PredictModel = new Predict.IClassifierPredict[k];
-            Predicted = new int[k][];
-            Error = new double[k];
-
-            return LearnModel.Length;
-        }
 
         public void Fit()
         {
@@ -69,24 +52,23 @@ namespace ML.Experience.GridSearch
             if (Predictor == null)
                 throw new InvalidOperationException();
 
-            
-            int lengthModel = GetLengthModels();
+            LearnModel = new Learn.IClassifierLearnModel<TModel, TTeacher>[Criterion.Length];
+            PredictModel = new Predict.IClassifierPredict[Criterion.Length];
+            Predicted = new int[Criterion.Length][];
+            Error = new double[Criterion.Length];
 
-            int tmplengthModel = lengthModel - 1;
-            for (int i = Start; i < Finish; i += Step)
+            for (int i = 0; i < Criterion.Length; i++)
             {
-                Learn.IClassifierLearnModel<T> clfLearn = LearnOption(i);
+                Learn.IClassifierLearnModel<TModel, TTeacher> clfLearn = LearnOption(Criterion[i]);
 
                 Learner(clfLearn, Data);
-                LearnModel[lengthModel - tmplengthModel - 1] = clfLearn;
-                Learner(clfLearn, Data);
+                LearnModel[i] = clfLearn;
 
                 Predict.IClassifierPredict clfPredict = PredictOption(clfLearn);
-                Predicted[lengthModel - tmplengthModel - 1] = Predictor(clfPredict, Data);
-                PredictModel[lengthModel - tmplengthModel - 1] = clfPredict;
+                Predicted[i] = Predictor(clfPredict, Data);
+                PredictModel[i] = clfPredict;
 
-                Error[lengthModel - tmplengthModel - 1] = Evaluation(Data.Outputs, Predicted[lengthModel - tmplengthModel - 1]);
-                tmplengthModel--;
+                Error[i] = Evaluation(Data.Outputs, Predicted[i]);
             }
             BestModel = PredictModel[Array.IndexOf(Error, Error.Min())];
             BestError = Error[Array.IndexOf(Error, Error.Min())];

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ML.Experience.Classifier.Learn
 {
-    interface IClassifierLearnModel<T> : IClassifierLearn
+    interface IClassifierLearnModel<TModel, TTeacher> : IClassifierLearn
     {
-        T Model { get; set; }
+        TModel Model { get; set; }
 
-        IClassifierLearnModel<T> Clone();
+        TTeacher Teacher { get; set; }
     }
 }

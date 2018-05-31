@@ -4,8 +4,7 @@ using Accord.MachineLearning;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class KNearestNeighbors: IClassifierLearnModel<Accord.MachineLearning.KNearestNeighbors>
-
+    class KNearestNeighbors : IClassifierLearnModel<Accord.MachineLearning.KNearestNeighbors, Accord.MachineLearning.KNearestNeighbors>
     {
         public Accord.MachineLearning.KNearestNeighbors Model { get; set; }
 
@@ -28,12 +27,5 @@ namespace ML.Experience.Classifier.Learn
             Accord.IO.Serializer.Save(Model, path);
         }
 
-        public IClassifierLearnModel<Accord.MachineLearning.KNearestNeighbors> Clone()
-        {
-            return new KNearestNeighbors()
-            {
-                Model = this.Model,
-            };
-        }
     }
 }

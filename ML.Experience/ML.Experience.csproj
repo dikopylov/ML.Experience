@@ -23,7 +23,9 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>
+    </NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -96,7 +98,9 @@
     <Compile Include="Evaluation\Precision.cs" />
     <Compile Include="Evaluation\Recall.cs" />
     <Compile Include="GridSearch\GridDimension.cs" />
-    <Compile Include="GridSearch\IDimensionEnumerator.cs" />
+    <Compile Include="GridSearch\GridDimensionCollection.cs" />
+    <Compile Include="GridSearch\GridDimensionEnum.cs" />
+    <Compile Include="GridSearch\IGridDimension.cs" />
     <Compile Include="GridSearch\Parameters.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

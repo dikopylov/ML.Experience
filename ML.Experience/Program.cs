@@ -32,7 +32,7 @@ namespace ML.Experience
             Learn.IClassifierLearn[] classifierLearn = new Learn.IClassifierLearn[]
             {
                 new Learn.KNearestNeighbors(4) , new Learn.NaiveBayes(),
-                new Learn.SupportVectorMachines(new Accord.Statistics.Kernels.Linear()), new Learn.LogitRegression()
+                //new Learn.SupportVectorMachines(new Accord.Statistics.Kernels.Linear()), new Learn.LogitRegression()
             };
 
            //int[][] predicted = new int[classifier.Length][];
@@ -260,21 +260,29 @@ namespace ML.Experience
             //dataTest.Convert(pathTest);
 
             //var classifierLearn = new Learn.IClassifierLearn[] { new Learn.KNearestNeighbors(),
-            //    new Learn.LogitRegression(), new Learn.NaiveBayes(), new Learn.SupportVectorMachines()};
+            //    new Learn.LogitRegression(), new Learn.NaiveBayes(), new Learn.SupportVectorMachines(new Accord.Statistics.Kernels.Linear())};
 
-            //var knnL = new Learn.KNearestNeighbors();
-            //var knnP = new Predict.KNearestNeighbors();
+            //foreach (var a in classifierLearn)
+            //{
+            //    a.Learn(dataTrain);
+            //}
 
-            var gdKNN = new GridDimension<Framework.KNearestNeighbors>
+            var linear = new Accord.Statistics.Kernels.Linear();
+            var gussian = new Accord.Statistics.Kernels.Gaussian();
+            var polynomial = new Accord.Statistics.Kernels.Polynomial();
+
+            var kernel = new Parameters<Accord.Statistics.Kernels.IKernel>[] {
+            new Parameters<Accord.Statistics.Kernels.IKernel>("Kernel", linear),
+            new Parameters<Accord.Statistics.Kernels.IKernel>("Kernel", gussian),
+            new Parameters<Accord.Statistics.Kernels.IKernel>("Kernel", polynomial)};
+
+            var gdSVM = new GridDimension<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine,
+                Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning,
+                Accord.Statistics.Kernels.IKernel>
             {
-                LearnOption = (x) => new Learn.KNearestNeighbors()
-                {
-                    K = x
-                },
-                PredictOption = model => new Predict.KNearestNeighbors(model),
-                Start = 1,
-                Step = 1,
-                Finish = 3,
+                LearnOption = (x) => new Learn.SupportVectorMachines(x.Value),
+                Criterion = kernel,
+                PredictOption = model => new Predict.SupportVectorMachines(model),
                 Learner = (teacher, data) => teacher.Learn(data),
                 Predictor = (forecast, data) => forecast.Predict(data),
                 Evaluation = (expected, predicted) => new Evaluation.Error()
@@ -282,22 +290,49 @@ namespace ML.Experience
                 Data = dataTrain
             };
 
-            gdKNN.Fit();
-        }
-            //var bin = new string[] { "knn.bin", "lr.bin", "nb.bin", "svm.bin" };
+            var K1 = new Parameters<int>[] { new Parameters<int>("K", 1), new Parameters<int>("K", 2) };
 
-            //for (int i = 0; i < classifierPredict.Length; i++)
-            //{
-            //    classifierPredict[i].Load(@"C:\Users\user\Desktop\Дима\ML.Experience\TrainedModel\Iris\" + bin[i]);
-            //}
+            var K2 = Parameters<int>.Range("K", 3, 6, 2);
+
+            var gdKNN = new GridDimension<Framework.KNearestNeighbors,
+                Framework.KNearestNeighbors, 
+                int>
+            {
+                LearnOption = (x) => new Learn.KNearestNeighbors()
+                {
+                    K = x.Value
+                },
+                Criterion = K2,
+                PredictOption = model => new Predict.KNearestNeighbors(model),
+                Learner = (teacher, data) => teacher.Learn(data),
+                Predictor = (forecast, data) => forecast.Predict(data),
+                Evaluation = (expected, predicted) => new Evaluation.Error()
+                .Measure(new Accord.Statistics.Analysis.GeneralConfusionMatrix(expected, predicted)),
+                Data = dataTrain
+            };
+
+
+            IGridDimension[] gd = new IGridDimension[] { gdKNN, gdSVM };
+
+            var clfBest = new Predict.IClassifierPredict[] { new Predict.KNearestNeighbors(),
+                new Predict.SupportVectorMachines() };
+
+
+            GridDimensionCollection gdc = new GridDimensionCollection(gd);
+            var errorBest = new double[gdc.Length];
+
+            int i = -1;
+            foreach (var clf in gdc)
+            {
+                clf.Fit();
+                clfBest[++i] = clf.BestModel;
+                errorBest[i] = clf.BestError;
+            }
+        }
 
         static void Main(string[] args)
         {
-            //GSIris();
             GD();
-            //IrisWord();
-            //GSIris();
-            //Console.ReadLine();
         }
     }
 }

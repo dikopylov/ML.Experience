@@ -3,17 +3,15 @@ using System;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class SupportVectorMachines : IClassifierLearn
+    class SupportVectorMachines : IClassifierLearnModel
+        <Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine,
+        Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning>
     {
-        /// <summary>
-        /// Обученная модель
-        /// </summary>
         public Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine Model { get; set; }
 
-        /// <summary>
-        /// Обучение модели
-        /// </summary>
         public Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning Teacher { get; set; }
+
+        public Accord.Statistics.Kernels.IKernel Kernel { get { return Teacher.Kernel; } set { Teacher.Kernel = value; } }
 
         public SupportVectorMachines(Accord.Statistics.Kernels.IKernel kernel)
         {

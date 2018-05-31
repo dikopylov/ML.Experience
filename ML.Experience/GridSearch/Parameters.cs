@@ -1,32 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace ML.Experience.GridSearch
 {
-    static class Parameters
+    class Parameters<TParam>
     {
-        public static double[] Range(double start, double finish, double step = 1)
+        public string Name { get; set; }
+
+        public TParam Value { get; set; }
+
+        public Parameters(string name, TParam value)
         {
-            List<double> param = new List<double>();
-            for (double i = start; i < finish; i += step)
+            Name = name;
+            Value = value;
+        }
+
+        public Parameters(string name)
+        {
+            Name = name;
+        }
+
+        public Parameters()
+        {
+
+        }
+
+        static public Parameters<int>[] Range(string name, int start, int finish, int step = 1)
+        {
+            List<Parameters<int>> range = new List<Parameters<int>>();
+            for (int i = start; i < finish; i += step)
             {
-                param.Add(i);
+                range.Add(new Parameters<int>(name, i));
             }
 
-            return param.ToArray();
+            return range.ToArray();
         }
 
-        public static double[] Values(params double[] values)
-        {
-            return values;
-        }
-
-        //static string[] Values(params string[] values)
-        //{
-        //    return values;
-        //}
     }
 }
