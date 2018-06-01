@@ -11,8 +11,7 @@ namespace ML.Experience.Classifier.Predict
 
         public SupportVectorMachines(
             Learn.IClassifierLearnModel
-            <Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine, 
-                Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning> svm)
+            <Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine> svm)
         {
             Model = svm.Model;
         }

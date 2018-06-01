@@ -26,10 +26,10 @@ namespace ML.Experience.GridSearch
 
         static public GridDimensionParameters<int>[] Range(string name, int start, int finish, int step = 1)
         {
-            List<Parameters<int>> range = new List<Parameters<int>>();
+            List<GridDimensionParameters<int>> range = new List<GridDimensionParameters<int>>();
             for (int i = start; i < finish; i += step)
             {
-                range.Add(new Parameters<int>(name, i));
+                range.Add(new GridDimensionParameters<int>(name, i));
             }
 
             return range.ToArray();

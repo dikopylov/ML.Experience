@@ -4,8 +4,7 @@ using System;
 namespace ML.Experience.Classifier.Learn
 {
     class SupportVectorMachines : IClassifierLearnModel
-        <Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine,
-        Accord.MachineLearning.VectorMachines.Learning.MulticlassSupportVectorLearning>
+        <Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine>
     {
         public Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine Model { get; set; }
 

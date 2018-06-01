@@ -11,15 +11,15 @@ namespace ML.Experience.GridSearch
     {
         public GridDimensionParameters<TParam>[] Criterion { get; set; }
 
-        public Func<GridDimensionParameters<TParam>, Learn.IClassifierLearnModel<TModel, TTeacher>> LearnOption { get; set; }
+        public Func<GridDimensionParameters<TParam>, Learn.IClassifierLearnModel<TModel>> LearnOption { get; set; }
 
-        public Func<Learn.IClassifierLearnModel<TModel, TTeacher>, Predict.IClassifierPredict> PredictOption { get; set; }
+        public Func<Learn.IClassifierLearnModel<TModel>, Predict.IClassifierPredict> PredictOption { get; set; }
 
         public Action<Learn.IClassifierLearn, IConverter> Learner { get; set; }
 
         public Func<Predict.IClassifierPredict, IConverter, int[]> Predictor { get; set; }
 
-        public Learn.IClassifierLearnModel<TModel, TTeacher>[] LearnModel { get; set; }
+        public Learn.IClassifierLearnModel<TModel>[] LearnModel { get; set; }
 
         public Predict.IClassifierPredict[] PredictModel { get; set; }
 
@@ -52,14 +52,14 @@ namespace ML.Experience.GridSearch
             if (Predictor == null)
                 throw new InvalidOperationException();
 
-            LearnModel = new Learn.IClassifierLearnModel<TModel, TTeacher>[Criterion.Length];
+            LearnModel = new Learn.IClassifierLearnModel<TModel>[Criterion.Length];
             PredictModel = new Predict.IClassifierPredict[Criterion.Length];
             Predicted = new int[Criterion.Length][];
             Error = new double[Criterion.Length];
 
             for (int i = 0; i < Criterion.Length; i++)
             {
-                Learn.IClassifierLearnModel<TModel, TTeacher> clfLearn = LearnOption(Criterion[i]);
+                Learn.IClassifierLearnModel<TModel> clfLearn = LearnOption(Criterion[i]);
 
                 Learner(clfLearn, Data);
                 LearnModel[i] = clfLearn;

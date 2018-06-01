@@ -10,8 +10,7 @@ namespace ML.Experience.Classifier.Predict
         /// </summary>        
         public Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution> Model { get; set; }
 
-        public NaiveBayes(Learn.IClassifierLearnModel<Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>
-        Accord.MachineLearning.Bayes.NaiveBayesLearning<Accord.Statistics.Distributions.Univariate.NormalDistribution>> nb)
+        public NaiveBayes(Learn.IClassifierLearnModel<Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>> nb)
         {
             Model = nb.Model;
         }

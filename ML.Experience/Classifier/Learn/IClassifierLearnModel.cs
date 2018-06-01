@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace ML.Experience.Classifier.Learn
 {
-    interface IClassifierLearnModel<TModel, TTeacher> : IClassifierLearn
+    interface IClassifierLearnModel<TModel> : IClassifierLearn
     {
         TModel Model { get; set; }
-
-        TTeacher Teacher { get; set; }
     }
 }

@@ -4,8 +4,7 @@ using System;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class LogitRegression : IClassifierLearnModel<Accord.Statistics.Models.Regression.MultinomialLogisticRegression,
-        Accord.Statistics.Models.Regression.Fitting.MultinomialLogisticLearning<Accord.Math.Optimization.ConjugateGradient>>
+    class LogitRegression : IClassifierLearnModel<Accord.Statistics.Models.Regression.MultinomialLogisticRegression>
     {
         public Accord.Statistics.Models.Regression.MultinomialLogisticRegression Model { get; set; }
 

@@ -4,8 +4,7 @@ using Accord.MachineLearning;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class KNearestNeighbors : IClassifierLearnModel<Accord.MachineLearning.KNearestNeighbors, 
-        Accord.MachineLearning.KNearestNeighbors>
+    class KNearestNeighbors : IClassifierLearnModel<Accord.MachineLearning.KNearestNeighbors>
     {
         public Accord.MachineLearning.KNearestNeighbors Model { get; set; }
 

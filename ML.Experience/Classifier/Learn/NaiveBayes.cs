@@ -4,8 +4,7 @@ using System;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class NaiveBayes : IClassifierLearnModel<Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>
-        Accord.MachineLearning.Bayes.NaiveBayesLearning<Accord.Statistics.Distributions.Univariate.NormalDistribution>>
+    class NaiveBayes : IClassifierLearnModel<Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>>
     {      
         public Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution> Model { get; set; }
 
