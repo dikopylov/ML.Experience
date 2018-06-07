@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace ML.Experience.CrossValid
 {
-    class CrossDelimiter
+    class CrossValidation
     {
         public int Fold { get; set; }
 
         public int K { get; set; }
 
-        public CrossDelimiter(int fold, int k = 3)
+        public CrossValidation(int fold, int k = 3)
         {
             Fold = fold;
             K = k;

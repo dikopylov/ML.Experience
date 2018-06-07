@@ -184,25 +184,30 @@ namespace ML.Experience
 
             IEvaluation[] evaluation = new IEvaluation[] { new Precision(), new Recall(), new FScore()};
 
-            CrossDelimiter cv = new CrossDelimiter(3);
+            CrossValidation cv = new CrossValidation(3);
             LearnData[][] cvData = cv.Fit(data);
 
             double[,,] measure = new double[cvData.Length, cvData[0].Length, cvData[0].Length];
 
-            for (int i = 0; i < gridDimensions.Length; i++)
+            /// Цикл по IGridDimension
+            foreach (var gd in gridDimensions)
             {
-                var clfFit = gridDimensions[i].Fit();
+                var clfFit = gd.Fit();
+                /// Цикл по созданным классификаторам с РАЗНЫМИ параметрами
                 foreach (var clf in clfFit)
                 {
+                    /// Цикл по данным, разреженным на j блоков при помощи кросс-валидации
                     for (int j = 0; j < cvData.Length; j++)
                     {
                         int k;
+                        /// Цикл по k частям внутри каждого блока
                         for (k = 0; k < cvData[j].Length - 1; k++)
                         {
                             clf.Learn(cvData[j][k]);
-                        }
+                        } 
                         var predict = clf.TestPredict(cvData[j][k]);
                         int m = 0;
+                        /// Цикл по метрикам качества алгоритмов
                         foreach (IEvaluation metric in evaluation)
                         {
                             measure[j, k, m++] = metric.Measure(cvData[j][k].Outputs, predict);
@@ -213,40 +218,9 @@ namespace ML.Experience
             }
         }
 
-        static void CV()
-        {
-            ConvertFromCSV dataTrain = new ConvertFromCSV("class", ';');
-            string pathTrain = System.IO.Path.GetFullPath(@"Data\Iris\IrisTrain.csv");
-            dataTrain.Convert(pathTrain);
-
-            CrossDelimiter cv = new CrossDelimiter(3);
-
-            LearnData[][] cvData = cv.Fit(dataTrain);
-
-            var knn = new Learn.KNearestNeighbors(3);
-            var knnP = new Predict.KNearestNeighbors();
-
-            double[] ev = new double[cvData.Length];
-
-            for (int i = 0; i < cvData.Length; i++)
-            {
-                for (int k = 0; k < cvData[i].Length - 1; k++)
-                {
-                    knn.Learn(cvData[i][k]);
-                }
-                var data = new PredictData
-                {
-                    Inputs = cvData[i][cvData[i].Length - 1].Inputs
-                };
-                knnP.Model = knn.Model;
-                var predict = knnP.Predict(data);
-                ev[i] = new Evaluation.Error().Measure(cvData[i][cvData[i].Length - 1].Outputs, predict);
-            }
-        }
-
         static void Main(string[] args)
         {
-
+            GD();
         }
     }
 }

@@ -5,32 +5,8 @@ using System.Collections;
 
 namespace ML.Experience.GridSearch
 {
-    class GridDimension<TParam> : IGridDimension, IEnumerable
+    class GridDimension<TParam> : IGridDimension
     {
-        IClassifierLearn[] clf;
-
-        public int Length
-        {
-            get { return clf.Length; }
-        }
-
-        public IClassifierLearn this[int index]
-        {
-            get
-            {
-                return clf[index];
-            }
-            set
-            {
-                clf[index] = value;
-            }
-        }
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return clf.GetEnumerator();
-        }
-
         public Func<GridDimensionParameters<TParam>, IClassifierLearn> LearnOption { get; set; }
 
         public GridDimensionParameters<TParam>[] Criterion { get; set; }
