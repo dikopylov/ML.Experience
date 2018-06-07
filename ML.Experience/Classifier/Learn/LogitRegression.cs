@@ -1,10 +1,11 @@
 ﻿using Accord.IO;
 using ML.Experience.Converter;
 using System;
+using ML.Experience.Data;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class LogitRegression : IClassifierLearnModel<Accord.Statistics.Models.Regression.MultinomialLogisticRegression>
+    class LogitRegression : IClassifierLearn
     {
         public Accord.Statistics.Models.Regression.MultinomialLogisticRegression Model { get; set; }
 
@@ -15,9 +16,20 @@ namespace ML.Experience.Classifier.Learn
             Teacher = new Accord.Statistics.Models.Regression.Fitting.MultinomialLogisticLearning<Accord.Math.Optimization.ConjugateGradient>();
         }
 
+
         public void Learn(IConverter data)
         {
             Model = Teacher.Learn(data.Inputs, data.Outputs);
+        }
+
+        public void Learn(LearnData data)
+        {
+            Model = Teacher.Learn(data.Inputs, data.Outputs);
+        }
+
+        public int[] TestPredict(LearnData data)
+        {
+            return Model.Decide(data.Inputs);
         }
 
         public void Save(string path)

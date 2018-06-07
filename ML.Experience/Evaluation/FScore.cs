@@ -4,12 +4,14 @@ namespace ML.Experience.Evaluation
 {
     class FScore : IEvaluation
     {
-        public double Measure(Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater)
+        public double Measure(int[] expected, int[] predicted)
         {
-            double dataPrecision = new Precision().Measure(Estimater);
-            double dataRecall = new Recall().Measure(Estimater);
+            Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater =
+                new Accord.Statistics.Analysis.GeneralConfusionMatrix(expected, predicted);
+            double dataPrecision = new Precision().Measure(expected, predicted);
+            double dataRecall = new Recall().Measure(expected, predicted);
 
-            return Math.Round((2 * dataPrecision * dataRecall / (dataPrecision + dataRecall)), 0);
+            return 2 * dataPrecision * dataRecall / (dataPrecision + dataRecall);
         }
     }
 }

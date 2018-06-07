@@ -1,10 +1,11 @@
 ﻿using ML.Experience.Converter;
 using System;
 using Accord.MachineLearning;
+using ML.Experience.Data;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class KNearestNeighbors : IClassifierLearnModel<Accord.MachineLearning.KNearestNeighbors>
+    class KNearestNeighbors : IClassifierLearn
     {
         public Accord.MachineLearning.KNearestNeighbors Model { get; set; }
 
@@ -20,6 +21,16 @@ namespace ML.Experience.Classifier.Learn
         public void Learn(IConverter data)
         {
             Model = Teacher.Learn(data.Inputs, data.Outputs);
+        }
+
+        public void Learn(LearnData data)
+        {
+            Model = Teacher.Learn(data.Inputs, data.Outputs);
+        }
+
+        public int[] TestPredict(LearnData data)
+        {
+            return Model.Decide(data.Inputs);
         }
 
         public void Save(string path)

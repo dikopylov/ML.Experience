@@ -4,8 +4,10 @@ namespace ML.Experience.Evaluation
 {
     class Recall : IEvaluation
     {
-        public double Measure(Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater)
+        public double Measure(int[] expected, int[] predicted)
         {
+            Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater =
+                new Accord.Statistics.Analysis.GeneralConfusionMatrix(expected, predicted);
             /// Получаем полноту по каждому вектору
             double[] recalls = Estimater.Recall;
             double sumRecalls = 0;
@@ -15,7 +17,7 @@ namespace ML.Experience.Evaluation
                 sumRecalls += recalls[i];
             }
 
-            return Math.Round((sumRecalls / recalls.Length) * 100, 0);
+            return sumRecalls / recalls.Length;
         }
     }
 }

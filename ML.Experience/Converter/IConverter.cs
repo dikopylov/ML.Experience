@@ -9,8 +9,6 @@ namespace ML.Experience.Converter
 
         int[] Outputs { get; set; }
 
-        Dictionary<string, int> Translator { get; set; }
-
         void Convert(string path);
     }
 }

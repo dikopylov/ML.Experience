@@ -1,10 +1,10 @@
 ﻿using ML.Experience.Converter;
 using System;
+using ML.Experience.Data;
 
 namespace ML.Experience.Classifier.Learn
 {
-    class SupportVectorMachines : IClassifierLearnModel
-        <Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine>
+    class SupportVectorMachines : IClassifierLearn
     {
         public Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine Model { get; set; }
 
@@ -25,6 +25,16 @@ namespace ML.Experience.Classifier.Learn
         public void Learn(IConverter data)
         {
             Model = Teacher.Learn(data.Inputs, data.Outputs);
+        }
+
+        public void Learn(LearnData data)
+        {
+            Model = Teacher.Learn(data.Inputs, data.Outputs);
+        }
+
+        public int[] TestPredict(LearnData data)
+        {
+            return Model.Decide(data.Inputs);
         }
 
         public void Save(string path)

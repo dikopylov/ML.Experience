@@ -1,25 +1,18 @@
-﻿
+﻿using ML.Experience.Data;
 using Accord.IO;
 using ML.Experience.Converter;
 
 namespace ML.Experience.Classifier.Predict
 {
-    class SupportVectorMachines : IClassifierPredict
+    class SupportVectorMachines : IClassifier
     {
         public Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine
              Model { get; set; }
 
-        public SupportVectorMachines(
-            Learn.IClassifierLearnModel
-            <Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine> svm)
+        public SupportVectorMachines(Learn.SupportVectorMachines svm)
         {
             Model = svm.Model;
         }
-
-        //public SupportVectorMachines(Learn.SupportVectorMachines<TKernel> svm)
-        //{
-        //    Model = svm.Model;
-        //}
 
         public SupportVectorMachines() { }
 
@@ -28,9 +21,14 @@ namespace ML.Experience.Classifier.Predict
             return Model.Decide(data.Inputs);
         }
 
+        public int[] Predict(PredictData data)
+        {
+            return Model.Decide(data.Inputs);
+        }
+
         public void Load(string path)
         {
-         //   Model = Serializer.Load<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine<Accord.Statistics.Kernels.IKernel>>(path);
+            Model = Serializer.Load<Accord.MachineLearning.VectorMachines.MulticlassSupportVectorMachine>(path);
         }
     }
 }

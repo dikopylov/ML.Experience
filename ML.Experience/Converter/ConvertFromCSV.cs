@@ -39,12 +39,19 @@ namespace ML.Experience.Converter
             try
             {
                 Outputs = Data.Columns[NameOfLabel].ToArray<int>();
+                Data.Columns.Remove(NameOfLabel);
             }
             catch(FormatException)
             {
                 ConvertFromString();
+                Data.Columns.Remove(NameOfLabel);
             }
-            Data.Columns.Remove(NameOfLabel);
+            catch (NullReferenceException)
+            {
+                Outputs = null;
+            }
+
+
             Inputs = Data.ToJagged<double>();
         }
 

@@ -5,8 +5,10 @@ namespace ML.Experience.Evaluation
     class Precision : IEvaluation
     {
 
-        public double Measure(Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater)
+        public double Measure(int[] expected, int[] predicted)
         {
+            Accord.Statistics.Analysis.GeneralConfusionMatrix Estimater =
+                new Accord.Statistics.Analysis.GeneralConfusionMatrix(expected, predicted);
             /// Получаем точность по каждому вектору
             double[] precisions = Estimater.Precision;
             double sumPresicions = 0;
@@ -16,7 +18,7 @@ namespace ML.Experience.Evaluation
                 sumPresicions += precisions[i];
             }
 
-            return Math.Round((sumPresicions / precisions.Length) * 100, 0);
+            return sumPresicions / precisions.Length;
         }
     }
 }

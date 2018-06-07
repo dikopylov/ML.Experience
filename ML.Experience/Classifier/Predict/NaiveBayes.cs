@@ -1,16 +1,17 @@
 ﻿using Accord.IO;
 using ML.Experience.Converter;
+using ML.Experience.Data;
 
 namespace ML.Experience.Classifier.Predict
 {
-    class NaiveBayes : IClassifierPredict
+    class NaiveBayes : IClassifier
     {
         /// <summary>
         /// Обученная модель
         /// </summary>        
         public Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution> Model { get; set; }
 
-        public NaiveBayes(Learn.IClassifierLearnModel<Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>> nb)
+        public NaiveBayes(Learn.NaiveBayes nb)
         {
             Model = nb.Model;
         }
@@ -22,6 +23,11 @@ namespace ML.Experience.Classifier.Predict
             return Model.Decide(data.Inputs);
         }
 
+        public int[] Predict(PredictData data)
+        {
+            return Model.Decide(data.Inputs);
+        }
+        
         public void Load(string path)
         {
             Model = Serializer.Load<Accord.MachineLearning.Bayes.NaiveBayes<Accord.Statistics.Distributions.Univariate.NormalDistribution>>(path);
