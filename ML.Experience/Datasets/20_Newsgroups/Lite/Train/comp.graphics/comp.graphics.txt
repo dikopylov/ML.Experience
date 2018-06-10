@@ -1,0 +1,1347 @@
+comp.graphics
+From: lipman@oasys.dt.navy.mil (Robert Lipman)
+Subject: CALL FOR PRESENTATIONS: Navy SciViz/VR Seminar
+
+
+			CALL FOR PRESENTATIONS
+	
+      NAVY SCIENTIFIC VISUALIZATION AND VIRTUAL REALITY SEMINAR
+
+			Tuesday, June 22, 1993
+
+	    Carderock Division, Naval Surface Warfare Center
+	      (formerly the David Taylor Research Center)
+			  Bethesda, Maryland
+
+SPONSOR: NESS (Navy Engineering Software System) is sponsoring a 
+one-day Navy Scientific Visualization and Virtual Reality Seminar.  
+The purpose of the seminar is to present and exchange information for
+Navy-related scientific visualization and virtual reality programs, 
+research, developments, and applications.
+
+PRESENTATIONS: Presentations are solicited on all aspects of 
+Navy-related scientific visualization and virtual reality.  All 
+current work, works-in-progress, and proposed work by Navy 
+organizations will be considered.  Four types of presentations are 
+available.
+
+     1. Regular presentation: 20-30 minutes in length
+     2. Short presentation: 10 minutes in length
+     3. Video presentation: a stand-alone videotape (author need not 
+	attend the seminar)
+     4. Scientific visualization or virtual reality demonstration (BYOH)
+
+Accepted presentations will not be published in any proceedings, 
+however, viewgraphs and other materials will be reproduced for 
+seminar attendees.
+
+ABSTRACTS: Authors should submit a one page abstract and/or videotape to:
+
+     Robert Lipman
+     Naval Surface Warfare Center, Carderock Division
+     Code 2042
+     Bethesda, Maryland  20084-5000
+
+     VOICE (301) 227-3618;  FAX (301) 227-5753  
+     E-MAIL  lipman@oasys.dt.navy.mil
+
+Authors should include the type of presentation, their affiliations, 
+addresses, telephone and FAX numbers, and addresses.  Multi-author 
+papers should designate one point of contact.
+
+DEADLINES: The abstact submission deadline is April 30, 1993.  
+Notification of acceptance will be sent by May 14, 1993.  
+Materials for reproduction must be received by June 1, 1993.
+
+For further information, contact Robert Lipman at the above address.
+
+	  PLEASE DISTRIBUTE AS WIDELY AS POSSIBLE, THANKS.
+
+
+
+
+Robert Lipman                     | Internet: lipman@oasys.dt.navy.mil
+David Taylor Model Basin - CDNSWC |       or: lip@ocean.dt.navy.mil
+Computational Signatures and      | Voicenet: (301) 227-3618
+   Structures Group, Code 2042    | Factsnet: (301) 227-5753
+Bethesda, Maryland  20084-5000    | Phishnet: stockings@long.legs
+				   
+The sixth sick shiek's sixth sheep's sick.
+
+From: weston@ucssun1.sdsu.edu (weston t)
+Subject: graphical representation of vector-valued functions
+
+gnuplot, etc. make it easy to plot real valued functions of 2 variables
+but I want to plot functions whose values are 2-vectors. I have been 
+doing this by plotting arrays of arrows (complete with arrowheads) but
+before going further, I thought I would ask whether someone has already
+done the work. Any pointers??
+
+thanx in advance
+
+
+Tom Weston                    | USENET: weston@ucssun1.sdsu.edu
+Department of Philosophy      | (619) 594-6218 (office)
+San Diego State Univ.         | (619) 575-7477 (home)
+San Diego, CA 92182-0303      | 
+
+From: rap@coconut.cis.ufl.edu (Ryan Porter)
+Subject: Re: DMORPH
+
+In article <1993Apr3.183303.6442@usl.edu> jna8182@ucs.usl.edu (Armstrong Jay N) writes:
+>Can someone please tell me where I can ftp DTA or DMORPH?
+
+DMorf (Dave's Morph, I think is what it means) and DTax (Dave's 
+TGA Assembler) are available in the MSDOS_UPLOADS directory
+on the wuarchive.
+
+They are arjed and bundled with their respective xmemory versions,
+dmorfx.exe and dtax.exe, you can also find a version of aaplay.exe
+there, with which you can view files you create with dta.exe or
+dtax.exe.
+
+I downloaded the whole bunch last week and have been morphing 
+away the afternoons since.  The programmes are all a bit buggy and
+definitely not-ready-to-spread-to-the-masses, but they are very
+well written. 
+
+The interface is frustrating at first, but it gets easy once you
+figure out the tricks.
+
+I have noticed that dmorfx will crash horribly if you try to morph
+without using the splines option.  Not sure why, since I don't have
+the source.  I think it was written for TP 6.0.
+
+If anyone else comes up with any other hints on getting the thing 
+to work right, tell me; it took me several hours the first time
+just to figure out that if I just used the durned splines then 
+it would work...
+
+>JNA
+>jna8182@usl.edu
+
+-Ryan
+rap@cis.ufl.edu
+
+From: kph2q@onyx.cs.Virginia.EDU (Kenneth Hinckley)
+Subject:   VOICE INPUT -- vendor information needed
+
+
+Hello,
+     I am looking to add voice input capability to a user interface I am
+developing on an HP730 (UNIX) workstation.  I would greatly appreciate 
+information anyone would care to offer about voice input systems that are 
+easily accessible from the UNIX environment. 
+
+     The names or adresses of applicable vendors, as well as any 
+experiences you have had with specific systems, would be very helpful.
+
+     Please respond via email; I will post a summary if there is 
+sufficient interest.
+
+
+Thanks,
+Ken
+
+
+P.S.  I have found several impressive systems for IBM PC's, but I would 
+like to avoid the hassle of purchasing and maintaining a separate PC if 
+at all possible.
+
+-------------------------------------------------------------------------------
+Ken Hinckley (kph2q@virginia.edu)
+University of Virginia 
+Neurosurgical Visualization Laboratory
+-------------------------------------------------------------------------------
+
+From: joth@ersys.edmonton.ab.ca (Joe Tham)
+Subject: Where can I find SIPP?
+
+        I recently got a file describing a library of rendering routines 
+called SIPP (SImple Polygon Processor).  Could anyone tell me where I can 
+FTP the source code and which is the newest version around?
+        Also, I've never used Renderman so I was wondering if Renderman 
+is like SIPP?  ie. a library of rendering routines which one uses to make 
+a program that creates the image...
+
+                                        Thanks,  Joe Tham
+
+--
+Joe Tham              joth@ersys.edmonton.ab.ca 
+
+From: andrey@cco.caltech.edu (Andre T. Yew)
+Subject: Re: 16 million vs 65 thousand colors
+
+d9hh@dtek.chalmers.se (Henrik Harmsen) writes:
+
+>1-4 bits per R/G/B gives horrible machbanding visible in almost any picture.
+
+>5 bits per R/G/B (32768, 65000 colors) gives visible machbanding
+
+>color-gradient picture has _almost_ no machbanding. This color-resolution is 
+
+>see some small machbanding on the smooth color-gradient picture, but all in all,
+>There _ARE_ situiations where you get visible mach-banding even in
+>a 24 bit card. If
+>you create a very smooth color gradient of dark-green-white-yellow
+>or something and turn
+>up the contrast on the monitor, you will probably see some mach-banding.
+
+    While I don't mean to damn Henrik's attempt to be helpful here,
+he's using a common misconception that should be corrected.
+
+    Mach banding will occur for any image.  It is not the color
+quantization you see when you don't have enough bits.  It is the
+human eye's response to transitions or edges between intensities.
+The result is that colors near the transistion look brighter on
+the brighter side and darker on the darker side.
+
+--Andre
+
+-- 
+             Andre Yew andrey@cco.caltech.edu (131.215.139.2)
+
+From: oehler@picard.cs.wisc.edu (Eric Oehler)
+Subject: Translating TTTDDD to DXF or Swiv3D.
+
+I am a Mac-user when it comes to graphics (that's what I own software and hardware for) and
+I've recently come across a large number of TTTDDD format modeling databases.  Is there any
+software, mac or unix, for translating those to something I could use, like DXF?  Please
+reply via email.
+
+Thanx.
+Eric Oehler
+oehler@picard.cs.wisc.edu
+
+From: alex@talus.msk.su (Alex Kolesov)
+Subject: Help on RenderMan language wanted!
+
+Hello everybody !
+
+If you are using PIXAR'S RenderMan 3D scene description language for creating 3D worlds, please, help me. 
+
+I'm using RenderMan library on my NeXT but there is no documentation about NeXTSTEP version of RenderMan available. I can create very complicated scenes and render them using surface shaders, 
+but I can not bring them to life by applying shadows and reflections.
+
+As far as I understand I have to define environmental and shadows maps to produce reflections and shadows, but I do not know how to use them.
+
+Any advises or simple RIB or C examples will be appreciated.
+Thanks in advance...
+
+---
+Alex Kolesov                             Moscow, Russia.
+Talus Imaging & Communications Corporation
+e-mail: <alex@talus.msk.su> 		(NeXT mail accepted)  			   
+.   
+
+From: rowlands@pocomoco.NoSubdomain.NoDomain (Jon Rowlands)
+Subject: Re: More gray levels out of the screen
+
+In article <1pp991$t63@cc.tut.fi>, jk87377@lehtori.cc.tut.fi (Kouhia Juhana)
+writes:
+>In article <1993Apr5.040819.14943@kpc.com> hollasch@kpc.com (Steve
+>Hollasch) writes:
+>>
+>>    I think you're proposal would work to get an extra one, maybe two extra
+>>bits of color resolution.  However, if you had a display that chould do only
+>>zero or full intensity for each primary, I don't think you'd get great
+>>equivalent 24-bit photographs.
+>
+>I have not suggested to do so; I wrote about problems, and the problem
+>were clearly visible with 7 bit b&w images; not to mention 24 bit images.
+
+[ description of experiment deleted ]
+
+>If the 1 bit images are viewed quickly and in sync with screen,
+>then 100 intensities could be better than we have -- I dunno.
+
+[ more deleted ]
+
+>In any case, getting black color with slow machines is problem.
+>I could try it on our 8 bit screens but I don't know how to
+>render pixels with X in constant time. I recall our double buffer
+>has other image color and one b&w -- that doesn't help either.
+>Maybe I should dump photos to screen with low level code; how?
+
+A few years ago a friend and I took some 256 grey-level photos from
+a 1 bit Mac Plus screen using this method. Displaying all 256 levels
+synchronized to the 60Hz display took about 10 seconds. After
+experimenting with different aperture settings and screen
+brightnesses we found a range that worked well, giving respectable
+contrast. The quality of the images was pretty good. There were no
+visible contrast bands.
+
+To minimize the exposure time the display program built 255
+different 1 bit frames. The first contained a dot only for pixels
+that had value 255, the second only for pixels that had value 254,
+etc. These frames were stored using a sparse data structure that was
+very fast to 'or' onto the screen in sequence. Creating these
+frames sometimes took 5-10 minutes on that old Mac, but the camera
+shutter was closed during that time anyway. And yes, we wrote
+directly to the screen memory. Mea culpa.
+
+Our biggest problem was that small images were displayed in the
+top left corner of the screen instead of the center. It took
+an extra week to have the film developed and printed, because the
+processors took the trouble to manually move the all images into
+the center of the print. Who'd have guessed?
+
+regards,
+Jon Rowlands
+
+From: sloan@cis.uab.edu (Kenneth Sloan)
+Subject: Re: More gray levels out of the screen
+
+In article <C51C4r.BtG@csc.ti.com> rowlands@hc.ti.com (Jon Rowlands) writes:
+>
+>A few years ago a friend and I took some 256 grey-level photos from
+>a 1 bit Mac Plus screen using this method. Displaying all 256 levels
+>synchronized to the 60Hz display took about 10 seconds.
+
+Why didn't you create 8 grey-level images, and display them for
+1,2,4,8,16,32,64,128... time slices?
+
+This requires the same total exposure time, and the same precision in
+timing, but drastically reduces the image-preparation time, no?
+
+
+
+
+
+
+-- 
+Kenneth Sloan                   Computer and Information Sciences
+sloan@cis.uab.edu               University of Alabama at Birmingham
+(205) 934-2213                  115A Campbell Hall, UAB Station 
+(205) 934-5473 FAX              Birmingham, AL 35294-1170
+
+From: lex@optimla.aimla.com (Lex van Sonderen)
+Subject: Re: Rumours about 3DO ???
+
+In article <h1p4s4g@zola.esd.sgi.com> erik@westworld.esd.sgi.com (Erik Fortune) writes:
+>> better than CDI
+>*Much* better than CDI.
+Of course, I do not agree.  It does have more horsepower.  Horsepower is not
+the only measurement for 'better'.  It does not have full motion, full screen
+video yet.  Does it have CD-ROM XA?
+
+>> starting in the 4 quarter of 1993
+>The first 3DO "multiplayer" will be manufactured by panasonic and will be 
+>available late this year.   A number of other manufacturers are reported to 
+>have 3DO compatible boxes in the works.
+Which other manufacturers?
+We shall see about the date.
+
+>All this information is third hand or so and worth what you paid for it:-).
+This is second hand, but it still hard to look to the future ;-).
+
+Lex van Sonderen
+lex@aimla.com
+Philips Interactive Media
+
+From: teckjoo@iti.gov.sg (Chua Teck Joo)
+Subject: Visuallib (3D graphics for Windows)
+
+
+I am currently looking for a 3D graphics library that runs on MS
+Windows 3.1.  Are there any such libraries out there other than
+Visuallib?  (It must run on VGA and should not require any other
+add-on graphics cards).
+
+For Visuallib, will it run with Metaware High C compiler v3.0?  Any
+email contact for the author of Visuallib?
+
+Any help would be much appreciated.  Thanks.
+
+
+-- 
+* Chua, Teck Joo	    | Information Technology Institute *
+* Email: teckjoo@iti.gov.sg | 71 Science Park Drive	       *
+* Phone: (65) 772-0237 	    | Singapore (0511)		       *
+* Fax:   (65) 779-1827      |			   	       *
+
+From: cst@garfield.catt.ncsu.edu (Caroline Tsang)
+Subject: Graphics Library Package
+
+Hi all,
+
+  I am looking for a recommandation on a good royalty free graphics
+library package for C and C++ program.  This is mainly use to write
+children games and education software.  I heard someone mentioned Genus
+and also GFX ?  Are they any good?
+
+Please pardon me if my question sounds a little strange, I am asking
+this question for a friend.
+
+Thanks in advance!
+
+Caroline Tsang
+<cst@garfield.catt.ncsu.edu>
+  
+
+From: bprofane@netcom.com (Gert Niewahr)
+Subject: Re: Rumours about 3DO ???
+
+In article <C51Eyz.4Ix@optimla.aimla.com> lex@optimla.aimla.com (Lex van Sonderen) writes:
+>In article <h1p4s4g@zola.esd.sgi.com> erik@westworld.esd.sgi.com (Erik Fortune) writes:
+>>> better than CDI
+>>*Much* better than CDI.
+>Of course, I do not agree.  It does have more horsepower.  Horsepower is not
+>the only measurement for 'better'.  It does not have full motion, full screen
+>video yet.  Does it have CD-ROM XA?
+>
+>>> starting in the 4 quarter of 1993
+>>The first 3DO "multiplayer" will be manufactured by panasonic and will be 
+>>available late this year.   A number of other manufacturers are reported to 
+>>have 3DO compatible boxes in the works.
+>Which other manufacturers?
+>We shall see about the date.
+
+A 3DO marketing rep. recently offered a Phillips marketing rep. a $100
+bet that 3DO would have boxes on the market on schedule.  The Phillips
+rep. declined the bet, probably because he knew that 3DO players are
+already in pre-production manufacturing runs, 6 months before the
+commercial release date.
+
+By the time of commercial release, there will be other manufacturers of
+3DO players announced and possibly already tooling up production.  Chip
+sets will be in full production.  The number of software companies
+designing titles for the box will be over 300.
+
+How do I know this?  I was at a bar down the road from 3DO headquarters
+last week.  Some folks were bullshitting a little too loudly about
+company business.
+
+>>All this information is third hand or so and worth what you paid for it:-).
+>This is second hand, but it still hard to look to the future ;-).
+>
+>Lex van Sonderen
+>lex@aimla.com
+>Philips Interactive Media
+ ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+ What an impartial source!
+
+From: hl7204@eehp22 (H L)
+Subject: Re: Graphics Library Package
+
+  
+
+
+From: steveq@DIALix.oz.au (Steve Quartly)
+Subject: WANTED: SIRD Alogorythmn
+
+Hi,
+
+I'm interested in writing a program to generate a SIRD picture, you know
+the stereogram where you cross your eyes and the picture becomes 3D.
+
+Does anyone have one or know where I can get one?
+
+Please e-mail to steveq@sndcrft.DIALix.oz.au with any replies.
+
+Many thanks for your help.
+
+Steve Q.
+
+From: ari@tahko.lpr.carel.fi (Ari Suutari)
+Subject: Any graphics packages available for AIX ?
+
+
+	Does anybody know if there are any good 2d-graphics packages
+	available for IBM RS/6000 & AIX ? I'm looking for something
+	like DEC's GKS or Hewlett-Packards Starbase, both of which
+	have reasonably good support for different output devices
+	like plotters, terminals, X etc.
+
+	I have tried also xgks from X11 distribution and IBM's implementation
+	of Phigs. Both of them work but we require more output devices
+	than just X-windows.
+
+	Our salesman at IBM was not very familiar with graphics and
+	I am not expecting for any good solutions from there.
+
+
+		Ari
+
+---
+
+	Ari Suutari			ari@carel.fi
+	Carelcomp Oy
+	Lappeenranta
+	FINLAND
+
+
+From: wijkstra@fwi.uva.nl (Marcel Wijkstra (AIO))
+Subject: Re: BW hardcopy of colored window?
+
+mars@ixos.de (Martin Stein) writes:
+
+#I use xwd/xpr (from the X11R5 dist.) and various programs of the
+#ppm-tools to print hardcopies of colored X windows. My problem is,
+
+I don't like xpr. It gives (at least, the X11R4 version does) louzy
+output: the hardcopy looks very grainy to me.
+Instead, I use pnmtops. This takes full advantage PostScript, and
+lets the printer do the dirty job of dithering a (graylevel)
+image to black and white dots.
+
+So: if you have a PostScript printer, try:
+	xwdtopnm <xwdfile> |	# convert to PPM
+	[ppmtopgm |]		# .. to graylevel for smaller file to print
+	pnmtops -noturn |	# .. to PostScript
+	lpr			# print
+
+pnmtops Has several neat options, but use them with care:
+If you want your image to be 4" wide, use:
+	pnmtops -noturn -scale 100 -width 4
+-noturn Prevents the image from being rotated (if it is wider than it
+	is high)
+-width 4 Specifies the PAPER width (not the image width - see below)
+-scale 100 Is used because if the image is small, it may fit within a
+	width less than 4", and will thus be printed smaller than 4" wide.
+	If you first scale it up a lot, it will certainly not fit in 4", and
+	will be scaled down by pnmtops automatically to fit the specified
+	paper width. 
+	In short: pnmtops will scale an image down to fit the paper size,
+	but it will not blow it up automatically.
+
+Hope this helps.
+Marcel.
+-- 
+ X	   Marcel Wijkstra   AIO   (wijkstra@fwi.uva.nl)
+|X|	     Faculty of Mathematics and Computer Science	
+ X	       University of Amsterdam   The Netherlands
+======Life stinks. Fortunately, I've got a cold.========
+
+From: jk87377@lehtori.cc.tut.fi (Kouhia Juhana)
+Subject: Re: More gray levels out of the screen
+
+In article <1993Apr6.011605.909@cis.uab.edu> sloan@cis.uab.edu
+(Kenneth Sloan) writes:
+>
+>Why didn't you create 8 grey-level images, and display them for
+>1,2,4,8,16,32,64,128... time slices?
+
+By '8 grey level images' you mean 8 items of 1bit images?
+It does work(!), but it doesn't work if you have more than 1bit
+in your screen and if the screen intensity is non-linear.
+
+With 2 bit per pixel; there could be 1*c_1 + 4*c_2 timing,
+this gives 16 levels, but they are linear if screen intensity is
+linear.
+With 1*c_1 + 2*c_2 it works, but we have to find the best
+compinations -- there's 10 levels, but 16 choises; best 10 must be
+chosen. Different compinations for the same level, varies a bit, but
+the levels keeps their order.
+
+Readers should verify what I wrote... :-)
+
+Juhana Kouhia
+
+From: renouar@amertume.ufr-info-p7.ibp.fr (Renouard Olivier)
+Subject: LOOKING for CTDS !
+
+I can't find CTDS (Connect The Dots Smoother) in France. If it is a commercial
+program I'll happily pay whatever it may cost (do not take it litterally).
+Please help!
+I have *LOTS* of PoV sources, texture images and animations though, if you
+are looking for something, just tell.
+
+From: renouar@amertume.ufr-info-p7.ibp.fr (Renouard Olivier)
+Subject: Re: POV previewer
+
+Actually I am trying to write something like this but I encounter some
+problems, amongst them:
+
+- drawing a 3d wireframe view of a quadric/quartic requires that you have
+the explicit equation of the quadric/quartic (x, y, z functions of some
+parameters). How to convert the implicit equation used by PoV to an
+explicit one? Is it mathematically always possible?
+
+I don't have enough math to find out by myself, has anybody heard about
+useful books on the subject?
+
+From: dsnyder@falcon.aamrl.wpafb.af.mil
+Subject: Re: Real Time Graphics??
+
+In article <C4vA9r.KK7@taurus.cs.nps.navy.mil>, stockel@oahu.oc.nps.navy.mil (Jim Stockel) writes:
+> Hi,
+> 
+> I will be writing a data acquisition program to collect data from a
+> variety of sources including RS232, and external A/D's, and I would
+> like to be able to display the data in near realtime.  I've done this
+> type of thing on PC's and other machines, but I am unaware of any graphics
+> package that could help me with this on a UNIX machine.
+> 
+> .......
+> 
+> Does anyone have any ideas on commercial or "free" packages that might
+> suit my needs?  I would really appreciate any input.  I'm sure this has
+> been done many times before.
+> 
+
+  For a commerical package try WAVE from  Precision Visuals
+                                           505-530-6563
+
+  For a free package try KHOROS from University of New Mexico
+                                      508-277-6563
+                                   ftp from
+                              ptrg.eece.unm.edu
+
+    Login in anonyomus or ftp  with a valid email address as the password
+               cd /pub/khoros/release
+
+   That will get you to the right place.
+
+                                                         David
+
+From: scrowe@hemel.bull.co.uk (Simon Crowe)
+Subject: BGI Drivers for SVGA
+
+I require BGI drivers for Super VGA Displays and Super XVGA Displays. Does 
+anyone know where I could obtain the relevant drivers ? (FTP sites ??)
+
+	Regards
+
+
+		Simon Crowe
+
+
+
+
+
+From: d91-fad@tekn.hj.se (DANIEL FALK)
+Subject: RE: VESA on the Speedstar 24
+
+>>>kjb/MGL/uvesa32.zip
+>>>
+>>>This is a universal VESA driver.  It supports most video
+>>>boards/chipsets (include the Speedstar-24 and -24X) up to
+>>>24 bit color.
+>>>
+>>>Terry
+>>>
+>>>P.S.  I've tried it on a Speedstar-24 and -24X and it works. :)
+
+>>Not with all software. :( For instance it doesn't work at all with
+>>Animator Pro from Autodesk. It can't detect ANY SVGA modes when 
+>>running UniVESA. This is really a problem as we need a VESA driver
+>>for both AA Pro and some hi-color stuff. :(
+
+>Just out of curiosity... Are you using the latest version (3.2)?  Versions
+>previous to this did not fill in all of the capabilities bits and other
+>information correctly.  I had problems with a lot of software until I got
+>this version.  (I don't think the author got around to posting an 
+>announcementof it (or at least I missed it), but 3.2 was available in the 
+>directory indicated as of 3/29.)
+
+I sure did use version 3.2. It works fine with most software but NOT
+with Animator Pro and that one is quite important to me. Pretty
+useless program without that thing working IMHO.
+So I hope the author can fix that.
+
+/Daniel...
+
+
+
+
+=============================================================================
+!!      Daniel Falk          \\  " Don't quote me! No comments! "          !! 
+!!      ^^^^^^ ^^^^           \\               Ebenezum the Great Wizard   !! 
+!!      d91-fad@tekn.hj.se     \\                                          !!
+!!      d91fad@hjds90.hj.se    //  Also known as the mega-famous musician  !!
+!!      Jkpg, Sweeeeeden...    \\         Leinad of The Yellow Ones        !!
+=============================================================================
+
+From: SITUNAYA@IBM3090.BHAM.AC.UK
+Subject: (None set)
+
+==============================================================================
+Bear with me i'm new at this game, but could anyone explain exactly what DMORF
+does, does it simply fade one bitmap into another or does it re shape one bitma
+p into another. Please excuse my ignorance, i' not even sure if i've posted thi
+s message correctly.
+
+From: SITUNAYA@IBM3090.BHAM.AC.UK
+Subject: HELP WANTED FOR DMORF.......!
+
+==============================================================================
+Please bear with me as i am new at this game, i apologize unreservedly if i hav
+e posted another message earlier by mistake. but i digress, could anyone out th
+ere please explain exactly what DMORF does (dtax.exe). Does it simply fade one
+bitmap into another or does it reshape one bitmap into another. Excuse my ignor
+ance.....
+
+From: SITUNAYA@IBM3090.BHAM.AC.UK
+Subject: test....(sorry)
+
+==============================================================================
+
+From: stgprao@st.unocal.COM (Richard Ottolini)
+Subject: Re: Rumours about 3DO ???
+
+They need a hit software product to encourage software sales of the product,
+i.e. the Pong, Pacman, VisiCalc, dBase, or Pagemaker of multi-media.
+There are some multi-media and digital television products out there already,
+albeit, not as capable as 3DO's.  But are there compelling reasons to buy
+such yet?  Perhaps someone in this news group will write that hit software :-)
+
+Subject: Technical Help Sought
+From: jiu1@husc11.harvard.edu (Haibin Jiu)
+
+Hi!  I am in immediate need for details of various graphics compression
+techniques.  So if you know where I could obtain descriptions of algo-
+rithms or public-domain source codes for such formats as JPEG, GIF, and
+fractals, I would be immensely grateful if you could share the info with
+me.  This is for a project I am contemplating of doing.
+
+Thanks in advance.  Please reply via e-mail if possible.
+
+--hBJ
+
+From: srp@travis.csd.harris.com (Stephen Pietrowicz)
+Subject: Surface normal orientations
+
+Some rendering programs require that all surface normals point in the same
+direction.  (ie: On a closed cube, all normals point outwards).  You can use
+the points on the faces to determine the direction of the normal, by making
+sure that all points are either in clockwise or counter-clockwise order.
+
+How do you go about orienting all normals in the same direction, given a 
+set of points, edges and faces?   Say that you had a cube with all faces that 
+have their normals facing outwards, except for one face.  What's the
+best way to realize that face is "flipped", and should have it's points
+re-ordered?   I thought I had a good way of telling this, but then realized
+that the algorithm I had would only tell you if you had points in clockwise
+order for a 2d polygon.  I'd like something for 3d data.
+
+Any hints, tips, references would be appreciated.
+
+Steve
+-- 
+Where humor is concerned there are no standards -- no one can say what is good 
+or bad, although you can be sure that everyone will.  -- John Kenneth Galbraith
+------- These opinions are my own.
+
+From: egerter@gaul.csd.uwo.ca (Barry Egerter)
+Subject: Re: Graphics Library Package
+
+
+	WGT is the WordUp Graphics Toolkit, designed by yours truly and my
+co-programmer (and brother) Chris Egerter. It is a Turbo/Borland C++ graphics
+library for programming in 320*200*256 VGA. We are currently producing it as
+shareware, but in a few years it may be a commercial product (excuse typos,
+there's no backspace on this terminal). Features include:
+
+- loading and saving bit-images (called blocks from herein)
+- flipping, resizing and warping blocks
+- loading and saving palette, fading, several in memory at once
+- graphics primitives such as line, circle, bar, rectangle
+- region fill (not the usually useless floodfill)
+- sprites (animated bitmaps), up to 200 onscreen at once
+- joystick/mouse support
+- SB support (VOC and CMF)
+- tile-based game creation using 16*16 pixel tiles to create
+  a 320*200 tile map (or game world) like in Duke Nuke 'Em
+- number of sprites increased to 1000
+- Professional Sprite Creator utility and Map Maker
+-  routines to simplify scrolling games using maps, etc
+- FLI playing routines, sprites can be animated over the FLI while playing
+- PCX support, soon GIF
+- EMS/XMS coming soon as well
+
+Leave E-mail to Barry Egerter at    egerter@obelix.gaul.csd.uwo.ca
+
+Files available on:      (use  mget wgt*.zip)
+
+SIMTEL20 and mirrors                pd1:<msdos.turbo-c>
+
+nic.funet.fi                        pub/msdos/games/programming
+
+Some sites may not have recent files, contact me for info regarding the up-to-
+date information.
+
+
+
+
+
+
+
+
+
+
+From: IMAGING.CLUB@OFFICE.WANG.COM ("Imaging Club")
+Subject: Re: Signature Image Database
+
+Contact Signaware Corp
+800-4583820
+800 6376564
+
+-------------------------------- Original Memo --------------------------------
+BCC:     Vincent Wall                   From:      Imaging Club
+Subject: Signature verification  ?      Date Sent: 05/04/93
+
+sci.image.processing
+From: yyqi@ece.arizona.edu (Yingyong Qi)
+Subject: Signature Image Database
+Organization: U of Arizona Electrical and Computer Engineering
+
+Hi, All:
+
+Could someone tell me if there is a database of handwriting signature
+images available for evaluating signature verification systems.
+
+Thanks.
+
+YY
+
+From: sloan@cis.uab.edu (Kenneth Sloan)
+Subject: Re: Surface normal orientations
+
+In article <1993Apr6.175117.1848@cis.uab.edu> sloan@cis.uab.edu (Kenneth Sloan) writes:
+
+A brilliant algorithm.  *NOT*
+
+Seriously - it's correct, up to a sign change.  The flaw is obvious, and
+will therefore not be shown.
+
+sorry about that.
+
+
+
+-- 
+Kenneth Sloan                   Computer and Information Sciences
+sloan@cis.uab.edu               University of Alabama at Birmingham
+(205) 934-2213                  115A Campbell Hall, UAB Station 
+(205) 934-5473 FAX              Birmingham, AL 35294-1170
+
+From: pallis@server.uwindsor.ca (PALLIS  DIMITRIOS        )
+Subject: Re: Genoa Blitz 24 hits 1600x1200x256 NI !
+
+i am sorry, but this genoa card does nothing that the ATI ultra plus 2mb
+can't do, PLUS the ATI costs 330$US street price ....
+
+
+From: sloan@cis.uab.edu (Kenneth Sloan)
+Subject: Re: Surface normal orientations
+
+In article <1pscti$aqe@travis.csd.harris.com> srp@travis.csd.harris.com (Stephen Pietrowicz) writes:
+>...
+>How do you go about orienting all normals in the same direction, given a 
+>set of points, edges and faces? 
+
+Look for edge inconsistencies.  Consider two vertices, p and q, which
+are connected by at least one edge.
+
+If (p,q) is an edge, then (q,p) should *not* appear.  
+
+If *both* (p,q) and (q,p) appear as edges, then the surface "flips" when
+you travel across that edge.  This is bad.  
+
+Assuming (warning...warning...warning) that you have an otherwise
+acceptable surface - you can pick an edge, any edge, and traverse the
+surface enforcing consistency with that edge.  
+
+    0) pick an edge (p,q), and mark it as "OK"
+    1) for each face, F, containing this edge (if more than 2, oops)
+       make sure that all edges in F are consistent (i.e., the Face
+       should be [(p,q),(q,r),(r,s),(s,t),(t,p)]).  Flip those which
+       are wrong. Mark all of the edges in F as "OK",
+       and add them to a queue (check for duplicates, and especially
+       inconsistencies - don't let the queue have both (p,q) and (q,p)). 
+    2) remove an edge from the queue, and go to 1).
+
+If a *marked* edge is discovered to be inconsistent, then you lose.
+
+If step 1) finds more than one face sharing a particular edge, then you
+lose. 
+    
+Otherwise, when done, all of the edges will be consistent.  Which means
+that all of the surface normals will either point IN or OUT.  Deciding
+which way is OUT is left as an exercise...
+
+
+
+-- 
+Kenneth Sloan                   Computer and Information Sciences
+sloan@cis.uab.edu               University of Alabama at Birmingham
+(205) 934-2213                  115A Campbell Hall, UAB Station 
+(205) 934-5473 FAX              Birmingham, AL 35294-1170
+
+From: gavin@krypton.asd.sgi.com (Gavin Bell)
+Subject: Re: Surface normal orientations
+
+In <1pscti$aqe@travis.csd.harris.com> srp@travis.csd.harris.com (Stephen Pietrowicz) writes:
+>How do you go about orienting all normals in the same direction, given a 
+>set of points, edges and faces?
+
+This algorithm works well for me:
+
+Algorithm to attempt to find outward-facing normals:
+---------------------------------------------------
+First, mark all faces as UNKNOWN.
+
+Then create an edge dictionary that allows you to find all of the
+faces sharing a given edge (where an edge is two integers representing
+the two shared vertices).
+
+Pick an arbitrary face and mark it COUNTER_CLOCKWISE.  Using the edge
+dictionary, orient all surrounding faces based on the orientation of
+this face.  And recurse for all surrounding faces, consistently
+orienting the entire surface.
+
+Find the average of the vertices in this surface.  Using that point,
+calculate a volume measurement, taking into account the face's
+orientation.  If the volume turns out to be positive, assume the faces
+are oriented correctly.  If it is negative, reverse their orientations
+(mark them CLOCKWISE).
+
+If any faces are still UNKNOWN after this, choose another face
+and go through the algorithm again.
+
+At the end, faces marked CLOCKWISE must have their indices reversed
+before facet normals are found.
+
+(Note: if you are running on Silicon Graphics machines and buy the
+IRIS Inventor 3D toolkit developers package you have the source to
+this algorithm-- see /usr/src/Inventor/tools/ivnorm/.  If you're
+not... sorry, I can't give out the source, and even if I could it
+relies heavily on Inventor).
+--
+--gavin     (gavin@sgi.com,  (415)390-1024)
+
+From: d9hh@dtek.chalmers.se (Henrik Harmsen)
+Subject: Re: 16 million vs 65 thousand colors
+
+andrey@cco.caltech.edu (Andre T. Yew) writes:
+
+>d9hh@dtek.chalmers.se (Henrik Harmsen) writes:
+
+>>1-4 bits per R/G/B gives horrible machbanding visible in almost any picture.
+
+>>5 bits per R/G/B (32768, 65000 colors) gives visible machbanding
+
+>>color-gradient picture has _almost_ no machbanding. This color-resolution is 
+
+>>see some small machbanding on the smooth color-gradient picture, but all in all,
+>>There _ARE_ situiations where you get visible mach-banding even in
+>>a 24 bit card. If
+>>you create a very smooth color gradient of dark-green-white-yellow
+>>or something and turn
+>>up the contrast on the monitor, you will probably see some mach-banding.
+
+>    While I don't mean to damn Henrik's attempt to be helpful here,
+>he's using a common misconception that should be corrected.
+
+>    Mach banding will occur for any image.  It is not the color
+>quantization you see when you don't have enough bits.  It is the
+>human eye's response to transitions or edges between intensities.
+>The result is that colors near the transistion look brighter on
+>the brighter side and darker on the darker side.
+
+>--Andre
+
+Yeah, of course... The term 'mach banding' was not the correct one, it should've
+been 'color quantization effect'. Although a bad color quantization effect could
+result in some visible mach-bands on a picture that was smooth before it was
+quantizised.
+
+--
+Henrik Harmsen     Internet:  d9hh@dtek.chalmers.se
+               Chalmers University of Technology, Sweden. 
+      "I haven't lost my mind -- it's backed up on tape somewhere."
+
+From: dsnyder@falcon.aamrl.wpafb.af.mil
+Subject: Re: Real Time Graphics??
+
+In article <1993Apr5.114428.2061@falcon.aamrl.wpafb.af.mil>, dsnyder@falcon.aamrl.wpafb.af.mil writes:
+> In article <C4vA9r.KK7@taurus.cs.nps.navy.mil>, stockel@oahu.oc.nps.navy.mil (Jim Stockel) writes:
+>> Hi,
+>> 
+>> 
+
+
+ Opps!  typed in the phone numbers wrong.  Here are the correct numbers.
+
+> 
+>   For a commerical package try WAVE from  Precision Visuals
+
+
+                                            303-530-9000
+
+> 
+>   For a free package try KHOROS from University of New Mexico
+
+
+                                       505-277-6563
+
+
+>                                    ftp from
+>                               ptrg.eece.unm.edu
+> 
+>     Login in anonyomus or ftp  with a valid email address as the password
+>                cd /pub/khoros/release
+
+From: bsaffo01@cad.gmeds.com (Brian H. Safford)
+Subject: IGES Viewer for DOS/Windows
+
+Anybody know of an IGES Viewer for DOS/Windows? I need to be able to display 
+ComputerVision IGES files on a PC running Windows 3.1. Thanks in advance.
+
++-----------------------------------------------------------+
+| Brian H. Safford           EMAIL: bsaffo01@cad.gmeds.com  |
+| Electronic Data Systems    PHONE: (313) 696-6302          |
++-----------------------------------------------------------+
+| NOTE: The views and opinions expressed herein are mine,   |
+| and DO NOT reflect those of Electronic Data Systems Corp. |
++-----------------------------------------------------------+
+
+From: brr1@ns1.cc.lehigh.edu (BRANT RICHARD RITTER)
+Subject: computer graphics to vcr?
+
+
+    HELP   MY FRIEND AND I HAVE A CLASS PROJECT IN WHICH WE ARE TRYING TO MAKE
+    A COMPUTER ANIMATED MOVIE OF SORTS WITH THE DISNEY ANIMATION AND WOULD
+    LIKE TO PUT WHAT WE HAVE ON A VCR IS THIS POSSIBLE?  IS IT EASY AND
+    RELATIVELY CHEAP? IF SO HOW? WE BOTH HAVE 386 IBM COMPATIBLES BUT ARE
+    RELATIVELY CLUELESS WITH COMPUTERS IF YOU COULD HELP PLEASE DO.
+
+                                THANX.
+-- 
+BRANT RITTER
+-----------------------------------------------------
+moshing--   "a cosmic cesspool of physical delight."
+                                  -A. Kiedas
+                                     RHCP
+-----------------------------------------------------
+
+From: mbh2@engr.engr.uark.edu (M. Barton Hodges)
+Subject: Stereoscopic imaging
+
+I am interested in any information on stereoscopic imaging on a sun
+workstation.  For the most part, I need to know if there is any hardware
+available to interface the system and whether the refresh rates are
+sufficient to produce quality image representations.  Any information
+about the subject would be greatly appreciated.
+
+    Thanks!
+
+
+From: ab@nova.cc.purdue.edu (Allen B)
+Subject: Re: Fractals? what good are they?
+
+In article <7155@pdxgate.UUCP> idr@rigel.cs.pdx.edu (Ian D Romanick) writes:
+> One thing:  a small change in initial conditions can cause a huge
+> change in final conditions.  There are certain things about the way
+> the plate tektoniks and volcanic activity effect a land scape that
+> is, while not entirely random, unpredictable.  This is also true with
+> fractals, so one could also conclude that you could model this
+> fractally. 
+
+Yeah, and it's also true most long complicated sequences of events,
+calculations, or big computer programs in general.  I don't argue
+that you can get similar and maybe useful results from fractals, I
+just question whether you >should<.
+
+The fractal fiends seem to be saying that any part of a system that we
+can't model should be replaced with a random number generator.  That
+has been useful, for instance, in making data more palatable to human
+perception or for torture testing the rest of the system, but I don't
+think it has much to do with fractals, and I certainly would rather
+that the model be improved in a more explicable manner.
+
+I guess I just haven't seen all these earth-shaking fractal models
+that explain and correlate to the universe as it actually exists.  I
+really hope I do, but I'm not holding my self-similar breath.
+
+> There is one other thing that fractals are good for:  fractal
+> image compression.
+
+Uh huh.  I'll believe it when I see it.  I've been chasing fractal
+compression for a few years, and I still don't believe in it.  If it's so
+great, how come we don't see it competing with JPEG?  'Cause it can't,
+I'll wager.
+
+Actually, I have wagered, I quit trying to make fractal compression
+work- and I was trying- because I don't think it's a reasonable
+alternative to other techniques.  It is neat, though. :-)
+
+I'll reiterate my disbelief that everything is fractal.  That's why I
+don't think fractal compression as it is widely explained is
+practical.  I know Barnsley and Sloan have some tricks up their
+sleeves that make their demos work, but I don't see anyone using it in a
+real product.  It's been six years since Iterated Systems was formed,
+right?
+
+	"There are always going to be questions until there's a product
+	out there," Sloan replies.  The company plans to ship its first
+	encoding devices in the summer, he says.  In March, Iterated
+	Systems will have the other half of the system: the decoders.
+
+		- Scientific American, March 1990, page 77
+
+Allen B (Don't even get me started :-) )
+
+From: ranjan@cs.ubc.ca (Vishwa Ranjan)
+Subject: Complex (i.e. with real and imaginary parts) bio-medical images..
+
+Are  complex  bio-medical  images  available  anywhere on the net for 
+experimentation?  By complex I mean that every sampled data point has 
+a magnitude and phase information both. 
+
+Thanks for any pointers,
+--Vishwa
+
+
+From: sas58295@uxa.cso.uiuc.edu (Lord Soth       )
+Subject: MPEG for MS-DOS
+
+Does anyone know where I can FTP MPEG for DOS from?  Thanks for any
+help in advance.  Email is preferred but posting is fine.
+
+				Scott
+
+
+---------------------------------------------------------------------------
+| Lord Soth, Knight |||| email to --> LordSoth@uiuc                ||||||||
+| of the Black Rose |||| NeXT to ---> sas58295@sumter.cso.uiuc.edu ||||||||
+|   @}--'-,--}--    |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+|-------------------------------------------------------------------------|
+|    I have no clue what I want to say in here so I won't say anything.   |
+---------------------------------------------------------------------------
+
+From: jack@shograf.com (Jack Ritter)
+Subject: Help!!
+
+I need a complete list of all the polygons
+that there are, in order.
+
+I'll summarize to the net.
+
+
+--------------------------------------------------------
+   "If only I had been compiled with the '-g' option."
+---------------------------------------------------------
+
+From: geoffrey@cosc.canterbury.ac.nz (Geoff Thomas)
+Subject: Re: Help! 256 colors display in C.
+
+
+You'll probably have to set the palette up before you try drawing
+in the new colours.
+
+Use the bios interrupt calls to set the r g & b values (in the range
+from 0-63 for most cards) for a particular palette colour (in the
+range from 0-255 for 256 colour modes).
+
+Then you should be able to draw pixels in those palette values and
+the result should be ok.
+
+You might have to do a bit of colourmap compressing if you have
+more than 256 unique rgb triplets, for a 256 colour mode.
+
+
+Geoff Thomas			geoffrey@cosc.canterbury.ac.nz
+Computer Science Dept.
+University of Canterbury
+Private Bag				+-------+
+Christchurch				| Oook! |
+New Zealand				+-------+
+
+From: tessmann@cs.ubc.ca (Markus Tessmann)
+Subject: Re: Rumours about 3DO ???
+
+stgprao@st.unocal.COM (Richard Ottolini) writes:
+
+>They need a hit software product to encourage software sales of the product,
+>i.e. the Pong, Pacman, VisiCalc, dBase, or Pagemaker of multi-media.
+>There are some multi-media and digital television products out there already,
+>albeit, not as capable as 3DO's.  But are there compelling reasons to buy
+>such yet?  Perhaps someone in this news group will write that hit software :-)
+
+I've just had the good fortune to be hired by Electronic Arts as Senior
+Computer Graphics Artist at the Vancouver, Canada office.  :^)
+
+The timing has a lot to do with the 3DO which EA is putting a lot of resources
+into.  I do not know of any titles to be developed as yet but will be happy to
+post as things develop.  I start there May 3.
+
+	Markus Tessmann
+
+From: johnsh@rpi.edu (Hugh Johnson)
+Subject: Re: QuickTime movie available
+
+In article <johnsh-040493161915@mustang.stu.rpi.edu>, I wrote:
+> 
+> I've used the recently-released Macintosh application MPEG to QuickTime to
+> convert the excellent MPEG "canyon.mpg" into a QuickTime movie.  While
+> anyone who would want this movie is perfectly able to convert it
+> themselves, I thought I'd let the net know that I'd be glad to mail copies
+> of mine out.  The movie conversion took close to SIX HOURS on my poor
+> little IIcx; in other words, unless you've got a Quadra, you might not want
+> to tie up your machine in converting this file.
+> 
+> The movie is a fast fly-through of a fractal-generated canyon landscape. 
+> The movie is 58 seconds long, and uses the compact video compressor (i.e.,
+> QuickTime v1.5).  The movie looks okay on 8-bit displays, and looks
+> absolutely awesome on 16- and 24-bit displays.
+> 
+> I'd be happy to mail this movie to the first 20 or so people who ask for
+> it.  The only caveat is you need to be able to receive a nine-megabyte mail
+> message (the movie was stuff-it'ed down to seven megs, but binhex ruined
+> that party).  If more then 20 people want this movie, then it's just more
+> evidence that the net needs a dedicated QuickTime FTP archive site.  C'mon,
+> someone's gotta have a spare 1.2GB drive out there...
+
+Okay, I've received a whole lot of requests for the movie, so for
+simplicity's sake I can't mail out any more than I've already received (as
+of 16:30 EDT, Tuesday).  Maybe it'll pop up on a site sooner or later.
+
+==============================================================================
+Hugh Johnson (johnsh@rpi.edu)    | 
+Rensselaer Polytechnic Institute |            Welcome to Macintosh.
+Troy, New York, USA              |
+==============================================================================
+
+From: george@ccmail.larc.nasa.gov (George M. Brown)
+Subject: QC/MSC code to view/save images
+
+Dear Binary Newsers,
+
+I am looking for Quick C or Microsoft C code for image decoding from file for
+VGA viewing and saving images from/to GIF, TIFF, PCX, or JPEG format. I have
+scoured the Internet, but its like trying to find a Dr. Seuss spell checker 
+TSR. It must be out there, and there's no need to reinvent the wheel.
+
+Thanx in advance.
+
+//////////////
+
+ The Internet is like a Black Hole....
+
+Subject: AutoCAD -> TIFF Can it be done????
+From: cvadrmaz@vmsb.is.csupomona.edu
+
+Hello, I realize that this might be a FAQ but I have to ask since I don't get a
+change to read this newsgroup very often.  Anyways for my senior project I need
+to convert an AutoCad file to a TIFF file.  Please I don't need anyone telling
+me that the AutoCAD file is a vector file and the TIFF is a bit map since I
+have heard that about 100 times already I would just like to know if anyone
+knows how to do this or at least point me to the right direction.
+
+Any help greatly appreciated,
+Matt Georgy
+
+From: amjad@eng.umd.edu (Amjad A Soomro)
+Subject: Gamma-Law Correction
+
+Hi:
+
+I am digitizing a NTSC signal and displaying on a PC video monitor.
+It is known that the display response of tubes is non-linear and is
+sometimes said to follow Gamma-Law. I am not certain if these
+non-linearities are "Gamma-corrected" before encoding NTSC signals
+or if the TV display is supposed to correct this.
+ 
+Also, if  256 grey levels, for example, are coded in a C program do
+these intensity levels appear with linear brightness on a PC
+monitor? In other words does PC monitor display circuitry
+correct for "gamma errrors"?
+ 
+Your response is much appreciated.
+ 
+Amjad.
+
+Amjad Soomro
+CCS, Computer Science Center
+U. of Maryland at College Park
+email: amjad@wam.umd.edu
+
+
+From: mlee@eng.sdsu.edu (Mike Lee)
+Subject: MPEG for x-windows MONO needed.
+
+Hello, and thank you for reading this request.  I have a Mpeg viewer for x-windows and it did not run because I was running it on a monochrome monitor.  I need the mono-driver for mpeg_play.   
+
+Please post the location of the file or better yet, e-mail me at mlee@eng.sdsu.edu.
+
+
+From: ab@nova.cc.purdue.edu (Allen B)
+Subject: Re: thining algorithm
+
+In article <1q7615INNmi@shelley.u.washington.edu> kshin@stein.u.washington.edu  
+(Kevin Shin) writes:
+> I am trying obtain program to preprocess handwriting characters.
+> Like thining algorithm, graph alogrithm.
+> Do anyone know where I can obtain those?
+
+I usually use "Algorithms for graphics and image processing" by
+Theodosios Pavlidis, but other people here got them same idea and now
+3 of 4 copies in the libraries have been stolen!
+
+Another reference is "Digital Image Processing" by Gonzalez and
+Wintz/Wood, which is widely available but a little expensive ($55
+here- I just checked today).
+
+ab
+
+From: ab@nova.cc.purdue.edu (Allen B)
+Subject: Re: TIFF: philosophical significance of 42
+
+In article <1993Apr10.160929.696@galki.toppoint.de> ulrich@galki.toppoint.de  
+writes:
+> According to the TIFF 5.0 Specification, the TIFF "version number"
+> (bytes 2-3) 42 has been chosen for its "deep philosophical 
+> significance".
+> Last week, I read the Hitchhikers Guide To The Galaxy,
+> Is this actually how they picked the number 42?
+
+I'm sure it is, and I am not amused.  Every time I read that part of the
+TIFF spec, it infuriates me- and I'm none too happy about the
+complexity of the spec anyway- because I think their "arbitrary but
+carefully chosen number" is neither.  Additionally, I find their
+choice of 4 bytes to begin a file with meaningless of themselves- why
+not just use the letters "TIFF"?
+
+(And no, I don't think they should have bothered to support both word
+orders either- and I've found that many TIFF readers actually
+don't.)
+
+ab
+
+From: rob@rjck.UUCP (Robert J.C. Kyanko)
+Subject: Re: VGA 640x400 graphics mode
+
+gchen@essex.ecn.uoknor.edu writes in article <C55DoH.2AI@constellation.ecn.uoknor.edu>:
+> 
+> Greetings!
+> 
+> Does anybody know if it is possible to set VGA graphics mode to 640x400
+> instead of 640x480?  Any info is appreciated!
+
+Some VESA bios's support this mode (0x100).  And *any* VGA should be able to
+support this (640x480 by 256 colors) since it only requires 256,000 bytes.
+My 8514/a VESA TSR supports this; it's the only VESA mode by card can support
+due to 8514/a restrictions. (A WD/Paradise)
+
+--
+I am not responsible for anything I do or say -- I'm just an opinion.
+             Robert J.C. Kyanko (rob@rjck.UUCP)
+
+From: rob@rjck.UUCP (Robert J.C. Kyanko)
+Subject: Re: Weitek P9000 ?
+
+abraxis@iastate.edu writes in article <abraxis.734340159@class1.iastate.edu>:
+> 
+> Anyone know about the Weitek P9000 graphics chip?
+> Micron is selling it with their systems They rank them at 50 winmarks...
+> Any info would help...
+> thanks.
+
+It's supposedly a high-performance chip based upon workstation graphics
+accelerators.  It's quite fast (I have 7), but as usual with new boards/chips
+the drivers are buggy for Windows.  As far as Winmarks go, it depends upon
+the version.  I think I got 42M winmarks with version 3.11.  2.5 yielded the
+50+ number.  I've also benchmarked this with Wintach at over 65 (from memory
+as well).
