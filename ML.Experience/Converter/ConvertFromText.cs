@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ML.Experience.Data;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
@@ -8,6 +9,41 @@ namespace ML.Experience.Converter
 {
     class ConvertFromText : IConverter
     {
+
+
+        public static implicit operator LearnData(ConvertFromText convert)
+        {
+            return new LearnData
+            {
+                Inputs = convert.Inputs,
+                Outputs = convert.Outputs
+            };
+        }
+
+        public static implicit operator ConvertFromText(LearnData convert)
+        {
+            return new ConvertFromText
+            {
+                Inputs = convert.Inputs,
+                Outputs = convert.Outputs
+            };
+        }
+
+        public static implicit operator PredictData(ConvertFromText convert)
+        {
+            return new PredictData
+            {
+                Inputs = convert.Inputs
+            };
+        }
+
+        public static implicit operator ConvertFromText(PredictData convert)
+        {
+            return new ConvertFromText
+            {
+                Inputs = convert.Inputs
+            };
+        }
         public double[][] Inputs { get; set; }
 
         public int[] Outputs { get; set; }

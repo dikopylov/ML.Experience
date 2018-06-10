@@ -3,11 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-/TrainedModel
-/Emissions
+/ML.Experience/Datasets
 
-TrainedModel/
-Emissions/
 
 # User-specific files
 *.suo

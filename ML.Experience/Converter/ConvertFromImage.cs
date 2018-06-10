@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ML.Experience.Data;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
@@ -7,6 +8,39 @@ namespace ML.Experience.Converter
 {
     class ConvertFromImage : IConverter
     {
+        public static implicit operator LearnData(ConvertFromImage convert)
+        {
+            return new LearnData
+            {
+                Inputs = convert.Inputs,
+                Outputs = convert.Outputs
+            };
+        }
+
+        public static implicit operator ConvertFromImage(LearnData convert)
+        {
+            return new ConvertFromImage
+            {
+                Inputs = convert.Inputs,
+                Outputs = convert.Outputs
+            };
+        }
+
+        public static implicit operator PredictData(ConvertFromImage convert)
+        {
+            return new PredictData
+            {
+                Inputs = convert.Inputs
+            };
+        }
+
+        public static implicit operator ConvertFromImage(PredictData convert)
+        {
+            return new ConvertFromImage
+            {
+                Inputs = convert.Inputs
+            };
+        }
         public double[][] Inputs { get; set; }
 
         public int[] Outputs { get; set; }

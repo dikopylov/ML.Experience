@@ -23,10 +23,10 @@ namespace ML.Experience.Classifier.Predict
             return Model.Decide(data.Inputs);
         }
 
-        public int[] Predict(IConverter data)
-        {
-            return Model.Decide(data.Inputs);
-        }
+        //public int[] Predict(IConverter data)
+        //{
+        //    return Model.Decide(data.Inputs);
+        //}
 
         //public string[] PredictToString(IConverter data)
         //{

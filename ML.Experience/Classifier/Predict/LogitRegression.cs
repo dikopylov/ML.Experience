@@ -18,18 +18,6 @@ namespace ML.Experience.Classifier.Predict
 
         public LogitRegression() { }
 
-        public int[] Predict(IConverter data)
-        {
-            double[][] probabilities = Model.Probabilities(data.Inputs);
-            int[] predictedByProbabilities = new int[data.Inputs.Length];
-
-            for (int i = 0; i < data.Inputs.Length; i++)
-            {
-                predictedByProbabilities[i] = Array.IndexOf(probabilities[i], probabilities[i].Max());
-            }
-            return predictedByProbabilities;
-        }
-
         public int[] Predict(PredictData data)
         {
             double[][] probabilities = Model.Probabilities(data.Inputs);

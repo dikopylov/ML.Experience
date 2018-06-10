@@ -18,11 +18,6 @@ namespace ML.Experience.Classifier.Learn
             Teacher = new Accord.MachineLearning.KNearestNeighbors(k);
         }
 
-        public void Learn(IConverter data)
-        {
-            Model = Teacher.Learn(data.Inputs, data.Outputs);
-        }
-
         public void Learn(LearnData data)
         {
             Model = Teacher.Learn(data.Inputs, data.Outputs);

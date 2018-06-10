@@ -22,11 +22,6 @@ namespace ML.Experience.Classifier.Learn
 
         public SupportVectorMachines() { }
 
-        public void Learn(IConverter data)
-        {
-            Model = Teacher.Learn(data.Inputs, data.Outputs);
-        }
-
         public void Learn(LearnData data)
         {
             Model = Teacher.Learn(data.Inputs, data.Outputs);

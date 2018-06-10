@@ -8,7 +8,7 @@ namespace ML.Experience.Evaluation
 {
     class Difference 
     {
-        public int[] Measure(int[] expected, int[] predicted)
+        public int[] FindEjection(int[] expected, int[] predicted)
         {
             if (expected.Length != predicted.Length)
             {

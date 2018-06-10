@@ -20,29 +20,22 @@ namespace ML.Experience
 {
     class Program
     {
+        static string projectPath = @"..\..\";
         static void Iris()
         {
 
             ConvertFromCSV dataTrain = new ConvertFromCSV("class", ';');
             ConvertFromCSV dataTest = new ConvertFromCSV("class", ';');
 
-            string pathTrain = @"Data\Iris\IrisTrain.csv";
-            string pathTest = @"Data\Iris\IrisTest.csv";
+            string pathTrain = projectPath + @"Datasets\Iris\IrisTrain.csv";
+            string pathTest = projectPath + @"Datasets\Iris\IrisTest.csv";
 
             dataTrain.Convert(pathTrain);
             dataTest.Convert(pathTest);
 
-            var dataT = new LearnData
-            {
-                Inputs = dataTest.Inputs,
-                Outputs = dataTest.Outputs
-            };
+            LearnData dataL = dataTest;
 
-            var dataL = new LearnData
-            {
-                Inputs = dataTrain.Inputs,
-                Outputs = dataTrain.Outputs
-            };
+            LearnData dataT = dataTest;
 
             Learn.IClassifierLearn[] classifierLearn = new Learn.IClassifierLearn[]
             {
@@ -80,14 +73,10 @@ namespace ML.Experience
 
             dataTest.Codebook = dataTrain.Codebook;
 
-            dataTrain.Convert(@"Data\20_Newsgroups\Lite\Train1");
-            dataTest.Convert(@"Data\20_Newsgroups\Lite\Test1");
+            dataTrain.Convert(projectPath + @"Data\20_Newsgroups\Lite\Train1");
+            dataTest.Convert(projectPath + @"Data\20_Newsgroups\Lite\Test1");
 
-            var dataT = new LearnData
-            {
-                Inputs = dataTest.Inputs,
-                Outputs = dataTest.Outputs
-            };
+            LearnData dataT = dataTest;
 
             Learn.IClassifierLearn[] classifier = new Learn.IClassifierLearn[] { new Learn.KNearestNeighbors(), new Learn.NaiveBayes(),
                 new Learn.SupportVectorMachines(new Accord.Statistics.Kernels.Linear()), new Learn.LogitRegression() };
@@ -111,9 +100,9 @@ namespace ML.Experience
 
         static void Mnist()
         {
-            string pathMnistImg = @"Data\Mnist\ImageTestLite";
-            string pathMnistCSV = @"Data\Mnist\MnistTrainLite.csv";
-            string pathMnistTestCSV = @"Data\Mnist\MnistTestLite.csv";
+            string pathMnistImg = projectPath + @"Datasets\Mnist\ImageTestLite";
+            string pathMnistCSV = projectPath + @"Datasets\Mnist\MnistTrainLite.csv";
+            string pathMnistTestCSV = projectPath + @"Datasets\Mnist\MnistTestLite.csv";
 
             ConvertFromCSV dataTrain = new ConvertFromCSV("label");
             ConvertFromImage dataTest = new ConvertFromImage();
@@ -121,11 +110,7 @@ namespace ML.Experience
             dataTrain.Convert(pathMnistCSV);
             dataTest.Convert(pathMnistImg);
 
-            var dataT = new LearnData
-            {
-                Inputs = dataTest.Inputs,
-                Outputs = dataTest.Outputs
-            };
+            LearnData dataT = dataTest;
 
             Learn.IClassifierLearn[] classifier = new Learn.IClassifierLearn[] { new Learn.KNearestNeighbors(5),
                 new Learn.NaiveBayes(),
@@ -152,14 +137,10 @@ namespace ML.Experience
         static void GD()
         {
             ConvertFromCSV dataTrain = new ConvertFromCSV("class", ';');
-            string pathTrain = System.IO.Path.GetFullPath(@"Data\Iris\IrisTrain.csv");
+            string pathTrain = System.IO.Path.GetFullPath(projectPath + @"Datasets\Iris\IrisTrain.csv");
             dataTrain.Convert(pathTrain);
 
-            LearnData data = new LearnData
-            {
-                Inputs = dataTrain.Inputs,
-                Outputs = dataTrain.Outputs
-            };
+            LearnData data = dataTrain;
 
             var linear = new Accord.Statistics.Kernels.Linear();
             var gussian = new Accord.Statistics.Kernels.Gaussian();
@@ -171,8 +152,6 @@ namespace ML.Experience
             new GridDimensionParameters<Accord.Statistics.Kernels.IKernel>(polynomial)};
 
             var K = GridDimensionParameters<int>.Range(3, 8, 2);
-
-            // [clf, gd, test, eval, data]
 
             IGridDimension[] gridDimensions = new IGridDimension[] {
                 new GridDimension<int>
@@ -188,11 +167,12 @@ namespace ML.Experience
             LearnData[][] cvData = cv.Fit(data);
 
             double[,,] measure = new double[cvData.Length, cvData[0].Length, cvData[0].Length];
-
+            
+            /// [clf, gd, test, eval, data]
             /// Цикл по IGridDimension
             foreach (var gd in gridDimensions)
             {
-                var clfFit = gd.Fit();
+                Learn.IClassifierLearn[] clfFit = gd.Fit();
                 /// Цикл по созданным классификаторам с РАЗНЫМИ параметрами
                 foreach (var clf in clfFit)
                 {
