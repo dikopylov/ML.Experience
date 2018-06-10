@@ -13,7 +13,6 @@ using System.Collections.Generic;
 using ML.Experience.GridSearch;
 using System.Collections;
 using System.Reflection;
-using ML.Experience.CrossValid;
 using ML.Experience.Data;
 
 namespace ML.Experience
@@ -161,38 +160,36 @@ namespace ML.Experience
                 (learnOption: (x) => new Learn.SupportVectorMachines(x.Value),
                 criterion: kernel) };
 
-            IEvaluation[] evaluation = new IEvaluation[] { new Precision(), new Recall(), new FScore()};
+            IEvaluation[] evaluation = new IEvaluation[] { new Precision(), new Recall(), new FScore() };
 
-            CrossValidation cv = new CrossValidation(3);
-            LearnData[][] cvData = cv.Fit(data);
+            DataDelimeter dd = new DataDelimeter(3);
 
-            double[,,] measure = new double[cvData.Length, cvData[0].Length, cvData[0].Length];
-            
+            LearnData[] delimData = dd.Cut(data);
+
+            double[][][] measure = new double[gridDimensions.Length][][];
+
             /// [clf, gd, test, eval, data]
             /// Цикл по IGridDimension
-            foreach (var gd in gridDimensions)
+            for (int k = 0; k < gridDimensions.Length; k++)
             {
-                Learn.IClassifierLearn[] clfFit = gd.Fit();
+                Learn.IClassifierLearn[] clf = gridDimensions[k].Fit();
+                measure[k] = new double[clf.Length][];
                 /// Цикл по созданным классификаторам с РАЗНЫМИ параметрами
-                foreach (var clf in clfFit)
+                for (int i = 0; i < clf.Length; i++)
                 {
-                    /// Цикл по данным, разреженным на j блоков при помощи кросс-валидации
-                    for (int j = 0; j < cvData.Length; j++)
+                    /// Цикл по данным, разреженным на j блоков
+                    for (int j = 0; j < delimData.Length - 1; j++)
                     {
-                        int k;
-                        /// Цикл по k частям внутри каждого блока
-                        for (k = 0; k < cvData[j].Length - 1; k++)
-                        {
-                            clf.Learn(cvData[j][k]);
-                        } 
-                        var predict = clf.TestPredict(cvData[j][k]);
-                        int m = 0;
-                        /// Цикл по метрикам качества алгоритмов
-                        foreach (IEvaluation metric in evaluation)
-                        {
-                            measure[j, k, m++] = metric.Measure(cvData[j][k].Outputs, predict);
-                        }
+                        clf[i].Learn(delimData[j]);
+                    }
 
+                    var predict = clf[i].TestPredict(delimData[delimData.Length - 1]);
+                    measure[k][i] = new double[evaluation.Length];
+
+                    /// Цикл по метрикам качества алгоритма
+                    for (int n = 0; n < evaluation.Length; n++)
+                    {
+                        measure[k][i][n] = evaluation[n].Measure(delimData[delimData.Length - 1].Outputs, predict);
                     }
                 }
             }

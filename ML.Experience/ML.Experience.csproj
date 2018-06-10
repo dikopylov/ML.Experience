@@ -89,9 +89,9 @@
     <Compile Include="Converter\ConvertFromText.cs" />
     <Compile Include="Converter\IConverter.cs" />
     <Compile Include="Converter\ConvertFromCSV.cs" />
+    <Compile Include="Data\DataDelimeter.cs" />
     <Compile Include="Data\LearnData.cs" />
     <Compile Include="Data\PredictData.cs" />
-    <Compile Include="CrossValid\CrossValidation.cs" />
     <Compile Include="Evaluation\Accuracy.cs" />
     <Compile Include="Evaluation\Difference.cs" />
     <Compile Include="Evaluation\Error.cs" />

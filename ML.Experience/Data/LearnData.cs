@@ -6,10 +6,19 @@ using System.Threading.Tasks;
 
 namespace ML.Experience.Data
 {
-    class LearnData
+    class LearnData : ICloneable
     {
         public double[][] Inputs { get; set; }
 
         public int[] Outputs { get; set; }
+
+        public object Clone()
+        {
+            return new LearnData
+            {
+                Inputs = this.Inputs,
+                Outputs = this.Outputs
+            };
+        }
     }
 }
