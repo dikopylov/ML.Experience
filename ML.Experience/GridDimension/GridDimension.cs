@@ -2,8 +2,9 @@
 using System.Linq;
 using ML.Experience.Classifier.Learn;
 using System.Collections;
+using ML.Experience.GridDimension;
 
-namespace ML.Experience.GridSearch
+namespace ML.Experience.GridDimension
 {
     class GridDimension<TParam> : IGridDimension
     {
@@ -20,7 +21,7 @@ namespace ML.Experience.GridSearch
             }
         }
 
-        public TParam Value
+        public object Value
         {
             get
             {
@@ -62,6 +63,12 @@ namespace ML.Experience.GridSearch
         {
             if (count + 1 < Criterion.Length)
                 LearnOption(Criterion[++count]);
+        }
+
+        public void Back()
+        {
+            if (count - 1 > 0)
+                LearnOption(Criterion[--count]);
         }
     }
 }

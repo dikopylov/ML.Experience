@@ -1,5 +1,5 @@
 ﻿using Accord.Math;
-using Framework = Accord.MachineLearning;
+using Accord.MachineLearning;
 using System;
 using System.Data;
 using System.IO;
@@ -10,7 +10,7 @@ using Learn = ML.Experience.Classifier.Learn;
 using Predict = ML.Experience.Classifier.Predict;
 using Accord.IO;
 using System.Collections.Generic;
-using ML.Experience.GridSearch;
+using ML.Experience.GridDimension;
 using System.Collections;
 using System.Reflection;
 using ML.Experience.Data;
@@ -65,7 +65,7 @@ namespace ML.Experience
             ConvertFromText dataTrain = new ConvertFromText();
             ConvertFromText dataTest = new ConvertFromText(false);
 
-            dataTrain.Codebook = new Framework.BagOfWords()
+            dataTrain.Codebook = new Accord.MachineLearning.BagOfWords()
             {
                 MaximumOccurance = 20
             };
@@ -198,6 +198,9 @@ namespace ML.Experience
                     {
                         measure[k][i][n] = evaluation[n].Measure(delimData[delimData.Length - 1].Outputs, predict);
                     }
+
+
+                    var parameter = gridDimensions[k].Value;
                     /// Идем к следующему числу параметра
                     gridDimensions[k].Next();
                 }

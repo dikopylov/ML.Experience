@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ML.Experience.GridSearch
+namespace ML.Experience.GridDimension
 {
     class GridDimensionParameters<TParam>
     {

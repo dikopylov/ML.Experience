@@ -101,7 +101,7 @@
     <Compile Include="Evaluation\Recall.cs" />
     <Compile Include="GridDimension\GridDimension.cs" />
     <Compile Include="GridDimension\IGridDimension.cs" />
-    <Compile Include="GridDimension\GridDimensionParameters.cs" />
+    <Compile Include="GridDimension\GridDimensionParameters`1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classifier\Predict\SupportVectorMachines.cs" />
