@@ -12,8 +12,6 @@ namespace ML.Experience.Data
     {
         public int Fold { get; set; }
 
-        public int K { get; set; } = 3;
-
         public DataDelimeter(int fold)
         {
             Fold = fold;

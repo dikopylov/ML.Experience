@@ -7,28 +7,61 @@ namespace ML.Experience.GridSearch
 {
     class GridDimension<TParam> : IGridDimension
     {
-        public Func<GridDimensionParameters<TParam>, IClassifierLearn> LearnOption { get; set; }
+        public Action<GridDimensionParameters<TParam>> LearnOption { get; set; }
 
         public GridDimensionParameters<TParam>[] Criterion { get; set; }
 
-        public GridDimension(Func<GridDimensionParameters<TParam>, IClassifierLearn> learnOption,
-            GridDimensionParameters<TParam>[] criterion)
+        public IClassifierLearn Classifier { get; set; }
+
+        public int LengthCriterion {
+            get
+            {
+                return Criterion.Length;
+            }
+        }
+
+        public TParam Value
+        {
+            get
+            {
+                return Criterion[count].Value;
+            }
+        }
+
+        int count = 0;
+
+        public int Count
+        {
+            get
+            {
+                return count;
+            }
+            set
+            {
+                count = value;
+            }
+        }
+
+        public GridDimension(Action<GridDimensionParameters<TParam>> learnOption,
+            GridDimensionParameters<TParam>[] criterion,
+            IClassifierLearn classifier)
         {
             LearnOption = learnOption;
             Criterion = criterion;
+            Classifier = classifier;
         }
 
         public GridDimension() { }
 
-        public IClassifierLearn[] Fit()
+        public void Reset()
         {
-            IClassifierLearn[] LearnModel = new IClassifierLearn[Criterion.Length];
+            LearnOption(Criterion[count]);
+        }
 
-            for (int i = 0; i < Criterion.Length; i++)
-            {
-                LearnModel[i] = LearnOption(Criterion[i]);
-            }
-            return LearnModel;
+        public void Next()
+        {
+            if (count + 1 < Criterion.Length)
+                LearnOption(Criterion[++count]);
         }
     }
 }

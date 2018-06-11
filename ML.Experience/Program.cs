@@ -152,13 +152,18 @@ namespace ML.Experience
 
             var K = GridDimensionParameters<int>.Range(3, 8, 2);
 
+            var knn = new Learn.KNearestNeighbors();
+            var svm = new Learn.SupportVectorMachines(linear);
+
             IGridDimension[] gridDimensions = new IGridDimension[] {
                 new GridDimension<int>
-                (learnOption: (x) => new Learn.KNearestNeighbors(x.Value),
-                criterion: K),
+                (learnOption: (x) => knn.K = x.Value,
+                criterion: K,
+                classifier: knn),
                 new GridDimension<Accord.Statistics.Kernels.IKernel>
-                (learnOption: (x) => new Learn.SupportVectorMachines(x.Value),
-                criterion: kernel) };
+                (learnOption: (x) => svm.Kernel = x.Value,
+                criterion: kernel,
+                classifier: svm) };
 
             IEvaluation[] evaluation = new IEvaluation[] { new Precision(), new Recall(), new FScore() };
 
@@ -172,28 +177,33 @@ namespace ML.Experience
             /// Цикл по IGridDimension
             for (int k = 0; k < gridDimensions.Length; k++)
             {
-                Learn.IClassifierLearn[] clf = gridDimensions[k].Fit();
-                measure[k] = new double[clf.Length][];
-                /// Цикл по созданным классификаторам с РАЗНЫМИ параметрами
-                for (int i = 0; i < clf.Length; i++)
+                gridDimensions[k].Reset();
+                measure[k] = new double[gridDimensions[k].LengthCriterion][];
+                
+                /// Перебор всех параметров классификатора
+                for (int i = 0; i < gridDimensions[k].LengthCriterion; i++)
                 {
-                    /// Цикл по данным, разреженным на j блоков
+                    /// Цикл по данным, разреженным на j-1 блоков
+                    /// j-ий блок остается для теста предсказаний
                     for (int j = 0; j < delimData.Length - 1; j++)
                     {
-                        clf[i].Learn(delimData[j]);
+                        gridDimensions[k].Classifier.Learn(delimData[j]);
                     }
+                    var predict = gridDimensions[k].Classifier.TestPredict(delimData[delimData.Length - 1]);
 
-                    var predict = clf[i].TestPredict(delimData[delimData.Length - 1]);
                     measure[k][i] = new double[evaluation.Length];
 
-                    /// Цикл по метрикам качества алгоритма
+                    /// Цикл по метрикам качества
                     for (int n = 0; n < evaluation.Length; n++)
                     {
                         measure[k][i][n] = evaluation[n].Measure(delimData[delimData.Length - 1].Outputs, predict);
                     }
+                    /// Идем к следующему числу параметра
+                    gridDimensions[k].Next();
                 }
             }
         }
+
 
         static void Main(string[] args)
         {
